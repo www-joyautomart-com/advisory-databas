@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hx9-48xh-5mxr",
-  "modified": "2025-12-19T21:31:05Z",
+  "modified": "2026-02-17T17:48:45Z",
   "published": "2025-12-19T21:31:05Z",
   "aliases": [
     "CVE-2025-13467"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "26.3.0"
             },
             {
               "fixed": "26.4.6"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "org.keycloak:keycloak-ldap-federation"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "26.2.11"
             }
           ]
         }
@@ -51,6 +70,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/754c070cf8ca187dcc71f0f72ff3130ff2195328"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/b90fec41ff17a70858d830750156a8a2e13ddb82"
     },
     {
       "type": "WEB",
