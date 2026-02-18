@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ghfm-hghj-9j75",
-  "modified": "2026-02-12T18:30:24Z",
+  "modified": "2026-02-18T15:31:24Z",
   "published": "2026-02-12T18:30:24Z",
   "aliases": [
     "CVE-2025-69806"
   ],
   "details": "p2r3 bareiron commit: 8e4d4020d contains an Out-of-bounds Read, which allows unauthenticated remote attackers to get relative information leakage via a packet sent to the server",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-12T18:16:08Z"
