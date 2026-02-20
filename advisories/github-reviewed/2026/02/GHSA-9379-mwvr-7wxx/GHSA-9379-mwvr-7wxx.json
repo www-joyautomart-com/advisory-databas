@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9379-mwvr-7wxx",
-  "modified": "2026-02-18T15:31:25Z",
+  "modified": "2026-02-20T22:37:11Z",
   "published": "2026-02-18T15:31:25Z",
   "aliases": [
     "CVE-2025-33245"
   ],
+  "summary": "NVIDIA NeMo Framework contains a vulnerability where malicious data could cause remote code execution",
   "details": "NVIDIA NeMo Framework contains a vulnerability where malicious data could cause remote code execution. A successful exploit of this vulnerability might lead to code execution, escalation of privileges, information disclosure, and data tampering.",
   "severity": [
     {
@@ -13,11 +14,35 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "nemo-toolkit"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.6.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-33245"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/NVIDIA-NeMo/NeMo"
     },
     {
       "type": "WEB",
@@ -33,8 +58,8 @@
       "CWE-502"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-02-20T22:37:11Z",
     "nvd_published_at": "2026-02-18T14:16:03Z"
   }
 }
