@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jrvc-8ff5-2f9f",
-  "modified": "2026-02-17T21:42:40Z",
+  "modified": "2026-02-20T16:44:46Z",
   "published": "2026-02-17T21:42:40Z",
   "aliases": [
     "CVE-2026-26324"
@@ -41,6 +41,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-jrvc-8ff5-2f9f"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26324"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/c0c0e0f9aecb913e738742f73e091f2f72d39a19"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-17T21:42:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-19T23:16:25Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q2j-c4q5-rm27",
-  "modified": "2026-02-17T21:41:40Z",
+  "modified": "2026-02-20T16:44:25Z",
   "published": "2026-02-17T21:41:40Z",
   "aliases": [
     "CVE-2026-26320"
@@ -41,6 +41,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-7q2j-c4q5-rm27"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-26320"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/28d9dd7a772501ccc3f71457b4adfee79084fe6f"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-17T21:41:40Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-19T23:16:25Z"
   }
 }
