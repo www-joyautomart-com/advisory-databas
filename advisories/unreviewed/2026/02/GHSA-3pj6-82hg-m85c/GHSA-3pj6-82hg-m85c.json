@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3pj6-82hg-m85c",
-  "modified": "2026-02-18T00:30:16Z",
+  "modified": "2026-02-20T09:31:21Z",
   "published": "2026-02-18T00:30:16Z",
   "aliases": [
     "CVE-2026-2629"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/jishi/node-sonos-http-api/issues/915"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/XavLimSG/Vulnerability-Research/blob/main/CVE-2026-2629/CVE-2026-2629.md"
     },
     {
       "type": "WEB",
