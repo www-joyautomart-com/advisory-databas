@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xcmx-jj38-v524",
-  "modified": "2026-01-06T18:31:24Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2025-12-19T09:30:27Z",
   "aliases": [
     "CVE-2025-14267"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14267"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2025-14267"
     },
     {
       "type": "WEB",

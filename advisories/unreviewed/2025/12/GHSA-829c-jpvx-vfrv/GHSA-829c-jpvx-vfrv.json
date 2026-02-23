@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-829c-jpvx-vfrv",
-  "modified": "2025-12-19T09:30:27Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2025-12-19T09:30:27Z",
   "aliases": [
     "CVE-2025-13008"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13008"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2025-13008"
     },
     {
       "type": "WEB",

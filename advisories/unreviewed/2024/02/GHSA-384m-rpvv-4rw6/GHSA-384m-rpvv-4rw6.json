@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-384m-rpvv-4rw6",
-  "modified": "2025-12-23T21:30:15Z",
+  "modified": "2026-02-23T12:31:28Z",
   "published": "2024-02-23T09:30:38Z",
   "aliases": [
     "CVE-2024-0563"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-0563"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2024-0563"
     },
     {
       "type": "WEB",

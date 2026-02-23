@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-frg8-29h3-wvgf",
-  "modified": "2026-01-30T15:31:14Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2026-01-30T15:31:14Z",
   "aliases": [
     "CVE-2026-1683"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/free5gc/smf/pull/188"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/free5gc/smf"
     },
     {
       "type": "WEB",

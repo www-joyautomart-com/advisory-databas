@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c3f3-cc42-xr9v",
-  "modified": "2026-02-23T09:31:23Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2026-02-23T09:31:23Z",
   "aliases": [
     "CVE-2026-23552"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/oscerd/CVE-2026-23552"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/02/18/7"
     }
   ],
   "database_specific": {

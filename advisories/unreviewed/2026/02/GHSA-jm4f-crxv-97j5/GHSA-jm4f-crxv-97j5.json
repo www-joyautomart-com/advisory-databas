@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm4f-crxv-97j5",
-  "modified": "2026-02-08T21:30:17Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2026-02-08T21:30:17Z",
   "aliases": [
     "CVE-2026-2171"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.749233"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.754641"
     }
   ],
   "database_specific": {

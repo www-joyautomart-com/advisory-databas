@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2846-35pp-gqxq",
-  "modified": "2026-02-09T12:30:22Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2026-02-09T12:30:22Z",
   "aliases": [
     "CVE-2026-2227"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.753450"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.753980"
     },
     {
       "type": "WEB",

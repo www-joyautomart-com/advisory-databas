@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v47f-5m37-hhcx",
-  "modified": "2022-05-11T00:01:56Z",
+  "modified": "2026-02-23T12:31:28Z",
   "published": "2022-05-03T00:00:36Z",
   "aliases": [
     "CVE-2021-41810"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-41810"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2021-41810"
+    },
+    {
+      "type": "WEB",
+      "url": "https://product.m-files.com/security-advisories/cve-2021-41810"
     },
     {
       "type": "WEB",

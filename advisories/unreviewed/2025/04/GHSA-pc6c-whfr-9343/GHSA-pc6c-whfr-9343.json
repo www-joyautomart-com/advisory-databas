@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc6c-whfr-9343",
-  "modified": "2025-04-04T06:34:24Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2025-04-04T06:34:24Z",
   "aliases": [
     "CVE-2025-2159"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-2159"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2025-2159"
     },
     {
       "type": "WEB",

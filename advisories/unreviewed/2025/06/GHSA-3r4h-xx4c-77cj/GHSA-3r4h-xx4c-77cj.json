@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3r4h-xx4c-77cj",
-  "modified": "2025-10-09T18:30:25Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2025-06-15T21:30:30Z",
   "aliases": [
     "CVE-2025-5964"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-5964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2025-5964"
     },
     {
       "type": "WEB",

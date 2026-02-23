@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29mq-c452-8pvf",
-  "modified": "2025-11-20T21:30:31Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2025-11-17T12:30:14Z",
   "aliases": [
     "CVE-2025-11681"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11681"
+    },
+    {
+      "type": "WEB",
+      "url": "https://empower.m-files.com/security-advisories/CVE-2025-11681"
     },
     {
       "type": "WEB",

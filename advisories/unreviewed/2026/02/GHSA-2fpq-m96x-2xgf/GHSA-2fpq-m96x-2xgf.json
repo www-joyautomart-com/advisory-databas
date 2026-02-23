@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fpq-m96x-2xgf",
-  "modified": "2026-02-05T00:31:01Z",
+  "modified": "2026-02-23T12:31:29Z",
   "published": "2026-02-05T00:31:01Z",
   "aliases": [
     "CVE-2026-1895"
@@ -46,6 +46,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.742666"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.742679"
     }
   ],
   "database_specific": {
