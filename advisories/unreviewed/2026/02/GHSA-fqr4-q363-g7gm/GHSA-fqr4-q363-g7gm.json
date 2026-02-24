@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqr4-q363-g7gm",
-  "modified": "2026-02-20T00:31:53Z",
+  "modified": "2026-02-24T15:30:27Z",
   "published": "2026-02-20T00:31:53Z",
   "aliases": [
     "CVE-2025-13671"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13671"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/MarioTesoro/vulnerability-research/blob/main/CVE-2025-13671/README.md"
     },
     {
       "type": "WEB",

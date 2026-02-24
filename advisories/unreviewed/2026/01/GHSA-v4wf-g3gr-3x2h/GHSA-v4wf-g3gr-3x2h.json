@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v4wf-g3gr-3x2h",
-  "modified": "2026-01-21T09:31:30Z",
+  "modified": "2026-02-24T15:30:27Z",
   "published": "2026-01-21T09:31:30Z",
   "aliases": [
     "CVE-2026-24016"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN65211823"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.ts.fujitsu.com/ProductSecurity/content/FsasTech-PSIRT-FTI-ISS-2026-012107-Security-Notice.pdf"
     },
     {
       "type": "WEB",
