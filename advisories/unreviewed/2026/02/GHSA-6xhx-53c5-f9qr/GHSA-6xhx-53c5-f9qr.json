@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6xhx-53c5-f9qr",
-  "modified": "2026-02-24T18:31:03Z",
+  "modified": "2026-02-24T21:31:45Z",
   "published": "2026-02-24T18:31:03Z",
   "aliases": [
     "CVE-2026-25603"
   ],
   "details": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability in Linksys MR9600, Linksys MX4200 allows that contents of a USB drive partition can be mounted in an arbitrary location of the file system. This may result in the execution of shell scripts in the context of a root user.This issue affects MR9600: 1.0.4.205530; MX4200: 1.0.13.210200.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:P/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-22"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-24T18:29:33Z"

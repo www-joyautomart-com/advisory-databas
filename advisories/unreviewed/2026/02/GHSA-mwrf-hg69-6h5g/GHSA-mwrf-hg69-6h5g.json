@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwrf-hg69-6h5g",
-  "modified": "2026-02-20T18:31:34Z",
+  "modified": "2026-02-24T21:31:33Z",
   "published": "2026-02-20T18:31:34Z",
   "aliases": [
     "CVE-2025-67982"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in thembay Urna urna allows PHP Local File Inclusion.This issue affects Urna: from n/a through <= 2.5.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:04Z"

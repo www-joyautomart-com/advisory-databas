@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p95v-rww3-j83p",
-  "modified": "2026-02-20T18:31:36Z",
+  "modified": "2026-02-24T21:31:35Z",
   "published": "2026-02-20T18:31:36Z",
   "aliases": [
     "CVE-2025-69299"
   ],
   "details": "Server-Side Request Forgery (SSRF) vulnerability in Laborator Oxygen oxygen allows Server Side Request Forgery.This issue affects Oxygen: from n/a through <= 6.0.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-918"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:17Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j368-q2mr-vhv4",
-  "modified": "2026-02-20T18:31:38Z",
+  "modified": "2026-02-24T21:31:38Z",
   "published": "2026-02-20T18:31:38Z",
   "aliases": [
     "CVE-2026-22341"
   ],
   "details": "Authentication Bypass Using an Alternate Path or Channel vulnerability in Case-Themes Booked booked allows Authentication Abuse.This issue affects Booked: from n/a through <= 3.0.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-288"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:32Z"

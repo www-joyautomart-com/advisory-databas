@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wv4q-94jw-h996",
-  "modified": "2026-02-20T18:31:35Z",
+  "modified": "2026-02-24T21:31:34Z",
   "published": "2026-02-20T18:31:35Z",
   "aliases": [
     "CVE-2025-68526"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in A WP Life Modal Popup Box modal-popup-box allows Object Injection.This issue affects Modal Popup Box: from n/a through <= 1.6.1.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:10Z"

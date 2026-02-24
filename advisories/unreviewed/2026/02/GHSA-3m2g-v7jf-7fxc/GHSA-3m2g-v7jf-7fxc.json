@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3m2g-v7jf-7fxc",
-  "modified": "2026-02-24T15:30:30Z",
+  "modified": "2026-02-24T21:31:45Z",
   "published": "2026-02-24T15:30:30Z",
   "aliases": [
     "CVE-2026-23982"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/9lvbzwkw4rxgdvbpfvnnnfcll92v75fp"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/02/24/6"
     }
   ],
   "database_specific": {

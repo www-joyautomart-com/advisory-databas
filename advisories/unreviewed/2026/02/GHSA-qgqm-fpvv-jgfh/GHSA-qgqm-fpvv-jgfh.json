@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgqm-fpvv-jgfh",
-  "modified": "2026-02-13T06:30:48Z",
+  "modified": "2026-02-24T21:31:31Z",
   "published": "2026-02-13T06:30:48Z",
   "aliases": [
     "CVE-2026-25108"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://jvn.jp/en/jp/JVN84622767"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-25108"
     },
     {
       "type": "WEB",

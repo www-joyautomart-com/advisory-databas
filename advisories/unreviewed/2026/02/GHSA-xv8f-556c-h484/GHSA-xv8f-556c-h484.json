@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xv8f-556c-h484",
-  "modified": "2026-02-20T18:31:38Z",
+  "modified": "2026-02-24T21:31:38Z",
   "published": "2026-02-20T18:31:38Z",
   "aliases": [
     "CVE-2025-69402"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in ThemeREX R&F rf allows PHP Local File Inclusion.This issue affects R&F: from n/a through <= 1.5.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-20T16:22:26Z"

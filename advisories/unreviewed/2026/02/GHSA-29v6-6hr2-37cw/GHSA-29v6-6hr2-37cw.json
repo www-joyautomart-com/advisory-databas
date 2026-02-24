@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29v6-6hr2-37cw",
-  "modified": "2026-02-19T18:31:51Z",
+  "modified": "2026-02-24T21:31:31Z",
   "published": "2026-02-19T18:31:51Z",
   "aliases": [
     "CVE-2026-22333"
   ],
   "details": "Deserialization of Untrusted Data vulnerability in YITHEMES YITH WooCommerce Compare yith-woocommerce-compare allows Object Injection.This issue affects YITH WooCommerce Compare: from n/a through <= 3.6.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-502"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-19T09:16:11Z"
