@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vjgx-vcpf-hm6w",
-  "modified": "2025-12-19T18:31:18Z",
+  "modified": "2026-02-24T06:31:30Z",
   "published": "2025-12-19T18:31:18Z",
   "aliases": [
     "CVE-2025-14956"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/WebAssembly/binaryen/commit/4f52bff8c4075b5630422f902dd92a0af2c9f398"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WebAssembly/binaryen"
     },
     {
       "type": "WEB",

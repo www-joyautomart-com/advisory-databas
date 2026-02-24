@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gm3m-q82f-958h",
-  "modified": "2025-12-19T18:31:18Z",
+  "modified": "2026-02-24T06:31:30Z",
   "published": "2025-12-19T18:31:17Z",
   "aliases": [
     "CVE-2025-14954"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open5gs/open5gs/commit/442369dcd964f03d95429a6a01a57ed21f7779b7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/open5gs/open5gs"
     },
     {
       "type": "WEB",

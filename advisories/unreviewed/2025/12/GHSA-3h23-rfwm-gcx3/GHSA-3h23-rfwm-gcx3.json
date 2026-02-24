@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3h23-rfwm-gcx3",
-  "modified": "2025-12-19T18:31:18Z",
+  "modified": "2026-02-24T06:31:30Z",
   "published": "2025-12-19T18:31:18Z",
   "aliases": [
     "CVE-2025-14957"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/WebAssembly/binaryen/commit/6fb2b917a79578ab44cf3b900a6da4c27251e0d4"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WebAssembly/binaryen"
     },
     {
       "type": "WEB",

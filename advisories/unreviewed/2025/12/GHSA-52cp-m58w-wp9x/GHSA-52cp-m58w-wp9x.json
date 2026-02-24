@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52cp-m58w-wp9x",
-  "modified": "2025-12-14T18:31:30Z",
+  "modified": "2026-02-24T06:31:30Z",
   "published": "2025-12-14T18:31:30Z",
   "aliases": [
     "CVE-2025-14672"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-14672"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/gmg137/snap7-rs"
     },
     {
       "type": "WEB",
