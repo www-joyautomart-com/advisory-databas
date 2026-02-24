@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6764-r2xh-qmhg",
-  "modified": "2025-11-14T18:31:39Z",
+  "modified": "2026-02-24T09:31:16Z",
   "published": "2025-11-14T18:31:39Z",
   "aliases": [
     "CVE-2025-13170"
@@ -42,6 +42,14 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.684617"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.685870"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.698602"
     }
   ],
   "database_specific": {

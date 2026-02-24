@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j383-q79v-268x",
-  "modified": "2025-11-13T18:31:04Z",
+  "modified": "2026-02-24T09:31:16Z",
   "published": "2025-11-13T18:31:04Z",
   "aliases": [
     "CVE-2025-13120"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/mruby/mruby/commit/eb398971bfb43c38db3e04528b68ac9a7ce509bc"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mruby/mruby"
     },
     {
       "type": "WEB",

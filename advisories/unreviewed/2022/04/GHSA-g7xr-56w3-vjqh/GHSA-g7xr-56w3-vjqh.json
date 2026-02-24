@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g7xr-56w3-vjqh",
-  "modified": "2022-04-30T18:09:55Z",
+  "modified": "2026-02-24T09:31:12Z",
   "published": "2022-04-30T18:09:55Z",
   "aliases": [
     "CVE-1999-0073"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://exchange.xforce.ibmcloud.com/vulnerabilities/CVE-1999-0073"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/02/24/3"
     }
   ],
   "database_specific": {

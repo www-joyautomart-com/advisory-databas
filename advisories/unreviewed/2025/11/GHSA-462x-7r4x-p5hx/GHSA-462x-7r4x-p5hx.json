@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-462x-7r4x-p5hx",
-  "modified": "2025-11-16T03:30:25Z",
+  "modified": "2026-02-24T09:31:16Z",
   "published": "2025-11-16T03:30:25Z",
   "aliases": [
     "CVE-2025-13232"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/projectsend/projectsend/commit/334da1ea39cb12f6b6e98dd2f80bb033e0c7b845"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/projectsend/projectsend"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w944-w7q2-5fv6",
-  "modified": "2025-12-30T12:30:29Z",
+  "modified": "2026-02-24T09:31:20Z",
   "published": "2025-12-30T12:30:29Z",
   "aliases": [
     "CVE-2025-15246"
@@ -22,6 +22,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-15246"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/aizuda/snail-job"
     },
     {
       "type": "WEB",

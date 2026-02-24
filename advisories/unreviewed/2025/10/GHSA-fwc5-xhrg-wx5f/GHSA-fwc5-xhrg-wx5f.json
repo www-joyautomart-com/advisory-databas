@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fwc5-xhrg-wx5f",
-  "modified": "2025-10-27T15:30:42Z",
+  "modified": "2026-02-24T09:31:15Z",
   "published": "2025-10-27T15:30:42Z",
   "aliases": [
     "CVE-2025-12286"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.672512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/?submit.682569"
     }
   ],
   "database_specific": {

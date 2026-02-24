@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mfg3-2r9j-5hv9",
-  "modified": "2025-11-10T03:30:15Z",
+  "modified": "2026-02-24T09:31:15Z",
   "published": "2025-11-10T03:30:15Z",
   "aliases": [
     "CVE-2025-12924"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/rymcu/forest/issues/198"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rymcu/forest"
     },
     {
       "type": "WEB",

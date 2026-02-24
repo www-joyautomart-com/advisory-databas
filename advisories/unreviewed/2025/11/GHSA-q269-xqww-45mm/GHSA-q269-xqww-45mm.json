@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q269-xqww-45mm",
-  "modified": "2025-11-07T21:31:21Z",
+  "modified": "2026-02-24T09:31:15Z",
   "published": "2025-11-07T21:31:21Z",
   "aliases": [
     "CVE-2025-12875"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/makesoftwaresafe/mruby/commit/93619f06dd378db6766666b30c08978311c7ec94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/mruby/mruby"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmcg-whfp-429v",
-  "modified": "2025-10-19T21:30:24Z",
+  "modified": "2026-02-24T09:31:14Z",
   "published": "2025-10-19T21:30:24Z",
   "aliases": [
     "CVE-2025-11944"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/givanz/Vvveb/commit/52204b4a106b2fb02d16eee06a88a1f2697f9b35"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/givanz/Vvveb"
     },
     {
       "type": "WEB",
