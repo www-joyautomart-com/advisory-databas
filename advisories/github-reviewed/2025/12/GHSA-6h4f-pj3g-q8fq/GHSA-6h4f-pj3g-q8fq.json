@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6h4f-pj3g-q8fq",
-  "modified": "2026-01-21T21:20:42Z",
+  "modified": "2026-02-25T20:15:41Z",
   "published": "2025-12-03T21:31:04Z",
   "aliases": [
     "CVE-2024-3884"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "2.3.21.Final"
+              "fixed": "2.2.39.Final"
             }
           ]
         }
@@ -39,8 +39,40 @@
         "ecosystem": "Maven",
         "name": "io.undertow:undertow-core"
       },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.4.0.Alpha1"
+            },
+            {
+              "fixed": "2.4.0.Beta1"
+            }
+          ]
+        }
+      ],
       "versions": [
         "2.4.0.Alpha1"
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "io.undertow:undertow-core"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.3.0.Alpha1"
+            },
+            {
+              "fixed": "2.3.21.Final"
+            }
+          ]
+        }
       ]
     }
   ],
@@ -51,7 +83,11 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/pull/1856"
+      "url": "https://github.com/undertow-io/undertow/pull/1894"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/undertow-io/undertow/pull/1882"
     },
     {
       "type": "WEB",
@@ -59,43 +95,23 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:22773"
+      "url": "https://github.com/undertow-io/undertow/pull/1856"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:22775"
+      "url": "https://github.com/undertow-io/undertow/commit/cb854c779b9e2368c3c274ebd7217c8e75d505be"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:22777"
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.4.0.Beta1"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:3990"
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.3.21.Final"
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:3992"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:0383"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:0384"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2026:0386"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/security/cve/CVE-2024-3884"
-    },
-    {
-      "type": "WEB",
-      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275287"
+      "url": "https://github.com/undertow-io/undertow/releases/tag/2.2.39.Final"
     },
     {
       "type": "PACKAGE",
@@ -103,7 +119,43 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/undertow-io/undertow/releases/tag/2.3.21.Final"
+      "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2275287"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/security/cve/CVE-2024-3884"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0386"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0384"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:0383"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:3990"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22777"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22775"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:22773"
     }
   ],
   "database_specific": {
