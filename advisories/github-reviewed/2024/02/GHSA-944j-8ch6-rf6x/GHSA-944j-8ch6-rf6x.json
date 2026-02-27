@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-944j-8ch6-rf6x",
-  "modified": "2024-02-05T22:41:57Z",
+  "modified": "2026-02-27T20:57:08Z",
   "published": "2024-02-05T21:30:31Z",
   "aliases": [
     "CVE-2023-50781"
@@ -59,7 +59,9 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-208"
+      "CWE-203",
+      "CWE-208",
+      "CWE-385"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
