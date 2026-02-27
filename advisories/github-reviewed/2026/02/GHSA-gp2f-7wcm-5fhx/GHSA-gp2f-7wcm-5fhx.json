@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp2f-7wcm-5fhx",
-  "modified": "2026-02-23T22:16:01Z",
+  "modified": "2026-02-27T21:49:23Z",
   "published": "2026-02-23T22:16:01Z",
   "aliases": [
     "CVE-2026-27127"
@@ -70,6 +70,10 @@
       "url": "https://github.com/craftcms/cms/security/advisories/GHSA-x27p-wfqw-hfcc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27127"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/cms/commit/a4cf3fb63bba3249cf1e2882b18a2d29e77a8575"
     },
@@ -105,6 +109,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-23T22:16:01Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-24T03:16:02Z"
   }
 }
