@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2x45-7fc3-mxwq",
-  "modified": "2026-02-18T00:55:29Z",
+  "modified": "2026-02-27T18:57:12Z",
   "published": "2025-07-31T21:31:53Z",
   "aliases": [
     "CVE-2025-45769"
@@ -11,7 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:U"
     }
   ],
   "affected": [
@@ -50,7 +54,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/firebase/php-jwt/issues/620"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/firebase/php-jwt/pull/613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/github/advisory-database/pull/6954"
     },
     {
       "type": "WEB",
@@ -59,6 +71,14 @@
     {
       "type": "WEB",
       "url": "https://gist.github.com/ZupeiNie/83756316c4c24fe97a50176a92608db3"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://github.com/advisories/GHSA-2x45-7fc3-mxwq"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/firebase"
     },
     {
       "type": "PACKAGE",
@@ -73,7 +93,7 @@
     "cwe_ids": [
       "CWE-326"
     ],
-    "severity": "HIGH",
+    "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-18T00:55:29Z",
     "nvd_published_at": "2025-07-31T20:15:33Z"
