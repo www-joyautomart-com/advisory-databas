@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w22q-m2fm-x9f4",
-  "modified": "2026-02-27T21:01:58Z",
+  "modified": "2026-02-27T22:20:47Z",
   "published": "2026-02-27T21:01:58Z",
   "aliases": [
     "CVE-2026-27836"
@@ -41,6 +41,10 @@
       "url": "https://github.com/thorsten/phpMyFAQ/security/advisories/GHSA-w22q-m2fm-x9f4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27836"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/thorsten/phpMyFAQ/commit/f2ab673f0668753cd0f7c7c8bc7fd2304dcf5cb1"
     },
@@ -56,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-27T21:01:58Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-02-27T20:21:40Z"
   }
 }
