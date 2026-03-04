@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hmr2-524c-vv28",
-  "modified": "2026-01-20T18:31:55Z",
+  "modified": "2026-03-04T15:30:32Z",
   "published": "2026-01-19T06:30:27Z",
   "aliases": [
     "CVE-2026-0943"
@@ -33,7 +33,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-476"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,

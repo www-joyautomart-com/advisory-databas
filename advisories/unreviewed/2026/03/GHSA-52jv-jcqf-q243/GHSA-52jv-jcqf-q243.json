@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-52jv-jcqf-q243",
-  "modified": "2026-03-04T00:30:22Z",
+  "modified": "2026-03-04T15:30:34Z",
   "published": "2026-03-04T00:30:22Z",
   "aliases": [
     "CVE-2026-3224"
   ],
   "details": "Authentication bypass in the Microsoft Entra ID (Azure AD) authentication mode in Devolutions Server 2025.3.15.0 and earlier allows an unauthenticated user to authenticate as an arbitrary Entra ID user via a forged JSON Web Token (JWT).",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-287"
     ],
-    "severity": null,
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-03T22:16:29Z"
