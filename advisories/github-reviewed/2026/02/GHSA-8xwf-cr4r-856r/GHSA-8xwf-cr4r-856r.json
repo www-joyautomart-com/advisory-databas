@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xwf-cr4r-856r",
-  "modified": "2026-02-28T02:24:32Z",
+  "modified": "2026-03-05T15:28:01Z",
   "published": "2026-02-27T06:31:28Z",
   "aliases": [
     "CVE-2026-28370"
@@ -108,6 +108,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/openstack/vitrage/blob/a1f86950e1314b0c740f9cd9b7e9dbab7d02af51/vitrage/graph/query.py#L70"
+    },
+    {
+      "type": "WEB",
+      "url": "https://storyboard.openstack.org/#%21/story/2011539"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/03/6"
     }
   ],
   "database_specific": {

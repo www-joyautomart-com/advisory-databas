@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgc2-rcrh-qr5x",
-  "modified": "2026-03-04T01:59:41Z",
+  "modified": "2026-03-05T15:28:15Z",
   "published": "2026-03-03T20:01:21Z",
   "aliases": [
     "CVE-2026-29053"
@@ -44,6 +44,10 @@
       "url": "https://github.com/TryGhost/Ghost/security/advisories/GHSA-cgc2-rcrh-qr5x"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29053"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/TryGhost/Ghost"
     }
@@ -55,6 +59,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-03T20:01:21Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-05T06:16:50Z"
   }
 }
