@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj4v-437j-jq4c",
-  "modified": "2026-03-05T19:14:41Z",
+  "modified": "2026-03-05T22:28:32Z",
   "published": "2026-03-05T19:14:41Z",
   "aliases": [
     "CVE-2026-25921"
@@ -44,6 +44,10 @@
       "url": "https://github.com/gogs/gogs/security/advisories/GHSA-cj4v-437j-jq4c"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25921"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/gogs/gogs/pull/8166"
     },
@@ -67,6 +71,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-05T19:14:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-05T19:16:03Z"
   }
 }
