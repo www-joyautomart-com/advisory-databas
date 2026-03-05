@@ -1,14 +1,40 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wmx-573v-2qwq",
-  "modified": "2026-03-05T15:30:36Z",
+  "modified": "2026-03-05T21:59:47Z",
   "published": "2026-03-05T15:30:36Z",
   "aliases": [
     "CVE-2025-69534"
   ],
+  "summary": "Python-Markdown has an Uncaught Exception",
   "details": "Python-Markdown version 3.8 contain a vulnerability where malformed HTML-like sequences can cause html.parser.HTMLParser to raise an unhandled AssertionError during Markdown parsing. Because Python-Markdown does not catch this exception, any application that processes attacker-controlled Markdown may crash. This enables remote, unauthenticated Denial of Service in web applications, documentation systems, CI/CD pipelines, and any service that renders untrusted Markdown. The issue was acknowledged by the vendor and fixed in version 3.8.1. This issue causes a remote Denial of Service in any application parsing untrusted Markdown, and can lead to Information Disclosure through uncaught exceptions.",
-  "severity": [],
-  "affected": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N/E:P"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "Markdown"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.8.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -20,6 +46,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/Python-Markdown/markdown/pull/1535"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/Python-Markdown/markdown"
     },
     {
@@ -28,10 +58,12 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "cwe_ids": [
+      "CWE-248"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-05T21:59:47Z",
     "nvd_published_at": "2026-03-05T15:16:11Z"
   }
 }
