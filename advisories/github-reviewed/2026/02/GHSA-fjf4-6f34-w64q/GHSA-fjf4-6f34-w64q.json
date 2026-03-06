@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fjf4-6f34-w64q",
-  "modified": "2026-02-19T22:06:37Z",
+  "modified": "2026-03-06T00:31:28Z",
   "published": "2026-02-19T18:31:51Z",
   "aliases": [
     "CVE-2026-2733"
@@ -47,6 +47,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/commit/743ac24081b2c6da36aac3775147ec5b80c2861e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:3947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:3948"
     },
     {
       "type": "WEB",
