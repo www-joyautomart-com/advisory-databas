@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvq4-fjjq-g6w7",
-  "modified": "2026-03-05T21:30:38Z",
+  "modified": "2026-03-07T18:30:30Z",
   "published": "2026-03-05T03:31:26Z",
   "aliases": [
     "CVE-2026-3381"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3381"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/pmqs/Compress-Raw-Zlib/issues/41"
     },
     {
       "type": "WEB",
