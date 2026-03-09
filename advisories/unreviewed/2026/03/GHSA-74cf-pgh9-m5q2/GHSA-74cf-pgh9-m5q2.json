@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-74cf-pgh9-m5q2",
-  "modified": "2026-03-09T09:30:31Z",
+  "modified": "2026-03-09T12:31:38Z",
   "published": "2026-03-09T09:30:31Z",
   "aliases": [
     "CVE-2026-24015"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/j769ywdqm46zl3oz5lbffsldklg0ow7p"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/09/5"
     }
   ],
   "database_specific": {
