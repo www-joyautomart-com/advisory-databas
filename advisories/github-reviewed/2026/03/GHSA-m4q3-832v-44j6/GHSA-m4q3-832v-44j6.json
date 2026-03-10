@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4q3-832v-44j6",
-  "modified": "2026-03-07T09:30:14Z",
+  "modified": "2026-03-10T19:34:19Z",
   "published": "2026-03-07T09:30:14Z",
   "aliases": [
     "CVE-2025-14675"
   ],
+  "summary": "Meta Box Plugin for WordPress: Authenticated (Contributor+) Arbitrary File Deletion via ajax_delete_file",
   "details": "The Meta Box plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the 'ajax_delete_file' function in all versions up to, and including, 5.11.1. This makes it possible for authenticated attackers, with Contributor-level access and above, to delete arbitrary files on the server, which can easily lead to remote code execution when the right file is deleted (such as wp-config.php).",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "wpmetabox/meta-box"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "5.11.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/wpmetabox/meta-box/pull/1654"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/wpmetabox/meta-box/commit/08c6511607b9cc9fe8d0de7a7e91c9d5d415f831"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/wpmetabox/meta-box"
     },
     {
       "type": "WEB",
@@ -45,8 +74,8 @@
       "CWE-22"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-10T19:34:19Z",
     "nvd_published_at": "2026-03-07T08:16:05Z"
   }
 }
