@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vpcc-r2qv-r2q4",
-  "modified": "2026-03-09T12:31:39Z",
+  "modified": "2026-03-10T21:32:14Z",
   "published": "2026-03-09T12:31:39Z",
   "aliases": [
     "CVE-2025-15547"
   ],
   "details": "By default, jailed processes cannot mount filesystems, including nullfs(4).  However, the allow.mount.nullfs option enables mounting nullfs filesystems, subject to privilege checks.\n\nIf a privileged user within a jail is able to nullfs-mount directories, a limitation of the kernel's path lookup logic allows that user to escape the jail's chroot, yielding access to the full filesystem of the host or parent jail.\n\nIn a jail configured to allow nullfs(4) mounts from within the jail, the jailed root user can escape the jail's filesystem root.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-269"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-09T12:16:11Z"

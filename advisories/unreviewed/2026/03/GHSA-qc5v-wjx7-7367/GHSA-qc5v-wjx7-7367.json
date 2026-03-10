@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc5v-wjx7-7367",
-  "modified": "2026-03-10T18:31:16Z",
+  "modified": "2026-03-10T21:32:14Z",
   "published": "2026-03-10T18:31:16Z",
   "aliases": [
     "CVE-2025-11158"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://support.pentaho.com/hc/en-us/articles/39975058295821--Resolved-Hitachi-Vantara-Pentaho-Data-Integration-Analytics-Missing-Authorization-Versions-before-10-2-0-6-impacted-CVE-2025-11158"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.ox.security/blog/cve-2025-11158"
     }
   ],
   "database_specific": {
