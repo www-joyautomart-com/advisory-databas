@@ -1,14 +1,19 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqxf-2998-c6cp",
-  "modified": "2026-03-10T18:23:17Z",
+  "modified": "2026-03-10T22:55:16Z",
   "published": "2026-03-10T18:23:17Z",
   "aliases": [
     "CVE-2026-29173"
   ],
   "summary": "Craft Commerce is Vulnerable to Stored XSS while updating Order Status from Orders Table",
   "details": "## Summary\nA stored XSS vulnerability exists when a user tries to update the Order Status from the Commerce Orders Table. The Order Status Name is rendered without proper escaping, allowing script execution to occur.\n\n---\n## Proof of Concept\n### Required Permissions\n- Admin access (to edit/create Order Statuses)\n\n### Steps to Reproduce\n1. Log in with an admin account\n2. Navigate to **Commerce** → **Settings** → **Order Statuses**\n3. Create a new order status\n4. Set the **Name** field to:\n```html\n<img src=x onerror=\"alert('Order Statuses XSS')\">\n```\n5. Save the order status\n6. Go to Commerce → Orders (make sure you placed any orders)\n7. From the left panel, select any Order Status (e.g., New)\n8. Select any order from the orders table → Click on the Gear Icon → then click \"Update Order Status...\"\n9. Notice the XSS execution",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:H/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
   "affected": [
     {
       "package": {
@@ -61,6 +66,10 @@
       "url": "https://github.com/craftcms/commerce/security/advisories/GHSA-mqxf-2998-c6cp"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29173"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/commerce/commit/60cdc505c03b6fa2f59715e8c060114b66334afa"
     },
@@ -80,6 +89,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-10T18:23:17Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-10T20:16:38Z"
   }
 }

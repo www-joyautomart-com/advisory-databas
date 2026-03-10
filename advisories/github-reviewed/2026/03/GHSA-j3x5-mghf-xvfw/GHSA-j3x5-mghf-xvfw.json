@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j3x5-mghf-xvfw",
-  "modified": "2026-03-10T18:23:07Z",
+  "modified": "2026-03-10T22:55:11Z",
   "published": "2026-03-10T18:23:07Z",
   "aliases": [
     "CVE-2026-29172"
@@ -66,6 +66,10 @@
       "url": "https://github.com/craftcms/commerce/security/advisories/GHSA-j3x5-mghf-xvfw"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29172"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/craftcms/commerce/commit/b231b920b73db023e81e5b261b894d73e865c276"
     },
@@ -85,6 +89,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-10T18:23:07Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-10T20:16:38Z"
   }
 }
