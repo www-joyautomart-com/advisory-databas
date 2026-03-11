@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v5hf-f4c3-m5rv",
-  "modified": "2026-03-11T00:34:24Z",
+  "modified": "2026-03-11T20:57:39Z",
   "published": "2026-03-11T00:34:24Z",
   "aliases": [
     "CVE-2026-31868"
@@ -60,6 +60,10 @@
       "url": "https://github.com/parse-community/parse-server/security/advisories/GHSA-v5hf-f4c3-m5rv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31868"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/parse-community/parse-server"
     },
@@ -79,6 +83,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T00:34:24Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-11T18:16:25Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4hf6-3x24-c9m8",
-  "modified": "2026-03-11T00:35:41Z",
+  "modified": "2026-03-11T20:57:55Z",
   "published": "2026-03-11T00:35:41Z",
   "aliases": [
     "CVE-2026-31875"
@@ -60,6 +60,10 @@
       "url": "https://github.com/parse-community/parse-server/security/advisories/GHSA-4hf6-3x24-c9m8"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31875"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/parse-community/parse-server"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T00:35:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-11T18:16:27Z"
   }
 }
