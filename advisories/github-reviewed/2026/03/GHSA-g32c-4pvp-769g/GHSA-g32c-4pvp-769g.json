@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g32c-4pvp-769g",
-  "modified": "2026-03-11T00:38:08Z",
+  "modified": "2026-03-11T21:37:59Z",
   "published": "2026-03-11T00:38:08Z",
   "aliases": [
     "CVE-2026-31960"
@@ -41,6 +41,10 @@
       "url": "https://github.com/anchore/quill/security/advisories/GHSA-g32c-4pvp-769g"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31960"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/anchore/quill/commit/9cdb0823ea1d2c45dcc11557f8c5cd7291c75d29"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T00:38:08Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-11T20:16:16Z"
   }
 }

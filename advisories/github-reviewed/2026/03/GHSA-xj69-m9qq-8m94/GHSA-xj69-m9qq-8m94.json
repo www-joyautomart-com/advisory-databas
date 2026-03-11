@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj69-m9qq-8m94",
-  "modified": "2026-03-11T00:38:00Z",
+  "modified": "2026-03-11T21:37:54Z",
   "published": "2026-03-11T00:38:00Z",
   "aliases": [
     "CVE-2026-31961"
@@ -41,6 +41,10 @@
       "url": "https://github.com/anchore/quill/security/advisories/GHSA-xj69-m9qq-8m94"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31961"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/anchore/quill/commit/80cf3fe082678af0ec4f9f8dd93f39189d2dc1fe"
     },
@@ -64,6 +68,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T00:38:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-11T20:16:17Z"
   }
 }

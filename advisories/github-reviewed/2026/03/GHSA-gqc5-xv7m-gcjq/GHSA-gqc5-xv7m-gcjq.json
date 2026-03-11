@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gqc5-xv7m-gcjq",
-  "modified": "2026-03-11T19:23:49Z",
+  "modified": "2026-03-11T21:37:32Z",
   "published": "2026-03-11T19:23:49Z",
   "aliases": [
     "CVE-2026-31888"
@@ -98,6 +98,10 @@
       "url": "https://github.com/shopware/shopware/security/advisories/GHSA-gqc5-xv7m-gcjq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31888"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/shopware/shopware"
     }
@@ -109,6 +113,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-11T19:23:49Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-11T19:16:05Z"
   }
 }
