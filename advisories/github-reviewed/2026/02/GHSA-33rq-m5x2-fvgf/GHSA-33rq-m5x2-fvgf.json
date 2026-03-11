@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33rq-m5x2-fvgf",
-  "modified": "2026-03-05T21:43:49Z",
+  "modified": "2026-03-11T20:41:24Z",
   "published": "2026-02-17T21:37:55Z",
   "aliases": [
     "CVE-2026-28448"
@@ -41,6 +41,10 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-33rq-m5x2-fvgf"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28448"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/8c7901c984866a776eb59662dc9d8b028de4f0d0"
     },
@@ -51,6 +55,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.2.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-authorization-bypass-in-twitch-plugin-allowfrom-access-control"
     }
   ],
   "database_specific": {
@@ -60,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-17T21:37:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-05T22:16:16Z"
   }
 }
