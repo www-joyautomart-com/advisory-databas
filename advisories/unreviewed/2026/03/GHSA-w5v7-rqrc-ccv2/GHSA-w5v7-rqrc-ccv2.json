@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w5v7-rqrc-ccv2",
-  "modified": "2026-03-11T18:30:32Z",
+  "modified": "2026-03-12T15:30:24Z",
   "published": "2026-03-11T18:30:32Z",
   "aliases": [
     "CVE-2025-67037"
   ],
   "details": "An issue was discovered in Lantronix EDS5000 2.1.0.0R3. An authenticated attacker can inject OS commands into the \"tunnel\" parameter when killing a tunnel connection. Injected commands are executed with root privileges.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-11T17:16:51Z"
