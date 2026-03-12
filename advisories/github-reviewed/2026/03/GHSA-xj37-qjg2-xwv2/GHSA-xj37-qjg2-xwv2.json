@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xj37-qjg2-xwv2",
-  "modified": "2026-03-12T00:31:17Z",
+  "modified": "2026-03-12T17:34:35Z",
   "published": "2026-03-12T00:31:17Z",
   "aliases": [
     "CVE-2026-3965"
   ],
+  "summary": "@whyour/qinglong: manipulation of the argument command leads to protection mechanism failure",
   "details": "A security vulnerability has been detected in whyour qinglong up to 2.20.1. Affected is an unknown function of the file back/loaders/express.ts of the component API Interface. The manipulation of the argument command leads to protection mechanism failure. The attack may be initiated remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 2.20.2 is able to address this issue. The identifier of the patch is 6bec52dca158481258315ba0fc2f11206df7b719. It is advisable to upgrade the affected component. The code maintainer was informed beforehand about the issues. He reacted very fast and highly professional.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "@whyour/qinglong"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.20.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -40,7 +61,7 @@
       "url": "https://github.com/whyour/qinglong/commit/6bec52dca158481258315ba0fc2f11206df7b719"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/whyour/qinglong"
     },
     {
@@ -64,9 +85,9 @@
     "cwe_ids": [
       "CWE-693"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-12T17:34:35Z",
     "nvd_published_at": "2026-03-12T00:16:11Z"
   }
 }
