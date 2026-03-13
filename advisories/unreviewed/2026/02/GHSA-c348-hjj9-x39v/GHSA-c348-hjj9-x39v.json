@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c348-hjj9-x39v",
-  "modified": "2026-02-13T21:31:34Z",
+  "modified": "2026-03-13T21:31:40Z",
   "published": "2026-02-10T18:30:40Z",
   "aliases": [
     "CVE-2026-0651"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/en/support/download/tapo-c260/v1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/tapo-d235"
     },
     {
       "type": "WEB",

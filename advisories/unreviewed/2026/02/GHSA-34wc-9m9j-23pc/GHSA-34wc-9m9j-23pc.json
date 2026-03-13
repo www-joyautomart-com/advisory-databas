@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-34wc-9m9j-23pc",
-  "modified": "2026-02-06T18:30:30Z",
+  "modified": "2026-03-13T21:31:40Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23060"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncrypto: authencesn - reject too-short AAD (assoclen<8) to match ESP/ESN spec\n\nauthencesn assumes an ESP/ESN-formatted AAD. When assoclen is shorter than\nthe minimum expected length, crypto_authenc_esn_decrypt() can advance past\nthe end of the destination scatterlist and trigger a NULL pointer dereference\nin scatterwalk_map_and_copy(), leading to a kernel panic (DoS).\n\nAdd a minimum AAD length check to fail fast on invalid inputs.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T17:16:16Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q353-prfj-6jcp",
-  "modified": "2026-02-06T18:30:30Z",
+  "modified": "2026-03-13T21:31:40Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23063"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nuacce: ensure safe queue release with state management\n\nDirectly calling `put_queue` carries risks since it cannot\nguarantee that resources of `uacce_queue` have been fully released\nbeforehand. So adding a `stop_queue` operation for the\nUACCE_CMD_PUT_Q command and leaving the `put_queue` operation to\nthe final resource release ensures safety.\n\nQueue states are defined as follows:\n- UACCE_Q_ZOMBIE: Initial state\n- UACCE_Q_INIT: After opening `uacce`\n- UACCE_Q_STARTED: After `start` is issued via `ioctl`\n\nWhen executing `poweroff -f` in virt while accelerator are still\nworking, `uacce_fops_release` and `uacce_remove` may execute\nconcurrently. This can cause `uacce_put_queue` within\n`uacce_fops_release` to access a NULL `ops` pointer. Therefore, add\nstate checks to prevent accessing freed pointers.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T17:16:16Z"

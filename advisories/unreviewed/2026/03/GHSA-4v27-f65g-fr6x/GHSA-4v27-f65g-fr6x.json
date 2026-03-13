@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4v27-f65g-fr6x",
-  "modified": "2026-03-12T15:30:25Z",
+  "modified": "2026-03-13T21:31:44Z",
   "published": "2026-03-12T03:31:05Z",
   "aliases": [
     "CVE-2023-43010"
@@ -38,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://support.apple.com/en-us/126646"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Mar/1"
     }
   ],
   "database_specific": {

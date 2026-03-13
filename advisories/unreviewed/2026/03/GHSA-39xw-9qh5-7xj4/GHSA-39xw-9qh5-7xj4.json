@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-39xw-9qh5-7xj4",
-  "modified": "2026-03-12T21:34:50Z",
+  "modified": "2026-03-13T21:31:44Z",
   "published": "2026-03-12T21:34:50Z",
   "aliases": [
     "CVE-2025-66955"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/TheWoodenBench/CVE-2025-66955"
+    },
+    {
+      "type": "WEB",
+      "url": "https://live.asee.io"
     },
     {
       "type": "WEB",

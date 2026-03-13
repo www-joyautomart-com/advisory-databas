@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r6w-8qqx-7jq3",
-  "modified": "2026-02-06T18:30:30Z",
+  "modified": "2026-03-13T21:31:40Z",
   "published": "2026-02-04T18:30:43Z",
   "aliases": [
     "CVE-2026-23068"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: spi-sprd-adi: Fix double free in probe error path\n\nThe driver currently uses spi_alloc_host() to allocate the controller\nbut registers it using devm_spi_register_controller().\n\nIf devm_register_restart_handler() fails, the code jumps to the\nput_ctlr label and calls spi_controller_put(). However, since the\ncontroller was registered via a devm function, the device core will\nautomatically call spi_controller_put() again when the probe fails.\nThis results in a double-free of the spi_controller structure.\n\nFix this by switching to devm_spi_alloc_host() and removing the\nmanual spi_controller_put() call.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-02-04T17:16:17Z"
