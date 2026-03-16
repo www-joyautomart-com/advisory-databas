@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r353-4845-pr5p",
-  "modified": "2026-03-13T20:44:21Z",
+  "modified": "2026-03-16T12:28:22Z",
   "published": "2026-03-13T20:44:21Z",
   "aliases": [
     "CVE-2026-32600"
@@ -25,10 +25,29 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "2.0.0"
             },
             {
               "fixed": "2.3.1"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "simplesamlphp/xml-security"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.13.9"
             }
           ]
         }
@@ -39,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/simplesamlphp/xml-security/security/advisories/GHSA-r353-4845-pr5p"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/simplesamlphp/xml-security/commit/cad6d57cf0a5a0b7e0cc4e4a5b18752e56eb1520"
     },
     {
       "type": "WEB",
