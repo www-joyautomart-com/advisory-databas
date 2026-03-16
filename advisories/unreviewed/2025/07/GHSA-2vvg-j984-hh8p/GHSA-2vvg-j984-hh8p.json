@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vvg-j984-hh8p",
-  "modified": "2025-07-10T18:31:27Z",
+  "modified": "2026-03-16T18:32:02Z",
   "published": "2025-07-10T18:31:27Z",
   "aliases": [
     "CVE-2025-47813"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/MrTuxracer/advisories/blob/master/CVEs/CVE-2025-47813.txt"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-47813"
     },
     {
       "type": "WEB",

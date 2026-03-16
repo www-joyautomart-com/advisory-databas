@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqw7-jxvw-p9pw",
-  "modified": "2026-02-11T21:30:33Z",
+  "modified": "2026-03-16T18:32:02Z",
   "published": "2026-02-03T21:31:51Z",
   "aliases": [
     "CVE-2025-58455"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2289"
     },
     {
       "type": "WEB",

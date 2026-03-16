@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7fj8-2w2v-gvp9",
-  "modified": "2026-03-16T15:30:32Z",
+  "modified": "2026-03-16T18:32:02Z",
   "published": "2026-02-21T06:30:17Z",
   "aliases": [
     "CVE-2026-2861"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/03/16/1"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/16/3"
     }
   ],
   "database_specific": {
