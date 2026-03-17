@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x34-9q3v-h7g8",
-  "modified": "2026-03-17T12:30:20Z",
+  "modified": "2026-03-17T15:36:23Z",
   "published": "2026-03-17T12:30:20Z",
   "aliases": [
     "CVE-2026-30911"
   ],
   "details": "Apache Airflow versions 3.1.0 through 3.1.7 missing authorization vulnerability in the Execution API's Human-in-the-Loop (HITL) endpoints that allows any authenticated task instance to read, approve, or reject HITL workflows belonging to any other task instance.\n\n\nUsers are recommended to upgrade to Apache Airflow 3.1.8 or later, which resolves this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,13 +26,17 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/1rs2v7fcko2otl6n9ytthcj87cmsgx51"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/17/2"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-17T11:16:11Z"

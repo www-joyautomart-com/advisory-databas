@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q336-5c62-jqr6",
-  "modified": "2026-03-13T21:31:48Z",
+  "modified": "2026-03-17T15:36:18Z",
   "published": "2026-03-13T21:31:48Z",
   "aliases": [
     "CVE-2026-32364"
   ],
   "details": "Improper Control of Filename for Include/Require Statement in PHP Program ('PHP Remote File Inclusion') vulnerability in redqteam Turbo Manager turbo-manager allows PHP Local File Inclusion.This issue affects Turbo Manager: from n/a through < 4.0.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-98"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-13T19:54:50Z"

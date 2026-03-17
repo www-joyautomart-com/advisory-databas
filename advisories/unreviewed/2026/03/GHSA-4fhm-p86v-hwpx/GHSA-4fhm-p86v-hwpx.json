@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4fhm-p86v-hwpx",
-  "modified": "2026-03-17T12:30:20Z",
+  "modified": "2026-03-17T15:36:22Z",
   "published": "2026-03-17T12:30:20Z",
   "aliases": [
     "CVE-2026-28779"
   ],
   "details": "Apache Airflow versions 3.1.0 through 3.1.7 session token (_token) in cookies is set to path=/ regardless of the configured [webserver] base_url or [api] base_url.\nThis allows any application co-hosted under the same domain to capture valid Airflow session tokens from HTTP request headers, allowing full session takeover without attacking Airflow itself.\n\nUsers are recommended to upgrade to Apache Airflow 3.1.8 or later, which resolves this issue.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,13 +26,17 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/r4n5znb8mcq14wo9v8ndml36nxlksdqb"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/17/3"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-668"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-17T11:16:11Z"

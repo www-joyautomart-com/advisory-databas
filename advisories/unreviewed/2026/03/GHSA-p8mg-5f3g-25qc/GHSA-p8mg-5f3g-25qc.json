@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8mg-5f3g-25qc",
-  "modified": "2026-03-13T21:31:48Z",
+  "modified": "2026-03-17T15:36:18Z",
   "published": "2026-03-13T21:31:48Z",
   "aliases": [
     "CVE-2026-32372"
   ],
   "details": "Exposure of Sensitive System Information to an Unauthorized Control Sphere vulnerability in RadiusTheme ShopBuilder – Elementor WooCommerce Builder Addons shopbuilder allows Retrieve Embedded Sensitive Data.This issue affects ShopBuilder – Elementor WooCommerce Builder Addons: from n/a through <= 3.2.4.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-497"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-13T19:54:51Z"

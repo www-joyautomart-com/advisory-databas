@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3fv-96qh-67m7",
-  "modified": "2026-03-17T12:30:20Z",
+  "modified": "2026-03-17T15:36:22Z",
   "published": "2026-03-17T12:30:20Z",
   "aliases": [
     "CVE-2026-28563"
@@ -21,6 +21,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/dwzf62qg9z8wvfsjknpfd8bvtwghd49s"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/03/17/5"
     }
   ],
   "database_specific": {
