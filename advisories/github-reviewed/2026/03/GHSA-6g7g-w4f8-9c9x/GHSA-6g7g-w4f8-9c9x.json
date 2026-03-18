@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-6g7g-w4f8-9c9x",
+  "modified": "2026-03-18T13:00:19Z",
+  "published": "2026-03-18T13:00:19Z",
+  "aliases": [],
+  "summary": "Denial of service in github.com/buger/jsonparser",
+  "details": "The Delete function fails to properly validate offsets when processing malformed JSON input. This can lead to a negative slice index and a runtime panic, allowing a denial of service attack.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/buger/jsonparser"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.1.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/buger/jsonparser/issues/275"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/golang/vulndb/issues/4514"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cyber.securityinfinity.com/buger-jsonparser-negative-slice-panic-dos-2026"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/buger/jsonparser"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-125"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-18T13:00:19Z",
+    "nvd_published_at": null
+  }
+}
