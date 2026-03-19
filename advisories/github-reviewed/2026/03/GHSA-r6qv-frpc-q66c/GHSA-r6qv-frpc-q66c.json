@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6qv-frpc-q66c",
-  "modified": "2026-03-19T12:46:21Z",
+  "modified": "2026-03-19T23:22:20Z",
   "published": "2026-03-18T18:31:16Z",
   "aliases": [
     "CVE-2026-33001"
@@ -10,7 +10,7 @@
   "details": "Jenkins 2.554 and earlier, LTS 2.541.2 and earlier does not safely handle symbolic links during the extraction of .tar and .tar.gz archives, allowing crafted archives to write files to arbitrary locations on the filesystem, restricted only by file system access permissions of the user running Jenkins.\nThis can be exploited to deploy malicious scripts or plugins on the controller by attackers with Item/Configure permission, or able to control agent processes.",
   "severity": [
     {
-      "type": "CVSS_V4",
+      "type": "CVSS_V3",
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
   ],
@@ -62,6 +62,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-59",
       "CWE-61"
     ],
     "severity": "HIGH",
