@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3r3-4qgc-vw66",
-  "modified": "2026-03-16T16:15:33Z",
+  "modified": "2026-03-19T21:00:24Z",
   "published": "2026-03-16T16:15:33Z",
   "aliases": [
     "CVE-2026-29112"
@@ -41,6 +41,10 @@
       "url": "https://github.com/dicebear/dicebear/security/advisories/GHSA-v3r3-4qgc-vw66"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29112"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/dicebear/dicebear/commit/42a59eac46a3c68598859e608ec45e578b27614a"
     },
@@ -60,6 +64,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-16T16:15:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T04:17:16Z"
   }
 }
