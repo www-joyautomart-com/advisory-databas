@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxq9-79vj-rgvw",
-  "modified": "2026-02-27T20:36:21Z",
+  "modified": "2026-03-19T21:10:39Z",
   "published": "2026-02-24T21:09:23Z",
   "aliases": [
     "CVE-2026-27593"
   ],
   "summary": "Statamic is vulnerable to account takeover via password reset link injection",
-  "details": "## Impact\n\nAn attacker may leverage a vulnerability in the password reset feature to capture a user's token and reset the password on their behalf.\n\nThe attacker must know the email address of a valid account on the site, and the actual user must blindly click the link in their email even though they didn't request the reset.\n\n## Patches\n\nThis has been fixed in 6.3.3 and 5.73.10.",
+  "details": "## Impact\n\nAn attacker may leverage a vulnerability in the password reset feature to capture a user's token and reset the password on their behalf.\n\nThe attacker must know the email address of a valid account on the site, and the actual user must blindly click the link in their email even though they didn't request the reset.\n\n## Patches\n\nThis has been fixed in 6.7.1 and 5.73.10.\n\nNote that a follow-up report showed the original 6.3.3 fix to be insufficient. The 5.73.10 fix was sufficient.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -47,7 +47,7 @@
               "introduced": "6.0.0-alpha.1"
             },
             {
-              "fixed": "6.3.3"
+              "fixed": "6.7.1"
             }
           ]
         }

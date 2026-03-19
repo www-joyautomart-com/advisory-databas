@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9xp9-j92r-p88v",
-  "modified": "2026-03-18T21:44:40Z",
+  "modified": "2026-03-19T21:11:56Z",
   "published": "2026-03-17T17:35:52Z",
   "aliases": [
     "CVE-2026-32944"
@@ -60,6 +60,10 @@
       "url": "https://github.com/parse-community/parse-server/security/advisories/GHSA-9xp9-j92r-p88v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32944"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/parse-community/parse-server/pull/10202"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-17T17:35:52Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T22:16:25Z"
   }
 }
