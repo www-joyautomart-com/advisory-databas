@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x6v-j9x4-qf24",
-  "modified": "2026-03-17T17:07:51Z",
+  "modified": "2026-03-19T19:01:35Z",
   "published": "2026-03-17T17:07:51Z",
   "aliases": [
     "CVE-2026-31898"
@@ -44,12 +44,20 @@
       "url": "https://github.com/parallax/jsPDF/security/advisories/GHSA-7x6v-j9x4-qf24"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31898"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/parallax/jsPDF/commit/4155c4819d5eca284168e51e0e1e81126b4f14b8"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/parallax/jsPDF"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/parallax/jsPDF/blob/b1607a9391d4cd65ea7ade25998aea8345ae1be3/src/modules/annotations.js#L193-L208"
     },
     {
       "type": "WEB",
@@ -63,6 +71,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-17T17:07:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-18T04:17:21Z"
   }
 }
