@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-ph9w-r52h-28p7",
+  "modified": "2026-03-20T20:56:14Z",
+  "published": "2026-03-20T20:56:14Z",
+  "aliases": [
+    "CVE-2026-33497"
+  ],
+  "summary": "langflow: /profile_pictures/{folder_name}/{file_name} endpoint file reading",
+  "details": "### Summary\nIn the download_profile_picture function of the /profile_pictures/{folder_name}/{file_name} endpoint, the folder_name and file_name parameters are not strictly filtered, which allows the secret_key to be read across directories.\n\n### Details\nsrc/backend/base/langflow/api/v1/files.py\n\n![image](https://github.com/user-attachments/assets/19bc387c-93d8-475b-bab0-2675669c1c36)\n\nstorage local get_file, directly concatenate flow_id and file_name\n![image](https://github.com/user-attachments/assets/daf47b73-6e1b-414e-bb8b-66b67cf5a9e9)\n\n### PoC\n```curl --path-as-is 'http://127.0.0.1:7860/api/v1/files/profile_pictures/../secret_key' ```\n```QNuonm***********```\n\n### Impact\nsecret_key is used for jwt authentication. Attackers can forge authentication tokens and log into the system.",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:H/VI:N/VA:N/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "langflow"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.7.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/langflow-ai/langflow/security/advisories/GHSA-ph9w-r52h-28p7"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/langflow-ai/langflow"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-20T20:56:14Z",
+    "nvd_published_at": null
+  }
+}

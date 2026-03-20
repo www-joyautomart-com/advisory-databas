@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vggc-6pg2-xvp9",
-  "modified": "2026-03-19T18:31:15Z",
+  "modified": "2026-03-20T20:58:23Z",
   "published": "2026-03-16T15:30:43Z",
   "aliases": [
     "CVE-2026-32774"
   ],
+  "summary": "Vulnogram contains a stored cross-site scripting vulnerability in comment hypertext handling",
   "details": "Vulnogram 1.0.0 contains a stored cross-site scripting vulnerability in comment hypertext handling that allows attackers to inject malicious scripts. Remote attackers can inject XSS payloads through comments to execute arbitrary JavaScript in victims' browsers.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:N/VA:N/SC:L/SI:L/SA:N"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "vulnogram"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.0.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "WEB",
@@ -32,7 +53,7 @@
       "url": "https://github.com/Vulnogram/Vulnogram/commit/2f0e21b113c58124084c7b74c9768fc241126a05"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/Vulnogram/Vulnogram"
     },
     {
@@ -45,8 +66,8 @@
       "CWE-79"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-20T20:58:23Z",
     "nvd_published_at": "2026-03-16T14:19:44Z"
   }
 }
