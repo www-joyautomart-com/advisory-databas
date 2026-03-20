@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5cx5-wh4m-82fh",
-  "modified": "2026-03-19T17:56:37Z",
+  "modified": "2026-03-20T19:48:53Z",
   "published": "2026-03-19T17:56:37Z",
   "aliases": [
     "CVE-2026-33322"
@@ -28,7 +28,7 @@
               "introduced": "0"
             },
             {
-              "fixed": "0.0.0-20260212201848-7aac2a2c5b7c"
+              "last_affected": "0.0.0-20260212201848-7aac2a2c5b7c"
             }
           ]
         }
