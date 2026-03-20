@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r849-826x-wgqm",
-  "modified": "2026-03-19T03:30:57Z",
+  "modified": "2026-03-20T13:40:02Z",
   "published": "2026-03-19T03:30:57Z",
-  "aliases": [
-    "CVE-2026-31991"
-  ],
-  "details": "OpenClaw versions prior to 2026.2.26 contain an authorization bypass vulnerability where Signal group allowlist policy incorrectly accepts sender identities from DM pairing-store approvals. Attackers can exploit this boundary weakness by obtaining DM pairing approval to bypass group allowlist checks and gain unauthorized group access.",
+  "withdrawn": "2026-03-20T13:40:02Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: Signal group allowlist authorization bypass via DM pairing-store leakage",
+  "details": "## Duplicate Advisory\n\nThis advisory has been withdrawn because it is a duplicate of GHSA-wm8r-w8pf-2v6w. This link is maintained to preserve external references.\n\n## Original Description\nOpenClaw versions prior to 2026.2.26 contain an authorization bypass vulnerability where Signal group allowlist policy incorrectly accepts sender identities from DM pairing-store approvals. Attackers can exploit this boundary weakness by obtaining DM pairing approval to bypass group allowlist checks and gain unauthorized group access.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -17,7 +17,27 @@
       "score": "CVSS:4.0/AV:N/AC:H/AT:N/PR:L/UI:A/VC:L/VI:L/VA:N/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "openclaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "< 2026.2.26"
+      }
+    }
+  ],
   "references": [
     {
       "type": "WEB",
@@ -45,8 +65,8 @@
       "CWE-863"
     ],
     "severity": "LOW",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-20T13:40:02Z",
     "nvd_published_at": "2026-03-19T02:16:03Z"
   }
 }
