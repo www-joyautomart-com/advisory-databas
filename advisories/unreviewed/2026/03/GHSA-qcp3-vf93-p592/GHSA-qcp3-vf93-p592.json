@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-qcp3-vf93-p592",
+  "modified": "2026-03-20T15:31:13Z",
+  "published": "2026-03-20T15:31:13Z",
+  "aliases": [
+    "CVE-2024-44722"
+  ],
+  "details": "SysAK v2.0 and before is vulnerable to command execution via aaa;cat /etc/passwd.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-44722"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/0x00dream2/9984c109101c0b1e352f8ee9ad5e40fe#file-cve-2024-44722"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitee.com/anolis/sysak"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-20T14:16:13Z"
+  }
+}

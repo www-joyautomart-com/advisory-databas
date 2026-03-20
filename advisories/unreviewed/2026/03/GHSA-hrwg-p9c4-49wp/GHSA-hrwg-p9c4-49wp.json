@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hrwg-p9c4-49wp",
-  "modified": "2026-03-13T21:31:46Z",
+  "modified": "2026-03-20T15:31:05Z",
   "published": "2026-03-13T21:31:46Z",
   "aliases": [
     "CVE-2026-22209"
@@ -25,6 +25,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/themactep/thingino-firmware/releases/tag/firmware-2026-03-15"
+    },
+    {
+      "type": "WEB",
       "url": "https://wordpress.org/plugins/wpdiscuz"
     },
     {
@@ -33,11 +37,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/thingino-firmware-api-cgi-unauthenticated-command-injection-in-captive-portal"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.vulncheck.com/advisories/wpdiscuz-before-cross-site-scripting-via-unescaped-custom-css-in-style-tag"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-78",
       "CWE-79"
     ],
     "severity": "MODERATE",

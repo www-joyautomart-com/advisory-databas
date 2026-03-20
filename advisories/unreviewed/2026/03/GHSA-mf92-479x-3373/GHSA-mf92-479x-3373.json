@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mf92-479x-3373",
-  "modified": "2026-03-20T00:31:28Z",
+  "modified": "2026-03-20T15:31:08Z",
   "published": "2026-03-20T00:31:28Z",
   "aliases": [
     "CVE-2026-22732"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-425"
+    ],
     "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,

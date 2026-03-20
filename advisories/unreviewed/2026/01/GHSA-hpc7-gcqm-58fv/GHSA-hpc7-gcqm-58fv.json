@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hpc7-gcqm-58fv",
-  "modified": "2026-01-29T15:30:27Z",
+  "modified": "2026-03-20T15:31:04Z",
   "published": "2026-01-27T18:32:14Z",
   "aliases": [
     "CVE-2025-11187"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/openssl/openssl/commit/e1079bc17ed93ff16f6b86f33a2fe3336e78817e"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/metadust/CVE-2025-11187"
     },
     {
       "type": "WEB",
