@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h943-hrx6-86cq",
-  "modified": "2026-03-19T18:31:17Z",
+  "modified": "2026-03-21T12:31:37Z",
   "published": "2026-03-19T12:30:32Z",
   "aliases": [
     "CVE-2006-10002"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/cpan-authors/XML-Parser/commit/56b0509dfc6b559cd7555ea81ee62e3622069255.patch"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/cpan-authors/XML-Parser/commit/6b291f4d260fc124a6ec80382b87a918f372bc6b.patch"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/TODDR/XML-Parser-2.46/changes"
     },
     {
       "type": "WEB",
