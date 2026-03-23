@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4gx-392p-5m58",
-  "modified": "2025-11-05T00:31:19Z",
+  "modified": "2026-03-23T18:30:25Z",
   "published": "2025-07-10T15:31:28Z",
   "aliases": [
     "CVE-2025-7424"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2379228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.gnome.org/GNOME/libxslt/-/issues/139"
     },
     {
       "type": "WEB",

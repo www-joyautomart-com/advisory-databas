@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-464q-cqxq-xhgr",
-  "modified": "2026-03-23T06:30:29Z",
+  "modified": "2026-03-23T18:30:30Z",
   "published": "2026-03-23T06:30:29Z",
   "aliases": [
     "CVE-2026-4603"
