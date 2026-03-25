@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8p58-35c3-ccxx",
-  "modified": "2026-03-20T20:47:19Z",
+  "modified": "2026-03-25T18:50:10Z",
   "published": "2026-03-20T20:47:19Z",
   "aliases": [
     "CVE-2026-33485"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-8p58-35c3-ccxx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33485"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/af59eade82de645b20183cc3d74467a7eac76549"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T20:47:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-23T15:16:34Z"
   }
 }

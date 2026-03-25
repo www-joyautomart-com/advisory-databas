@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vv7w-qf5c-734w",
-  "modified": "2026-03-20T20:46:50Z",
+  "modified": "2026-03-25T18:49:45Z",
   "published": "2026-03-20T20:46:50Z",
   "aliases": [
     "CVE-2026-33483"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-vv7w-qf5c-734w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33483"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/33d1bae6c731ef1682fcdc47b428313be073a5d1"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T20:46:50Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-23T15:16:34Z"
   }
 }
