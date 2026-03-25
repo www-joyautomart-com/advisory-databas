@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc3m-4mcr-h3pv",
-  "modified": "2026-03-19T17:12:19Z",
+  "modified": "2026-03-25T18:35:10Z",
   "published": "2026-03-19T17:12:19Z",
   "aliases": [
     "CVE-2026-33295"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-gc3m-4mcr-h3pv"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33295"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/30cdd825fa5778c1d678c2402be2413b84ee4833"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-19T17:12:19Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-22T17:17:09Z"
   }
 }

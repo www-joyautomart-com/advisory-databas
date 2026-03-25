@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6gx3-4362-rf54",
-  "modified": "2026-03-20T21:16:03Z",
+  "modified": "2026-03-25T18:35:40Z",
   "published": "2026-03-17T19:49:35Z",
   "aliases": [
     "CVE-2026-32766"
@@ -11,7 +11,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:U/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:H/AT:P/PR:N/UI:N/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -54,13 +54,17 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/astral-sh/tokio-tar"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0066.html"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-436"
     ],
-    "severity": "LOW",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-17T19:49:35Z",
     "nvd_published_at": "2026-03-20T00:16:18Z"

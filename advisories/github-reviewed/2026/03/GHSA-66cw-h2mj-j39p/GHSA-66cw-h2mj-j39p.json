@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-66cw-h2mj-j39p",
-  "modified": "2026-03-19T17:12:13Z",
+  "modified": "2026-03-25T18:34:10Z",
   "published": "2026-03-19T17:12:13Z",
   "aliases": [
     "CVE-2026-33294"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-66cw-h2mj-j39p"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33294"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/4589a3a089baf4ea439481f5088b38a8aa9c82b6"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-19T17:12:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-22T17:17:09Z"
   }
 }

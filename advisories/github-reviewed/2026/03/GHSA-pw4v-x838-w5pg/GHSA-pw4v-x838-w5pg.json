@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pw4v-x838-w5pg",
-  "modified": "2026-03-19T16:43:03Z",
+  "modified": "2026-03-25T18:33:42Z",
   "published": "2026-03-19T16:43:03Z",
   "aliases": [
     "CVE-2026-33292"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-pw4v-x838-w5pg"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33292"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/bc034066281085af00e64b0d7b81d8a025a928c4"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-19T16:43:03Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-22T17:17:08Z"
   }
 }

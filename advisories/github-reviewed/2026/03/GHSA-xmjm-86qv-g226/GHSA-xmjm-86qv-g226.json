@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmjm-86qv-g226",
-  "modified": "2026-03-19T17:12:04Z",
+  "modified": "2026-03-25T18:34:01Z",
   "published": "2026-03-19T17:12:04Z",
   "aliases": [
     "CVE-2026-33293"
@@ -41,6 +41,14 @@
       "url": "https://github.com/WWBN/AVideo/security/advisories/GHSA-xmjm-86qv-g226"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33293"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/WWBN/AVideo/commit/941decd6d19e2e694acb75e86317d10fbb560284"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/WWBN/AVideo"
     }
@@ -52,6 +60,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-19T17:12:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-22T17:17:08Z"
   }
 }
