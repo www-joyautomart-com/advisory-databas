@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8mp-vj46-cq8v",
-  "modified": "2026-03-19T22:27:42Z",
+  "modified": "2026-03-25T18:44:27Z",
   "published": "2026-03-03T19:52:45Z",
   "aliases": [
     "CVE-2026-32032"
@@ -11,7 +11,11 @@
   "severity": [
     {
       "type": "CVSS_V3",
-      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:L"
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:P/PR:L/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -41,12 +45,20 @@
       "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-f8mp-vj46-cq8v"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-32032"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/openclaw/openclaw/commit/25e89cc86338ef475d26be043aa541dfdb95e52a"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.vulncheck.com/advisories/openclaw-arbitrary-shell-execution-via-unvalidated-shell-environment-variable"
     }
   ],
   "database_specific": {
@@ -54,9 +66,9 @@
       "CWE-426",
       "CWE-78"
     ],
-    "severity": "MODERATE",
+    "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-03T19:52:45Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-19T22:16:38Z"
   }
 }
