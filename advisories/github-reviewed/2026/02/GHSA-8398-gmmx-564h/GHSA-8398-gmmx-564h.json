@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8398-gmmx-564h",
-  "modified": "2026-03-24T20:49:24Z",
+  "modified": "2026-03-25T03:12:11Z",
   "published": "2026-02-04T19:42:03Z",
   "aliases": [
     "CVE-2026-25115"
@@ -50,7 +50,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://github.com/n8n-io/n8n/commit/5c69970acc7d37049deae67da861f92d2aaa9b03"
+      "url": "https://github.com/n8n-io/n8n/commit/8607d372f78c388bb3691d9d5b52af7259ec7b1f"
     },
     {
       "type": "PACKAGE",
