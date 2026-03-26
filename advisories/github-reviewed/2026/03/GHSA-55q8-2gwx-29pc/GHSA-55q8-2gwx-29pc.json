@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
-  "id": "GHSA-9h59-p45g-445h",
-  "modified": "2026-03-26T22:16:38Z",
-  "published": "2026-03-26T22:13:33Z",
+  "id": "GHSA-55q8-2gwx-29pc",
+  "modified": "2026-03-26T22:15:54Z",
+  "published": "2026-03-26T22:15:54Z",
   "aliases": [
-    "CVE-2026-33904"
+    "CVE-2026-33907"
   ],
-  "summary": "Ella Core has a Denial of Service via SCTP connection cleanup deadlock ",
-  "details": "## Summary\n\nA deadlock in the AMF's SCTP notification handler causes the entire AMF control plane to hang until the process is restarted. \n\n## Impact\n\nAn attacker with access to the N2 interface can cause Ella Core to hang, resulting in a denial of service for all subscribers.\n\n## Fix\n\nAdd deferred Radio cleanup in serveConn SCTP server so that every connection exit path removes the radio. Remove the stale-entry scan from SCTP Notification handling.",
+  "summary": "Ella Core Panics during NAS Authentication Response/Failure with missing IEs",
+  "details": "## Summary\n\nElla Core panics when processing Authentication Response and Authentication Failure NAS message missing IEs. \n\n## Impact\n\nAn attacker able to send crafted NAS messages to Ella Core can crash the process, causing service disruption for all connected subscribers. No authentication is required.\n\n## Fix\n\nAdded IE presence verification to NAS message handling.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -38,11 +38,11 @@
   "references": [
     {
       "type": "WEB",
-      "url": "https://github.com/ellanetworks/core/security/advisories/GHSA-9h59-p45g-445h"
+      "url": "https://github.com/ellanetworks/core/security/advisories/GHSA-55q8-2gwx-29pc"
     },
     {
       "type": "WEB",
-      "url": "https://github.com/ellanetworks/core/commit/999f606c5cae261471d9e3f063d7ecd1bd754076"
+      "url": "https://github.com/ellanetworks/core/commit/52962660e3bd3e23c7e96b0da270ac1e0e705273"
     },
     {
       "type": "PACKAGE",
@@ -55,11 +55,11 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-833"
+      "CWE-476"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
-    "github_reviewed_at": "2026-03-26T22:13:33Z",
+    "github_reviewed_at": "2026-03-26T22:15:54Z",
     "nvd_published_at": null
   }
 }
