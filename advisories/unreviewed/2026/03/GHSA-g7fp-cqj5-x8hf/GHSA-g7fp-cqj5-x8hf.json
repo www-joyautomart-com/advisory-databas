@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-g7fp-cqj5-x8hf",
+  "modified": "2026-03-26T12:30:29Z",
+  "published": "2026-03-26T12:30:29Z",
+  "aliases": [
+    "CVE-2026-4274"
+  ],
+  "details": "Mattermost versions 11.2.x <= 11.2.2, 10.11.x <= 10.11.10, 11.4.x <= 11.4.0, 11.3.x <= 11.3.1 fail to restrict team-level access when processing membership sync from a remote cluster, which allows a malicious remote cluster to grant a user access to an entire private team instead of only the shared channel via sending crafted membership sync messages that trigger team membership assignment. Mattermost Advisory ID: MMSA-2026-00574",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-4274"
+    },
+    {
+      "type": "WEB",
+      "url": "https://mattermost.com/security-updates"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-863"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-03-26T11:16:21Z"
+  }
+}
