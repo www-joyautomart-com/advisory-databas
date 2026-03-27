@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72hv-8253-57qq",
-  "modified": "2026-03-03T16:59:14Z",
+  "modified": "2026-03-27T14:26:32Z",
   "published": "2026-02-28T02:01:05Z",
   "aliases": [],
   "summary": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
@@ -9,7 +9,7 @@
   "severity": [
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:L/SC:N/SI:N/SA:N"
     }
   ],
   "affected": [
@@ -156,7 +156,7 @@
     "cwe_ids": [
       "CWE-770"
     ],
-    "severity": "HIGH",
+    "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-02-28T02:01:05Z",
     "nvd_published_at": null
