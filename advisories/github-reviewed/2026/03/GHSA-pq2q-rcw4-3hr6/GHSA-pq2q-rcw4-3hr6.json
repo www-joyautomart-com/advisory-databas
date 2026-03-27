@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq2q-rcw4-3hr6",
-  "modified": "2026-03-25T17:07:51Z",
+  "modified": "2026-03-27T22:09:10Z",
   "published": "2026-03-25T17:07:51Z",
   "aliases": [
     "CVE-2026-27889"
@@ -52,12 +52,32 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/nats-io/nats-server"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
     {
       "type": "WEB",
       "url": "https://github.com/nats-io/nats-server/security/advisories/GHSA-pq2q-rcw4-3hr6"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27889"
     },
     {
       "type": "WEB",
@@ -75,6 +95,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-25T17:07:51Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-25T20:16:27Z"
   }
 }

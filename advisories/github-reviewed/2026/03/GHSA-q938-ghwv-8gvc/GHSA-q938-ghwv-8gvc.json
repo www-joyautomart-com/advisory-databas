@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q938-ghwv-8gvc",
-  "modified": "2026-03-25T19:30:09Z",
+  "modified": "2026-03-27T22:10:51Z",
   "published": "2026-03-25T19:30:09Z",
   "aliases": [
     "CVE-2026-33661"
@@ -44,6 +44,10 @@
       "url": "https://github.com/yansongda/pay/security/advisories/GHSA-q938-ghwv-8gvc"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33661"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/yansongda/pay/commit/26987ebf789f1e7f0a85febb640986ab4289fd7f"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-25T19:30:09Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T22:16:29Z"
   }
 }

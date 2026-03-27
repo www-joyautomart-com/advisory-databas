@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwv8-cqpr-vx3m",
-  "modified": "2026-03-25T17:03:37Z",
+  "modified": "2026-03-27T22:08:53Z",
   "published": "2026-03-25T17:03:37Z",
   "aliases": [
     "CVE-2026-27602"
@@ -44,6 +44,10 @@
       "url": "https://github.com/modoboa/modoboa/security/advisories/GHSA-wwv8-cqpr-vx3m"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27602"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/modoboa/modoboa/commit/27a7aa133d3608fe8c25ae39125d1012c333cbfa"
     },
@@ -63,6 +67,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-25T17:03:37Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-25T19:16:48Z"
   }
 }
