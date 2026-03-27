@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q67f-28xg-22rw",
-  "modified": "2026-03-26T22:04:41Z",
+  "modified": "2026-03-27T21:51:06Z",
   "published": "2026-03-26T22:04:41Z",
   "aliases": [
     "CVE-2026-33895"
@@ -49,6 +49,10 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-25793"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33895"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/digitalbazaar/forge/commit/bdecf11571c9f1a487cc0fe72fe78ff6dfa96b85"
     },
@@ -68,6 +72,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-26T22:04:41Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-27T21:17:26Z"
   }
 }

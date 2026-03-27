@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cvh3-23vq-w7h4",
-  "modified": "2026-03-26T19:03:04Z",
+  "modified": "2026-03-27T21:49:52Z",
   "published": "2026-03-26T19:03:04Z",
   "aliases": [
     "CVE-2026-33882"
@@ -60,6 +60,10 @@
       "url": "https://github.com/statamic/cms/security/advisories/GHSA-cvh3-23vq-w7h4"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33882"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/statamic/cms"
     }
@@ -72,6 +76,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-26T19:03:04Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-27T21:17:24Z"
   }
 }

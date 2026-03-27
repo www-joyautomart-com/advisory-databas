@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h59-p45g-445h",
-  "modified": "2026-03-26T22:16:38Z",
+  "modified": "2026-03-27T21:51:35Z",
   "published": "2026-03-26T22:13:33Z",
   "aliases": [
     "CVE-2026-33904"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ellanetworks/core/security/advisories/GHSA-9h59-p45g-445h"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33904"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ellanetworks/core/commit/999f606c5cae261471d9e3f063d7ecd1bd754076"
     },
@@ -60,6 +64,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-26T22:13:33Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-27T21:17:26Z"
   }
 }
