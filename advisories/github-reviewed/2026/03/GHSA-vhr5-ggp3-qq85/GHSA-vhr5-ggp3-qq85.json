@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vhr5-ggp3-qq85",
-  "modified": "2026-03-20T20:50:54Z",
+  "modified": "2026-03-27T20:58:41Z",
   "published": "2026-03-20T20:50:54Z",
   "aliases": [
     "CVE-2026-33495"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ory/oathkeeper/security/advisories/GHSA-vhr5-ggp3-qq85"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33495"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/ory/oathkeeper/commit/e9acca14a04d246250557550065e4b4576525bd5"
     },
@@ -56,6 +60,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T20:50:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T18:16:30Z"
   }
 }

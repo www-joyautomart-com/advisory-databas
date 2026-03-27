@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgx2-28f8-6g2r",
-  "modified": "2026-03-20T20:54:54Z",
+  "modified": "2026-03-27T20:59:34Z",
   "published": "2026-03-20T20:54:54Z",
   "aliases": [
     "CVE-2026-33503"
@@ -41,6 +41,10 @@
       "url": "https://github.com/ory/kratos/security/advisories/GHSA-hgx2-28f8-6g2r"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33503"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/ory/kratos"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T20:54:54Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T18:16:30Z"
   }
 }

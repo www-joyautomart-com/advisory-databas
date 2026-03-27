@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j6q-whv2-gh6w",
-  "modified": "2026-03-20T20:50:27Z",
+  "modified": "2026-03-27T20:58:29Z",
   "published": "2026-03-20T20:50:27Z",
   "aliases": [
     "CVE-2026-33490"
@@ -44,6 +44,10 @@
       "url": "https://github.com/h3js/h3/security/advisories/GHSA-2j6q-whv2-gh6w"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33490"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/h3js/h3"
     }
@@ -55,6 +59,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-20T20:50:27Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T18:16:30Z"
   }
 }

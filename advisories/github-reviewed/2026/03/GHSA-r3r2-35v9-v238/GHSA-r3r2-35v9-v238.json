@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r3r2-35v9-v238",
-  "modified": "2026-03-23T21:40:10Z",
+  "modified": "2026-03-27T20:57:16Z",
   "published": "2026-03-23T21:40:10Z",
   "aliases": [
     "CVE-2026-33430"
@@ -41,6 +41,10 @@
       "url": "https://github.com/beeware/briefcase/security/advisories/GHSA-r3r2-35v9-v238"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33430"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/beeware/briefcase/issues/2759"
     },
@@ -64,6 +68,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-23T21:40:10Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-26T17:16:38Z"
   }
 }
