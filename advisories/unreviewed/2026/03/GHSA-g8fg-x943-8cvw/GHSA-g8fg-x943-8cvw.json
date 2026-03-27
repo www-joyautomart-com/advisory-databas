@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8fg-x943-8cvw",
-  "modified": "2026-03-26T21:31:28Z",
+  "modified": "2026-03-27T15:30:25Z",
   "published": "2026-03-26T21:31:28Z",
   "aliases": [
     "CVE-2026-3532"
   ],
   "details": "Improper Handling of Case Sensitivity vulnerability in Drupal OpenID Connect / OAuth client allows Privilege Escalation.This issue affects OpenID Connect / OAuth client: from 0.0.0 before 1.5.0.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-178"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-26T21:17:09Z"

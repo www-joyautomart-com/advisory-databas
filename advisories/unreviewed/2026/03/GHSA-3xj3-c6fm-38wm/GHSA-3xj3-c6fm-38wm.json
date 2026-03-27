@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xj3-c6fm-38wm",
-  "modified": "2026-03-25T18:31:51Z",
+  "modified": "2026-03-27T15:30:25Z",
   "published": "2026-03-25T18:31:50Z",
   "aliases": [
     "CVE-2026-25334"
   ],
   "details": "Incorrect Privilege Assignment vulnerability in wordpresschef Salon Booking System Pro salon-booking-plugin-pro allows Privilege Escalation.This issue affects Salon Booking System Pro: from n/a through < 10.30.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-266"
     ],
-    "severity": null,
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-03-25T17:16:44Z"
