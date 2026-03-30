@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c4r5-fxqw-vh93",
-  "modified": "2026-03-27T19:43:14Z",
+  "modified": "2026-03-30T21:25:25Z",
   "published": "2026-03-27T19:43:14Z",
   "aliases": [
     "CVE-2026-34060"
@@ -47,6 +47,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Shopify/ruby-lsp/releases/tag/v0.26.9"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/ruby-lsp/CVE-2026-34060.yml"
     }
   ],
   "database_specific": {
