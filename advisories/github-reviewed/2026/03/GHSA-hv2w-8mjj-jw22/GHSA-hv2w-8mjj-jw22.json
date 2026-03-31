@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv2w-8mjj-jw22",
-  "modified": "2026-03-30T17:26:44Z",
+  "modified": "2026-03-31T18:56:02Z",
   "published": "2026-03-30T17:26:44Z",
   "aliases": [
     "CVE-2026-34237"
@@ -66,6 +66,10 @@
       "url": "https://github.com/modelcontextprotocol/java-sdk/security/advisories/GHSA-hv2w-8mjj-jw22"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34237"
+    },
+    {
       "type": "WEB",
       "url": "https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html#access-control-allow-origin"
     },
@@ -89,6 +93,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-03-30T17:26:44Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-03-31T16:16:32Z"
   }
 }
