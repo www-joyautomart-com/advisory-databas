@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4hc-vp2m-fr47",
-  "modified": "2026-03-24T12:30:24Z",
+  "modified": "2026-03-31T06:31:43Z",
   "published": "2026-02-23T18:32:02Z",
   "aliases": [
     "CVE-2025-14905"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-14905"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:6220"
     },
     {
       "type": "WEB",
