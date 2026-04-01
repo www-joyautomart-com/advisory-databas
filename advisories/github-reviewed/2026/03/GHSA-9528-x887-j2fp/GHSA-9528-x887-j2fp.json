@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9528-x887-j2fp",
+  "modified": "2026-03-31T23:59:17Z",
+  "published": "2026-03-31T23:59:17Z",
+  "aliases": [],
+  "summary": "OpenClaw's Nextcloud Talk webhook missing rate limiting on shared secret authentication",
+  "details": "## Summary\n\nNextcloud Talk webhook signature failures were not throttled even though the integration relies on an operator-configured shared secret that may be weak.\n\n## Impact\n\nAn attacker who could reach the webhook endpoint could brute-force weak secrets online and then forge inbound webhook events.\n\n## Affected Component\n\n`extensions/nextcloud-talk/src/monitor.ts`\n\n## Fixed Versions\n\n- Affected: `<= 2026.3.24`\n- Patched: `>= 2026.3.28`\n- Latest stable `2026.3.28` contains the fix.\n\n## Fix\n\nFixed by commit `e403decb6e` (`nextcloud-talk: throttle repeated webhook auth failures`).",
+  "severity": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "openclaw"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2026.3.28"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2026.3.24"
+      }
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/security/advisories/GHSA-9528-x887-j2fp"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/commit/e403decb6e20091b5402780a7ccd2085f98aa3cd"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/openclaw/openclaw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/openclaw/openclaw/releases/tag/v2026.3.28"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-307"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-03-31T23:59:17Z",
+    "nvd_published_at": null
+  }
+}
