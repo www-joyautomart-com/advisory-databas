@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gprp-5669-g2ph",
-  "modified": "2025-04-24T18:31:04Z",
+  "modified": "2026-04-01T18:34:55Z",
   "published": "2025-04-24T18:31:04Z",
   "aliases": [
     "CVE-2025-32921"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccc3-69g9-36mx",
-  "modified": "2025-04-10T09:30:26Z",
+  "modified": "2026-04-01T18:34:39Z",
   "published": "2025-04-10T09:30:26Z",
   "aliases": [
     "CVE-2025-22279"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7q75-pggr-8c64",
-  "modified": "2025-04-16T15:34:38Z",
+  "modified": "2026-04-01T18:34:45Z",
   "published": "2025-04-16T15:34:37Z",
   "aliases": [
     "CVE-2025-39593"

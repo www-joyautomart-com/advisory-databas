@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fw2v-8868-mpvm",
-  "modified": "2025-04-01T15:31:45Z",
+  "modified": "2026-04-01T18:34:25Z",
   "published": "2025-04-01T15:31:45Z",
   "aliases": [
     "CVE-2025-31904"
