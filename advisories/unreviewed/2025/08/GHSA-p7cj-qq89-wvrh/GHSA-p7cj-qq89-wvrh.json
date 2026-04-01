@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p7cj-qq89-wvrh",
-  "modified": "2025-08-20T09:30:39Z",
+  "modified": "2026-04-01T18:35:54Z",
   "published": "2025-08-20T09:30:39Z",
   "aliases": [
     "CVE-2025-49420"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49420"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/ultra-portfolio/vulnerability/wordpress-ultra-portfolio-wordpress-plugin-6-7-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c4x-pv56-m2xm",
-  "modified": "2025-08-28T15:30:42Z",
+  "modified": "2026-04-01T18:36:01Z",
   "published": "2025-08-28T15:30:42Z",
   "aliases": [
     "CVE-2025-54733"

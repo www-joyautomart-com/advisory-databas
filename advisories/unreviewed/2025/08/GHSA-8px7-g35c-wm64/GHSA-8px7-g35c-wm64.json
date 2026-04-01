@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8px7-g35c-wm64",
-  "modified": "2025-08-27T18:31:55Z",
+  "modified": "2026-04-01T18:35:58Z",
   "published": "2025-08-27T18:31:55Z",
   "aliases": [
     "CVE-2025-58213"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xrfx-hx2g-wgv7",
-  "modified": "2025-08-14T21:31:58Z",
+  "modified": "2026-04-01T18:35:51Z",
   "published": "2025-08-14T21:31:58Z",
   "aliases": [
     "CVE-2025-53341"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-53341"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/stratusx/vulnerability/wordpress-stratus-theme-theme-4-2-5-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

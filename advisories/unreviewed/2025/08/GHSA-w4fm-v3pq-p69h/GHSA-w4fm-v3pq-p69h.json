@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w4fm-v3pq-p69h",
-  "modified": "2025-08-20T09:30:40Z",
+  "modified": "2026-04-01T18:35:54Z",
   "published": "2025-08-20T09:30:40Z",
   "aliases": [
     "CVE-2025-49426"
@@ -21,12 +21,17 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/kitring/vulnerability/wordpress-kitring-theme-2-8-local-file-inclusion-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/plugin/cookie-warning/vulnerability/wordpress-cookie-warning-plugin-1-3-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-352"
+      "CWE-352",
+      "CWE-98"
     ],
     "severity": "MODERATE",
     "github_reviewed": false,

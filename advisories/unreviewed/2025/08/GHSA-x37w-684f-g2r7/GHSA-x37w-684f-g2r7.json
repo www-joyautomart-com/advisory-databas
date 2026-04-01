@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x37w-684f-g2r7",
-  "modified": "2025-08-20T09:30:39Z",
+  "modified": "2026-04-01T18:35:54Z",
   "published": "2025-08-20T09:30:39Z",
   "aliases": [
     "CVE-2025-49413"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49413"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/superstorefinder-wp/vulnerability/wordpress-super-store-finder-plugin-7-6-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

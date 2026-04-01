@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fp3p-pvfr-vqww",
-  "modified": "2025-08-21T15:30:35Z",
+  "modified": "2026-04-01T18:35:57Z",
   "published": "2025-08-21T15:30:35Z",
   "aliases": [
     "CVE-2025-53251"
