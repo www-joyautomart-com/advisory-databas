@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qjm-g6jp-3fc3",
-  "modified": "2024-11-17T00:30:41Z",
+  "modified": "2026-04-01T18:32:25Z",
   "published": "2024-11-17T00:30:41Z",
   "aliases": [
     "CVE-2024-52397"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52397"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/convert-docx2post/vulnerability/wordpress-convert-docx2post-plugin-1-4-arbitrary-file-upload-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

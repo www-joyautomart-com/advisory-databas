@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gfc-3f49-cfq7",
-  "modified": "2024-11-19T00:32:45Z",
+  "modified": "2026-04-01T18:32:26Z",
   "published": "2024-11-19T00:32:44Z",
   "aliases": [
     "CVE-2024-51940"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51940"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/my-wp-responsive-video/vulnerability/wordpress-wp-responsive-video-plugin-1-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

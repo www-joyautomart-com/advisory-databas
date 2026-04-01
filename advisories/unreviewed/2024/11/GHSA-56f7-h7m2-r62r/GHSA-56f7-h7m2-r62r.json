@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-56f7-h7m2-r62r",
-  "modified": "2024-11-19T18:31:01Z",
+  "modified": "2026-04-01T18:32:28Z",
   "published": "2024-11-19T18:31:01Z",
   "aliases": [
     "CVE-2024-51631"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-51631"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/sticky-social-bar/vulnerability/wordpress-sticky-social-bar-plugin-2-0-csrf-to-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

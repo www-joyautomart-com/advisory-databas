@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8mmw-w2v8-xq87",
-  "modified": "2025-01-02T15:31:57Z",
+  "modified": "2026-04-01T18:33:01Z",
   "published": "2025-01-02T15:31:57Z",
   "aliases": [
     "CVE-2024-56257"

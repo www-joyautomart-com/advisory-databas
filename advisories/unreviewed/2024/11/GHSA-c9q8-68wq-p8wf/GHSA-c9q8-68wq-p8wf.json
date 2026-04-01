@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9q8-68wq-p8wf",
-  "modified": "2024-11-19T18:31:01Z",
+  "modified": "2026-04-01T18:32:27Z",
   "published": "2024-11-19T18:31:01Z",
   "aliases": [
     "CVE-2024-50521"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/alley-elementor-widget/vulnerability/wordpress-alley-elementor-widget-plugin-1-0-7-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

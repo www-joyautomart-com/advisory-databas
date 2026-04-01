@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q96x-v8cx-4pmm",
-  "modified": "2024-12-06T15:31:21Z",
+  "modified": "2026-04-01T18:32:41Z",
   "published": "2024-12-06T15:31:21Z",
   "aliases": [
     "CVE-2024-54211"

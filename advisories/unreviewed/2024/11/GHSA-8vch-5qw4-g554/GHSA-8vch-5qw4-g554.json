@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vch-5qw4-g554",
-  "modified": "2024-11-18T18:30:58Z",
+  "modified": "2026-04-01T18:32:26Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-52424"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52424"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wp-login-customizer/vulnerability/wordpress-wp-login-customizer-plugin-1-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh3g-4c3h-9xq5",
-  "modified": "2024-11-19T18:31:01Z",
+  "modified": "2026-04-01T18:32:27Z",
   "published": "2024-11-19T18:31:01Z",
   "aliases": [
     "CVE-2024-50538"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50538"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/show-visitor-ip-address/vulnerability/wordpress-show-visitor-ip-address-plugin-0-2-stored-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

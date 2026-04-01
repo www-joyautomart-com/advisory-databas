@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pph7-qgw4-5mjg",
-  "modified": "2024-12-31T15:30:45Z",
+  "modified": "2026-04-01T18:32:54Z",
   "published": "2024-12-31T15:30:45Z",
   "aliases": [
     "CVE-2024-56042"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56042"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wplms_plugin/vulnerability/wordpress-wplms-plugin-1-9-9-5-3-unauthenticated-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jm35-qh64-mx86",
-  "modified": "2024-11-18T15:33:21Z",
+  "modified": "2026-04-01T18:32:25Z",
   "published": "2024-11-18T15:33:21Z",
   "aliases": [
     "CVE-2024-52432"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52432"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/nix-anti-spam-light/vulnerability/wordpress-nix-anti-spam-light-plugin-0-0-4-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

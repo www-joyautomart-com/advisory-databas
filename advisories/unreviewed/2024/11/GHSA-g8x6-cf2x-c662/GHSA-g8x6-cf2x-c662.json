@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g8x6-cf2x-c662",
-  "modified": "2024-11-18T18:30:58Z",
+  "modified": "2026-04-01T18:32:26Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-52419"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52419"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/copy-the-code/vulnerability/wordpress-copy-anything-to-clipboard-plugin-4-0-3-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

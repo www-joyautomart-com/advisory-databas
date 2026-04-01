@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v47w-rw59-8jc5",
-  "modified": "2024-11-18T18:30:58Z",
+  "modified": "2026-04-01T18:32:26Z",
   "published": "2024-11-18T18:30:58Z",
   "aliases": [
     "CVE-2024-52426"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/linear/vulnerability/wordpress-linear-plugin-2-7-11-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

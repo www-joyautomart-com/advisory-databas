@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxjw-49fg-j678",
-  "modified": "2024-12-18T21:30:55Z",
+  "modified": "2026-04-01T18:32:52Z",
   "published": "2024-12-18T21:30:55Z",
   "aliases": [
     "CVE-2024-56057"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-56057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wplms_plugin/vulnerability/wordpress-wplms-plugin-1-9-9-5-2-arbitrary-file-upload-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

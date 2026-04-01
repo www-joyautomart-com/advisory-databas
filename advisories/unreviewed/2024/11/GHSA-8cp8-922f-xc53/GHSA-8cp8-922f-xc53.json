@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cp8-922f-xc53",
-  "modified": "2024-11-19T18:31:05Z",
+  "modified": "2026-04-01T18:32:34Z",
   "published": "2024-11-19T18:31:05Z",
   "aliases": [
     "CVE-2024-52395"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52395"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/shop-assistant-for-woocommerce-jarvis/vulnerability/wordpress-floating-buttons-for-woocommerce-plugin-2-8-8-broken-access-control-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

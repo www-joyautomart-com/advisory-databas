@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c2hm-g5g7-h823",
-  "modified": "2024-11-19T18:31:01Z",
+  "modified": "2026-04-01T18:32:28Z",
   "published": "2024-11-19T18:31:01Z",
   "aliases": [
     "CVE-2024-50547"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-50547"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/themedy-toolbox/vulnerability/wordpress-themedy-toolbox-plugin-1-0-16-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v86f-5fjh-2hqj",
-  "modified": "2024-11-20T12:30:36Z",
+  "modified": "2026-04-01T18:32:34Z",
   "published": "2024-11-20T12:30:36Z",
   "aliases": [
     "CVE-2024-52447"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-52447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/contact-page-with-google-map/vulnerability/wordpress-contact-page-with-google-map-plugin-1-6-1-arbitrary-file-deletion-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",
