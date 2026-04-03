@@ -16,7 +16,7 @@ jobs:
   ensure-base-is-staging:
     runs-on: ubuntu-latest
     steps:
-     - uses: actions/checkout@v2
+     - uses: actions/checkout@v4
      - name: ensure base is staging
        env:
          PR_AUTHOR: ${{ github.event.pull_request.user.login }}
