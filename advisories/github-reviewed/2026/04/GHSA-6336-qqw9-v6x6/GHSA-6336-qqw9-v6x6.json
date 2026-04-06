@@ -1,11 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6336-qqw9-v6x6",
-  "modified": "2026-04-03T03:26:51Z",
+  "modified": "2026-04-06T23:06:22Z",
   "published": "2026-04-03T03:26:51Z",
   "aliases": [],
   "summary": "OpenClaw: Discord Component Interaction Misclassifies Group DM as Direct Message",
-  "details": "## Summary\nDiscord Component Interaction Misclassifies Group DM as Direct Message\n\n## Current Maintainer Triage\n- Status: narrow\n- Assessment: Real on shipped v2026.3.24 component-interaction routing/auth in extensions/discord/src/monitor/agent-components-helpers.ts, but impact is limited to Group DM policy or session misclassification.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `8c83128fc38d5a3642b8ccbea58550755fdbbbaf` — 2026-03-30T11:17:53-06:00\n\nOpenClaw thanks @nexrin for reporting.",
+  "details": "## Summary\nDiscord Component Interaction Misclassifies Group DM as Direct Message\n\n## Current Maintainer Triage\n- Status: narrow\n- Normalized severity: low\n- Assessment: Real on shipped v2026.3.24 component-interaction routing/auth in extensions/discord/src/monitor/agent-components-helpers.ts, but impact is limited to Group DM policy or session misclassification.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `8c83128fc38d5a3642b8ccbea58550755fdbbbaf` — 2026-03-30T11:17:53-06:00\n\n## Release Process Note\n- The fix is already present in released version `2026.3.31`.\n- This draft looks ready for final maintainer disposition or publication, not additional code-fix work.\n\nThanks @nexrin for reporting.",
   "severity": [
     {
       "type": "CVSS_V4",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7429-hxcv-268m",
-  "modified": "2026-04-01T20:25:49Z",
+  "modified": "2026-04-06T23:06:38Z",
   "published": "2026-04-01T20:25:49Z",
   "aliases": [
     "CVE-2026-34222"
@@ -51,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/open-webui/open-webui/releases/tag/v0.8.11"
+    },
+    {
+      "type": "WEB",
+      "url": "http://seclists.org/fulldisclosure/2026/Apr/4"
     }
   ],
   "database_specific": {
