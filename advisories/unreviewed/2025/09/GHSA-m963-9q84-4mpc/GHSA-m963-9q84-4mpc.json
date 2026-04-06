@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m963-9q84-4mpc",
-  "modified": "2025-09-08T18:31:30Z",
+  "modified": "2026-04-06T15:31:21Z",
   "published": "2025-09-03T15:30:34Z",
   "aliases": [
     "CVE-2025-57147"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://doc.clickup.com/3897127/p/h/3pxt7-12556/5435bb675762866"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hptcybersecurity/CVE/blob/main/CVE-2025-57147.md"
     }
   ],
   "database_specific": {
