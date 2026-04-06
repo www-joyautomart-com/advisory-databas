@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qcmw-8mm4-4p28",
-  "modified": "2026-04-03T04:02:47Z",
+  "modified": "2026-04-06T23:40:30Z",
   "published": "2026-04-03T04:02:47Z",
   "aliases": [
     "CVE-2026-34992"
@@ -79,6 +79,10 @@
       "url": "https://github.com/antrea-io/antrea/security/advisories/GHSA-qcmw-8mm4-4p28"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34992"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/antrea-io/antrea/pull/7757"
     },
@@ -106,6 +110,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-03T04:02:47Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-06T17:17:12Z"
   }
 }

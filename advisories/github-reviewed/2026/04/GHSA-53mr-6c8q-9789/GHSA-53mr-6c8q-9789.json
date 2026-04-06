@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53mr-6c8q-9789",
-  "modified": "2026-04-03T21:59:31Z",
+  "modified": "2026-04-06T23:40:36Z",
   "published": "2026-04-03T21:59:31Z",
   "aliases": [
     "CVE-2026-35029"
@@ -41,6 +41,10 @@
       "url": "https://github.com/BerriAI/litellm/security/advisories/GHSA-53mr-6c8q-9789"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35029"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/BerriAI/litellm"
     }
@@ -52,6 +56,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-03T21:59:31Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-06T17:17:12Z"
   }
 }
