@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx93-g359-86wm",
-  "modified": "2026-04-07T22:12:43Z",
+  "modified": "2026-04-07T22:14:15Z",
   "published": "2026-03-12T12:30:29Z",
   "aliases": [
     "CVE-2026-3060"
@@ -28,11 +28,14 @@
               "introduced": "0"
             },
             {
-              "last_affected": "0.5.9"
+              "fixed": "0.5.10"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 0.5.9"
+      }
     }
   ],
   "references": [
