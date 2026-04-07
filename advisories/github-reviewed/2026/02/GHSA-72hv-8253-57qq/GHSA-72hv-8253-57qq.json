@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-72hv-8253-57qq",
-  "modified": "2026-03-27T14:26:32Z",
+  "modified": "2026-04-07T16:30:17Z",
   "published": "2026-02-28T02:01:05Z",
   "aliases": [],
   "summary": "jackson-core: Number Length Constraint Bypass in Async Parser Leads to Potential DoS Condition",
@@ -42,47 +42,6 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "2.0.0"
-            },
-            {
-              "fixed": "2.18.6"
-            }
-          ]
-        }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 2.18.5"
-      }
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "com.fasterxml.jackson.core:jackson-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "2.19.0"
-            },
-            {
-              "fixed": "2.21.1"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "tools.jackson.core:jackson-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
               "introduced": "2.19.0"
             },
             {
@@ -96,25 +55,6 @@
       "package": {
         "ecosystem": "Maven",
         "name": "com.fasterxml.jackson.core:jackson-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "3.0.0"
-            },
-            {
-              "fixed": "3.1.0"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "tools.jackson.core:jackson-core"
       },
       "ranges": [
         {
