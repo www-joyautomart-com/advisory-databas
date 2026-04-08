@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf45-qjm9-j9p9",
-  "modified": "2025-10-03T12:33:15Z",
+  "modified": "2026-04-08T18:33:56Z",
   "published": "2025-10-03T12:33:15Z",
   "aliases": [
     "CVE-2025-10306"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10306"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3373151%40backup-bolt&new=3373151%40backup-bolt&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

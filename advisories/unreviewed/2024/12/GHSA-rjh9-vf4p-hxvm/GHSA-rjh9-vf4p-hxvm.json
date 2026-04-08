@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjh9-vf4p-hxvm",
-  "modified": "2024-12-07T03:30:36Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-12-07T03:30:36Z",
   "aliases": [
     "CVE-2024-11329"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/comfino-payment-gateway/tags/4.1.0/views/admin/configuration.php#L39"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3205417/comfino-payment-gateway/trunk/views/admin/configuration.php"
     },
     {
       "type": "WEB",

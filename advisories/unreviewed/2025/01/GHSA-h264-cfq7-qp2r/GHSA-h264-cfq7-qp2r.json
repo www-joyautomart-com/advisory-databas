@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h264-cfq7-qp2r",
-  "modified": "2025-01-31T21:32:45Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-21T12:30:46Z",
   "aliases": [
     "CVE-2024-12104"

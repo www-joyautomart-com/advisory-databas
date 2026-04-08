@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrmh-fqvc-qc97",
-  "modified": "2024-11-13T03:30:47Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-11-13T03:30:47Z",
   "aliases": [
     "CVE-2024-9614"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/constant-contact-forms-by-mailmunch/trunk/admin/partials/constantcontact-mailmunch-integrate.php#L48"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3189368%40constant-contact-forms-by-mailmunch%2Ftrunk&old=3064563%40constant-contact-forms-by-mailmunch%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

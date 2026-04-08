@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rmw6-p597-whpc",
-  "modified": "2025-12-12T06:31:12Z",
+  "modified": "2026-04-08T18:34:00Z",
   "published": "2025-12-12T06:31:12Z",
   "aliases": [
     "CVE-2025-13440"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/premmerce-woocommerce-wishlist/trunk/src/Admin/Admin.php#L334"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3426971"
     },
     {
       "type": "WEB",

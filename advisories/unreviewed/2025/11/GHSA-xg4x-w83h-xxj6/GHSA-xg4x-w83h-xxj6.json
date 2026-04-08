@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xg4x-w83h-xxj6",
-  "modified": "2025-11-21T09:30:28Z",
+  "modified": "2026-04-08T18:33:58Z",
   "published": "2025-11-21T09:30:28Z",
   "aliases": [
     "CVE-2025-11973"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-11973"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/gallery-photo-gallery/trunk/includes/lists/class-gallery-photo-gallery-list-table.php#L1060"
     },
     {
       "type": "WEB",

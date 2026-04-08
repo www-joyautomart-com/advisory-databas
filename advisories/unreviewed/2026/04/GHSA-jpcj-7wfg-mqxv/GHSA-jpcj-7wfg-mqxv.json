@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-jpcj-7wfg-mqxv",
+  "modified": "2026-04-08T18:34:06Z",
+  "published": "2026-04-08T18:34:06Z",
+  "aliases": [
+    "CVE-2026-31040"
+  ],
+  "details": "A vulnerability was identified in stata-mcp prior to v1.13.0 where insufficient validation of user-supplied Stata do-file content can lead to command execution.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-31040"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SepineTam/stata-mcp/issues/20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SepineTam/stata-mcp/pull/21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SepineTam/stata-mcp/commit/52413ce"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/SepineTam/stata-mcp/releases/tag/v1.13.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-08T16:16:22Z"
+  }
+}

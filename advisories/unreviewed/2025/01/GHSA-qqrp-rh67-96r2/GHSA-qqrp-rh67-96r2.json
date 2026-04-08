@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qqrp-rh67-96r2",
-  "modified": "2025-01-30T18:32:06Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-28T09:32:33Z",
   "aliases": [
     "CVE-2024-13509"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv2r-xmgw-w3fm",
-  "modified": "2025-05-01T09:32:27Z",
+  "modified": "2026-04-08T18:33:52Z",
   "published": "2025-05-01T09:32:27Z",
   "aliases": [
     "CVE-2025-3521"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-3521"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3286466%40wps-team&new=3286466%40wps-team&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

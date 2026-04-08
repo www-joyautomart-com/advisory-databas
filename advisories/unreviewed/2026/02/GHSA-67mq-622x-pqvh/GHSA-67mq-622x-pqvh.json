@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67mq-622x-pqvh",
-  "modified": "2026-02-04T09:30:28Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-02-04T09:30:28Z",
   "aliases": [
     "CVE-2025-14461"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/woo-xendit-virtual-accounts/trunk/woocommerce-xendit-pg.php#L252"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3457724"
     },
     {
       "type": "WEB",

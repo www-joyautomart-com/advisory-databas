@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c7vr-vpm2-822g",
-  "modified": "2025-02-19T09:33:29Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-19T09:33:29Z",
   "aliases": [
     "CVE-2024-13719"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13719"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3244844%40pepro-ultimate-invoice&new=3244844%40pepro-ultimate-invoice&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

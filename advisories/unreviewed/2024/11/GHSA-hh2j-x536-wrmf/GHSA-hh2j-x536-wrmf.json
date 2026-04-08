@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hh2j-x536-wrmf",
-  "modified": "2024-11-27T09:40:23Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-11-27T09:40:23Z",
   "aliases": [
     "CVE-2024-10895"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-counter-up/trunk/public/class-wp-counter-up-public.php#L318"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3235022%40wp-counter-up&new=3235022%40wp-counter-up&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

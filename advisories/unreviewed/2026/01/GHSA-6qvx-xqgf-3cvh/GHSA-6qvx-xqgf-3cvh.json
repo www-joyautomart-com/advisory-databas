@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6qvx-xqgf-3cvh",
-  "modified": "2026-01-07T12:31:20Z",
+  "modified": "2026-04-08T18:34:01Z",
   "published": "2026-01-07T12:31:20Z",
   "aliases": [
     "CVE-2025-13418"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-13418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3435445%40dk-pricr-responsive-pricing-table&new=3435445%40dk-pricr-responsive-pricing-table&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

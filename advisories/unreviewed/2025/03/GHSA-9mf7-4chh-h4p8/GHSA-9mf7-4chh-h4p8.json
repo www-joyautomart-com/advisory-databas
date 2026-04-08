@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9mf7-4chh-h4p8",
-  "modified": "2025-03-22T09:30:32Z",
+  "modified": "2026-04-08T18:33:51Z",
   "published": "2025-03-22T09:30:32Z",
   "aliases": [
     "CVE-2025-2303"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/block-logic/tags/1.0.8/block-logic.php#L127"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3430763"
     },
     {
       "type": "WEB",

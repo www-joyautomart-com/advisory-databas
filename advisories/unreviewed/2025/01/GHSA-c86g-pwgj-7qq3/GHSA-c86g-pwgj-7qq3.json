@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c86g-pwgj-7qq3",
-  "modified": "2025-01-08T09:30:38Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-08T09:30:38Z",
   "aliases": [
     "CVE-2024-11613"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://abrahack.com/posts/wp-file-upload-rce-part2"
     },
     {
       "type": "WEB",

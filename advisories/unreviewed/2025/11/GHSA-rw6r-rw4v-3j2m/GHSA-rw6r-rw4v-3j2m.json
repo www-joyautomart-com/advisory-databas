@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rw6r-rw4v-3j2m",
-  "modified": "2025-11-04T06:31:11Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-11-04T06:31:11Z",
   "aliases": [
     "CVE-2025-10896"
@@ -34,6 +34,18 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3384308%40image-hover-effects-elementor-addon&new=3384308%40image-hover-effects-elementor-addon"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3389322%40image-comparison-elementor-addon&new=3389322%40image-comparison-elementor-addon"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3389341%40content-locker-for-elementor&new=3389341%40content-locker-for-elementor&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3390374%40ultimate-blocks-for-gutenberg&new=3390374%40ultimate-blocks-for-gutenberg&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

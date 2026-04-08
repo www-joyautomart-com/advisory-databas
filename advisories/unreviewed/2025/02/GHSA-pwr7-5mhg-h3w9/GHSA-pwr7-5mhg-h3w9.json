@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwr7-5mhg-h3w9",
-  "modified": "2025-02-19T09:33:28Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-19T09:33:28Z",
   "aliases": [
     "CVE-2024-13462"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-wiki-tooltip/trunk/class.wp-wiki-tooltip.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3338331%40wp-wiki-tooltip&new=3338331%40wp-wiki-tooltip&sfp_email=&sfph_mail=#file85"
     },
     {
       "type": "WEB",

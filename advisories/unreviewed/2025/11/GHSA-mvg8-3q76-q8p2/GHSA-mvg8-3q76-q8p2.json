@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mvg8-3q76-q8p2",
-  "modified": "2025-11-25T09:31:24Z",
+  "modified": "2026-04-08T18:33:58Z",
   "published": "2025-11-25T09:31:24Z",
   "aliases": [
     "CVE-2025-12525"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12525"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3400155%40locker-content&new=3400155%40locker-content"
     },
     {
       "type": "WEB",

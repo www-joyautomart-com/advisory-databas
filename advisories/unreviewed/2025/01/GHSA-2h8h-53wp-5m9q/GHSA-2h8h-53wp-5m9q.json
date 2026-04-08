@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2h8h-53wp-5m9q",
-  "modified": "2025-01-30T15:31:39Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-01-30T15:31:39Z",
   "aliases": [
     "CVE-2024-13652"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-13652"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3235861%40ecpay-ecommerce-for-woocommerce&new=3235861%40ecpay-ecommerce-for-woocommerce&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

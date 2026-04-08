@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8x6-88rf-9hhp",
-  "modified": "2024-10-01T09:30:51Z",
+  "modified": "2026-04-08T18:33:38Z",
   "published": "2024-10-01T09:30:50Z",
   "aliases": [
     "CVE-2024-9224"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/hello-world/tags/2.1.1/hello-world.php#L35"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3161773"
     },
     {
       "type": "WEB",

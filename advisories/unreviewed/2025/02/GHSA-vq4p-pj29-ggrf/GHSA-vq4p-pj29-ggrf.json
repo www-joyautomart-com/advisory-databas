@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq4p-pj29-ggrf",
-  "modified": "2025-02-25T18:31:23Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-21T06:31:09Z",
   "aliases": [
     "CVE-2024-13818"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/pie-register/trunk/classes/base_variables.php#L68"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3255985%40pie-register%2Ftrunk&old=3246810%40pie-register%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv27-6w65-7294",
-  "modified": "2025-10-03T12:33:15Z",
+  "modified": "2026-04-08T18:33:56Z",
   "published": "2025-10-03T12:33:15Z",
   "aliases": [
     "CVE-2025-9045"
@@ -38,6 +38,14 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/easy-elementor-addons/tags/2.2.8/modules/image-comparison/widgets/image-comparison.php#L377"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/easy-elementor-addons/tags/2.3.0/modules/countdown/widgets/countdown.php#L871"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/easy-elementor-addons/tags/2.3.0/modules/image-comparison/widgets/image-comparison.php#L376"
     },
     {
       "type": "WEB",

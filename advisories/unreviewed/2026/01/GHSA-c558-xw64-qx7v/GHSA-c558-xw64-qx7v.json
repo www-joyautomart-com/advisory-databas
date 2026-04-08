@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c558-xw64-qx7v",
-  "modified": "2026-01-09T09:31:19Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-09T09:31:19Z",
   "aliases": [
     "CVE-2025-13753"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3432381/wp-table-builder"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-13753"
     },
     {
       "type": "WEB",

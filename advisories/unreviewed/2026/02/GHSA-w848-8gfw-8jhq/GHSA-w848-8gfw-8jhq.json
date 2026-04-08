@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w848-8gfw-8jhq",
-  "modified": "2026-02-11T09:30:18Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-02-11T09:30:18Z",
   "aliases": [
     "CVE-2026-1748"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/kirilkirkov-pdf-invoice-manager/tags/1.6/KirilKirkovWpInvoices.php#L626"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/kirilkirkov-pdf-invoice-manager/tags/1.7/KirilKirkovWpInvoices.php#L565"
     },
     {
       "type": "WEB",

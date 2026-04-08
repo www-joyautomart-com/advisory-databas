@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmmp-7v9c-pv73",
-  "modified": "2025-01-07T06:32:16Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-07T06:32:16Z",
   "aliases": [
     "CVE-2024-12464"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/chatroll-live-chat/tags/2.5.0/chatroll.php#L62"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3218569%40chatroll-live-chat&new=3218569%40chatroll-live-chat&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

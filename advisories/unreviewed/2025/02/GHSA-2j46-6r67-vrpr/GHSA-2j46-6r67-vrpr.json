@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j46-6r67-vrpr",
-  "modified": "2025-02-24T18:32:39Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-02-18T06:35:38Z",
   "aliases": [
     "CVE-2024-13573"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/zigaform-form-builder-lite/trunk/modules/formbuilder/controllers/uiform-fb-controller-frontend.php#L366"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3241537"
     },
     {
       "type": "WEB",

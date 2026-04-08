@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cmcq-cg44-p684",
-  "modified": "2025-10-15T09:30:17Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-10045"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.svn.wordpress.org/onoffice-for-wp-websites/tags/5.7/plugin/Record/RecordManagerReadListViewEstate.php#97"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3447130/onoffice-for-wp-websites/trunk/plugin/Record/RecordManagerReadListViewEstate.php"
     },
     {
       "type": "WEB",

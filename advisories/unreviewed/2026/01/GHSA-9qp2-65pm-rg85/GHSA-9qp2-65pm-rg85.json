@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9qp2-65pm-rg85",
-  "modified": "2026-01-14T06:30:24Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-14T06:30:24Z",
   "aliases": [
     "CVE-2026-0717"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/lottiefiles/tags/3.0.0/src/common.php?marks=21,122#L21"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3442469"
     },
     {
       "type": "WEB",

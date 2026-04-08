@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xpc7-5596-67rq",
-  "modified": "2024-11-15T06:30:33Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-11-15T06:30:33Z",
   "aliases": [
     "CVE-2024-9356"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/yotpo-social-reviews-for-woocommerce/trunk/lib/utils/wc-yotpo-settings-functions.php#L100"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3188756%40yotpo-social-reviews-for-woocommerce&new=3188756%40yotpo-social-reviews-for-woocommerce&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

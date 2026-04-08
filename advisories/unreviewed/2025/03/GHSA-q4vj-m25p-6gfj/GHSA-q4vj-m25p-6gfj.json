@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q4vj-m25p-6gfj",
-  "modified": "2025-03-12T06:32:42Z",
+  "modified": "2026-04-08T18:33:51Z",
   "published": "2025-03-12T06:32:41Z",
   "aliases": [
     "CVE-2025-1508"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1508"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3284694%40wp-crowdfunding&new=3284694%40wp-crowdfunding&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

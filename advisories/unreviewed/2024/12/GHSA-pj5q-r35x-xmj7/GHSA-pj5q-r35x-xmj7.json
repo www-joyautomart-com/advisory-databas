@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pj5q-r35x-xmj7",
-  "modified": "2024-12-06T09:30:48Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-12-06T09:30:48Z",
   "aliases": [
     "CVE-2024-12027"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12027"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3203387/cf7-message-filter/trunk?contextall=1&old=3160303&old_path=%2Fcf7-message-filter%2Ftrunk"
     },
     {
       "type": "WEB",

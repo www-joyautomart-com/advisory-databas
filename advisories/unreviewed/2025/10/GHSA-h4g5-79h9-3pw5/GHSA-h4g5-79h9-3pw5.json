@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4g5-79h9-3pw5",
-  "modified": "2025-10-11T12:31:00Z",
+  "modified": "2026-04-08T18:33:56Z",
   "published": "2025-10-11T12:30:59Z",
   "aliases": [
     "CVE-2025-9950"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/error-log-viewer/tags/1.1.6/error-log-viewer.php#L118"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3378018%40error-log-viewer&new=3378018%40error-log-viewer&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

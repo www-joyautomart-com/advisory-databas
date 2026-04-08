@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr43-cjjm-wc29",
-  "modified": "2024-12-14T06:30:47Z",
+  "modified": "2026-04-08T18:33:45Z",
   "published": "2024-12-14T06:30:47Z",
   "aliases": [
     "CVE-2024-11763"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/plezi/trunk/includes/plz-admin.php#L590"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3209502/plezi/trunk/includes/plz-admin.php"
     },
     {
       "type": "WEB",

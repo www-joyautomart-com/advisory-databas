@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mr5r-968f-9m2f",
-  "modified": "2024-10-01T09:30:48Z",
+  "modified": "2026-04-08T18:33:38Z",
   "published": "2024-10-01T09:30:48Z",
   "aliases": [
     "CVE-2024-8632"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/kb-support/trunk/includes/ajax-functions.php#L439"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3164784%40kb-support&new=3164784%40kb-support&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

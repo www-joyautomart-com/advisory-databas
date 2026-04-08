@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rgjg-5fjw-rm4x",
-  "modified": "2025-12-05T06:31:30Z",
+  "modified": "2026-04-08T18:34:00Z",
   "published": "2025-12-05T06:31:30Z",
   "aliases": [
     "CVE-2025-12181"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-12181"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3412182"
     },
     {
       "type": "WEB",

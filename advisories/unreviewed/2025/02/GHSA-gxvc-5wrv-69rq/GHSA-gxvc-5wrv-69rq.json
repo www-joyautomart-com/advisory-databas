@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxvc-5wrv-69rq",
-  "modified": "2025-02-21T06:31:09Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-21T06:31:09Z",
   "aliases": [
     "CVE-2024-13883"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wpupper-share-buttons/trunk/Controller/ajax.controller.php#L94"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3262537"
     },
     {
       "type": "WEB",

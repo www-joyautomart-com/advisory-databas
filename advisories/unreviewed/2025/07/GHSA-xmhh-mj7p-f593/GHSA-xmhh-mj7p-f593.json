@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmhh-mj7p-f593",
-  "modified": "2025-07-18T06:30:25Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-07-18T06:30:25Z",
   "aliases": [
     "CVE-2025-6726"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6726"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3331844%40block-editor-gallery-slider&new=3331844%40block-editor-gallery-slider&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

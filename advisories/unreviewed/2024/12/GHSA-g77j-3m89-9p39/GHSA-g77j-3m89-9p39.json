@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g77j-3m89-9p39",
-  "modified": "2024-12-14T06:30:47Z",
+  "modified": "2026-04-08T18:33:45Z",
   "published": "2024-12-14T06:30:47Z",
   "aliases": [
     "CVE-2024-11755"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11755"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/ims-countdown/tags/1.3.6"
     },
     {
       "type": "WEB",

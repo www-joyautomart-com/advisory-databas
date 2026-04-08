@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r8vj-prm7-x99g",
-  "modified": "2026-02-04T09:30:28Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-02-04T09:30:28Z",
   "aliases": [
     "CVE-2026-0679"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/fortis-for-woocommerce/trunk/classes/WC_Gateway_Fortis.php#L1674"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3457351%40fortis-for-woocommerce&new=3457351%40fortis-for-woocommerce&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q97c-vhwv-v5w3",
-  "modified": "2024-09-30T15:30:44Z",
+  "modified": "2026-04-08T18:33:36Z",
   "published": "2024-09-25T03:30:36Z",
   "aliases": [
     "CVE-2024-7426"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-7426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/peepso-core/tags/6.4.6.1/sse.php?rev=3157925"
     },
     {
       "type": "WEB",

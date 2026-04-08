@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4qq-jh44-2cwj",
-  "modified": "2025-11-11T06:30:21Z",
+  "modified": "2026-04-08T18:33:58Z",
   "published": "2025-11-11T06:30:21Z",
   "aliases": [
     "CVE-2025-12010"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/authors-list/tags/2.0.6.1/includes/class-authors-list-shortcode.php#L868"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/authors-list/tags/2.0.6.2/includes/class-authors-list-shortcode.php#L868"
     },
     {
       "type": "WEB",

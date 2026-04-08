@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g9j8-gqff-mm6g",
-  "modified": "2025-10-15T09:30:18Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-10-15T09:30:18Z",
   "aliases": [
     "CVE-2025-10186"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10186"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3378787%40wp-whydonate&new=3378787%40wp-whydonate&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

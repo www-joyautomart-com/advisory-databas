@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5f5v-w8rv-pmc5",
-  "modified": "2026-01-07T12:31:23Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-07T12:31:23Z",
   "aliases": [
     "CVE-2025-14875"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/hblpay-payment-gateway-for-woocommerce/trunk/hblpay-paymentgateway-woocommerce.php#L248"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3438316"
     },
     {
       "type": "WEB",

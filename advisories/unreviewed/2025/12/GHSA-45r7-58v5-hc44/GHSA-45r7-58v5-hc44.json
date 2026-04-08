@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45r7-58v5-hc44",
-  "modified": "2025-12-23T12:30:17Z",
+  "modified": "2026-04-08T18:34:01Z",
   "published": "2025-12-23T12:30:17Z",
   "aliases": [
     "CVE-2025-14163"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset/3416254"
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-14163"
     },
     {
       "type": "WEB",

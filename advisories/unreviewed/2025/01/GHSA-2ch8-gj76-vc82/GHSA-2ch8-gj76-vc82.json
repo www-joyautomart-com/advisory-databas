@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2ch8-gj76-vc82",
-  "modified": "2025-01-30T12:31:17Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-30T12:31:17Z",
   "aliases": [
     "CVE-2025-0861"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.svn.wordpress.org/vr-frases/tags/3.0.1/includes/vr-frases-admin.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3278561%40vr-frases&new=3278561%40vr-frases&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

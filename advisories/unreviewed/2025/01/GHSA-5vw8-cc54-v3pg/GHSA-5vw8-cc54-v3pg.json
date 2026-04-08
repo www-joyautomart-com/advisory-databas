@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5vw8-cc54-v3pg",
-  "modified": "2025-01-17T09:30:38Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-17T09:30:38Z",
   "aliases": [
     "CVE-2024-12637"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12637"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3223894%40moving-users&new=3223894%40moving-users&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

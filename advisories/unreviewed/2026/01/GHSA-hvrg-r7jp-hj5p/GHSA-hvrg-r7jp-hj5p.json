@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvrg-r7jp-hj5p",
-  "modified": "2026-01-07T12:31:22Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-07T12:31:22Z",
   "aliases": [
     "CVE-2025-14352"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/awesome-hotel-booking/trunk/admin/admin-shortcodes/inc/room-single.php#L67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3436372%40awesome-hotel-booking&new=3436372%40awesome-hotel-booking"
     },
     {
       "type": "WEB",

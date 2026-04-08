@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mqxf-vww6-rxww",
-  "modified": "2026-01-16T09:31:21Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-16T09:31:21Z",
   "aliases": [
     "CVE-2026-0942"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-422q-ppw8-q3f5",
-  "modified": "2024-11-13T03:30:45Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-11-13T03:30:45Z",
   "aliases": [
     "CVE-2024-10778"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10778"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3187364%40stax-buddy-builder%2Ftrunk&old=2935606%40stax-buddy-builder%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

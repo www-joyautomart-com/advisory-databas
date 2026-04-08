@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77x6-hmg8-vxg7",
-  "modified": "2024-08-20T06:31:36Z",
+  "modified": "2026-04-08T18:33:35Z",
   "published": "2024-08-20T06:31:36Z",
   "aliases": [
     "CVE-2022-1206"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/adrotate/trunk/adrotate-admin-manage.php#L418"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3138339"
     },
     {
       "type": "WEB",

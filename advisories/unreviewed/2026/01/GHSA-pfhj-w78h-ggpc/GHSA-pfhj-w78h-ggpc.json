@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfhj-w78h-ggpc",
-  "modified": "2026-01-07T12:31:20Z",
+  "modified": "2026-04-08T18:34:01Z",
   "published": "2026-01-07T12:31:20Z",
   "aliases": [
     "CVE-2025-13371"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/money-space/trunk/view/mspaylink.php#L232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3426909%40money-space&new=3426909%40money-space&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

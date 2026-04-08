@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58wj-vw74-v88m",
-  "modified": "2024-08-21T06:32:19Z",
+  "modified": "2026-04-08T18:33:35Z",
   "published": "2024-08-21T06:32:19Z",
   "aliases": [
     "CVE-2024-7647"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/ota-sync-booking-engine-widget/trunk/otasync-widget.php#L72"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3201696"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3196168%40ota-sync-booking-engine-widget&new=3196168%40ota-sync-booking-engine-widget&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x793-43gm-7459",
-  "modified": "2025-01-09T12:30:54Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-09T12:30:54Z",
   "aliases": [
     "CVE-2024-12285"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12285"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3219805%40sema-api&new=3219805%40sema-api&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pp2w-p8jr-3p8j",
-  "modified": "2025-01-09T15:31:51Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-09T12:30:55Z",
   "aliases": [
     "CVE-2024-12605"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/ai-scribe-the-chatgpt-powered-seo-content-creation-wizard/trunk/article_builder.php#L713"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3308461"
     },
     {
       "type": "WEB",

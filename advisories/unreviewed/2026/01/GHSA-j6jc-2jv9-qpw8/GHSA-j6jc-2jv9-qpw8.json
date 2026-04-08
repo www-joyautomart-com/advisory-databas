@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6jc-2jv9-qpw8",
-  "modified": "2026-01-14T06:30:24Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-14T06:30:24Z",
   "aliases": [
     "CVE-2025-15283"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/name-directory/tags/1.30.3/shortcode.php?marks=38,41,69#L38"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3438261"
     },
     {
       "type": "WEB",

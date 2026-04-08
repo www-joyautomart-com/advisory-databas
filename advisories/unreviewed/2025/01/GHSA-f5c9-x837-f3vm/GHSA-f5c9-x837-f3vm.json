@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5c9-x837-f3vm",
-  "modified": "2025-01-30T15:31:37Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-30T15:31:37Z",
   "aliases": [
     "CVE-2024-11583"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/borderless/tags/1.5.7/includes/icon-manager/icon-manager.php#L270"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3230461%40borderless%2Ftrunk&old=3209805%40borderless%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

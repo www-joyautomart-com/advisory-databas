@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc57-jf4p-c7fv",
-  "modified": "2026-01-07T12:31:20Z",
+  "modified": "2026-04-08T18:34:01Z",
   "published": "2026-01-07T12:31:20Z",
   "aliases": [
     "CVE-2025-13657"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/helpdesk-contact-form/trunk/includes/class-admin-page.php#L63"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3439463"
     },
     {
       "type": "WEB",

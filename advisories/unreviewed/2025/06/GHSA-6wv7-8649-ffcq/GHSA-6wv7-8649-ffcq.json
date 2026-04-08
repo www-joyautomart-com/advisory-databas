@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6wv7-8649-ffcq",
-  "modified": "2025-07-08T12:30:59Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-06-26T21:31:16Z",
   "aliases": [
     "CVE-2025-6537"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-6537"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/namasha-by-mdesign/tags/1.2.00/front/class-core.php?rev=3332973#L56"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/namasha-by-mdesign/tags/1.2.05/front/class-core.php?rev=3332973#L56"
     },
     {
       "type": "WEB",

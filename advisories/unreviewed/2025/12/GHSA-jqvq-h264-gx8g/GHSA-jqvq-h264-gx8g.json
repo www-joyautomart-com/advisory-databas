@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jqvq-h264-gx8g",
-  "modified": "2025-12-12T06:31:13Z",
+  "modified": "2026-04-08T18:34:01Z",
   "published": "2025-12-12T06:31:13Z",
   "aliases": [
     "CVE-2025-14032"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/bold-timeline-lite/trunk/assets/views/bold_timeline_group_view.php#L79"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3417223"
     },
     {
       "type": "WEB",

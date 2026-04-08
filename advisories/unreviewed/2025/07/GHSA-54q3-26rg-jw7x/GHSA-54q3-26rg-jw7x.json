@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-54q3-26rg-jw7x",
-  "modified": "2025-07-26T09:31:57Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-07-26T09:31:57Z",
   "aliases": [
     "CVE-2025-5529"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://themes.trac.wordpress.org/browser/educenter/1.6.2/blocks-extends/blocks/circle-counter.php#L46"
+    },
+    {
+      "type": "WEB",
+      "url": "https://themes.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=281245%40educenter&new=281245%40educenter&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

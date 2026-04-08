@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9j7c-jg35-gccj",
-  "modified": "2026-01-07T12:31:21Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-07T12:31:21Z",
   "aliases": [
     "CVE-2025-14112"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/snillrik-restaurant-menu/trunk/classes/shortcodes.php#L42"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3441599"
     },
     {
       "type": "WEB",

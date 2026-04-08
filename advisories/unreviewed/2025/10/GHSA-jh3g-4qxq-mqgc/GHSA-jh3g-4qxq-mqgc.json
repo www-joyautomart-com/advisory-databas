@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jh3g-4qxq-mqgc",
-  "modified": "2025-10-24T09:31:58Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-10-24T09:31:58Z",
   "aliases": [
     "CVE-2025-10748"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/rapidresult/tags/1.2/rapidresult.php#L112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3383652"
     },
     {
       "type": "WEB",

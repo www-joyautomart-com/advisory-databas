@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cjp8-fgpp-936r",
-  "modified": "2024-12-06T09:30:47Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-12-06T09:30:47Z",
   "aliases": [
     "CVE-2024-11292"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11292"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3207882%40wp-private-content-plus&new=3207882%40wp-private-content-plus&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

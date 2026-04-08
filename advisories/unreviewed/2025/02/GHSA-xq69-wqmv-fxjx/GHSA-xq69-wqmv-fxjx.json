@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xq69-wqmv-fxjx",
-  "modified": "2025-02-18T06:35:38Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-02-18T06:35:38Z",
   "aliases": [
     "CVE-2024-13576"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/gumlet-video/tags/1.0.3/gumlet-video.php#L112"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3241647"
     },
     {
       "type": "WEB",

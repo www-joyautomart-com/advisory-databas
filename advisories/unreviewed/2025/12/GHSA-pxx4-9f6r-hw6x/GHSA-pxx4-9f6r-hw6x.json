@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxx4-9f6r-hw6x",
-  "modified": "2025-12-06T06:30:16Z",
+  "modified": "2026-04-08T18:34:00Z",
   "published": "2025-12-06T06:30:16Z",
   "aliases": [
     "CVE-2025-12673"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/flex-qr-code-generator/trunk/qr-code-generator.php#L457"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3412218"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6q6c-9376-mgcq",
-  "modified": "2025-02-18T06:35:38Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-02-18T06:35:38Z",
   "aliases": [
     "CVE-2024-13588"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/simplebooklet/trunk/simplebooklet.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3241583%40simplebooklet&new=3241583%40simplebooklet&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

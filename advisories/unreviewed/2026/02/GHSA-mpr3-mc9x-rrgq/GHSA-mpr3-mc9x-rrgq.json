@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpr3-mc9x-rrgq",
-  "modified": "2026-02-11T18:31:29Z",
+  "modified": "2026-04-08T18:34:03Z",
   "published": "2026-02-11T18:31:29Z",
   "aliases": [
     "CVE-2025-13391"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://builderius.io/cpo"
+    },
+    {
+      "type": "WEB",
+      "url": "https://moomoo.agency/cpo"
     },
     {
       "type": "WEB",

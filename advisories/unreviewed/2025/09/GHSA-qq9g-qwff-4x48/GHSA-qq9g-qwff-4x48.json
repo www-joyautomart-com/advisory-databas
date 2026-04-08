@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qq9g-qwff-4x48",
-  "modified": "2025-09-11T09:31:44Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-09-11T09:31:44Z",
   "aliases": [
     "CVE-2025-8492"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/salon-booking-system/tags/10.20/src/SLN/Plugin.php#L232"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3360651/salon-booking-system/trunk/src/SLN/Action/Ajax/UploadFile.php"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f8wx-84f3-pjp7",
-  "modified": "2025-08-15T09:31:15Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-08-15T09:31:15Z",
   "aliases": [
     "CVE-2025-8091"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/eventon-lite/trunk/includes/class-evo-shortcodes.php#L81"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3345262"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j72w-qg22-3234",
-  "modified": "2025-02-21T06:31:08Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-21T06:31:08Z",
   "aliases": [
     "CVE-2024-13235"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/booking-system/trunk/includes/translation/class-backend-translation.php#L125"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3423689/booking-system/trunk/includes/translation/class-backend-translation.php"
     },
     {
       "type": "WEB",

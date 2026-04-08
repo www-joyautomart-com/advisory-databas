@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jr28-7r85-hhf6",
-  "modified": "2025-09-10T09:30:58Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-09-10T09:30:58Z",
   "aliases": [
     "CVE-2025-9979"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3357602%40contact-forms-anti-spam&new=3357602%40contact-forms-anti-spam&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://research.cleantalk.org/cve-2025-9879"
     },
     {
       "type": "WEB",

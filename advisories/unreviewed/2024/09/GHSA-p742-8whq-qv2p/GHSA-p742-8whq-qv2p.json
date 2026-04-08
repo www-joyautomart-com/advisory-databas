@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p742-8whq-qv2p",
-  "modified": "2024-09-13T15:31:36Z",
+  "modified": "2026-04-08T18:33:36Z",
   "published": "2024-09-13T15:31:36Z",
   "aliases": [
     "CVE-2024-8731"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/leira-cron-jobs/trunk/admin/class-leira-cron-jobs-admin.php#L147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3153665"
     },
     {
       "type": "WEB",

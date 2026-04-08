@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8fg7-5vqq-795m",
-  "modified": "2025-11-04T06:31:12Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-11-04T06:31:12Z",
   "aliases": [
     "CVE-2025-11758"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/aio-time-clock-lite/tags/2.0.1/aio-time-clock-lite-actions.php#L442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3388144"
     },
     {
       "type": "WEB",

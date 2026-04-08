@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-px29-mq7h-p287",
-  "modified": "2024-11-06T09:31:21Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-11-06T09:31:21Z",
   "aliases": [
     "CVE-2024-9307"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9307"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3195835%40mfolio-lite%2Ftrunk&old=2792814%40mfolio-lite%2Ftrunk"
     },
     {
       "type": "WEB",

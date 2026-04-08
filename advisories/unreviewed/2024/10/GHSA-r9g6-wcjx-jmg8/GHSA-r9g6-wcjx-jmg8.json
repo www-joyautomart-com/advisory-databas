@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r9g6-wcjx-jmg8",
-  "modified": "2024-10-01T09:30:50Z",
+  "modified": "2026-04-08T18:33:38Z",
   "published": "2024-10-01T09:30:50Z",
   "aliases": [
     "CVE-2024-8793"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/woocommerce-exporter/tags/2.7.2.1/includes/settings.php#L195"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3174726%40woocommerce-exporter&new=3174726%40woocommerce-exporter&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

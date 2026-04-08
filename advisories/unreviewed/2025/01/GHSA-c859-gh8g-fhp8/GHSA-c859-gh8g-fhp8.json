@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c859-gh8g-fhp8",
-  "modified": "2025-01-30T15:31:38Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-30T15:31:38Z",
   "aliases": [
     "CVE-2024-12269"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/safe-ai-malware-protection-for-wp/trunk/includes/class-mvsp-export-db.php#L7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3232957%40safe-ai-malware-protection-for-wp&new=3232957%40safe-ai-malware-protection-for-wp&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh74-fmpx-h5cx",
-  "modified": "2025-04-10T09:30:23Z",
+  "modified": "2026-04-08T18:33:52Z",
   "published": "2025-04-10T09:30:23Z",
   "aliases": [
     "CVE-2024-10894"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3210130%40payment-forms-for-paystack&new=3210130%40payment-forms-for-paystack&sfp_email=&sfph_mail=#file7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3279082%40payment-forms-for-paystack&new=3279082%40payment-forms-for-paystack&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

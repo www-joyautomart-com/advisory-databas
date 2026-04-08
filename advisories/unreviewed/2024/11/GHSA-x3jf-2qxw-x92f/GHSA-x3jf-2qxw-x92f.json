@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3jf-2qxw-x92f",
-  "modified": "2024-11-09T03:30:44Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-11-09T03:30:44Z",
   "aliases": [
     "CVE-2024-9270"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9270"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&new=3200988%40lenxel-core%2Ftrunk&old=3192957%40lenxel-core%2Ftrunk&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

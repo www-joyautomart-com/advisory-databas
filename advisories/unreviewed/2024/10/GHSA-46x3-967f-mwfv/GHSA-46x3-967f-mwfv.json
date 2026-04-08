@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-46x3-967f-mwfv",
-  "modified": "2024-10-10T03:30:46Z",
+  "modified": "2026-04-08T18:33:38Z",
   "published": "2024-10-10T03:30:46Z",
   "aliases": [
     "CVE-2024-9065"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wp-helper-lite/tags/4.6.1/functions/class.wps-frontend-setup-function.php#L55"
+    },
+    {
+      "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-helper-lite/trunk/functions/class.wps-frontend-setup-function.php#L55"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3167825"
     },
     {
       "type": "WEB",

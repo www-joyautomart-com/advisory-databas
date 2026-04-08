@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pvf-46qr-hp98",
-  "modified": "2025-03-28T15:31:50Z",
+  "modified": "2026-04-08T18:33:51Z",
   "published": "2025-03-15T03:30:16Z",
   "aliases": [
     "CVE-2025-1657"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-1657"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3261184/ulisting/trunk/includes/classes/StmListing.php"
     },
     {
       "type": "WEB",

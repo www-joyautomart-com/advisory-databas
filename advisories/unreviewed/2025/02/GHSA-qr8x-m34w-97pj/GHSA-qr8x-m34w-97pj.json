@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr8x-m34w-97pj",
-  "modified": "2025-02-25T21:31:29Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-02-12T12:30:47Z",
   "aliases": [
     "CVE-2025-0506"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/rise-blocks/tags/3.6/classes/blocks/site-identity.php#L375"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/rise-blocks/tags/3.7/classes/blocks/site-identity.php#L375"
     },
     {
       "type": "WEB",

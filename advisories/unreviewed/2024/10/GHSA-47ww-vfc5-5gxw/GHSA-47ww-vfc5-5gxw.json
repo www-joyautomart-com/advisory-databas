@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-47ww-vfc5-5gxw",
-  "modified": "2024-10-15T15:30:45Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-10-10T03:30:46Z",
   "aliases": [
     "CVE-2024-9057"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9057"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3168951%40curatorio&new=3168951%40curatorio&sfp_email=&sfph_mail="
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3169646%40curatorio&new=3169646%40curatorio&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

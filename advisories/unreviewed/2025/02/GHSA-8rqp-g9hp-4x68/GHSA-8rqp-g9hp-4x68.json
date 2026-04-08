@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rqp-g9hp-4x68",
-  "modified": "2025-02-18T06:35:38Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-02-18T06:35:38Z",
   "aliases": [
     "CVE-2024-13538"
@@ -21,7 +21,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/bigbuy-wc-dropshipping-connector/tags/2.0.0/vendor/cocur/slugify/bin/generate-default.php"
+    },
+    {
+      "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/bigbuy-wc-dropshipping-connector/trunk/vendor/cocur/slugify/bin/generate-default.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3281936%40bigbuy-wc-dropshipping-connector&new=3281936%40bigbuy-wc-dropshipping-connector&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

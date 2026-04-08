@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v3wg-jg3p-qcmh",
-  "modified": "2025-02-05T15:32:20Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2025-02-05T15:32:20Z",
   "aliases": [
     "CVE-2024-10696"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/ultraaddons-elementor-lite/trunk/inc/wp/shortcode.php#L16"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3221044"
     },
     {
       "type": "WEB",

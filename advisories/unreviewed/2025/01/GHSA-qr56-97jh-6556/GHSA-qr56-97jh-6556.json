@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qr56-97jh-6556",
-  "modified": "2025-01-07T06:32:14Z",
+  "modified": "2026-04-08T18:33:47Z",
   "published": "2025-01-07T06:32:14Z",
   "aliases": [
     "CVE-2024-12590"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-youtube-gallery/trunk/wpyg-class.php#L87"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3216988/#file15"
     },
     {
       "type": "WEB",

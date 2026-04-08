@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hv2-265f-8mm9",
-  "modified": "2025-10-03T12:33:16Z",
+  "modified": "2026-04-08T18:33:56Z",
   "published": "2025-10-03T12:33:16Z",
   "aliases": [
     "CVE-2025-9286"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/appy-pie-connect-for-woocommerce/trunk/connect-woocommerce-rest-api.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3385150"
     },
     {
       "type": "WEB",

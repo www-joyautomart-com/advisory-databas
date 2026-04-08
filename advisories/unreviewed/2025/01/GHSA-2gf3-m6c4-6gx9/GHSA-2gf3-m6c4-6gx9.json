@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gf3-m6c4-6gx9",
-  "modified": "2025-01-30T15:31:39Z",
+  "modified": "2026-04-08T18:33:48Z",
   "published": "2025-01-30T15:31:39Z",
   "aliases": [
     "CVE-2024-13742"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/worpit-admin-dashboard-plugin/tags/4.4.5/src/api/RequestParameters.php#L14"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3231425%40worpit-admin-dashboard-plugin&new=3231425%40worpit-admin-dashboard-plugin&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8m93-gvh9-j85x",
-  "modified": "2024-09-25T03:30:36Z",
+  "modified": "2026-04-08T18:33:36Z",
   "published": "2024-09-25T03:30:36Z",
   "aliases": [
     "CVE-2024-8103"
@@ -21,6 +21,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/wp-category-dropdown/tags/1.8/category_dropdown_block.php#L8"
+    },
+    {
+      "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-category-dropdown/trunk/build/index.js#L270"
     },
     {
@@ -34,6 +38,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/wp-category-dropdown/trunk/src/index.js#L24"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3166152/wp-category-dropdown/trunk/category_dropdown_block.php"
     },
     {
       "type": "WEB",

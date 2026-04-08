@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2fx-pxmp-7f63",
-  "modified": "2025-10-15T09:30:17Z",
+  "modified": "2026-04-08T18:33:56Z",
   "published": "2025-10-15T09:30:17Z",
   "aliases": [
     "CVE-2025-10038"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-10038"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3380455/binary-mlm-plan/tags/5.0/includes/admin/class-bmp-admin-menus.php?old=3259986&old_path=binary-mlm-plan%2Ftags%2F3.0%2Fincludes%2Fadmin%2Fclass-bmp-admin-menus.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3380455/binary-mlm-plan/tags/5.0/includes/bmp-hook-functions.php?old=3259986&old_path=binary-mlm-plan%2Ftags%2F3.0%2Fincludes%2Fbmp-hook-functions.php"
     },
     {
       "type": "WEB",

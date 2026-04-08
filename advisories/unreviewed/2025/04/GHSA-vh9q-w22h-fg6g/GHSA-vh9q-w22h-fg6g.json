@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh9q-w22h-fg6g",
-  "modified": "2025-04-01T09:30:19Z",
+  "modified": "2026-04-08T18:33:51Z",
   "published": "2025-04-01T09:30:19Z",
   "aliases": [
     "CVE-2024-12189"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12189"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?old_path=/wdesignkit/tags/1.2.3&new_path=/wdesignkit/tags/1.2.4&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

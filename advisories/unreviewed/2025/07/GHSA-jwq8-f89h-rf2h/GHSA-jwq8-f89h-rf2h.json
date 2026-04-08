@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jwq8-f89h-rf2h",
-  "modified": "2025-07-25T15:30:43Z",
+  "modified": "2026-04-08T18:33:55Z",
   "published": "2025-07-25T15:30:43Z",
   "aliases": [
     "CVE-2025-5084"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/ajax-filter-posts/tags/3.4.13/inc/functions.php"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/ajax-filter-posts/tags/3.4.14/inc/functions.php"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cjv-56q3-j7fj",
-  "modified": "2025-11-11T06:30:21Z",
+  "modified": "2026-04-08T18:33:58Z",
   "published": "2025-11-11T06:30:21Z",
   "aliases": [
     "CVE-2025-12538"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://it.wordpress.org/plugins/fleet"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3415747%40fleet&new=3415747%40fleet&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

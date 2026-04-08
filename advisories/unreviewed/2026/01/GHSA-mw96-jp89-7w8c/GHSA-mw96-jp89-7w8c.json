@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mw96-jp89-7w8c",
-  "modified": "2026-01-16T09:31:21Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-16T09:31:21Z",
   "aliases": [
     "CVE-2026-0939"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/woo-rede/tags/5.1.2/Includes/LknIntegrationRedeForWoocommerceWcEndpoint.php#L710"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3441046/woo-rede/tags/5.1.3/Includes/LknIntegrationRedeForWoocommerceWcEndpoint.php"
     },
     {
       "type": "WEB",

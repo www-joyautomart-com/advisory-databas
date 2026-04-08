@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4w9-h3jg-qrhw",
-  "modified": "2024-12-14T06:30:47Z",
+  "modified": "2026-04-08T18:33:45Z",
   "published": "2024-12-14T06:30:47Z",
   "aliases": [
     "CVE-2024-11770"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/post-types-carousel-slider/trunk/includes/ajax.php#L71"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3209246%40post-types-carousel-slider&new=3209246%40post-types-carousel-slider&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

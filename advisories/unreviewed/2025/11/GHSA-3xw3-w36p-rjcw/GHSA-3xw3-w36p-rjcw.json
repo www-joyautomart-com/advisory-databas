@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xw3-w36p-rjcw",
-  "modified": "2025-11-25T09:31:24Z",
+  "modified": "2026-04-08T18:33:59Z",
   "published": "2025-11-25T09:31:24Z",
   "aliases": [
     "CVE-2025-13452"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/admin-and-client-message-after-order-for-woocommerce/trunk/includes/wprest.class.php#L56"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3439999"
     },
     {
       "type": "WEB",

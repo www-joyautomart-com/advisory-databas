@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5x9r-7frr-2jj6",
-  "modified": "2025-02-19T09:33:28Z",
+  "modified": "2026-04-08T18:33:49Z",
   "published": "2025-02-19T09:33:28Z",
   "aliases": [
     "CVE-2024-12522"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/yayforms/tags/1.2.1/yayforms.php#L123"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?sfp_email=&sfph_mail=&reponame=&old=3243343%40yayforms&new=3243343%40yayforms&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

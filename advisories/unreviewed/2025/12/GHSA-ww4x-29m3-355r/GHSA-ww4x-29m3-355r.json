@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww4x-29m3-355r",
-  "modified": "2025-12-06T06:30:16Z",
+  "modified": "2026-04-08T18:34:00Z",
   "published": "2025-12-06T06:30:16Z",
   "aliases": [
     "CVE-2025-12720"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/g-ffl-cockpit/trunk/includes/class-update-processor.php#L634"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3413768"
     },
     {
       "type": "WEB",

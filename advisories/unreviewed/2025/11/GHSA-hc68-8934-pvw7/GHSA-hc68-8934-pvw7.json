@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc68-8934-pvw7",
-  "modified": "2025-11-11T06:30:21Z",
+  "modified": "2026-04-08T18:33:58Z",
   "published": "2025-11-11T06:30:21Z",
   "aliases": [
     "CVE-2025-11894"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://wordpress.org/plugins/shelf-planner"
+    },
+    {
+      "type": "WEB",
+      "url": "https://wordpress.org/plugins/shelf-planner/#developers"
     },
     {
       "type": "WEB",

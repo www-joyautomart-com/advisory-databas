@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fx7j-93q4-w74p",
-  "modified": "2024-11-16T06:30:41Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-11-16T06:30:41Z",
   "aliases": [
     "CVE-2024-9849"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/real3d-flipbook-lite/tags/4.6/includes/plugin-admin.php#L77"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3189781"
     },
     {
       "type": "WEB",

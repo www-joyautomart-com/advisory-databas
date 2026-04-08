@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pxg-rp23-hqvp",
-  "modified": "2026-01-24T09:30:26Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-24T09:30:26Z",
   "aliases": [
     "CVE-2025-12836"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/vk-google-job-posting-manager/tags/1.2.20/vk-google-job-posting-manager.php#L468"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3449302"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rpw8-5v4g-qxv7",
-  "modified": "2025-11-04T06:31:11Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-11-04T06:31:11Z",
   "aliases": [
     "CVE-2025-11704"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/elegance-menu/trunk/public/class-elegance-menu-public.php#L222"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3409312"
     },
     {
       "type": "WEB",

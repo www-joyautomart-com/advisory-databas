@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qgm7-grcw-cm67",
-  "modified": "2024-12-07T03:30:37Z",
+  "modified": "2026-04-08T18:33:40Z",
   "published": "2024-12-07T03:30:37Z",
   "aliases": [
     "CVE-2024-12026"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-12026"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3203387/cf7-message-filter/trunk?contextall=1&old=3160303&old_path=%2Fcf7-message-filter%2Ftrunk"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7h4r-7c2q-4767",
-  "modified": "2025-11-04T06:31:10Z",
+  "modified": "2026-04-08T18:33:57Z",
   "published": "2025-11-04T06:31:10Z",
   "aliases": [
     "CVE-2025-12070"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/viaads/tags/2.1.1/apikey.php#L81"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3395777"
     },
     {
       "type": "WEB",

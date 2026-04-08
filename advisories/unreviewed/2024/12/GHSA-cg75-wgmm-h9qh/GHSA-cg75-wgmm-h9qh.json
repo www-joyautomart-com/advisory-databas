@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg75-wgmm-h9qh",
-  "modified": "2025-02-27T03:33:56Z",
+  "modified": "2026-04-08T18:33:43Z",
   "published": "2024-12-12T06:30:50Z",
   "aliases": [
     "CVE-2024-12463"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/arena-liveblog-and-chat-tool/trunk/albfre.php#L216"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/browser/arena-liveblog-and-chat-tool/trunk/albfre.php#L257"
     },
     {
       "type": "WEB",

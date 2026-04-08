@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hgwj-xq97-2fmr",
+  "modified": "2026-04-08T18:34:06Z",
+  "published": "2026-04-08T18:34:06Z",
+  "aliases": [
+    "CVE-2023-46945"
+  ],
+  "details": "QD 20230821 is vulnerable to Server-side request forgery (SSRF) via a crafted request",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46945"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/kurokoleung/5b36b2013a54adadcce79967d3e4f056"
+    },
+    {
+      "type": "WEB",
+      "url": "https://qd-today.github.io/qd"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-08T17:17:01Z"
+  }
+}

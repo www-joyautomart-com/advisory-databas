@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f5c6-995g-vxwg",
-  "modified": "2024-12-12T06:30:50Z",
+  "modified": "2026-04-08T18:33:42Z",
   "published": "2024-12-12T06:30:50Z",
   "aliases": [
     "CVE-2024-12406"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/library-management-system/trunk/admin/class-library-management-system-admin.php#L1882"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3382981"
     },
     {
       "type": "WEB",

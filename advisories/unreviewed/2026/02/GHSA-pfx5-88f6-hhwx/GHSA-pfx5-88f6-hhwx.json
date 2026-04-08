@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfx5-88f6-hhwx",
-  "modified": "2026-02-19T18:31:50Z",
+  "modified": "2026-04-08T18:34:03Z",
   "published": "2026-02-19T18:31:50Z",
   "aliases": [
     "CVE-2026-0912"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/toret-manager/tags/1.2.7/admin/class-toret-manager-admin.php#L227"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3464839/toret-manager"
     },
     {
       "type": "WEB",

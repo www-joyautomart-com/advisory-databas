@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rxp-wm3v-w954",
-  "modified": "2024-12-12T06:30:49Z",
+  "modified": "2026-04-08T18:33:41Z",
   "published": "2024-12-12T06:30:49Z",
   "aliases": [
     "CVE-2024-11413"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/hostfact-bestelformulier-integratie/trunk/hostfact-bestelformulier.php#L38"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3255232/hostfact-bestelformulier-integratie/trunk/hostfact-bestelformulier.php"
     },
     {
       "type": "WEB",

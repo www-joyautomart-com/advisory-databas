@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c5xf-93pm-69r9",
-  "modified": "2024-10-26T09:30:43Z",
+  "modified": "2026-04-08T18:33:39Z",
   "published": "2024-10-26T09:30:43Z",
   "aliases": [
     "CVE-2024-9853"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-9853"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset?old_path=/idsk-toolkit/tags/1.7.2&new_path=/idsk-toolkit/tags/1.7.3&sfp_email=&sfph_mail="
     },
     {
       "type": "WEB",

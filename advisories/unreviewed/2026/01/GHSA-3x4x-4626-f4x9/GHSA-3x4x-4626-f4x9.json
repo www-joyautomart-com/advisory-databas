@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3x4x-4626-f4x9",
-  "modified": "2026-01-24T09:30:28Z",
+  "modified": "2026-04-08T18:34:02Z",
   "published": "2026-01-24T09:30:28Z",
   "aliases": [
     "CVE-2026-1191"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/javascript-notifier/trunk/javascript-notifier.php#L75"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3449861"
     },
     {
       "type": "WEB",

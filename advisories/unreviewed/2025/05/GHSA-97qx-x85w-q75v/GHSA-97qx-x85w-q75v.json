@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-97qx-x85w-q75v",
-  "modified": "2025-05-24T06:30:39Z",
+  "modified": "2026-04-08T18:33:53Z",
   "published": "2025-05-24T06:30:39Z",
   "aliases": [
     "CVE-2025-4336"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://plugins.trac.wordpress.org/browser/store-manager-connector/trunk/smconnector.php#L35-36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://plugins.trac.wordpress.org/changeset/3308544"
     },
     {
       "type": "WEB",
