@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-hh4r-jcrc-4266",
+  "modified": "2026-04-08T09:31:32Z",
+  "published": "2026-04-08T09:31:32Z",
+  "aliases": [
+    "CVE-2026-39526"
+  ],
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in wpstream WpStream wpstream allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects WpStream: from n/a through < 4.11.2.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39526"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wpstream/vulnerability/wordpress-wpstream-plugin-4-11-2-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-639"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-08T09:16:25Z"
+  }
+}
