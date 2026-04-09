@@ -66,8 +66,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-283",
-      "CWE-1287"
+      "CWE-1287",
+      "CWE-283"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
