@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f6h-2hrp-w5wx",
-  "modified": "2026-04-10T17:32:00Z",
+  "modified": "2026-04-10T19:46:47Z",
   "published": "2026-04-10T17:32:00Z",
   "aliases": [
     "CVE-2026-40074"
@@ -44,6 +44,10 @@
       "url": "https://github.com/sveltejs/kit/security/advisories/GHSA-3f6h-2hrp-w5wx"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40074"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/sveltejs/kit/commit/10d7b44425c3d9da642eecce373d0c6ef83b4fcd"
     },
@@ -54,6 +58,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/sveltejs/kit/releases/tag/%40sveltejs%2Fkit%402.57.1"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/sveltejs/kit/releases/tag/@sveltejs/kit@2.57.1"
     }
   ],
   "database_specific": {
@@ -63,6 +71,6 @@
     "severity": "MODERATE",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-10T17:32:00Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-10T17:17:12Z"
   }
 }
