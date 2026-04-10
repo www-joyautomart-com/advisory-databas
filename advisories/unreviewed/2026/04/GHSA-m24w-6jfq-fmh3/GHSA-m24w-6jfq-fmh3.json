@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m24w-6jfq-fmh3",
-  "modified": "2026-04-08T09:31:33Z",
+  "modified": "2026-04-10T18:31:16Z",
   "published": "2026-04-08T09:31:33Z",
   "aliases": [
     "CVE-2026-39609"
   ],
   "details": "Missing Authorization vulnerability in Wava.co Wava Payment wava-payment allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects Wava Payment: from n/a through <= 0.3.7.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:30Z"

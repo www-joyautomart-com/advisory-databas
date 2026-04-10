@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p8cj-q9g4-r46p",
-  "modified": "2026-04-08T21:33:31Z",
+  "modified": "2026-04-10T18:31:16Z",
   "published": "2026-04-08T21:33:31Z",
   "aliases": [
     "CVE-2025-50645"
   ],
   "details": "A vulnerability has been discovered in D-Link DI-8003 16.07.26A1, which can lead to a buffer overflow when the s parameter in the pppoe_list_opt.asp endpoint is manipulated. By sending a crafted request with an excessively large value for the s parameter, an attacker can trigger a buffer overflow condition.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T19:24:15Z"

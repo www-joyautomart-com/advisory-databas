@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g4cp-69rc-xxc2",
-  "modified": "2026-04-08T21:33:32Z",
+  "modified": "2026-04-10T18:31:17Z",
   "published": "2026-04-08T21:33:31Z",
   "aliases": [
     "CVE-2025-50661"
   ],
   "details": "A buffer overflow vulnerability exists in D-Link DI-8003 16.07.26A1 due to improper handling of multiple parameters in the /url_rule.asp endpoint. An attacker can exploit this vulnerability by sending a crafted HTTP GET request with parameters name, en, ips, u, time, act, rpri, and log.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-121"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T19:24:16Z"

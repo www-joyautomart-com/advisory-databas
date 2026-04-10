@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h7hj-cr59-59c2",
-  "modified": "2026-04-10T09:31:16Z",
+  "modified": "2026-04-10T18:31:17Z",
   "published": "2026-04-10T09:31:16Z",
   "aliases": [
     "CVE-2026-40212"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://review.opendev.org/973351"
+    },
+    {
+      "type": "WEB",
+      "url": "https://security.openstack.org/ossa/OSSA-2026-006.html"
     },
     {
       "type": "WEB",

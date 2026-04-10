@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3p7h-vrh2-gc3q",
-  "modified": "2026-04-08T09:31:33Z",
+  "modified": "2026-04-10T18:31:16Z",
   "published": "2026-04-08T09:31:33Z",
   "aliases": [
     "CVE-2026-39603"
   ],
   "details": "Cross-Site Request Forgery (CSRF) vulnerability in ThemeGoods Grand Photography grandphotography allows Cross Site Request Forgery.This issue affects Grand Photography: from n/a through <= 5.7.8.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-352"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:29Z"

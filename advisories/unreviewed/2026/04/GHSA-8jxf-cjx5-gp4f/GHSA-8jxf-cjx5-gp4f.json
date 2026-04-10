@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8jxf-cjx5-gp4f",
-  "modified": "2026-04-09T18:31:26Z",
+  "modified": "2026-04-10T18:31:17Z",
   "published": "2026-04-09T18:31:26Z",
   "aliases": [
     "CVE-2025-70365"
   ],
   "details": "A stored cross-site scripting (XSS) vulnerability exists in Kiamo before 8.4 due to improper output encoding of user-supplied input in administrative interfaces. An authenticated administrative user can inject arbitrary JavaScript code that is executed in the browser of users viewing the affected pages.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-09T16:16:25Z"

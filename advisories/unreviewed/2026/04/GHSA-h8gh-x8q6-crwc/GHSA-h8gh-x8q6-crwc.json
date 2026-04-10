@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h8gh-x8q6-crwc",
-  "modified": "2026-04-08T18:34:08Z",
+  "modified": "2026-04-10T18:31:16Z",
   "published": "2026-04-08T18:34:08Z",
   "aliases": [
     "CVE-2025-45059"
   ],
   "details": "D-Link DI-8300 v16.07.26A1 was discovered to contain a buffer overflow via the fn parameter in the tgfile_htm function. This vulnerability allows attackers to cause a Denial of Service (DoS) via a crafted input.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-120"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T18:24:45Z"

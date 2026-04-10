@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wwjw-6p2f-76rh",
-  "modified": "2026-04-10T15:31:57Z",
+  "modified": "2026-04-10T18:31:17Z",
   "published": "2026-04-10T15:31:57Z",
   "aliases": [
     "CVE-2026-6068"
   ],
   "details": "NASM contains a heap use after free vulnerability in response file (-@) processing where a dangling pointer to freed memory is stored in the global depend_file and later dereferenced, as the response-file buffer is freed before the pointer is used, allowing for data corruption or unexpected behavior.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -21,7 +26,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-10T14:16:38Z"
