@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wj55-88gf-x564",
-  "modified": "2026-03-26T21:14:25Z",
+  "modified": "2026-04-10T17:22:19Z",
   "published": "2026-03-26T21:14:24Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-35648"
+  ],
   "summary": "OpenClaw may have stale policy enforcement for queued node actions",
   "details": "## Summary\nQueued node actions were not revalidated against current command policy when later delivered, so stale allowlists or declarations could survive policy tightening.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Affected: < 2026.3.22\n- Fixed: >= 2026.3.22\n- Latest released tag checked: `v2026.3.23-2` (`630f1479c44f78484dfa21bb407cbe6f171dac87`)\n- Latest published npm version checked: `2026.3.23-2`\n\n## Fix Commit(s)\n- `ec2c6d83b9f5f91d6d9094842e0f19b88e63e3e2`\n\n## Release Status\nThe fix shipped in `v2026.3.22` and remains present in `v2026.3.23` and `v2026.3.23-2`.\n\n## Code-Level Confirmation\n- src/gateway/server-methods/nodes.ts now revalidates queued actions against the current allowlist and declared command set at delivery time.\n- src/gateway/server-methods/nodes.invoke-wake.test.ts includes the shipped stale-queue regression coverage.\n\nOpenClaw thanks @zpbrent for reporting.",
   "severity": [
