@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4phw-6824-6cfp",
-  "modified": "2026-04-10T03:31:10Z",
+  "modified": "2026-04-10T06:31:37Z",
   "published": "2026-04-10T03:31:10Z",
   "aliases": [
     "CVE-2026-33551"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://security.openstack.org/ossa/OSSA-2026-005.html"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/07/12"
     }
   ],
   "database_specific": {
