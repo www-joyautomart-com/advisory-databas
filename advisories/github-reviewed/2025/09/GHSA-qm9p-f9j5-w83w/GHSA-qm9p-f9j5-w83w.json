@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qm9p-f9j5-w83w",
-  "modified": "2026-01-29T02:37:59Z",
+  "modified": "2026-04-13T18:49:40Z",
   "published": "2025-09-17T21:30:42Z",
   "aliases": [
     "CVE-2025-56648"
   ],
   "summary": "Parcel has an Origin Validation Error vulnerability",
-  "details": "parcel versions 1.6.1 and above have an Origin Validation Error vulnerability. Malicious websites can send XMLHTTPRequests to the application's development server and read the response to steal source code when developers visit them.",
+  "details": "parcel versions 1.6.1 and above have an Origin Validation Error vulnerability. Malicious websites can send XMLHTTPRequests to the application's development server and read the response to steal source code when developers visit them. Version 2.16.4 supports a `--no-cors` option which disables CORS headers in the dev server.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -28,11 +28,14 @@
               "introduced": "1.6.1"
             },
             {
-              "last_affected": "2.16.3"
+              "fixed": "2.16.4"
             }
           ]
         }
-      ]
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 2.16.3"
+      }
     }
   ],
   "references": [
@@ -51,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/parcel-bundler/parcel/commit/4bc56e3242a85491c7edf589966e9b44c6330c49"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/parcel-bundler/parcel/commit/9e2f6f1377123cff3b82f6dde4e20336efc846a1"
     },
     {
       "type": "WEB",
