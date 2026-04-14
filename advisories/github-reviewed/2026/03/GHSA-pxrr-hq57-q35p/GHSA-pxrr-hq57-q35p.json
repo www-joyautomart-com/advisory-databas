@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pxrr-hq57-q35p",
-  "modified": "2026-03-20T21:34:00Z",
+  "modified": "2026-04-14T21:59:25Z",
   "published": "2026-03-18T20:08:06Z",
   "aliases": [
     "CVE-2026-33154"
@@ -63,6 +63,7 @@
   "database_specific": {
     "cwe_ids": [
       "CWE-1336",
+      "CWE-78",
       "CWE-94"
     ],
     "severity": "HIGH",
