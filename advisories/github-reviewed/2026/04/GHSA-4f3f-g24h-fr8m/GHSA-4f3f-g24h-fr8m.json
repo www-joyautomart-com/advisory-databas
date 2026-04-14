@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4f3f-g24h-fr8m",
-  "modified": "2026-04-13T15:31:42Z",
+  "modified": "2026-04-14T23:17:11Z",
   "published": "2026-04-13T15:31:42Z",
   "aliases": [
     "CVE-2026-1462"
   ],
+  "summary": "Keras has an untrusted deserialization vulnerability",
   "details": "A vulnerability in the `TFSMLayer` class of the `keras` package, version 3.13.0, allows attacker-controlled TensorFlow SavedModels to be loaded during deserialization of `.keras` models, even when `safe_mode=True`. This bypasses the security guarantees of `safe_mode` and enables arbitrary attacker-controlled code execution during model inference under the victim's privileges. The issue arises due to the unconditional loading of external SavedModels, serialization of attacker-controlled file paths, and the lack of validation in the `from_config()` method.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "keras"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.13.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -21,7 +42,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/keras-team/keras/pull/22035"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/keras-team/keras/commit/b6773d3decaef1b05d8e794458e148cb362f163f"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/keras-team/keras"
     },
     {
       "type": "WEB",
@@ -33,8 +62,8 @@
       "CWE-502"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-14T23:17:11Z",
     "nvd_published_at": "2026-04-13T15:17:18Z"
   }
 }
