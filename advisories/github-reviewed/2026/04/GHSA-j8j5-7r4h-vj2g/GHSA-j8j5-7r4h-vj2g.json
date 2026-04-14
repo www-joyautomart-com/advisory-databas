@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8j5-7r4h-vj2g",
-  "modified": "2026-04-13T21:30:45Z",
+  "modified": "2026-04-14T23:37:05Z",
   "published": "2026-04-13T21:30:45Z",
   "aliases": [
     "CVE-2026-6216"
   ],
+  "summary": "DbGate has cross site scripting via the  SVG Icon String Handler component",
   "details": "A security vulnerability has been detected in DbGate up to 7.1.4. This affects an unknown function of the file packages/web/src/icons/FontIcon.svelte of the component SVG Icon String Handler. Such manipulation of the argument applicationIcon leads to cross site scripting. The attack may be launched remotely. The exploit has been disclosed publicly and may be used. Upgrading to version 7.1.5 mitigates this issue. It is advisable to upgrade the affected component.",
   "severity": [
     {
@@ -14,17 +15,37 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:L/UI:P/VC:N/VI:L/VA:N/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "dbgate-web"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "7.1.5"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6216"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/dbgate/dbgate"
     },
     {
@@ -48,9 +69,9 @@
     "cwe_ids": [
       "CWE-79"
     ],
-    "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "LOW",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-14T23:37:05Z",
     "nvd_published_at": "2026-04-13T21:16:32Z"
   }
 }
