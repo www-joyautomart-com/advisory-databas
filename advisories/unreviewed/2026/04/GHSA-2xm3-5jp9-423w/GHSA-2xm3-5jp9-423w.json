@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xm3-5jp9-423w",
-  "modified": "2026-04-14T00:31:12Z",
+  "modified": "2026-04-14T03:31:40Z",
   "published": "2026-04-14T00:31:12Z",
   "aliases": [
     "CVE-2026-5086"
@@ -17,6 +17,10 @@
     {
       "type": "WEB",
       "url": "https://metacpan.org/release/NERDVANA/Crypt-SecretBuffer-0.019/source/Changes"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/13/12"
     }
   ],
   "database_specific": {
