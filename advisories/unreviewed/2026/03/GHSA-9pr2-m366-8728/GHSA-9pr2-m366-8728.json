@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9pr2-m366-8728",
-  "modified": "2026-03-31T09:31:42Z",
+  "modified": "2026-04-14T12:31:28Z",
   "published": "2026-03-31T09:31:42Z",
   "aliases": [
     "CVE-2026-5201"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.gnome.org/GNOME/gdk-pixbuf/-/issues/304"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/04/msg00010.html"
     }
   ],
   "database_specific": {

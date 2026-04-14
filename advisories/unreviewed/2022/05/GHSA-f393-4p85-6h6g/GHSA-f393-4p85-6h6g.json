@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f393-4p85-6h6g",
-  "modified": "2022-07-13T00:01:51Z",
+  "modified": "2026-04-14T12:31:26Z",
   "published": "2022-05-24T19:01:57Z",
   "aliases": [
     "CVE-2020-26147"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-26147"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-019200.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://cert-portal.siemens.com/productcert/html/ssa-913875.html"
     },
     {
       "type": "WEB",

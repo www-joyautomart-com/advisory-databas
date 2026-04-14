@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f7q5-qg45-7vm8",
-  "modified": "2025-12-02T00:31:09Z",
+  "modified": "2026-04-14T12:31:28Z",
   "published": "2025-07-10T09:32:27Z",
   "aliases": [
     "CVE-2025-32989"
@@ -54,6 +54,10 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.redhat.com/show_bug.cgi?id=2359621"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.gnupg.org/pipermail/gnutls-help/2025-July/004883.html"
     },
     {
       "type": "WEB",
