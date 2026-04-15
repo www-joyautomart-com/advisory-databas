@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r2pg-r6h7-crf3",
-  "modified": "2026-04-13T16:36:36Z",
+  "modified": "2026-04-15T20:58:30Z",
   "published": "2026-04-13T16:36:36Z",
   "aliases": [
     "CVE-2026-34984"
@@ -60,6 +60,10 @@
       "url": "https://github.com/external-secrets/external-secrets/security/advisories/GHSA-r2pg-r6h7-crf3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34984"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/external-secrets/external-secrets/commit/6800989bdc12782ca2605d3b8bf7f2876a16551a"
     },
@@ -79,6 +83,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-13T16:36:36Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-14T03:16:08Z"
   }
 }
