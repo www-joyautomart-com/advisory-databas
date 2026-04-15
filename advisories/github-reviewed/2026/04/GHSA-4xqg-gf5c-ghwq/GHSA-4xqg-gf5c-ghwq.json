@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xqg-gf5c-ghwq",
-  "modified": "2026-04-14T22:32:15Z",
+  "modified": "2026-04-15T21:17:47Z",
   "published": "2026-04-14T22:32:15Z",
   "aliases": [
     "CVE-2026-39884"
@@ -44,8 +44,16 @@
       "url": "https://github.com/Flux159/mcp-server-kubernetes/security/advisories/GHSA-4xqg-gf5c-ghwq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39884"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Flux159/mcp-server-kubernetes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Flux159/mcp-server-kubernetes/releases/tag/v3.5.0"
     }
   ],
   "database_specific": {
@@ -55,6 +63,6 @@
     "severity": "HIGH",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-14T22:32:15Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-04-15T04:17:37Z"
   }
 }
