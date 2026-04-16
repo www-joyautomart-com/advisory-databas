@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9342-92gg-6v29",
-  "modified": "2025-11-05T20:31:47Z",
+  "modified": "2026-04-16T18:47:48Z",
   "published": "2025-07-21T18:32:19Z",
   "aliases": [
     "CVE-2025-7962"
@@ -37,12 +37,58 @@
           ]
         }
       ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.sun.mail:jakarta.mail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "1.6.8"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Maven",
+        "name": "com.sun.mail:jakarta.mail"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "2.0.0"
+            },
+            {
+              "fixed": "2.0.2"
+            }
+          ]
+        }
+      ]
     }
   ],
   "references": [
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-7962"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jakartaee/mail-api/issues/765"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/jakartaee/mail-api/pull/760"
     },
     {
       "type": "WEB",
@@ -59,6 +105,10 @@
     {
       "type": "WEB",
       "url": "https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/290"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gitlab.eclipse.org/security/vulnerability-reports/-/issues/290#note_5320539"
     },
     {
       "type": "WEB",
