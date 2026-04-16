@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wcpp-3x59-h8vp",
-  "modified": "2026-03-18T21:32:58Z",
+  "modified": "2026-04-16T21:31:09Z",
   "published": "2026-03-12T21:34:50Z",
   "aliases": [
     "CVE-2026-3497"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3497"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/04/msg00014.html"
     },
     {
       "type": "WEB",

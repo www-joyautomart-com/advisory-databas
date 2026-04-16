@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-4pxv-j86v-mhcw",
+  "modified": "2026-04-16T21:30:12Z",
+  "published": "2026-04-16T21:30:12Z",
+  "aliases": [],
+  "summary": "pypdf: Possible long runtimes for wrong size values in incremental mode",
+  "details": "### Impact\nAn attacker who uses this vulnerability can craft a PDF which leads to long runtimes. This requires loading a PDF with a large trailer `/Size` value in incremental mode.\n\n### Patches\nThis has been fixed in [pypdf==6.10.2](https://github.com/py-pdf/pypdf/releases/tag/6.10.2).\n\n### Workarounds\nIf you cannot upgrade yet, consider applying the changes from PR [#3735](https://github.com/py-pdf/pypdf/pull/3735).",
+  "severity": [
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:L/AC:L/AT:N/PR:N/UI:P/VC:N/VI:N/VA:H/SC:N/SI:N/SA:N"
+    }
+  ],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "pypdf"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "6.10.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/py-pdf/pypdf/security/advisories/GHSA-4pxv-j86v-mhcw"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/py-pdf/pypdf/pull/3735"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/py-pdf/pypdf"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/py-pdf/pypdf/releases/tag/6.10.2"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-834"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-16T21:30:12Z",
+    "nvd_published_at": null
+  }
+}

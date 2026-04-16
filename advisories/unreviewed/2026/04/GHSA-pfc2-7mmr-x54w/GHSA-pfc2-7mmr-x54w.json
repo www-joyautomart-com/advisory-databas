@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfc2-7mmr-x54w",
-  "modified": "2026-04-10T15:31:58Z",
+  "modified": "2026-04-16T21:31:11Z",
   "published": "2026-04-10T15:31:58Z",
   "aliases": [
     "CVE-2026-6069"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-787"
+    ],
     "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
