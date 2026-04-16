@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hv5g-26jg-pc45",
-  "modified": "2026-04-15T18:31:58Z",
+  "modified": "2026-04-16T21:33:30Z",
   "published": "2026-04-15T18:31:58Z",
   "aliases": [
     "CVE-2026-6290"
   ],
+  "summary": "Velociraptor vulnerability in the query() plugin which allows access to all orgs with the user's current ACL token",
   "details": "Velociraptor versions prior to 0.76.3 contain a vulnerability in the query() plugin which allows access to all orgs with the user's current ACL token. This allows an authenticated GUI user with access in one org, to use the query() plugin, in a notebook cell, to run VQL queries on other orgs which they may not have access to. The user's permissions in the other org are\nthe same as the permissions they have in the org containing the notebook.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:H/PR:H/UI:N/S:C/C:H/I:H/A:H"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "www.velocidex.com/golang/velociraptor"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "0.76.2"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://docs.velociraptor.app/announcements/advisories/cve-2026-6290"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/Velocidex/velociraptor"
     }
   ],
   "database_specific": {
@@ -29,8 +54,8 @@
       "CWE-863"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-04-16T21:33:30Z",
     "nvd_published_at": "2026-04-15T18:17:25Z"
   }
 }
