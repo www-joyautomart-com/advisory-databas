@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx8g-4cf5-cjv3",
-  "modified": "2026-04-09T21:31:23Z",
+  "modified": "2026-04-17T12:31:24Z",
   "published": "2024-01-25T21:32:14Z",
   "aliases": [
     "CVE-2023-52356"
@@ -74,6 +74,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2023-52356"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:8747"
     },
     {
       "type": "WEB",
