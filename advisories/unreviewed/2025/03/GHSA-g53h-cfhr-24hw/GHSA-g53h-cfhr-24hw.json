@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g53h-cfhr-24hw",
-  "modified": "2025-11-05T00:31:17Z",
+  "modified": "2026-04-20T21:31:38Z",
   "published": "2025-03-24T21:30:33Z",
   "aliases": [
     "CVE-2025-2749"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://labs.watchtowr.com/bypassing-authentication-like-its-the-90s-pre-auth-rce-chain-s-in-kentico-xperience-cms"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-2749"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58qw-9mgm-455v",
-  "modified": "2026-04-20T18:31:48Z",
+  "modified": "2026-04-20T21:31:43Z",
   "published": "2026-04-20T18:31:48Z",
   "aliases": [
     "CVE-2026-3219"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://mail.python.org/archives/list/security-announce@python.org/thread/QAJ5JIVWWCAJ4EZL2FP5MOOW35JS7LRJ"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/20/8"
     }
   ],
   "database_specific": {

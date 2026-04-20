@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmq6-ffv7-gqwf",
-  "modified": "2025-07-11T15:31:34Z",
+  "modified": "2026-04-20T21:31:38Z",
   "published": "2025-06-23T15:31:42Z",
   "aliases": [
     "CVE-2025-48700"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://wiki.zimbra.com/wiki/Zimbra_Security_Advisories"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2025-48700"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m7gg-q7qj-3r2r",
-  "modified": "2025-05-30T18:30:51Z",
+  "modified": "2026-04-20T21:31:37Z",
   "published": "2024-03-04T18:30:39Z",
   "aliases": [
     "CVE-2024-27199"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/Stuub/RCity-CVE-2024-27198/blob/main/RCity.py"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2024-27199"
     },
     {
       "type": "WEB",

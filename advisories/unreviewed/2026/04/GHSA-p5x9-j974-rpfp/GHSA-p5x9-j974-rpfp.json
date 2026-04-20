@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5x9-j974-rpfp",
-  "modified": "2026-04-15T21:30:18Z",
+  "modified": "2026-04-20T21:31:39Z",
   "published": "2026-04-15T21:30:18Z",
   "aliases": [
     "CVE-2026-21727"
@@ -25,7 +25,9 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
+    "cwe_ids": [
+      "CWE-732"
+    ],
     "severity": "LOW",
     "github_reviewed": false,
     "github_reviewed_at": null,
