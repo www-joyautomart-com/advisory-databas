@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h4r4-6hvf-34r8",
-  "modified": "2026-01-05T12:30:28Z",
+  "modified": "2026-04-20T15:31:48Z",
   "published": "2025-10-30T06:30:53Z",
   "aliases": [
     "CVE-2025-62231"
@@ -18,10 +18,6 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62231"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:19432"
     },
     {
       "type": "WEB",
@@ -90,6 +86,14 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/10/msg00033.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.x.org/archives/xorg-announce/2025-October/003635.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:19432"
     },
     {
       "type": "WEB",

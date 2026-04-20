@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j77f-3hf7-7rvg",
-  "modified": "2025-12-22T09:31:24Z",
+  "modified": "2026-04-20T15:31:50Z",
   "published": "2025-12-03T12:30:14Z",
   "aliases": [
     "CVE-2025-13947"
@@ -66,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-13947"
+    },
+    {
+      "type": "WEB",
+      "url": "https://bugs.webkit.org/show_bug.cgi?id=271957"
     },
     {
       "type": "WEB",
