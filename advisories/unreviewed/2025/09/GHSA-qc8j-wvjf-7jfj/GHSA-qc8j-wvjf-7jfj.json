@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qc8j-wvjf-7jfj",
-  "modified": "2026-02-27T18:31:00Z",
+  "modified": "2026-04-21T00:32:14Z",
   "published": "2025-09-23T18:30:24Z",
   "aliases": [
     "CVE-2025-9900"
@@ -21,7 +21,7 @@
     },
     {
       "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:21508"
+      "url": "https://access.redhat.com/errata/RHSA-2025:17651"
     },
     {
       "type": "WEB",
@@ -65,6 +65,10 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:7504"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-9900"
     },
     {
@@ -90,10 +94,6 @@
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2025/09/msg00031.html"
-    },
-    {
-      "type": "WEB",
-      "url": "https://access.redhat.com/errata/RHSA-2025:17651"
     },
     {
       "type": "WEB",
@@ -166,6 +166,10 @@
     {
       "type": "WEB",
       "url": "https://access.redhat.com/errata/RHSA-2025:21507"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2025:21508"
     },
     {
       "type": "WEB",
