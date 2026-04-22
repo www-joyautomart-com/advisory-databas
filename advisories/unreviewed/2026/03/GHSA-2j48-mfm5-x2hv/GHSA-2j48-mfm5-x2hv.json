@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j48-mfm5-x2hv",
-  "modified": "2026-03-29T18:30:20Z",
+  "modified": "2026-04-22T18:31:37Z",
   "published": "2026-03-29T18:30:20Z",
   "aliases": [
     "CVE-2026-0562"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/parisneo/lollms/commit/c46297799f8e1e23305373f8350746b905e0e83c"
+    },
+    {
+      "type": "WEB",
+      "url": "https://aydinnyunus.github.io/2026/04/18/idor-lollms-friend-request-cve-2026-0562"
     },
     {
       "type": "WEB",

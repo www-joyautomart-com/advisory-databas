@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8vp7-4rmv-4868",
-  "modified": "2026-04-14T18:30:43Z",
+  "modified": "2026-04-22T18:31:38Z",
   "published": "2026-04-14T18:30:43Z",
   "aliases": [
     "CVE-2026-33825"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-33825"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.huntress.com/blog/nightmare-eclipse-intrusion"
     }
   ],
   "database_specific": {

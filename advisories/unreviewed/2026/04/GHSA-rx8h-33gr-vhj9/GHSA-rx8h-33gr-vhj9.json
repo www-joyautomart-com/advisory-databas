@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-rx8h-33gr-vhj9",
+  "modified": "2026-04-22T18:31:45Z",
+  "published": "2026-04-22T18:31:45Z",
+  "aliases": [
+    "CVE-2026-35347"
+  ],
+  "details": "The comm utility in uutils coreutils incorrectly consumes data from non-regular file inputs before performing comparison operations. The are_files_identical function opens and reads from both input paths to compare content without first verifying if the paths refer to regular files. If an input path is a FIFO or a pipe, this pre-read operation drains the stream, leading to silent data loss before the actual comparison logic is executed. Additionally, the utility may hang indefinitely if it attempts to pre-read from infinite streams like /dev/zero.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:L/A:L"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35347"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/pull/9545"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/releases/tag/0.6.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-20"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-22T17:16:36Z"
+  }
+}

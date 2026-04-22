@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v468-qcjx-r72w",
-  "modified": "2026-04-22T15:31:39Z",
+  "modified": "2026-04-22T18:31:43Z",
   "published": "2026-04-22T09:31:31Z",
   "aliases": [
     "CVE-2026-40542"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/tfmgv86xr0z1y096vs3z0y315t1v3o97"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/04/22/5"
     }
   ],
   "database_specific": {

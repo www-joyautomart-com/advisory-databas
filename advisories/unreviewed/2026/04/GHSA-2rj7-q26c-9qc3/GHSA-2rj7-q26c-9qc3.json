@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rj7-q26c-9qc3",
-  "modified": "2026-04-10T18:31:16Z",
+  "modified": "2026-04-22T18:31:38Z",
   "published": "2026-04-08T21:33:31Z",
   "aliases": [
     "CVE-2025-50648"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/xiaotea/iot-vulnerability-collection/blob/main/README.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://supportannouncement.us.dlink.com/security/publication.aspx?name=SAP10505"
     },
     {
       "type": "WEB",

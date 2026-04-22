@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rj4f-7f4c-6qh7",
-  "modified": "2025-12-08T15:30:29Z",
+  "modified": "2026-04-22T18:31:36Z",
   "published": "2025-12-08T15:30:29Z",
   "aliases": [
     "CVE-2025-9810"
@@ -22,6 +22,14 @@
     {
       "type": "WEB",
       "url": "https://github.com/antirez/linenoise/pull/202"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/antirez/linenoise/commit/f2558e1e588b1ba384ec73a2cf5c9a46409753db"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/antirez/linenoise/blob/4111f1d6cd29e136b4e86a25d1dd859a1e00813b/linenoise.c#L1321"
     },
     {
       "type": "WEB",

@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-88ch-q68x-36v7",
+  "modified": "2026-04-22T18:31:44Z",
+  "published": "2026-04-22T18:31:44Z",
+  "aliases": [
+    "CVE-2026-35340"
+  ],
+  "details": "A flaw in the ChownExecutor used by uutils coreutils chown and chgrp causes the utilities to return an incorrect exit code during recursive operations. The final exit code is determined only by the last file processed. If the last operation succeeds, the command returns 0 even if earlier ownership or group changes failed due to permission errors. This can lead to security misconfigurations where administrative scripts incorrectly assume that ownership has been successfully transferred across a directory tree.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:N"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35340"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/pull/10035"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/releases/tag/0.6.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-253"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-22T17:16:35Z"
+  }
+}

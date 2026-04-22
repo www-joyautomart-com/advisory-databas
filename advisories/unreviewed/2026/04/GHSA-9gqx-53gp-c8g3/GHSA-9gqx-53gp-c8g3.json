@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9gqx-53gp-c8g3",
+  "modified": "2026-04-22T18:31:44Z",
+  "published": "2026-04-22T18:31:44Z",
+  "aliases": [
+    "CVE-2026-35338"
+  ],
+  "details": "A vulnerability in the chmod utility of uutils coreutils allows users to bypass the --preserve-root safety mechanism. The implementation only validates if the target path is literally / and does not canonicalize the path. An attacker or accidental user can use path variants such as /../ or symbolic links to execute destructive recursive operations (e.g., chmod -R 000) on the entire root filesystem, leading to system-wide permission loss and potential complete system breakdown.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35338"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/pull/10033"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/uutils/coreutils/releases/tag/0.6.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "HIGH",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-22T17:16:35Z"
+  }
+}

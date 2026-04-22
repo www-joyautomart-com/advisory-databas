@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc8w-j2q2-vwjx",
-  "modified": "2026-03-24T03:31:19Z",
+  "modified": "2026-04-22T18:31:37Z",
   "published": "2026-03-19T21:30:23Z",
   "aliases": [
     "CVE-2026-25667"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/IsaJafarov/Kestrel-DoS"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/IsaJafarov/Q3Fuzz"
     }
   ],
   "database_specific": {

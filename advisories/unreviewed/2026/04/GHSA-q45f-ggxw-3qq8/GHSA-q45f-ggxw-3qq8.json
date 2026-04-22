@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q45f-ggxw-3qq8",
-  "modified": "2026-04-22T00:31:37Z",
+  "modified": "2026-04-22T18:31:39Z",
   "published": "2026-04-21T15:32:19Z",
   "aliases": [
     "CVE-2026-6753"
   ],
   "details": "Incorrect boundary conditions in the WebRTC component. This vulnerability was fixed in Firefox 150 and Firefox ESR 140.10.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-119"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-21T13:16:21Z"
