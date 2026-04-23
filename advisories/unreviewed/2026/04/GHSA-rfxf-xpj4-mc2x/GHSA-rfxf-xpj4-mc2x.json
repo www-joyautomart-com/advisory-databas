@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rfxf-xpj4-mc2x",
-  "modified": "2026-04-10T15:31:57Z",
+  "modified": "2026-04-23T18:32:55Z",
   "published": "2026-04-10T15:31:57Z",
   "aliases": [
     "CVE-2025-58913"

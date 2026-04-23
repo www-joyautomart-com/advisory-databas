@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvjf-23gc-c2fw",
-  "modified": "2026-04-10T15:31:58Z",
+  "modified": "2026-04-23T18:32:55Z",
   "published": "2026-04-10T15:31:58Z",
   "aliases": [
     "CVE-2025-5804"

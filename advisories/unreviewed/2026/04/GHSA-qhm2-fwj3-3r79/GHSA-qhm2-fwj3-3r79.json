@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qhm2-fwj3-3r79",
-  "modified": "2026-04-15T00:31:35Z",
+  "modified": "2026-04-23T18:32:55Z",
   "published": "2026-04-15T00:31:35Z",
   "aliases": [
     "CVE-2026-39906"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-39906"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/VAMorales/be3e4ed472c51794493c1256cce16129"
     },
     {
       "type": "WEB",

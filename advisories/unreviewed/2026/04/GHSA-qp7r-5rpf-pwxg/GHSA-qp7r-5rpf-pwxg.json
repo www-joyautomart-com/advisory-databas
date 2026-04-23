@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qp7r-5rpf-pwxg",
-  "modified": "2026-04-03T21:31:42Z",
+  "modified": "2026-04-23T18:32:55Z",
   "published": "2026-04-03T21:31:42Z",
   "aliases": [
     "CVE-2026-3184"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-3184"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:7180"
     },
     {
       "type": "WEB",
