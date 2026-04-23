@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pc38-jx4p-rvj5",
-  "modified": "2025-01-02T12:32:13Z",
+  "modified": "2026-04-23T15:34:16Z",
   "published": "2025-01-02T12:32:13Z",
   "aliases": [
     "CVE-2023-46635"

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cwgh-vfcm-53f2",
-  "modified": "2025-02-22T18:31:31Z",
+  "modified": "2026-04-23T15:35:43Z",
   "published": "2025-02-22T18:31:31Z",
   "aliases": [
     "CVE-2025-26757"

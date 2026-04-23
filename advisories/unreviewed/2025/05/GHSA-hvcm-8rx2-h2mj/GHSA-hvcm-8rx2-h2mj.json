@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvcm-8rx2-h2mj",
-  "modified": "2025-05-16T18:31:07Z",
+  "modified": "2026-04-23T15:37:47Z",
   "published": "2025-05-16T18:31:07Z",
   "aliases": [
     "CVE-2025-32643"
