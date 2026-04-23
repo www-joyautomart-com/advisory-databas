@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx64-2338-wf6w",
-  "modified": "2025-06-17T15:31:08Z",
+  "modified": "2026-04-23T15:38:21Z",
   "published": "2025-06-17T15:31:08Z",
   "aliases": [
     "CVE-2025-39479"

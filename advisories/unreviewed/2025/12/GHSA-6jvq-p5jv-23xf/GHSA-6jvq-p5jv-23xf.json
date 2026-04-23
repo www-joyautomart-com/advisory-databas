@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6jvq-p5jv-23xf",
-  "modified": "2025-12-21T03:31:09Z",
+  "modified": "2026-04-23T15:38:45Z",
   "published": "2025-12-21T03:31:09Z",
   "aliases": [
     "CVE-2023-25446"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25446"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/happyfiles-pro/vulnerability/wordpress-happyfiles-pro-plugin-1-8-1-broken-access-control?_s_id=cve"
     },
     {
       "type": "WEB",

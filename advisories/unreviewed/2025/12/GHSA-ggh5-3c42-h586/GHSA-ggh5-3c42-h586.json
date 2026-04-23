@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ggh5-3c42-h586",
-  "modified": "2025-12-21T00:30:24Z",
+  "modified": "2026-04-23T15:38:45Z",
   "published": "2025-12-21T00:30:24Z",
   "aliases": [
     "CVE-2023-25068"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25068"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/magazine-edge/vulnerability/wordpress-magazine-edge-theme-1-13-authenticated-arbitrary-plugin-activation?_s_id=cve"
     },
     {
       "type": "WEB",

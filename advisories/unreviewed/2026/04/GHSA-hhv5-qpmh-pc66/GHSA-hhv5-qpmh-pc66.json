@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhv5-qpmh-pc66",
-  "modified": "2026-04-23T09:32:56Z",
+  "modified": "2026-04-23T15:38:56Z",
   "published": "2026-04-23T09:32:56Z",
   "aliases": [
     "CVE-2025-10549"
   ],
   "details": "EfficientLab Controlio before v1.3.95 contains a DLL hijacking vulnerability caused by weak folder permissions in the installation directory. A local attacker can place a specially crafted DLL in this directory and achieve arbitrary code execution with highest privileges, because the affected service runs as NT AUTHORITY\\SYSTEM.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:L/I:H/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-427"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-23T07:16:39Z"

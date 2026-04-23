@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pwh4-c4gq-4rf3",
-  "modified": "2025-08-20T09:30:39Z",
+  "modified": "2026-04-23T15:38:36Z",
   "published": "2025-08-20T09:30:39Z",
   "aliases": [
     "CVE-2025-49411"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-49411"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/faq-revo/vulnerability/wordpress-faq-revolution-wordpress-plugin-plugin-1-5-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

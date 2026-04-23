@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrm3-xjrv-8v85",
-  "modified": "2026-04-16T15:31:31Z",
+  "modified": "2026-04-23T15:38:51Z",
   "published": "2026-04-14T18:30:43Z",
   "aliases": [
     "CVE-2026-5756"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://www.datarecognitioncorp.com"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.kb.cert.org/vuls/id/748485"
     }
   ],
   "database_specific": {

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fqcr-39xg-xrc6",
-  "modified": "2025-08-28T15:30:41Z",
+  "modified": "2026-04-23T15:38:38Z",
   "published": "2025-08-28T15:30:41Z",
   "aliases": [
     "CVE-2025-49407"
@@ -21,11 +21,16 @@
     },
     {
       "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/premium-seo-pack/vulnerability/wordpress-premium-seo-pack-plugin-3-3-2-privilege-escalation-vulnerability?_s_id=cve"
+    },
+    {
+      "type": "WEB",
       "url": "https://patchstack.com/database/wordpress/theme/houzez/vulnerability/wordpress-houzez-theme-4-1-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     }
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-266",
       "CWE-79"
     ],
     "severity": "HIGH",
