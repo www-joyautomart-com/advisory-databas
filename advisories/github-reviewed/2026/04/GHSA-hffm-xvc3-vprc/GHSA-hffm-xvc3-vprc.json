@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hffm-xvc3-vprc",
-  "modified": "2026-04-25T06:30:23Z",
+  "modified": "2026-05-05T20:12:16Z",
   "published": "2026-04-25T06:30:23Z",
   "aliases": [
     "CVE-2026-6951"
   ],
+  "summary": "simple-git is vulnerable to Remote Code Execution",
   "details": "Versions of the package simple-git before 3.36.0 are vulnerable to Remote Code Execution (RCE) due to an incomplete fix for [CVE-2022-25912](https://security.snyk.io/vuln/SNYK-JS-SIMPLEGIT-3112221) that blocks the -c option but not the equivalent --config form. If untrusted input can reach the options argument passed to simple-git, an attacker may still achieve remote code execution by enabling protocol.ext.allow=always and using an ext:: clone source.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:P/PR:N/UI:N/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "simple-git"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "3.36.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -32,6 +53,10 @@
       "url": "https://gist.github.com/KKC73/02d1d97f3410756095b501fda0ac8ca6"
     },
     {
+      "type": "PACKAGE",
+      "url": "https://github.com/steveukx/git-js"
+    },
+    {
       "type": "WEB",
       "url": "https://security.snyk.io/vuln/SNYK-JS-SIMPLEGIT-15456078"
     }
@@ -40,9 +65,9 @@
     "cwe_ids": [
       "CWE-94"
     ],
-    "severity": "CRITICAL",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "severity": "HIGH",
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-05T20:12:16Z",
     "nvd_published_at": "2026-04-25T06:16:16Z"
   }
 }
