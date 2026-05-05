@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hgg2-x3jc-9xcr",
-  "modified": "2023-11-15T15:30:21Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-09T18:34:55Z",
   "aliases": [
     "CVE-2023-25994"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25994"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/publish-to-schedule/vulnerability/wordpress-publish-to-schedule-plugin-4-4-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

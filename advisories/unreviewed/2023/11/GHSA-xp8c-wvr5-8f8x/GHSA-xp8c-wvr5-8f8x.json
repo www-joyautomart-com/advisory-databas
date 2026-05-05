@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp8c-wvr5-8f8x",
-  "modified": "2023-11-14T18:30:22Z",
+  "modified": "2026-04-28T21:33:00Z",
   "published": "2023-11-06T12:30:24Z",
   "aliases": [
     "CVE-2023-47184"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47184"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/admin-bar-dashboard-control/vulnerability/wordpress-admin-bar-dashboard-access-control-plugin-1-2-8-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

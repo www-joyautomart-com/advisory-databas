@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv88-jc7r-cpgq",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51417"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Joris van Montfort JVM Gutenberg Rich Text Icons.This issue affects JVM Gutenberg Rich Text Icons: from n/a through 1.2.3.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Joris van Montfort JVM Gutenberg Rich Text Icons.This issue affects JVM Gutenberg Rich Text Icons: from n/a through 1.2.3.",
   "severity": [
     {
       "type": "CVSS_V3",

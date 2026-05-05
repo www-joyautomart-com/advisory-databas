@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qv9c-vfw7-f233",
-  "modified": "2023-12-19T21:32:20Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-49750"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Spoonthemes Couponis - Affiliate & Submitting Coupons WordPress Theme.This issue affects Couponis - Affiliate & Submitting Coupons WordPress Theme: from n/a before 2.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Spoonthemes Couponis - Affiliate & Submitting Coupons WordPress Theme.This issue affects Couponis - Affiliate & Submitting Coupons WordPress Theme: from n/a before 2.2.",
   "severity": [
     {
       "type": "CVSS_V3",

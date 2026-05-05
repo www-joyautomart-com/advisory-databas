@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64wr-q42h-wmj6",
-  "modified": "2023-12-20T21:30:35Z",
+  "modified": "2026-04-28T21:33:31Z",
   "published": "2023-12-20T21:30:35Z",
   "aliases": [
     "CVE-2023-47784"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in ThemePunch OHG Slider Revolution.This issue affects Slider Revolution: from n/a through 6.6.15.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in ThemePunch OHG Slider Revolution.This issue affects Slider Revolution: from n/a through 6.6.15.",
   "severity": [
     {
       "type": "CVSS_V3",

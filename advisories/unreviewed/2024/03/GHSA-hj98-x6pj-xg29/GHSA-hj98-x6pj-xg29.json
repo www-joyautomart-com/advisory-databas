@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hj98-x6pj-xg29",
-  "modified": "2024-08-01T15:31:36Z",
+  "modified": "2026-04-28T15:30:41Z",
   "published": "2024-03-31T18:30:37Z",
   "aliases": [
     "CVE-2024-31094"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Filter Custom Fields & Taxonomies Light.This issue affects Filter Custom Fields & Taxonomies Light: from n/a through 1.05.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Filter Custom Fields & Taxonomies Light.This issue affects Filter Custom Fields & Taxonomies Light: from n/a through 1.05.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31094"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/filter-custom-fields-taxonomies-light/vulnerability/wordpress-filter-custom-fields-taxonomies-light-plugin-1-05-php-object-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

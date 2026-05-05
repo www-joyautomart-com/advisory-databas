@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f35-5jmv-gjvp",
-  "modified": "2023-12-21T21:30:30Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-21T21:30:30Z",
   "aliases": [
     "CVE-2023-32747"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce WooCommerce Bookings.This issue affects WooCommerce Bookings: from n/a through 1.15.78.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce WooCommerce Bookings.This issue affects WooCommerce Bookings: from n/a through 1.15.78.",
   "severity": [
     {
       "type": "CVSS_V3",

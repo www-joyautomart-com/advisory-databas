@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-63fp-wh7p-9g57",
-  "modified": "2023-12-28T12:30:19Z",
+  "modified": "2026-04-28T21:33:35Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50855"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sam Perrow Pre* Party Resource Hints.This issue affects Pre* Party Resource Hints: from n/a through 1.8.18.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Sam Perrow Pre* Party Resource Hints.This issue affects Pre* Party Resource Hints: from n/a through 1.8.18.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78xh-7fwh-vxxr",
-  "modified": "2023-12-20T06:30:25Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-20T06:30:25Z",
   "aliases": [
     "CVE-2023-49855"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in BinaryCarpenter Menu Bar Cart Icon For WooCommerce By Binary Carpenter.This issue affects Menu Bar Cart Icon For WooCommerce By Binary Carpenter: from n/a through 1.49.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in BinaryCarpenter Menu Bar Cart Icon For WooCommerce By Binary Carpenter.This issue affects Menu Bar Cart Icon For WooCommerce By Binary Carpenter: from n/a through 1.49.3.",
   "severity": [
     {
       "type": "CVSS_V3",

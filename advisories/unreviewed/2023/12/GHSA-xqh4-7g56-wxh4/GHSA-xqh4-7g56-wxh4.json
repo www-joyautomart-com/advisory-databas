@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xqh4-7g56-wxh4",
-  "modified": "2023-12-31T12:30:31Z",
+  "modified": "2026-04-28T21:33:40Z",
   "published": "2023-12-31T12:30:31Z",
   "aliases": [
     "CVE-2023-39157"
   ],
-  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Crocoblock JetElements For Elementor.This issue affects JetElements For Elementor: from n/a through 2.6.10.\n\n",
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Crocoblock JetElements For Elementor.This issue affects JetElements For Elementor: from n/a through 2.6.10.",
   "severity": [
     {
       "type": "CVSS_V3",

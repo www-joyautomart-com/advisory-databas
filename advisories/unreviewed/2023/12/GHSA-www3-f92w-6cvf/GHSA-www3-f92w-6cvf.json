@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-www3-f92w-6cvf",
-  "modified": "2023-12-19T00:30:20Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:20Z",
   "aliases": [
     "CVE-2023-49153"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Saiful Islam Add to Cart Text Changer and Customize Button, Add Custom Icon.This issue affects Add to Cart Text Changer and Customize Button, Add Custom Icon: from n/a through 2.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Saiful Islam Add to Cart Text Changer and Customize Button, Add Custom Icon.This issue affects Add to Cart Text Changer and Customize Button, Add Custom Icon: from n/a through 2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8h8-rjcr-f483",
-  "modified": "2023-11-30T15:30:25Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:25Z",
   "aliases": [
     "CVE-2023-45834"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Libsyn Libsyn Publisher Hub.This issue affects Libsyn Publisher Hub: from n/a through 1.4.4.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Libsyn Libsyn Publisher Hub.This issue affects Libsyn Publisher Hub: from n/a through 1.4.4.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4m4j-w3qr-4gcc",
-  "modified": "2023-12-27T00:30:25Z",
+  "modified": "2026-04-28T21:33:29Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-49825"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in PenciDesign Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme.This issue affects Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme: from n/a through 8.4.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in PenciDesign Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme.This issue affects Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme: from n/a through 8.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

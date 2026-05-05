@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cx58-rgfc-jwq7",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-28748"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in biztechc Copy or Move Comments allows SQL Injection.This issue affects Copy or Move Comments: from n/a through 5.0.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in biztechc Copy or Move Comments allows SQL Injection.This issue affects Copy or Move Comments: from n/a through 5.0.4.",
   "severity": [
     {
       "type": "CVSS_V3",

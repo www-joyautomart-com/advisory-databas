@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g896-hqwq-6qp3",
-  "modified": "2023-11-14T21:30:55Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-08T21:30:37Z",
   "aliases": [
     "CVE-2023-47228"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47228"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/slider-slideshow/vulnerability/wordpress-layer-slider-plugin-1-1-9-7-cross-site-scripting-xss-vulnerability-2?_s_id=cve"
     },
     {
       "type": "WEB",

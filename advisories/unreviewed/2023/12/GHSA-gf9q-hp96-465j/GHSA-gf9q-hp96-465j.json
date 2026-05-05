@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gf9q-hp96-465j",
-  "modified": "2023-12-17T12:30:26Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-17T12:30:26Z",
   "aliases": [
     "CVE-2023-24380"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Webbjocke Simple Wp Sitemap.This issue affects Simple Wp Sitemap: from n/a through 1.2.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Webbjocke Simple Wp Sitemap.This issue affects Simple Wp Sitemap: from n/a through 1.2.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-whr2-w3q9-5g6m",
-  "modified": "2023-11-30T18:31:18Z",
+  "modified": "2026-04-28T21:33:17Z",
   "published": "2023-11-30T18:31:18Z",
   "aliases": [
     "CVE-2023-47870"
   ],
-  "details": "Cross-Site Request Forgery (CSRF), Missing Authorization vulnerability in gVectors Team wpForo Forum wpforo allows Cross Site Request Forgery, Accessing Functionality Not Properly Constrained by ACLs leading to forced all users log out.This issue affects wpForo Forum: from n/a through 2.2.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF), Missing Authorization vulnerability in gVectors Team wpForo Forum wpforo allows Cross Site Request Forgery, Accessing Functionality Not Properly Constrained by ACLs leading to forced all users log out.This issue affects wpForo Forum: from n/a through 2.2.6.",
   "severity": [
     {
       "type": "CVSS_V3",

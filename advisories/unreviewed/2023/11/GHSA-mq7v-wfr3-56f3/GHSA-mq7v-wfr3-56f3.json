@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mq7v-wfr3-56f3",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-38382"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Daniel Söderström / Sidney van de Stouwe Subscribe to Category allows SQL Injection.This issue affects Subscribe to Category: from n/a through 2.7.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Daniel Söderström / Sidney van de Stouwe Subscribe to Category allows SQL Injection.This issue affects Subscribe to Category: from n/a through 2.7.4.",
   "severity": [
     {
       "type": "CVSS_V3",

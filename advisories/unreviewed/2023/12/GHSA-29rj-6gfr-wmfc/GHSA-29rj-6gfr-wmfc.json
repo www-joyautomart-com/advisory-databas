@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29rj-6gfr-wmfc",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-50823"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Wipeout Media CSS & JavaScript Toolbox allows Stored XSS.This issue affects CSS & JavaScript Toolbox: from n/a through 11.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Wipeout Media CSS & JavaScript Toolbox allows Stored XSS.This issue affects CSS & JavaScript Toolbox: from n/a through 11.7.",
   "severity": [
     {
       "type": "CVSS_V3",

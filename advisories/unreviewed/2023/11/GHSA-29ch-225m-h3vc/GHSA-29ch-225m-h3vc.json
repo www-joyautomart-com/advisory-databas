@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-29ch-225m-h3vc",
-  "modified": "2023-11-30T12:30:18Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T12:30:18Z",
   "aliases": [
     "CVE-2023-48329"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodeBard Fast Custom Social Share by CodeBard allows Stored XSS.This issue affects Fast Custom Social Share by CodeBard: from n/a through 1.1.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodeBard Fast Custom Social Share by CodeBard allows Stored XSS.This issue affects Fast Custom Social Share by CodeBard: from n/a through 1.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

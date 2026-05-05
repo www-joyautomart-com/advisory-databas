@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2vhm-2m7v-5x2c",
-  "modified": "2023-12-20T18:30:32Z",
+  "modified": "2026-04-28T21:33:28Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-32743"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WooCommerce AutomateWoo.This issue affects AutomateWoo: from n/a through 5.7.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WooCommerce AutomateWoo.This issue affects AutomateWoo: from n/a through 5.7.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mpx8-qgg5-7wpm",
-  "modified": "2023-11-14T18:30:21Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T09:30:14Z",
   "aliases": [
     "CVE-2022-46849"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar Coming Soon Page – Responsive Coming Soon & Maintenance Mode allows SQL Injection.This issue affects Coming Soon Page – Responsive Coming Soon & Maintenance Mode: from n/a through 1.5.9.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Weblizar Coming Soon Page – Responsive Coming Soon & Maintenance Mode allows SQL Injection.This issue affects Coming Soon Page – Responsive Coming Soon & Maintenance Mode: from n/a through 1.5.9.",
   "severity": [
     {
       "type": "CVSS_V3",

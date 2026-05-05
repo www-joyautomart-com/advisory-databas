@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xr4f-2rrr-cm48",
-  "modified": "2023-11-14T15:30:24Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T12:30:23Z",
   "aliases": [
     "CVE-2023-46084"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in bPlugins LLC Icons Font Loader allows SQL Injection.This issue affects Icons Font Loader: from n/a through 1.1.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in bPlugins LLC Icons Font Loader allows SQL Injection.This issue affects Icons Font Loader: from n/a through 1.1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

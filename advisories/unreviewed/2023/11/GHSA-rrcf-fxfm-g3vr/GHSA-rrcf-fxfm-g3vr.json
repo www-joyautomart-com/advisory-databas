@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rrcf-fxfm-g3vr",
-  "modified": "2023-11-17T00:31:05Z",
+  "modified": "2026-04-28T21:33:07Z",
   "published": "2023-11-13T03:30:37Z",
   "aliases": [
     "CVE-2023-46207"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in StylemixThemes Motors – Car Dealer, Classifieds & Listing.This issue affects Motors – Car Dealer, Classifieds & Listing: from n/a through 1.4.6.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in StylemixThemes Motors – Car Dealer, Classifieds & Listing.This issue affects Motors – Car Dealer, Classifieds & Listing: from n/a through 1.4.6.",
   "severity": [
     {
       "type": "CVSS_V3",

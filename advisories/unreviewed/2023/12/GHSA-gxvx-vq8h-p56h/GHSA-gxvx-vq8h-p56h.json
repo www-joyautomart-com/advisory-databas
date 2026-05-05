@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gxvx-vq8h-p56h",
-  "modified": "2023-12-29T06:30:28Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-49762"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in AppMySite AppMySite – Create an app with the Best Mobile App Builder.This issue affects AppMySite – Create an app with the Best Mobile App Builder: from n/a through 3.11.0.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in AppMySite AppMySite – Create an app with the Best Mobile App Builder.This issue affects AppMySite – Create an app with the Best Mobile App Builder: from n/a through 3.11.0.",
   "severity": [
     {
       "type": "CVSS_V3",

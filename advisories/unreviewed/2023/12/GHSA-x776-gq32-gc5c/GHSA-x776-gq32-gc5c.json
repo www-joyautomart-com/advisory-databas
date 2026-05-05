@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x776-gq32-gc5c",
-  "modified": "2024-01-08T21:30:26Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:37Z",
   "aliases": [
     "CVE-2023-51675"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in AAM Advanced Access Manager – Restricted Content, Users & Roles, Enhanced Security and More.This issue affects Advanced Access Manager – Restricted Content, Users & Roles, Enhanced Security and More: from n/a through 6.9.18.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in AAM Advanced Access Manager – Restricted Content, Users & Roles, Enhanced Security and More.This issue affects Advanced Access Manager – Restricted Content, Users & Roles, Enhanced Security and More: from n/a through 6.9.18.",
   "severity": [
     {
       "type": "CVSS_V3",

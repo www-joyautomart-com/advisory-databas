@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcpm-pqvq-j99m",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51676"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Leevio Happy Addons for Elementor.This issue affects Happy Addons for Elementor: from n/a through 3.9.1.1.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Leevio Happy Addons for Elementor.This issue affects Happy Addons for Elementor: from n/a through 3.9.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

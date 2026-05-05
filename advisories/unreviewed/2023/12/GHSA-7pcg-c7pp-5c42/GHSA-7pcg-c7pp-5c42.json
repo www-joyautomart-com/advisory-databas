@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7pcg-c7pp-5c42",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2022-45377"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Glen Don L. Mongaya Drag and Drop Multiple File Upload for WooCommerce.This issue affects Drag and Drop Multiple File Upload for WooCommerce: from n/a through 1.0.8.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Glen Don L. Mongaya Drag and Drop Multiple File Upload for WooCommerce.This issue affects Drag and Drop Multiple File Upload for WooCommerce: from n/a through 1.0.8.",
   "severity": [
     {
       "type": "CVSS_V3",

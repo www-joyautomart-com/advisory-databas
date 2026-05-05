@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9hwg-c628-x62j",
-  "modified": "2023-12-19T21:32:19Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-14T18:30:22Z",
   "aliases": [
     "CVE-2023-49151"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Simple Calendar Simple Calendar – Google Calendar Plugin allows Stored XSS.This issue affects Simple Calendar – Google Calendar Plugin: from n/a through 3.2.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Simple Calendar Simple Calendar – Google Calendar Plugin allows Stored XSS.This issue affects Simple Calendar – Google Calendar Plugin: from n/a through 3.2.6.",
   "severity": [
     {
       "type": "CVSS_V3",

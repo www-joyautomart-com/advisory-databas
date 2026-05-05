@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wjcp-46f7-9fq7",
-  "modified": "2024-08-01T15:31:36Z",
+  "modified": "2026-04-28T15:30:41Z",
   "published": "2024-03-31T21:30:35Z",
   "aliases": [
     "CVE-2024-31095"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Ricard Torres Thumbs Rating.This issue affects Thumbs Rating: from n/a through 5.1.0.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Ricard Torres Thumbs Rating.This issue affects Thumbs Rating: from n/a through 5.1.0.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31095"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/thumbs-rating/vulnerability/wordpress-thumbs-rating-plugin-5-1-0-insecure-direct-object-references-idor-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

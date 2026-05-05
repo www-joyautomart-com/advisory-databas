@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fxxg-p5jg-fxmj",
-  "modified": "2023-12-05T21:31:01Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:24Z",
   "aliases": [
     "CVE-2023-37867"
   ],
-  "details": "Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability in YetAnotherStarsRating.Com YASR – Yet Another Star Rating Plugin for WordPress.This issue affects YASR – Yet Another Star Rating Plugin for WordPress: from n/a through 3.3.8.\n\n",
+  "details": "Time-of-check Time-of-use (TOCTOU) Race Condition vulnerability in YetAnotherStarsRating.Com YASR – Yet Another Star Rating Plugin for WordPress.This issue affects YASR – Yet Another Star Rating Plugin for WordPress: from n/a through 3.3.8.",
   "severity": [
     {
       "type": "CVSS_V3",

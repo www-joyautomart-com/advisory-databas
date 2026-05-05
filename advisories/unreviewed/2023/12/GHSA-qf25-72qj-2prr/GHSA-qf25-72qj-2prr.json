@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf25-72qj-2prr",
-  "modified": "2023-12-20T15:30:19Z",
+  "modified": "2026-04-28T21:33:27Z",
   "published": "2023-12-20T15:30:19Z",
   "aliases": [
     "CVE-2023-38513"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Jordy Meow Photo Engine (Media Organizer & Lightroom).This issue affects Photo Engine (Media Organizer & Lightroom): from n/a through 6.2.5.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Jordy Meow Photo Engine (Media Organizer & Lightroom).This issue affects Photo Engine (Media Organizer & Lightroom): from n/a through 6.2.5.",
   "severity": [
     {
       "type": "CVSS_V3",

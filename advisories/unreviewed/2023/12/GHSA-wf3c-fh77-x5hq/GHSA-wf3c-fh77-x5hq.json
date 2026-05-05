@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wf3c-fh77-x5hq",
-  "modified": "2024-01-05T06:30:19Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:42Z",
   "aliases": [
     "CVE-2023-50837"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WebFactory Ltd Login Lockdown – Protect Login Form.This issue affects Login Lockdown – Protect Login Form: from n/a through 2.06.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WebFactory Ltd Login Lockdown – Protect Login Form.This issue affects Login Lockdown – Protect Login Form: from n/a through 2.06.",
   "severity": [
     {
       "type": "CVSS_V3",

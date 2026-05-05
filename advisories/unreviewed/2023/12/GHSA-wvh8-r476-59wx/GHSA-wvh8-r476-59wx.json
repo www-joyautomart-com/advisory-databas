@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvh8-r476-59wx",
-  "modified": "2023-12-29T12:30:42Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:42Z",
   "aliases": [
     "CVE-2023-50879"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WordPress.Com Editing Toolkit allows Stored XSS.This issue affects WordPress.Com Editing Toolkit: from n/a through 3.78784.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WordPress.Com Editing Toolkit allows Stored XSS.This issue affects WordPress.Com Editing Toolkit: from n/a through 3.78784.",
   "severity": [
     {
       "type": "CVSS_V3",

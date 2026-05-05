@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5fqg-7m43-98xr",
-  "modified": "2023-11-13T12:30:26Z",
+  "modified": "2026-04-28T21:33:08Z",
   "published": "2023-11-13T12:30:26Z",
   "aliases": [
     "CVE-2023-46092"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in LionScripts.Com Webmaster Tools allows Stored XSS.This issue affects Webmaster Tools: from n/a through 2.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in LionScripts.Com Webmaster Tools allows Stored XSS.This issue affects Webmaster Tools: from n/a through 2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

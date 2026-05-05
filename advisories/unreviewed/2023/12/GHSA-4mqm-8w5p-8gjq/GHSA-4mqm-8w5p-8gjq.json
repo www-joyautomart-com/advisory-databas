@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4mqm-8w5p-8gjq",
-  "modified": "2023-12-19T18:30:30Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T18:30:30Z",
   "aliases": [
     "CVE-2023-44991"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Jordy Meow Media File Renamer: Rename Files (Manual, Auto & AI).This issue affects Media File Renamer: Rename Files (Manual, Auto & AI): from n/a through 5.6.9.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Jordy Meow Media File Renamer: Rename Files (Manual, Auto & AI).This issue affects Media File Renamer: Rename Files (Manual, Auto & AI): from n/a through 5.6.9.",
   "severity": [
     {
       "type": "CVSS_V3",

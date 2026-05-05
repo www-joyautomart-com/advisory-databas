@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w264-jx82-7g7r",
-  "modified": "2023-12-28T12:30:18Z",
+  "modified": "2026-04-28T21:33:34Z",
   "published": "2023-12-28T12:30:18Z",
   "aliases": [
     "CVE-2023-36381"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Gesundheit Bewegt GmbH Zippy.This issue affects Zippy: from n/a through 1.6.5.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Gesundheit Bewegt GmbH Zippy.This issue affects Zippy: from n/a through 1.6.5.",
   "severity": [
     {
       "type": "CVSS_V3",

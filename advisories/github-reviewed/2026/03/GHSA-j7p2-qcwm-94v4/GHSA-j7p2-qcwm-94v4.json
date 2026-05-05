@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7p2-qcwm-94v4",
-  "modified": "2026-03-31T23:59:36Z",
+  "modified": "2026-04-28T18:18:44Z",
   "published": "2026-03-31T23:59:36Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41387"
+  ],
   "summary": "OpenClaw's incomplete host env sanitization blocklist allows supply-chain redirection via package-manager env overrides",
   "details": "## Summary\n\nHost exec env override sanitization did not fail closed for several package-manager and related redirect variables that can steer dependency fetches or startup behavior.\n\n## Impact\n\nAn approved exec request could silently redirect package resolution or runtime bootstrap to attacker-controlled infrastructure and execute trojanized content.\n\n## Affected Component\n\n`src/infra/host-env-security-policy.json, src/infra/host-env-security.ts`\n\n## Fixed Versions\n\n- Affected: `< 2026.3.22`\n- Patched: `>= 2026.3.22`\n\n## Fix\n\nFixed by commit `7abfff756d` (`Exec: harden host env override handling across gateway and node`).",
   "severity": [

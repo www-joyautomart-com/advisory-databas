@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vfrw-m2c3-hh6g",
-  "modified": "2023-11-15T15:30:20Z",
+  "modified": "2026-04-28T15:30:34Z",
   "published": "2023-11-15T15:30:20Z",
   "aliases": [
     "CVE-2022-47442"
   ],
-  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in AyeCode Ltd UsersWP.This issue affects UsersWP: from n/a through 1.2.3.9.\n\n",
+  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in AyeCode Ltd UsersWP.This issue affects UsersWP: from n/a through 1.2.3.9.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-47442"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/userswp/vulnerability/wordpress-userswp-front-end-login-form-user-registration-user-profile-members-directory-plugin-for-wordpress-plugin-1-2-3-9-csv-injection?_s_id=cve"
     },
     {
       "type": "WEB",

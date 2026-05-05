@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-82h7-5mqq-xr6g",
-  "modified": "2023-11-09T21:30:37Z",
+  "modified": "2026-04-28T15:30:33Z",
   "published": "2023-11-04T00:30:23Z",
   "aliases": [
     "CVE-2023-36677"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Smartypants SP Project & Document Manager allows SQL Injection.This issue affects SP Project & Document Manager: from n/a through 4.67.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Smartypants SP Project & Document Manager allows SQL Injection.This issue affects SP Project & Document Manager: from n/a through 4.67.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-36677"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/sp-client-document-manager/vulnerability/wordpress-sp-project-document-manager-plugin-4-67-sql-injection?_s_id=cve"
     },
     {
       "type": "WEB",

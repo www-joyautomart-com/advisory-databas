@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cxqc-3946-6978",
-  "modified": "2023-11-30T15:30:25Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:25Z",
   "aliases": [
     "CVE-2023-45066"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Smackcoders Export All Posts, Products, Orders, Refunds & Users.This issue affects Export All Posts, Products, Orders, Refunds & Users: from n/a through 2.4.1.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Smackcoders Export All Posts, Products, Orders, Refunds & Users.This issue affects Export All Posts, Products, Orders, Refunds & Users: from n/a through 2.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

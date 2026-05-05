@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f9c3-v8hj-gm62",
-  "modified": "2024-01-05T00:30:27Z",
+  "modified": "2026-04-28T21:33:36Z",
   "published": "2023-12-28T21:30:38Z",
   "aliases": [
     "CVE-2023-50845"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AyeCode - WordPress Business Directory Plugins GeoDirectory – WordPress Business Directory Plugin, or Classified Directory.This issue affects GeoDirectory – WordPress Business Directory Plugin, or Classified Directory: from n/a through 2.3.28.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in AyeCode - WordPress Business Directory Plugins GeoDirectory – WordPress Business Directory Plugin, or Classified Directory.This issue affects GeoDirectory – WordPress Business Directory Plugin, or Classified Directory: from n/a through 2.3.28.",
   "severity": [
     {
       "type": "CVSS_V3",

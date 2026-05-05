@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hw7q-3g3p-cgph",
-  "modified": "2023-12-06T03:30:26Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-46086"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SERVIT Software Solutions affiliate-toolkit – WordPress Affiliate Plugin allows Reflected XSS.This issue affects affiliate-toolkit – WordPress Affiliate Plugin: from n/a through 3.4.3.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SERVIT Software Solutions affiliate-toolkit – WordPress Affiliate Plugin allows Reflected XSS.This issue affects affiliate-toolkit – WordPress Affiliate Plugin: from n/a through 3.4.3.",
   "severity": [
     {
       "type": "CVSS_V3",

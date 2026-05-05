@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6rwq-h5r6-wjc7",
-  "modified": "2023-12-18T18:30:21Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-49843"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in QuanticEdge First Order Discount Woocommerce.This issue affects First Order Discount Woocommerce: from n/a through 1.21.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in QuanticEdge First Order Discount Woocommerce.This issue affects First Order Discount Woocommerce: from n/a through 1.21.",
   "severity": [
     {
       "type": "CVSS_V3",

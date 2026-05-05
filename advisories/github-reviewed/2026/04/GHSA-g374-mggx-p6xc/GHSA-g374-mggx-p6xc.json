@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g374-mggx-p6xc",
-  "modified": "2026-04-03T03:05:48Z",
+  "modified": "2026-04-28T18:23:43Z",
   "published": "2026-04-03T03:05:48Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41404"
+  ],
   "summary": "OpenClaw: Incomplete scope-clearing fix allows operator.admin escalation via trusted-proxy auth mode",
   "details": "## Summary\nIncomplete scope-clearing fix allows operator.admin escalation via trusted-proxy auth mode\n\n## Current Maintainer Triage\n- Normalized severity: high\n- Assessment: v2026.3.28 still misses trusted-proxy scope clearing for non-Control-UI clients, so self-declared operator scopes can survive on a real identity-bearing auth path; the complete fix is unreleased.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `8b88b927cb0747ad24d95b07d35682bf85dc5b0e` — 2026-03-30T14:19:00+01:00\n\nOpenClaw thanks @north-echo for reporting.",
   "severity": [

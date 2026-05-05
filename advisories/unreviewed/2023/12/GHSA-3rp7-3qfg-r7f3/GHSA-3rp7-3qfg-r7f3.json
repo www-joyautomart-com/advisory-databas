@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rp7-3qfg-r7f3",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51470"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Jacques Malgrange Rencontre – Dating Site.This issue affects Rencontre – Dating Site: from n/a through 3.11.1.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Jacques Malgrange Rencontre – Dating Site.This issue affects Rencontre – Dating Site: from n/a through 3.11.1.",
   "severity": [
     {
       "type": "CVSS_V3",

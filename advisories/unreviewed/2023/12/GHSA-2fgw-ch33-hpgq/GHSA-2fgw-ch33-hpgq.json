@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fgw-ch33-hpgq",
-  "modified": "2023-12-27T15:30:22Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:21Z",
   "aliases": [
     "CVE-2023-49821"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in LiveChat LiveChat – WP live chat plugin for WordPress.This issue affects LiveChat – WP live chat plugin for WordPress: from n/a through 4.5.15.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in LiveChat LiveChat – WP live chat plugin for WordPress.This issue affects LiveChat – WP live chat plugin for WordPress: from n/a through 4.5.15.",
   "severity": [
     {
       "type": "CVSS_V3",

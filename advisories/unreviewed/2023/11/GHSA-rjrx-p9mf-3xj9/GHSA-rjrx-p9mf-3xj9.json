@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rjrx-p9mf-3xj9",
-  "modified": "2023-11-15T21:35:06Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-09T21:30:39Z",
   "aliases": [
     "CVE-2023-32745"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32745"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/automatewoo/vulnerability/wordpress-automatewoo-plugin-5-7-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4g5x-2jfc-xm98",
-  "modified": "2026-04-07T18:10:41Z",
+  "modified": "2026-04-28T18:24:55Z",
   "published": "2026-04-07T18:10:41Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41408"
+  ],
   "summary": "OpenClaw: Tlon media downloads can bypass core safety limits and exhaust disk",
   "details": "## Summary\nTlon media downloads can bypass core safety limits and exhaust disk\n\n## Current Maintainer Triage\n- Status: narrow\n- Normalized severity: low\n- Assessment: Shipped v2026.3.28 Tlon media downloads bypassed core size/count/cleanup limits, but this is availability-only resource exhaustion in a bundled plugin path, so low.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `2194587d70d2aef863508b945319c5a7c88b12ce` — 2026-03-31T19:40:15+09:00\n\n## Release Process Note\n- The fix is already present in released version `2026.3.31`.\n- This draft looks ready for final maintainer disposition or publication, not additional code-fix work.\n\nThanks @AntAISecurityLab for reporting.",
   "severity": [

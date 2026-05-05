@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvcv-rjfq-gg9g",
-  "modified": "2026-04-22T15:31:44Z",
+  "modified": "2026-04-28T18:30:29Z",
   "published": "2026-04-22T15:31:44Z",
   "aliases": [
     "CVE-2026-31523"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnvme-pci: ensure we're polling a polled queue\n\nA user can change the polled queue count at run time. There's a brief\nwindow during a reset where a hipri task may try to poll that queue\nbefore the block layer has updated the queue maps, which would race with\nthe now interrupt driven queue and may cause double completions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-367"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:52Z"

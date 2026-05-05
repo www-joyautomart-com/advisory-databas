@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmwm-8qjm-hchh",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51505"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in realmag777 Active Products Tables for WooCommerce. Professional products tables for WooCommerce store.This issue affects Active Products Tables for WooCommerce. Professional products tables for WooCommerce store : from n/a through 1.0.6.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in realmag777 Active Products Tables for WooCommerce. Professional products tables for WooCommerce store.This issue affects Active Products Tables for WooCommerce. Professional products tables for WooCommerce store : from n/a through 1.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",

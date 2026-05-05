@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m246-64qf-m83c",
-  "modified": "2023-12-21T21:30:30Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-21T21:30:30Z",
   "aliases": [
     "CVE-2023-32799"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce Shipping Multiple Addresses.This issue affects Shipping Multiple Addresses: from n/a through 3.8.3.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce Shipping Multiple Addresses.This issue affects Shipping Multiple Addresses: from n/a through 3.8.3.",
   "severity": [
     {
       "type": "CVSS_V3",

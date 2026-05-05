@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-87hw-vpm8-xxh2",
-  "modified": "2023-11-25T03:30:32Z",
+  "modified": "2026-04-28T21:33:11Z",
   "published": "2023-11-19T00:30:26Z",
   "aliases": [
     "CVE-2023-47644"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in profilegrid ProfileGrid – User Profiles, Memberships, Groups and Communities.This issue affects ProfileGrid – User Profiles, Memberships, Groups and Communities: from n/a through 5.6.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in profilegrid ProfileGrid – User Profiles, Memberships, Groups and Communities.This issue affects ProfileGrid – User Profiles, Memberships, Groups and Communities: from n/a through 5.6.6.",
   "severity": [
     {
       "type": "CVSS_V3",

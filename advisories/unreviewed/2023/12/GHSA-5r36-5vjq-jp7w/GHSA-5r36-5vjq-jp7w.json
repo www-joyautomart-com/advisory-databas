@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r36-5vjq-jp7w",
-  "modified": "2023-12-20T21:30:35Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-20T21:30:35Z",
   "aliases": [
     "CVE-2023-23970"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WooRockets Corsa.This issue affects Corsa: from n/a through 1.5.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WooRockets Corsa.This issue affects Corsa: from n/a through 1.5.",
   "severity": [
     {
       "type": "CVSS_V3",

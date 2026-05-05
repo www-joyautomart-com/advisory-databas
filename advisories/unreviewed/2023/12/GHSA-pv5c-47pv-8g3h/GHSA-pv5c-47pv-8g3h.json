@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pv5c-47pv-8g3h",
-  "modified": "2023-12-29T12:30:41Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-31229"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WP Directory Kit.This issue affects WP Directory Kit: from n/a through 1.1.9.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in WP Directory Kit.This issue affects WP Directory Kit: from n/a through 1.1.9.",
   "severity": [
     {
       "type": "CVSS_V3",

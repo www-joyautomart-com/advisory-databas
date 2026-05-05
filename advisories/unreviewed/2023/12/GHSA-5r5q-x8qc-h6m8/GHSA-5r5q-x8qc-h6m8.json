@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5r5q-x8qc-h6m8",
-  "modified": "2023-12-29T12:30:42Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T12:30:42Z",
   "aliases": [
     "CVE-2023-51402"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Brain Storm Force Ultimate Addons for WPBakery Page Builder.This issue affects Ultimate Addons for WPBakery Page Builder: from n/a through 3.19.17.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Brain Storm Force Ultimate Addons for WPBakery Page Builder.This issue affects Ultimate Addons for WPBakery Page Builder: from n/a through 3.19.17.",
   "severity": [
     {
       "type": "CVSS_V3",

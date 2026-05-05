@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7qwq-2hrf-8f6g",
-  "modified": "2026-04-22T15:31:43Z",
+  "modified": "2026-04-28T15:30:47Z",
   "published": "2026-04-22T15:31:43Z",
   "aliases": [
     "CVE-2026-31496"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: nf_conntrack_expect: skip expectations in other netns via proc\n\nSkip expectations that do not reside in this netns.\n\nSimilar to e77e6ff502ea (\"netfilter: conntrack: do not dump other netns's\nconntrack entries via proc\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -41,7 +46,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:47Z"

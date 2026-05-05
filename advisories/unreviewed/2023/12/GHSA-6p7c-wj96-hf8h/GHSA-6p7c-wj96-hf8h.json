@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6p7c-wj96-hf8h",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51414"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in EnvialoSimple EnvíaloSimple: Email Marketing y Newsletters.This issue affects EnvíaloSimple: Email Marketing y Newsletters: from n/a through 2.1.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in EnvialoSimple EnvíaloSimple: Email Marketing y Newsletters.This issue affects EnvíaloSimple: Email Marketing y Newsletters: from n/a through 2.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cc57-8992-87q8",
-  "modified": "2023-12-14T18:30:20Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:20Z",
   "aliases": [
     "CVE-2023-49173"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in 10to8 Sign In Scheduling Online Appointment Booking System allows Stored XSS.This issue affects Sign In Scheduling Online Appointment Booking System: from n/a through 1.0.9.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in 10to8 Sign In Scheduling Online Appointment Booking System allows Stored XSS.This issue affects Sign In Scheduling Online Appointment Booking System: from n/a through 1.0.9.",
   "severity": [
     {
       "type": "CVSS_V3",

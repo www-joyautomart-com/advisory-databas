@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f82h-p853-m78w",
-  "modified": "2023-12-20T00:32:44Z",
+  "modified": "2026-04-28T21:33:27Z",
   "published": "2023-12-20T00:32:44Z",
   "aliases": [
     "CVE-2023-50835"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Praveen Goswami Advanced Category Template.This issue affects Advanced Category Template: from n/a through 0.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Praveen Goswami Advanced Category Template.This issue affects Advanced Category Template: from n/a through 0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

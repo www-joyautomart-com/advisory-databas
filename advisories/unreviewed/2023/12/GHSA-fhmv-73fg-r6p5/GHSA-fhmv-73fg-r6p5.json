@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhmv-73fg-r6p5",
-  "modified": "2023-12-17T12:30:26Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-17T12:30:26Z",
   "aliases": [
     "CVE-2023-49775"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Denis Kobozev CSV Importer.This issue affects CSV Importer: from n/a through 0.3.8.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Denis Kobozev CSV Importer.This issue affects CSV Importer: from n/a through 0.3.8.",
   "severity": [
     {
       "type": "CVSS_V3",

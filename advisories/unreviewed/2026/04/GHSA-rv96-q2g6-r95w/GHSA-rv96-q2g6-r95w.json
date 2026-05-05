@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv96-q2g6-r95w",
-  "modified": "2026-04-24T15:32:37Z",
+  "modified": "2026-04-27T21:30:51Z",
   "published": "2026-04-24T15:32:37Z",
   "aliases": [
     "CVE-2026-31671"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nxfrm_user: fix info leak in build_report()\n\nstruct xfrm_user_report is a __u8 proto field followed by a struct\nxfrm_selector which means there is three \"empty\" bytes of padding, but\nthe padding is never zeroed before copying to userspace.  Fix that up by\nzeroing the structure before setting individual member variables.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:46Z"

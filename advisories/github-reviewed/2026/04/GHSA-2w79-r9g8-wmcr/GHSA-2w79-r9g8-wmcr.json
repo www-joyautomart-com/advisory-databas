@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w79-r9g8-wmcr",
-  "modified": "2026-04-03T03:13:35Z",
+  "modified": "2026-04-28T18:22:45Z",
   "published": "2026-04-03T03:13:35Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41400"
+  ],
   "summary": "OpenClaw: Voice-call still parses large WebSocket frames before start validation (Incomplete fix for CVE-2026-32062)",
   "details": "## Summary\nIncomplete fix for CVE-2026-32062: voice-call still parses large WebSocket frames before start validation\n\n## Current Maintainer Triage\n- Normalized severity: medium\n- Assessment: v2026.3.28 still parses oversized pre-start voice-call WebSocket frames before start validation, and the unreleased maxPayload fix confirms the shipped resource-consumption bug remains open.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `9abcfdadf591bf266d85fbdfe14ae833e557a110` — 2026-03-31T19:47:10+09:00\n\nOpenClaw thanks @Kazamayc for reporting.",
   "severity": [

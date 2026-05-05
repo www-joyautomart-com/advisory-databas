@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hr22-g233-2gjg",
-  "modified": "2026-04-22T15:31:43Z",
+  "modified": "2026-04-28T15:30:47Z",
   "published": "2026-04-22T15:31:43Z",
   "aliases": [
     "CVE-2026-31499"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Fix deadlock in l2cap_conn_del()\n\nl2cap_conn_del() calls cancel_delayed_work_sync() for both info_timer\nand id_addr_timer while holding conn->lock. However, the work functions\nl2cap_info_timeout() and l2cap_conn_update_id_addr() both acquire\nconn->lock, creating a potential AB-BA deadlock if the work is already\nexecuting when l2cap_conn_del() takes the lock.\n\nMove the work cancellations before acquiring conn->lock and use\ndisable_delayed_work_sync() to additionally prevent the works from\nbeing rearmed after cancellation, consistent with the pattern used in\nhci_conn_del().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:48Z"

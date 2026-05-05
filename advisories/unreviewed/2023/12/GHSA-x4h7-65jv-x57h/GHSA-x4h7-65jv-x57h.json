@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4h7-65jv-x57h",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-50827"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Accredible Accredible Certificates & Open Badges allows Stored XSS.This issue affects Accredible Certificates & Open Badges: from n/a through 1.4.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Accredible Accredible Certificates & Open Badges allows Stored XSS.This issue affects Accredible Certificates & Open Badges: from n/a through 1.4.8.",
   "severity": [
     {
       "type": "CVSS_V3",

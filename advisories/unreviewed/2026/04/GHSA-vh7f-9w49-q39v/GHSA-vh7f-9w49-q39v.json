@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh7f-9w49-q39v",
-  "modified": "2026-04-24T15:32:37Z",
+  "modified": "2026-04-27T21:30:50Z",
   "published": "2026-04-24T15:32:37Z",
   "aliases": [
     "CVE-2026-31660"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfc: pn533: allocate rx skb before consuming bytes\n\npn532_receive_buf() reports the number of accepted bytes to the serdev\ncore. The current code consumes bytes into recv_skb and may already hand\na complete frame to pn533_recv_frame() before allocating a fresh receive\nbuffer.\n\nIf that alloc_skb() fails, the callback returns 0 even though it has\nalready consumed bytes, and it leaves recv_skb as NULL for the next\nreceive callback. That breaks the receive_buf() accounting contract and\ncan also lead to a NULL dereference on the next skb_put_u8().\n\nAllocate the receive skb lazily before consuming the next byte instead.\nIf allocation fails, return the number of bytes already accepted.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:45Z"

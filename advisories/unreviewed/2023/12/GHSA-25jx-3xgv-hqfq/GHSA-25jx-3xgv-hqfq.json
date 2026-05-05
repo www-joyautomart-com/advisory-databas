@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25jx-3xgv-hqfq",
-  "modified": "2023-12-18T18:30:21Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-47789"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in WooCommerce Canada Post Shipping Method.This issue affects Canada Post Shipping Method: from n/a through 2.8.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in WooCommerce Canada Post Shipping Method.This issue affects Canada Post Shipping Method: from n/a through 2.8.3.",
   "severity": [
     {
       "type": "CVSS_V3",

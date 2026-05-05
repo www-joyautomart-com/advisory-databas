@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5ppm-xc39-892p",
-  "modified": "2023-12-20T21:30:34Z",
+  "modified": "2026-04-28T21:33:31Z",
   "published": "2023-12-20T21:30:34Z",
   "aliases": [
     "CVE-2023-29102"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Olive Themes Olive One Click Demo Import.This issue affects Olive One Click Demo Import: from n/a through 1.1.1.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Olive Themes Olive One Click Demo Import.This issue affects Olive One Click Demo Import: from n/a through 1.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

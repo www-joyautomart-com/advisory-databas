@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-93vw-2xp9-jc53",
-  "modified": "2024-01-05T00:30:27Z",
+  "modified": "2026-04-28T21:33:36Z",
   "published": "2023-12-28T21:30:38Z",
   "aliases": [
     "CVE-2023-50838"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Basix NEX-Forms – Ultimate Form Builder – Contact forms and much more.This issue affects NEX-Forms – Ultimate Form Builder – Contact forms and much more: from n/a through 8.5.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Basix NEX-Forms – Ultimate Form Builder – Contact forms and much more.This issue affects NEX-Forms – Ultimate Form Builder – Contact forms and much more: from n/a through 8.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

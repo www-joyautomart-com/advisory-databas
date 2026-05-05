@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2pvh-447j-v7m6",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-28T15:30:47Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31489"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nspi: meson-spicc: Fix double-put in remove path\n\nmeson_spicc_probe() registers the controller with\ndevm_spi_register_controller(), so teardown already drops the\ncontroller reference via devm cleanup.\n\nCalling spi_controller_put() again in meson_spicc_remove()\ncauses a double-put.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:46Z"

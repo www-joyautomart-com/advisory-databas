@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq3w-fv3r-3xwv",
-  "modified": "2023-11-30T12:30:18Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T12:30:18Z",
   "aliases": [
     "CVE-2023-47777"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WooCommerce, Automattic WooCommerce Blocks allows Stored XSS.This issue affects WooCommerce: from n/a through 8.1.1; WooCommerce Blocks: from n/a through 11.1.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WooCommerce, Automattic WooCommerce Blocks allows Stored XSS.This issue affects WooCommerce: from n/a through 8.1.1; WooCommerce Blocks: from n/a through 11.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

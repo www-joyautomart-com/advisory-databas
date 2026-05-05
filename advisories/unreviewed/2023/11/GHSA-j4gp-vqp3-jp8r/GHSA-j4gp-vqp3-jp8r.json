@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j4gp-vqp3-jp8r",
-  "modified": "2023-11-13T06:30:23Z",
+  "modified": "2026-04-28T21:33:08Z",
   "published": "2023-11-13T06:30:23Z",
   "aliases": [
     "CVE-2023-47652"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Lucian Apostol Auto Affiliate Links allows Stored XSS.This issue affects Auto Affiliate Links: from n/a through 6.4.2.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Lucian Apostol Auto Affiliate Links allows Stored XSS.This issue affects Auto Affiliate Links: from n/a through 6.4.2.4.",
   "severity": [
     {
       "type": "CVSS_V3",

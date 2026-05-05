@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3cg5-6rj7-9c9c",
-  "modified": "2023-11-30T18:31:17Z",
+  "modified": "2026-04-28T21:33:14Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-26533"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gesundheit Bewegt GmbH Zippy.This issue affects Zippy: from n/a through 1.6.1.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gesundheit Bewegt GmbH Zippy.This issue affects Zippy: from n/a through 1.6.1.",
   "severity": [
     {
       "type": "CVSS_V3",

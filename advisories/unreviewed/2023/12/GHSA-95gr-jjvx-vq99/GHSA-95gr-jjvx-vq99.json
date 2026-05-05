@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95gr-jjvx-vq99",
-  "modified": "2023-12-14T15:30:23Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T15:30:23Z",
   "aliases": [
     "CVE-2023-49743"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Jeff Starr Dashboard Widgets Suite allows Stored XSS.This issue affects Dashboard Widgets Suite: from n/a through 3.4.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Jeff Starr Dashboard Widgets Suite allows Stored XSS.This issue affects Dashboard Widgets Suite: from n/a through 3.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

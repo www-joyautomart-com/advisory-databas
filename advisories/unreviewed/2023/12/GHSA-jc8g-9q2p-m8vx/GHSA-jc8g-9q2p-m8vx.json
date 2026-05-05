@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jc8g-9q2p-m8vx",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-48288"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in HM Plugin WordPress Job Board and Recruitment Plugin – JobWP.This issue affects WordPress Job Board and Recruitment Plugin – JobWP: from n/a through 2.1.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in HM Plugin WordPress Job Board and Recruitment Plugin – JobWP.This issue affects WordPress Job Board and Recruitment Plugin – JobWP: from n/a through 2.1.",
   "severity": [
     {
       "type": "CVSS_V3",

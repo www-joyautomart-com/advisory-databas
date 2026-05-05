@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8xq7-32f2-8w8h",
-  "modified": "2024-04-04T06:13:34Z",
+  "modified": "2026-04-28T21:32:54Z",
   "published": "2023-07-18T15:30:36Z",
   "aliases": [
     "CVE-2022-34155"
   ],
-  "details": "Improper Authentication vulnerability in miniOrange OAuth Single Sign On – SSO (OAuth Client) plugin allows Authentication Bypass.This issue affects OAuth Single Sign On – SSO (OAuth Client): from n/a through 6.23.3.\n\n",
+  "details": "Improper Authentication vulnerability in miniOrange OAuth Single Sign On – SSO (OAuth Client) plugin allows Authentication Bypass.This issue affects OAuth Single Sign On – SSO (OAuth Client): from n/a through 6.23.3.",
   "severity": [
     {
       "type": "CVSS_V3",

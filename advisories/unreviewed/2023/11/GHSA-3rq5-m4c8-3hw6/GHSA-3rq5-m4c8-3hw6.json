@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3rq5-m4c8-3hw6",
-  "modified": "2023-11-09T21:30:37Z",
+  "modified": "2026-04-28T21:32:58Z",
   "published": "2023-11-04T00:30:23Z",
   "aliases": [
     "CVE-2023-35910"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Nucleus_genius Quasar form free – Contact Form Builder for WordPress allows SQL Injection.This issue affects Quasar form free – Contact Form Builder for WordPress: from n/a through 6.0.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Nucleus_genius Quasar form free – Contact Form Builder for WordPress allows SQL Injection.This issue affects Quasar form free – Contact Form Builder for WordPress: from n/a through 6.0.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-35910"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/quasar-form/vulnerability/wordpress-quasar-form-plugin-6-0-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

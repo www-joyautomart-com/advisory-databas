@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62hv-fgc6-fxm4",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-50824"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Brian Batt Insert or Embed Articulate Content into WordPress allows Stored XSS.This issue affects Insert or Embed Articulate Content into WordPress: from n/a through 4.3000000021.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Brian Batt Insert or Embed Articulate Content into WordPress allows Stored XSS.This issue affects Insert or Embed Articulate Content into WordPress: from n/a through 4.3000000021.",
   "severity": [
     {
       "type": "CVSS_V3",

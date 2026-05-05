@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qf65-8m3f-8xxv",
-  "modified": "2023-11-18T21:30:25Z",
+  "modified": "2026-04-28T21:33:09Z",
   "published": "2023-11-18T21:30:25Z",
   "aliases": [
     "CVE-2023-47666"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Code Snippets Pro Code Snippets.This issue affects Code Snippets: from n/a through 3.5.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Code Snippets Pro Code Snippets.This issue affects Code Snippets: from n/a through 3.5.0.",
   "severity": [
     {
       "type": "CVSS_V3",

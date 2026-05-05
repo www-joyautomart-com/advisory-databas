@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7grr-5rg7-4h7p",
-  "modified": "2023-11-13T21:30:57Z",
+  "modified": "2026-04-28T15:30:32Z",
   "published": "2023-11-03T18:30:23Z",
   "aliases": [
     "CVE-2023-25700"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Themeum Tutor LMS allows SQL Injection.This issue affects Tutor LMS: from n/a through 2.1.10.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Themeum Tutor LMS allows SQL Injection.This issue affects Tutor LMS: from n/a through 2.1.10.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25700"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/tutor/vulnerability/wordpress-tutor-lms-plugin-2-1-10-unauthenticated-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69m3-5g7g-x3r7",
-  "modified": "2023-12-15T18:30:28Z",
+  "modified": "2026-04-28T21:33:22Z",
   "published": "2023-12-15T18:30:28Z",
   "aliases": [
     "CVE-2023-49823"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in BoldThemes Bold Page Builder allows Stored XSS.This issue affects Bold Page Builder: from n/a through 4.6.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in BoldThemes Bold Page Builder allows Stored XSS.This issue affects Bold Page Builder: from n/a through 4.6.1.",
   "severity": [
     {
       "type": "CVSS_V3",

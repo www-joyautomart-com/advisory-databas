@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-295v-38xm-x24r",
-  "modified": "2023-12-19T18:30:30Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T18:30:30Z",
   "aliases": [
     "CVE-2023-44983"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Aruba.It Aruba HiSpeed Cache.This issue affects Aruba HiSpeed Cache: from n/a through 2.0.6.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Aruba.It Aruba HiSpeed Cache.This issue affects Aruba HiSpeed Cache: from n/a through 2.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6287-c9rq-hvg4",
-  "modified": "2023-12-27T21:30:59Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-20T21:30:35Z",
   "aliases": [
     "CVE-2023-25970"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Zendrop Zendrop – Global Dropshipping.This issue affects Zendrop – Global Dropshipping: from n/a through 1.0.0.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Zendrop Zendrop – Global Dropshipping.This issue affects Zendrop – Global Dropshipping: from n/a through 1.0.0.",
   "severity": [
     {
       "type": "CVSS_V3",

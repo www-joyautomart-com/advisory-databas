@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jvgh-f9m8-mh2r",
-  "modified": "2024-01-04T21:30:24Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-28T12:30:18Z",
   "aliases": [
     "CVE-2023-32513"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in GiveWP GiveWP – Donation Plugin and Fundraising Platform.This issue affects GiveWP – Donation Plugin and Fundraising Platform: from n/a through 2.25.3.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in GiveWP GiveWP – Donation Plugin and Fundraising Platform.This issue affects GiveWP – Donation Plugin and Fundraising Platform: from n/a through 2.25.3.",
   "severity": [
     {
       "type": "CVSS_V3",

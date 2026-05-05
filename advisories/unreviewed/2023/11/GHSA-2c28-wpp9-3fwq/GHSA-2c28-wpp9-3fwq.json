@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2c28-wpp9-3fwq",
-  "modified": "2023-11-15T03:30:26Z",
+  "modified": "2026-04-28T15:30:35Z",
   "published": "2023-11-07T21:30:24Z",
   "aliases": [
     "CVE-2022-45370"
   ],
-  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in WebToffee WordPress Comments Import & Export.This issue affects WordPress Comments Import & Export: from n/a through 2.3.1.\n\n",
+  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in WebToffee WordPress Comments Import & Export.This issue affects WordPress Comments Import & Export: from n/a through 2.3.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45370"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/comments-import-export-woocommerce/vulnerability/wordpress-wordpress-comments-import-export-plugin-2-3-1-csv-injection?_s_id=cve"
     },
     {
       "type": "WEB",

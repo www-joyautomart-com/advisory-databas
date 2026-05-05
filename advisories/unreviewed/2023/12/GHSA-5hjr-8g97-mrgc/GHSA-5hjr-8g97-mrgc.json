@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5hjr-8g97-mrgc",
-  "modified": "2023-12-27T21:30:58Z",
+  "modified": "2026-04-28T21:33:31Z",
   "published": "2023-12-20T21:30:35Z",
   "aliases": [
     "CVE-2023-40204"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Premio Folders – Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager.This issue affects Folders – Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager: from n/a through 2.9.2.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Premio Folders – Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager.This issue affects Folders – Unlimited Folders to Organize Media Library Folder, Pages, Posts, File Manager: from n/a through 2.9.2.",
   "severity": [
     {
       "type": "CVSS_V3",

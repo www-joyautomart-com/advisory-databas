@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-297w-79rr-rq4p",
-  "modified": "2023-11-30T15:30:25Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:25Z",
   "aliases": [
     "CVE-2023-37972"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in MultiVendorX Product Stock Manager & Notifier for WooCommerce.This issue affects Product Stock Manager & Notifier for WooCommerce: from n/a through 2.0.1.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in MultiVendorX Product Stock Manager & Notifier for WooCommerce.This issue affects Product Stock Manager & Notifier for WooCommerce: from n/a through 2.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

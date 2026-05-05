@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f37v-5r8j-33m9",
-  "modified": "2026-04-22T15:31:43Z",
+  "modified": "2026-04-28T18:30:29Z",
   "published": "2026-04-22T15:31:43Z",
   "aliases": [
     "CVE-2026-31518"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nesp: fix skb leak with espintcp and async crypto\n\nWhen the TX queue for espintcp is full, esp_output_tail_tcp will\nreturn an error and not free the skb, because with synchronous crypto,\nthe common xfrm output code will drop the packet for us.\n\nWith async crypto (esp_output_done), we need to drop the skb when\nesp_output_tail_tcp returns an error.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:51Z"

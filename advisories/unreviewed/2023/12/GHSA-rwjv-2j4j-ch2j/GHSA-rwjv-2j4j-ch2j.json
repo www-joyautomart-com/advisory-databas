@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rwjv-2j4j-ch2j",
-  "modified": "2023-12-19T21:32:20Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-48741"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in QuantumCloud AI ChatBot.This issue affects AI ChatBot: from n/a through 4.7.8.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in QuantumCloud AI ChatBot.This issue affects AI ChatBot: from n/a through 4.7.8.",
   "severity": [
     {
       "type": "CVSS_V3",

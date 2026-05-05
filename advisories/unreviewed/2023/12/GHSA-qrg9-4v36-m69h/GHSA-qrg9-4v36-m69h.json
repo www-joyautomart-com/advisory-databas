@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qrg9-4v36-m69h",
-  "modified": "2023-12-14T18:30:21Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:21Z",
   "aliases": [
     "CVE-2023-49766"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themefic Ultimate Addons for Contact Form 7 allows Stored XSS.This issue affects Ultimate Addons for Contact Form 7: from n/a through 3.2.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Themefic Ultimate Addons for Contact Form 7 allows Stored XSS.This issue affects Ultimate Addons for Contact Form 7: from n/a through 3.2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

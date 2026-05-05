@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pg7h-hg83-hq9c",
-  "modified": "2023-12-19T00:30:20Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:20Z",
   "aliases": [
     "CVE-2023-47530"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPVibes Redirect 404 Error Page to Homepage or Custom Page with Logs allows SQL Injection.This issue affects Redirect 404 Error Page to Homepage or Custom Page with Logs: from n/a through 1.8.7.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in WPVibes Redirect 404 Error Page to Homepage or Custom Page with Logs allows SQL Injection.This issue affects Redirect 404 Error Page to Homepage or Custom Page with Logs: from n/a through 1.8.7.",
   "severity": [
     {
       "type": "CVSS_V3",

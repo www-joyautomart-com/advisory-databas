@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j28j-v2qr-58x6",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-50826"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Freshlight Lab Menu Image, Icons made easy allows Stored XSS.This issue affects Menu Image, Icons made easy: from n/a through 3.10.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Freshlight Lab Menu Image, Icons made easy allows Stored XSS.This issue affects Menu Image, Icons made easy: from n/a through 3.10.",
   "severity": [
     {
       "type": "CVSS_V3",

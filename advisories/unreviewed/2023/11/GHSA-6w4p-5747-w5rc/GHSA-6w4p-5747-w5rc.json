@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6w4p-5747-w5rc",
-  "modified": "2023-11-30T12:30:18Z",
+  "modified": "2026-04-28T21:33:11Z",
   "published": "2023-11-30T12:30:18Z",
   "aliases": [
     "CVE-2023-48737"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PT Trijaya Digital Grup TriPay Payment Gateway allows Stored XSS.This issue affects TriPay Payment Gateway: from n/a through 3.2.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in PT Trijaya Digital Grup TriPay Payment Gateway allows Stored XSS.This issue affects TriPay Payment Gateway: from n/a through 3.2.7.",
   "severity": [
     {
       "type": "CVSS_V3",

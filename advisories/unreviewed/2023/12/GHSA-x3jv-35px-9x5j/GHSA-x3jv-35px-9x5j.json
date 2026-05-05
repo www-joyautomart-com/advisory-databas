@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x3jv-35px-9x5j",
-  "modified": "2023-12-20T18:30:32Z",
+  "modified": "2026-04-28T21:33:29Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-49776"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Hakan Demiray Sayfa Sayac.This issue affects Sayfa Sayac: from n/a through 2.6.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Hakan Demiray Sayfa Sayac.This issue affects Sayfa Sayac: from n/a through 2.6.",
   "severity": [
     {
       "type": "CVSS_V3",

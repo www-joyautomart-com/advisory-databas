@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rv45-r523-m576",
-  "modified": "2026-04-24T12:30:27Z",
+  "modified": "2026-04-28T15:30:47Z",
   "published": "2026-04-24T12:30:27Z",
   "aliases": [
     "CVE-2026-6043"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6043"
+    },
+    {
+      "type": "WEB",
+      "url": "https://help.perforce.com/helix-core/server-apps/p4sag/current/Content/P4SAG/secure-by-default-overview.html"
     },
     {
       "type": "WEB",

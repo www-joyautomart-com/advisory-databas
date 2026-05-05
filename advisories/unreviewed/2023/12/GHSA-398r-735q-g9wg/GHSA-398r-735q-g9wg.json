@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-398r-735q-g9wg",
-  "modified": "2024-01-05T18:30:24Z",
+  "modified": "2026-04-28T21:33:35Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50853"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Nasirahmed Advanced Form Integration – Connect WooCommerce and Contact Form 7 to Google Sheets and other platforms.This issue affects Advanced Form Integration – Connect WooCommerce and Contact Form 7 to Google Sheets and other platforms: from n/a through 1.75.0.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Nasirahmed Advanced Form Integration – Connect WooCommerce and Contact Form 7 to Google Sheets and other platforms.This issue affects Advanced Form Integration – Connect WooCommerce and Contact Form 7 to Google Sheets and other platforms: from n/a through 1.75.0.",
   "severity": [
     {
       "type": "CVSS_V3",

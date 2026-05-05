@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cm9g-3fq5-vqfq",
-  "modified": "2023-12-17T12:30:27Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-17T12:30:27Z",
   "aliases": [
     "CVE-2023-49824"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in PixelYourSite Product Catalog Feed by PixelYourSite.This issue affects Product Catalog Feed by PixelYourSite: from n/a through 2.1.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in PixelYourSite Product Catalog Feed by PixelYourSite.This issue affects Product Catalog Feed by PixelYourSite: from n/a through 2.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

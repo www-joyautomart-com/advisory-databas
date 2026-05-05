@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fv5r-xq86-g76x",
-  "modified": "2023-12-18T21:30:24Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:20Z",
   "aliases": [
     "CVE-2023-49171"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in TheInnovs Innovs HR – Complete Human Resource Management System for Your Business allows Reflected XSS.This issue affects Innovs HR – Complete Human Resource Management System for Your Business: from n/a through 1.0.3.4.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in TheInnovs Innovs HR – Complete Human Resource Management System for Your Business allows Reflected XSS.This issue affects Innovs HR – Complete Human Resource Management System for Your Business: from n/a through 1.0.3.4.",
   "severity": [
     {
       "type": "CVSS_V3",

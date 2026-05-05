@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m439-4cf8-qgfv",
-  "modified": "2023-12-07T12:30:31Z",
+  "modified": "2026-04-28T21:33:18Z",
   "published": "2023-12-07T12:30:31Z",
   "aliases": [
     "CVE-2023-35909"
   ],
-  "details": "Uncontrolled Resource Consumption vulnerability in Saturday Drive Ninja Forms Contact Form – The Drag and Drop Form Builder for WordPress leading to DoS.This issue affects Ninja Forms Contact Form – The Drag and Drop Form Builder for WordPress: from n/a through 3.6.25.\n\n",
+  "details": "Uncontrolled Resource Consumption vulnerability in Saturday Drive Ninja Forms Contact Form – The Drag and Drop Form Builder for WordPress leading to DoS.This issue affects Ninja Forms Contact Form – The Drag and Drop Form Builder for WordPress: from n/a through 3.6.25.",
   "severity": [
     {
       "type": "CVSS_V3",

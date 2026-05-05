@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6qv-6h22-hpj4",
-  "modified": "2026-04-22T15:31:44Z",
+  "modified": "2026-04-28T15:30:47Z",
   "published": "2026-04-22T15:31:43Z",
   "aliases": [
     "CVE-2026-31512"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nBluetooth: L2CAP: Validate PDU length before reading SDU length in l2cap_ecred_data_rcv()\n\nl2cap_ecred_data_rcv() reads the SDU length field from skb->data using\nget_unaligned_le16() without first verifying that skb contains at least\nL2CAP_SDULEN_SIZE (2) bytes. When skb->len is less than 2, this reads\npast the valid data in the skb.\n\nThe ERTM reassembly path correctly calls pskb_may_pull() before reading\nthe SDU length (l2cap_reassemble_sdu, L2CAP_SAR_START case). Apply the\nsame validation to the Enhanced Credit Based Flow Control data path.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:50Z"

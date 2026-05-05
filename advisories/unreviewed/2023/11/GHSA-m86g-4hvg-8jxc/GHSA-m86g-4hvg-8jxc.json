@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m86g-4hvg-8jxc",
-  "modified": "2023-11-24T21:30:28Z",
+  "modified": "2026-04-28T21:33:10Z",
   "published": "2023-11-19T00:30:25Z",
   "aliases": [
     "CVE-2023-47552"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Labib Ahmed Image Hover Effects – WordPress Plugin.This issue affects Image Hover Effects – WordPress Plugin: from n/a through 5.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Labib Ahmed Image Hover Effects – WordPress Plugin.This issue affects Image Hover Effects – WordPress Plugin: from n/a through 5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

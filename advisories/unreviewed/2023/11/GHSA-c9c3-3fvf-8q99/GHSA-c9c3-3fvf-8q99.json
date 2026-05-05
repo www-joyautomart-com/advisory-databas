@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c9c3-3fvf-8q99",
-  "modified": "2023-11-14T18:30:22Z",
+  "modified": "2026-04-28T21:33:00Z",
   "published": "2023-11-06T12:30:24Z",
   "aliases": [
     "CVE-2023-46781"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46781"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/current-menu-item-for-custom-post-types/vulnerability/wordpress-current-menu-item-for-custom-post-types-plugin-1-5-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

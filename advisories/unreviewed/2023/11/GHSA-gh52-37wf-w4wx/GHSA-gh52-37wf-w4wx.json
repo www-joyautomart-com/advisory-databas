@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gh52-37wf-w4wx",
-  "modified": "2023-11-13T12:30:26Z",
+  "modified": "2026-04-28T21:33:08Z",
   "published": "2023-11-13T12:30:26Z",
   "aliases": [
     "CVE-2023-40335"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Jeremy O'Connell Cleverwise Daily Quotes allows Stored XSS.This issue affects Cleverwise Daily Quotes: from n/a through 3.2.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Jeremy O'Connell Cleverwise Daily Quotes allows Stored XSS.This issue affects Cleverwise Daily Quotes: from n/a through 3.2.",
   "severity": [
     {
       "type": "CVSS_V3",

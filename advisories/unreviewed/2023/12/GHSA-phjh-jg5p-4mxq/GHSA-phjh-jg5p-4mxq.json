@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phjh-jg5p-4mxq",
-  "modified": "2023-12-28T18:30:33Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:20Z",
   "aliases": [
     "CVE-2023-49148"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Kulwant Nagi Affiliate Booster – Pros & Cons, Notice, and CTA Blocks for Affiliates.This issue affects Affiliate Booster – Pros & Cons, Notice, and CTA Blocks for Affiliates: from n/a through 3.0.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Kulwant Nagi Affiliate Booster – Pros & Cons, Notice, and CTA Blocks for Affiliates.This issue affects Affiliate Booster – Pros & Cons, Notice, and CTA Blocks for Affiliates: from n/a through 3.0.5.",
   "severity": [
     {
       "type": "CVSS_V3",

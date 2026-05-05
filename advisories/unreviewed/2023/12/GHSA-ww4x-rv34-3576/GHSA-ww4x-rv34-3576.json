@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ww4x-rv34-3576",
-  "modified": "2023-12-20T21:30:35Z",
+  "modified": "2026-04-28T21:33:31Z",
   "published": "2023-12-20T21:30:35Z",
   "aliases": [
     "CVE-2023-33318"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WooCommerce AutomateWoo.This issue affects AutomateWoo: from n/a through 4.9.40.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WooCommerce AutomateWoo.This issue affects AutomateWoo: from n/a through 4.9.40.",
   "severity": [
     {
       "type": "CVSS_V3",

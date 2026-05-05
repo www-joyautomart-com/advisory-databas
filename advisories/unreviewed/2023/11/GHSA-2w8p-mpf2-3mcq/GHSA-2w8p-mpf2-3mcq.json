@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2w8p-mpf2-3mcq",
-  "modified": "2023-11-30T18:31:17Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-44143"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bamboo Mcr Bamboo Columns allows Stored XSS.This issue affects Bamboo Columns: from n/a through 1.6.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Bamboo Mcr Bamboo Columns allows Stored XSS.This issue affects Bamboo Columns: from n/a through 1.6.1.",
   "severity": [
     {
       "type": "CVSS_V3",

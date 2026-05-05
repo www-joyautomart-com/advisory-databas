@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xx2w-rcmq-q3gc",
-  "modified": "2023-12-17T12:30:26Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-17T12:30:26Z",
   "aliases": [
     "CVE-2023-49751"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ciprian Popescu Block for Font Awesome.This issue affects Block for Font Awesome: from n/a through 1.4.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Ciprian Popescu Block for Font Awesome.This issue affects Block for Font Awesome: from n/a through 1.4.0.",
   "severity": [
     {
       "type": "CVSS_V3",

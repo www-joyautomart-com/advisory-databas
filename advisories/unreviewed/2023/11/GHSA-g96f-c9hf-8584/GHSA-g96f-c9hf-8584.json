@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g96f-c9hf-8584",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-40207"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in RedNao Donations Made Easy – Smart Donations allows SQL Injection.This issue affects Donations Made Easy – Smart Donations: from n/a through 4.0.12.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in RedNao Donations Made Easy – Smart Donations allows SQL Injection.This issue affects Donations Made Easy – Smart Donations: from n/a through 4.0.12.",
   "severity": [
     {
       "type": "CVSS_V3",

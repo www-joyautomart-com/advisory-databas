@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xwpv-mvxp-gx82",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51422"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Saleswonder Team Webinar Plugin: Create live/evergreen/automated/instant webinars, stream & Zoom Meetings | WebinarIgnition.This issue affects Webinar Plugin: Create live/evergreen/automated/instant webinars, stream & Zoom Meetings | WebinarIgnition: from n/a through 3.05.0.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Saleswonder Team Webinar Plugin: Create live/evergreen/automated/instant webinars, stream & Zoom Meetings | WebinarIgnition.This issue affects Webinar Plugin: Create live/evergreen/automated/instant webinars, stream & Zoom Meetings | WebinarIgnition: from n/a through 3.05.0.",
   "severity": [
     {
       "type": "CVSS_V3",

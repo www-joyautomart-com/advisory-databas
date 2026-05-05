@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g63g-r6gc-cxmv",
-  "modified": "2023-11-19T00:30:25Z",
+  "modified": "2026-04-28T21:33:10Z",
   "published": "2023-11-19T00:30:25Z",
   "aliases": [
     "CVE-2023-47531"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in DroitThemes Droit Dark Mode.This issue affects Droit Dark Mode: from n/a through 1.1.2.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in DroitThemes Droit Dark Mode.This issue affects Droit Dark Mode: from n/a through 1.1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gvg4-qv8f-cm99",
-  "modified": "2023-11-14T18:30:21Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T12:30:23Z",
   "aliases": [
     "CVE-2023-46822"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46822"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/woocommerce-exporter/vulnerability/wordpress-store-exporter-for-woocommerce-plugin-2-7-2-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

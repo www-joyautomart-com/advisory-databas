@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43wm-36v8-wrcq",
-  "modified": "2023-11-14T21:30:55Z",
+  "modified": "2026-04-28T21:33:04Z",
   "published": "2023-11-08T21:30:37Z",
   "aliases": [
     "CVE-2023-47223"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-47223"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/basic-interactive-world-map/vulnerability/wordpress-basic-interactive-world-map-plugin-2-0-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

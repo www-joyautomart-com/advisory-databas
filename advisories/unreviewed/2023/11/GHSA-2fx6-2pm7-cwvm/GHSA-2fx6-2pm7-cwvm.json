@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2fx6-2pm7-cwvm",
-  "modified": "2023-11-17T21:30:26Z",
+  "modified": "2026-04-28T21:33:07Z",
   "published": "2023-11-13T03:30:37Z",
   "aliases": [
     "CVE-2023-23800"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Vova Anokhin WP Shortcodes Plugin — Shortcodes Ultimate.This issue affects WP Shortcodes Plugin — Shortcodes Ultimate: from n/a through 5.12.6.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Vova Anokhin WP Shortcodes Plugin — Shortcodes Ultimate.This issue affects WP Shortcodes Plugin — Shortcodes Ultimate: from n/a through 5.12.6.",
   "severity": [
     {
       "type": "CVSS_V3",

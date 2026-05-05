@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9h6r-86jg-54x9",
-  "modified": "2023-11-30T15:30:24Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:24Z",
   "aliases": [
     "CVE-2023-48279"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Seraphinite Solutions Seraphinite Post .DOCX Source allows Cross Site Request Forgery.This issue affects Seraphinite Post .DOCX Source: from n/a through 2.16.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Seraphinite Solutions Seraphinite Post .DOCX Source allows Cross Site Request Forgery.This issue affects Seraphinite Post .DOCX Source: from n/a through 2.16.6.",
   "severity": [
     {
       "type": "CVSS_V3",

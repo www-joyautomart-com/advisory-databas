@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gfw-4p9h-vh8j",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51545"
   ],
-  "details": "Cross-Site Request Forgery (CSRF), Deserialization of Untrusted Data vulnerability in ThemeHigh Job Manager & Career – Manage job board listings, and recruitments.This issue affects Job Manager & Career – Manage job board listings, and recruitments: from n/a through 1.4.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF), Deserialization of Untrusted Data vulnerability in ThemeHigh Job Manager & Career – Manage job board listings, and recruitments.This issue affects Job Manager & Career – Manage job board listings, and recruitments: from n/a through 1.4.4.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hq64-qw75-h6q8",
-  "modified": "2023-12-14T18:30:21Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:21Z",
   "aliases": [
     "CVE-2023-49813"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in J.N. Breetvelt a.K.A. OpaJaap WP Photo Album Plus allows Stored XSS.This issue affects WP Photo Album Plus: from n/a through 8.5.02.005.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in J.N. Breetvelt a.K.A. OpaJaap WP Photo Album Plus allows Stored XSS.This issue affects WP Photo Album Plus: from n/a through 8.5.02.005.",
   "severity": [
     {
       "type": "CVSS_V3",

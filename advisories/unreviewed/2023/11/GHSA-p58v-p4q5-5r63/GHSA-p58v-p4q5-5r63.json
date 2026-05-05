@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p58v-p4q5-5r63",
-  "modified": "2023-11-13T18:30:59Z",
+  "modified": "2026-04-28T21:33:08Z",
   "published": "2023-11-13T18:30:59Z",
   "aliases": [
     "CVE-2023-39166"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in tagDiv tagDiv Composer allows Cross-Site Scripting (XSS).This issue affects tagDiv Composer: from n/a before 4.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in tagDiv tagDiv Composer allows Cross-Site Scripting (XSS).This issue affects tagDiv Composer: from n/a before 4.4.",
   "severity": [
     {
       "type": "CVSS_V3",

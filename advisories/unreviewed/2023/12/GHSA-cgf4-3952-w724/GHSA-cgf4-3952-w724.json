@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgf4-3952-w724",
-  "modified": "2024-01-04T21:30:24Z",
+  "modified": "2026-04-28T21:33:34Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50856"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in FunnelKit Funnel Builder for WordPress by FunnelKit – Customize WooCommerce Checkout Pages, Create Sales Funnels & Maximize Profits.This issue affects Funnel Builder for WordPress by FunnelKit – Customize WooCommerce Checkout Pages, Create Sales Funnels & Maximize Profits: from n/a through 2.14.3.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in FunnelKit Funnel Builder for WordPress by FunnelKit – Customize WooCommerce Checkout Pages, Create Sales Funnels & Maximize Profits.This issue affects Funnel Builder for WordPress by FunnelKit – Customize WooCommerce Checkout Pages, Create Sales Funnels & Maximize Profits: from n/a through 2.14.3.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9277-mg3f-fmc2",
-  "modified": "2023-12-18T21:30:23Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T15:30:23Z",
   "aliases": [
     "CVE-2023-49828"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WooPayments – Fully Integrated Solution Built and Supported by Woo allows Stored XSS.This issue affects WooPayments – Fully Integrated Solution Built and Supported by Woo: from n/a through 6.4.2.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Automattic WooPayments – Fully Integrated Solution Built and Supported by Woo allows Stored XSS.This issue affects WooPayments – Fully Integrated Solution Built and Supported by Woo: from n/a through 6.4.2.",
   "severity": [
     {
       "type": "CVSS_V3",

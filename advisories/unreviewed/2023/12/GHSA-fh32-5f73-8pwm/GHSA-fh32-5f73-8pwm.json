@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fh32-5f73-8pwm",
-  "modified": "2023-12-19T21:32:19Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-14T18:30:22Z",
   "aliases": [
     "CVE-2023-49860"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in weDevs WP Project Manager – Task, team, and project management plugin featuring kanban board and gantt charts allows Stored XSS.This issue affects WP Project Manager – Task, team, and project management plugin featuring kanban board and gantt charts: from n/a through 2.6.7.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in weDevs WP Project Manager – Task, team, and project management plugin featuring kanban board and gantt charts allows Stored XSS.This issue affects WP Project Manager – Task, team, and project management plugin featuring kanban board and gantt charts: from n/a through 2.6.7.",
   "severity": [
     {
       "type": "CVSS_V3",

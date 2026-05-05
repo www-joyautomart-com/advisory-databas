@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8987-77qq-2wwv",
-  "modified": "2024-01-05T06:30:18Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:42Z",
   "aliases": [
     "CVE-2023-51541"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Aleksandar Urošević Stock Ticker allows Stored XSS.This issue affects Stock Ticker: from n/a through 3.23.4.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Aleksandar Urošević Stock Ticker allows Stored XSS.This issue affects Stock Ticker: from n/a through 3.23.4.",
   "severity": [
     {
       "type": "CVSS_V3",

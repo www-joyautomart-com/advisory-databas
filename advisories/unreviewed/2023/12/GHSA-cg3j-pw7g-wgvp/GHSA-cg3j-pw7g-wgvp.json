@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cg3j-pw7g-wgvp",
-  "modified": "2023-12-31T12:30:31Z",
+  "modified": "2026-04-28T21:33:40Z",
   "published": "2023-12-31T12:30:31Z",
   "aliases": [
     "CVE-2023-52181"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Presslabs Theme per user.This issue affects Theme per user: from n/a through 1.0.1.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Presslabs Theme per user.This issue affects Theme per user: from n/a through 1.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

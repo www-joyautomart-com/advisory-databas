@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p848-73m6-23xf",
-  "modified": "2023-12-18T18:30:21Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-48762"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Crocoblock JetElements For Elementor.This issue affects JetElements For Elementor: from n/a through 2.6.13.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Crocoblock JetElements For Elementor.This issue affects JetElements For Elementor: from n/a through 2.6.13.",
   "severity": [
     {
       "type": "CVSS_V3",

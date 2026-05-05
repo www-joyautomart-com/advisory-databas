@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8f7c-vcgw-5jmm",
-  "modified": "2023-12-19T21:32:20Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-41648"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Swapnil V. Patil Login and Logout Redirect.This issue affects Login and Logout Redirect: from n/a through 2.0.3.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Swapnil V. Patil Login and Logout Redirect.This issue affects Login and Logout Redirect: from n/a through 2.0.3.",
   "severity": [
     {
       "type": "CVSS_V3",

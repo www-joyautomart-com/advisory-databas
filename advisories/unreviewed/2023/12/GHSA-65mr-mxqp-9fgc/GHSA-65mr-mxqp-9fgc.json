@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-65mr-mxqp-9fgc",
-  "modified": "2023-12-18T21:30:24Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:20Z",
   "aliases": [
     "CVE-2023-49172"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in BrainCert BrainCert – HTML5 Virtual Classroom allows Reflected XSS.This issue affects BrainCert – HTML5 Virtual Classroom: from n/a through 1.30.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in BrainCert BrainCert – HTML5 Virtual Classroom allows Reflected XSS.This issue affects BrainCert – HTML5 Virtual Classroom: from n/a through 1.30.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c82j-mm7v-vfp8",
-  "modified": "2023-12-29T03:30:28Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-49826"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in PenciDesign Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme.This issue affects Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme: from n/a through 8.4.1.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in PenciDesign Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme.This issue affects Soledad – Multipurpose, Newspaper, Blog & WooCommerce WordPress Theme: from n/a through 8.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

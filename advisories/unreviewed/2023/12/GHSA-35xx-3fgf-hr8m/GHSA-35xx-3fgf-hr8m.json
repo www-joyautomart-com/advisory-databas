@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-35xx-3fgf-hr8m",
-  "modified": "2023-12-21T21:30:29Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-33214"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Tagbox Tagbox – UGC Galleries, Social Media Widgets, User Reviews & Analytics.This issue affects Tagbox – UGC Galleries, Social Media Widgets, User Reviews & Analytics: from n/a through 3.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Tagbox Tagbox – UGC Galleries, Social Media Widgets, User Reviews & Analytics.This issue affects Tagbox – UGC Galleries, Social Media Widgets, User Reviews & Analytics: from n/a through 3.1.",
   "severity": [
     {
       "type": "CVSS_V3",

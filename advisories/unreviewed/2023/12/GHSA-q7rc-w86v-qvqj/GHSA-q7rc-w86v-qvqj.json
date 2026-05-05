@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q7rc-w86v-qvqj",
-  "modified": "2023-12-15T15:30:29Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-15T15:30:29Z",
   "aliases": [
     "CVE-2023-49175"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kreativo Pro KP Fastest Tawk.To Chat allows Stored XSS.This issue affects KP Fastest Tawk.To Chat: from n/a through 1.1.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kreativo Pro KP Fastest Tawk.To Chat allows Stored XSS.This issue affects KP Fastest Tawk.To Chat: from n/a through 1.1.1.",
   "severity": [
     {
       "type": "CVSS_V3",

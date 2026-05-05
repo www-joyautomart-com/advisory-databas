@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7jvc-97hq-cq55",
-  "modified": "2023-12-20T06:30:25Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-46617"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in AdFoxly AdFoxly – Ad Manager, AdSense Ads & Ads.Txt.This issue affects AdFoxly – Ad Manager, AdSense Ads & Ads.Txt: from n/a through 1.8.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in AdFoxly AdFoxly – Ad Manager, AdSense Ads & Ads.Txt.This issue affects AdFoxly – Ad Manager, AdSense Ads & Ads.Txt: from n/a through 1.8.5.",
   "severity": [
     {
       "type": "CVSS_V3",

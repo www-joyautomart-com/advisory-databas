@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-53j2-c3fp-6vh7",
-  "modified": "2023-12-21T15:30:32Z",
+  "modified": "2026-04-28T21:33:32Z",
   "published": "2023-12-21T15:30:32Z",
   "aliases": [
     "CVE-2023-50825"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Terrier Tenacity iframe Shortcode allows Stored XSS.This issue affects iframe Shortcode: from n/a through 2.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Terrier Tenacity iframe Shortcode allows Stored XSS.This issue affects iframe Shortcode: from n/a through 2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

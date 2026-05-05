@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8ghc-m4x7-8jxw",
-  "modified": "2023-12-06T03:30:26Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-45609"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in POWR.Io Contact Form – Custom Builder, Payment Form, and More allows Stored XSS.This issue affects Contact Form – Custom Builder, Payment Form, and More: from n/a through 2.1.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in POWR.Io Contact Form – Custom Builder, Payment Form, and More allows Stored XSS.This issue affects Contact Form – Custom Builder, Payment Form, and More: from n/a through 2.1.0.",
   "severity": [
     {
       "type": "CVSS_V3",

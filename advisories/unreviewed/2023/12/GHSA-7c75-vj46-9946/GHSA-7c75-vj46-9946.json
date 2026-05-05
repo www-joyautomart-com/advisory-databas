@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7c75-vj46-9946",
-  "modified": "2024-01-10T21:31:05Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-28786"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in SolidWP Solid Security – Password, Two Factor Authentication, and Brute Force Protection.This issue affects Solid Security – Password, Two Factor Authentication, and Brute Force Protection: from n/a through 8.1.4.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in SolidWP Solid Security – Password, Two Factor Authentication, and Brute Force Protection.This issue affects Solid Security – Password, Two Factor Authentication, and Brute Force Protection: from n/a through 8.1.4.",
   "severity": [
     {
       "type": "CVSS_V3",

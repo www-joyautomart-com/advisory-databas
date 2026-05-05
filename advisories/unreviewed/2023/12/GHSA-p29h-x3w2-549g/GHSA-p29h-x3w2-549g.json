@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p29h-x3w2-549g",
-  "modified": "2023-12-19T21:32:20Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-35883"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Magazine3 Core Web Vitals & PageSpeed Booster.This issue affects Core Web Vitals & PageSpeed Booster: from n/a through 1.0.12.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Magazine3 Core Web Vitals & PageSpeed Booster.This issue affects Core Web Vitals & PageSpeed Booster: from n/a through 1.0.12.",
   "severity": [
     {
       "type": "CVSS_V3",

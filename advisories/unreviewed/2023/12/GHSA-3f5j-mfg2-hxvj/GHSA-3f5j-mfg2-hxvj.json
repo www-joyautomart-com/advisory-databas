@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3f5j-mfg2-hxvj",
-  "modified": "2024-01-05T00:30:27Z",
+  "modified": "2026-04-28T21:33:37Z",
   "published": "2023-12-28T21:30:39Z",
   "aliases": [
     "CVE-2023-50839"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in JS Help Desk JS Help Desk – Best Help Desk & Support Plugin.This issue affects JS Help Desk – Best Help Desk & Support Plugin: from n/a through 2.8.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in JS Help Desk JS Help Desk – Best Help Desk & Support Plugin.This issue affects JS Help Desk – Best Help Desk & Support Plugin: from n/a through 2.8.1.",
   "severity": [
     {
       "type": "CVSS_V3",

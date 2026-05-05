@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r82m-3xp2-r98r",
-  "modified": "2023-11-08T03:30:32Z",
+  "modified": "2026-04-28T15:30:29Z",
   "published": "2023-10-31T15:30:23Z",
   "aliases": [
     "CVE-2023-24000"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in GamiPress gamipress allows SQL Injection.This issue affects GamiPress: from n/a through 2.5.7.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in GamiPress gamipress allows SQL Injection.This issue affects GamiPress: from n/a through 2.5.7.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-24000"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/gamipress/vulnerability/wordpress-gamipress-plugin-2-5-7-unauthenticated-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

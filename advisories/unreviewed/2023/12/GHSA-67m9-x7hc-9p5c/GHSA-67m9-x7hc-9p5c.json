@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-67m9-x7hc-9p5c",
-  "modified": "2023-12-15T15:30:29Z",
+  "modified": "2026-04-28T21:33:21Z",
   "published": "2023-12-15T15:30:29Z",
   "aliases": [
     "CVE-2023-49180"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Ternstyle LLC Automatic Youtube Video Posts Plugin allows Stored XSS.This issue affects Automatic Youtube Video Posts Plugin: from n/a through 5.2.2.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Ternstyle LLC Automatic Youtube Video Posts Plugin allows Stored XSS.This issue affects Automatic Youtube Video Posts Plugin: from n/a through 5.2.2.",
   "severity": [
     {
       "type": "CVSS_V3",

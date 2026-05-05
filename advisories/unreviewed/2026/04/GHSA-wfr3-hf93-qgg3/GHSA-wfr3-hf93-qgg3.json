@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-wfr3-hf93-qgg3",
+  "modified": "2026-04-28T00:31:40Z",
+  "published": "2026-04-28T00:31:40Z",
+  "aliases": [
+    "CVE-2026-7159"
+  ],
+  "details": "A vulnerability was found in douinc mkdocs-mcp-plugin up to 0.4.1. This affects the function read_document/list_documents of the file server.py. Performing a manipulation of the argument docs_dir/file_path results in path traversal. The attack is possible to be carried out remotely. The exploit has been made public and could be used. The vendor confirms, that the \"fix will be published within a few days.\"",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:L"
+    },
+    {
+      "type": "CVSS_V4",
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7159"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/douinc/mkdocs-mcp-plugin/issues/6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/douinc/mkdocs-mcp-plugin/issues/6#issuecomment-4223718119"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/douinc/mkdocs-mcp-plugin"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/802063"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/359758"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/359758/cti"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-22"
+    ],
+    "severity": "MODERATE",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-27T22:16:18Z"
+  }
+}

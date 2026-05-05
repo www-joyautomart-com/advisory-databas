@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vq7f-4cc7-hx6q",
-  "modified": "2023-12-29T15:30:37Z",
+  "modified": "2026-04-28T21:33:40Z",
   "published": "2023-12-29T15:30:37Z",
   "aliases": [
     "CVE-2023-51517"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in CodePeople Calculated Fields Form.This issue affects Calculated Fields Form: from n/a through 1.2.28.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in CodePeople Calculated Fields Form.This issue affects Calculated Fields Form: from n/a through 1.2.28.",
   "severity": [
     {
       "type": "CVSS_V3",

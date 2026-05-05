@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j835-2p2c-7jvw",
-  "modified": "2023-12-27T15:30:22Z",
+  "modified": "2026-04-28T21:33:30Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-28788"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Page Visit Counter Advanced Page Visit Counter – Most Wanted Analytics Plugin for WordPress.This issue affects Advanced Page Visit Counter – Most Wanted Analytics Plugin for WordPress: from n/a through 6.4.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Page Visit Counter Advanced Page Visit Counter – Most Wanted Analytics Plugin for WordPress.This issue affects Advanced Page Visit Counter – Most Wanted Analytics Plugin for WordPress: from n/a through 6.4.2.",
   "severity": [
     {
       "type": "CVSS_V3",

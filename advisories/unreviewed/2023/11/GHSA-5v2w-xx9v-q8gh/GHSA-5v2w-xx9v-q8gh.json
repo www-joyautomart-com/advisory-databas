@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5v2w-xx9v-q8gh",
-  "modified": "2023-11-19T00:30:26Z",
+  "modified": "2026-04-28T21:33:11Z",
   "published": "2023-11-19T00:30:26Z",
   "aliases": [
     "CVE-2023-25985"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Tomas | Docs | FAQ | Premium Support WordPress Tooltips.This issue affects WordPress Tooltips: from n/a through 8.2.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Tomas | Docs | FAQ | Premium Support WordPress Tooltips.This issue affects WordPress Tooltips: from n/a through 8.2.5.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8cp3-ghqm-6565",
-  "modified": "2023-12-19T09:30:32Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T09:30:32Z",
   "aliases": [
     "CVE-2023-50376"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in smp7, wp.Insider Simple Membership allows Reflected XSS.This issue affects Simple Membership: from n/a through 4.3.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in smp7, wp.Insider Simple Membership allows Reflected XSS.This issue affects Simple Membership: from n/a through 4.3.8.",
   "severity": [
     {
       "type": "CVSS_V3",

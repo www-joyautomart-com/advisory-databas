@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7hfw-2wh2-w92r",
-  "modified": "2024-04-04T05:47:08Z",
+  "modified": "2026-04-28T21:32:54Z",
   "published": "2023-07-06T21:15:06Z",
   "aliases": [
     "CVE-2023-33216"
   ],
-  "details": "Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in gVectors Team WooDiscuz – WooCommerce Comments woodiscuz-woocommerce-comments allows Stored XSS.This issue affects WooDiscuz – WooCommerce Comments: from n/a through 2.2.9.\n\n",
+  "details": "Auth. (admin+) Stored Cross-Site Scripting (XSS) vulnerability in gVectors Team WooDiscuz – WooCommerce Comments woodiscuz-woocommerce-comments allows Stored XSS.This issue affects WooDiscuz – WooCommerce Comments: from n/a through 2.2.9.",
   "severity": [
     {
       "type": "CVSS_V3",

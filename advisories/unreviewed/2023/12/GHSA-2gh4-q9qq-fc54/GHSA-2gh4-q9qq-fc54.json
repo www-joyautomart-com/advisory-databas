@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gh4-q9qq-fc54",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-50901"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HT Mega – Absolute Addons For Elementor allows Reflected XSS.This issue affects HT Mega – Absolute Addons For Elementor: from n/a through 2.3.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HT Mega – Absolute Addons For Elementor allows Reflected XSS.This issue affects HT Mega – Absolute Addons For Elementor: from n/a through 2.3.8.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v7j7-wq78-r9fc",
-  "modified": "2023-12-19T00:30:21Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T00:30:21Z",
   "aliases": [
     "CVE-2023-48751"
   ],
-  "details": "Missing Authorization, Cross-Site Request Forgery (CSRF) vulnerability in Roland Barker, xnau webdesign Participants Database allows Accessing Functionality Not Properly Constrained by ACLs, Cross Site Request Forgery.This issue affects Participants Database: from n/a through 2.5.5.\n\n",
+  "details": "Missing Authorization, Cross-Site Request Forgery (CSRF) vulnerability in Roland Barker, xnau webdesign Participants Database allows Accessing Functionality Not Properly Constrained by ACLs, Cross Site Request Forgery.This issue affects Participants Database: from n/a through 2.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-58ff-vg67-843q",
-  "modified": "2023-12-20T15:30:20Z",
+  "modified": "2026-04-28T21:33:28Z",
   "published": "2023-12-20T15:30:20Z",
   "aliases": [
     "CVE-2023-28782"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Rocketgenius Inc. Gravity Forms.This issue affects Gravity Forms: from n/a through 2.7.3.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Rocketgenius Inc. Gravity Forms.This issue affects Gravity Forms: from n/a through 2.7.3.",
   "severity": [
     {
       "type": "CVSS_V3",

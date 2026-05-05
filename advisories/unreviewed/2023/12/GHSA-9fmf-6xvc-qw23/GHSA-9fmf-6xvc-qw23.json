@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9fmf-6xvc-qw23",
-  "modified": "2023-12-20T15:30:19Z",
+  "modified": "2026-04-28T21:33:27Z",
   "published": "2023-12-20T15:30:19Z",
   "aliases": [
     "CVE-2023-40555"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in UX-themes Flatsome | Multi-Purpose Responsive WooCommerce Theme.This issue affects Flatsome | Multi-Purpose Responsive WooCommerce Theme: from n/a through 3.17.5.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in UX-themes Flatsome | Multi-Purpose Responsive WooCommerce Theme.This issue affects Flatsome | Multi-Purpose Responsive WooCommerce Theme: from n/a through 3.17.5.",
   "severity": [
     {
       "type": "CVSS_V3",

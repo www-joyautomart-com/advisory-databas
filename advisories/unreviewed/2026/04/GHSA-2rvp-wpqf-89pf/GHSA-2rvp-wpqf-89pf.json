@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2rvp-wpqf-89pf",
-  "modified": "2026-04-22T15:31:42Z",
+  "modified": "2026-04-28T15:30:46Z",
   "published": "2026-04-22T15:31:42Z",
   "aliases": [
     "CVE-2026-31482"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ns390/entry: Scrub r12 register on kernel entry\n\nBefore commit f33f2d4c7c80 (\"s390/bp: remove TIF_ISOLATE_BP\"),\nall entry handlers loaded r12 with the current task pointer\n(lg %r12,__LC_CURRENT) for use by the BPENTER/BPEXIT macros. That\ncommit removed TIF_ISOLATE_BP, dropping both the branch prediction\nmacros and the r12 load, but did not add r12 to the register clearing\nsequence.\n\nAdd the missing xgr %r12,%r12 to make the register scrub consistent\nacross all entry points.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:45Z"

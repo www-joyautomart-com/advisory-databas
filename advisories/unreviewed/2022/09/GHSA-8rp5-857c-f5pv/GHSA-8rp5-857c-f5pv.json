@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8rp5-857c-f5pv",
-  "modified": "2022-09-27T00:00:21Z",
+  "modified": "2026-04-28T21:32:52Z",
   "published": "2022-09-25T00:00:17Z",
   "aliases": [
     "CVE-2022-38079"

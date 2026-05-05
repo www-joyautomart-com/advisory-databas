@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w8pm-g6gf-4v9x",
-  "modified": "2024-01-05T06:30:18Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-51372"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HashBar – WordPress Notification Bar allows Stored XSS.This issue affects HashBar – WordPress Notification Bar: from n/a through 1.4.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in HasThemes HashBar – WordPress Notification Bar allows Stored XSS.This issue affects HashBar – WordPress Notification Bar: from n/a through 1.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

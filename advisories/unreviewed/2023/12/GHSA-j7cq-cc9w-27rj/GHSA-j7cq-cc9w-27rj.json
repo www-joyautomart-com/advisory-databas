@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7cq-cc9w-27rj",
-  "modified": "2023-12-29T15:30:37Z",
+  "modified": "2026-04-28T21:33:40Z",
   "published": "2023-12-29T15:30:37Z",
   "aliases": [
     "CVE-2023-51687"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in impleCode Product Catalog Simple.This issue affects Product Catalog Simple: from n/a through 1.7.6.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in impleCode Product Catalog Simple.This issue affects Product Catalog Simple: from n/a through 1.7.6.",
   "severity": [
     {
       "type": "CVSS_V3",

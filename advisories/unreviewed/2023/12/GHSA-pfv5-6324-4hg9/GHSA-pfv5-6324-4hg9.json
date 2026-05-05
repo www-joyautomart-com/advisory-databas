@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pfv5-6324-4hg9",
-  "modified": "2023-12-28T12:30:19Z",
+  "modified": "2026-04-28T21:33:35Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50852"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StylemixThemes Booking Calendar | Appointment Booking | BookIt.This issue affects Booking Calendar | Appointment Booking | BookIt: from n/a through 2.4.3.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in StylemixThemes Booking Calendar | Appointment Booking | BookIt.This issue affects Booking Calendar | Appointment Booking | BookIt: from n/a through 2.4.3.",
   "severity": [
     {
       "type": "CVSS_V3",

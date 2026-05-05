@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f3jq-cw4r-x64x",
-  "modified": "2023-11-30T15:30:24Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T15:30:24Z",
   "aliases": [
     "CVE-2023-48331"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Stormhill Media MyBookTable Bookstore by Stormhill Media allows Cross Site Request Forgery.This issue affects MyBookTable Bookstore by Stormhill Media: from n/a through 3.3.4.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Stormhill Media MyBookTable Bookstore by Stormhill Media allows Cross Site Request Forgery.This issue affects MyBookTable Bookstore by Stormhill Media: from n/a through 3.3.4.",
   "severity": [
     {
       "type": "CVSS_V3",

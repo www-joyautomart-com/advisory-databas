@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mh5f-x36r-g76r",
-  "modified": "2023-11-30T18:31:18Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:18Z",
   "aliases": [
     "CVE-2023-38400"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kriesi Enfold - Responsive Multi-Purpose Theme allows Reflected XSS.This issue affects Enfold - Responsive Multi-Purpose Theme: from n/a through 5.6.4.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Kriesi Enfold - Responsive Multi-Purpose Theme allows Reflected XSS.This issue affects Enfold - Responsive Multi-Purpose Theme: from n/a through 5.6.4.",
   "severity": [
     {
       "type": "CVSS_V3",

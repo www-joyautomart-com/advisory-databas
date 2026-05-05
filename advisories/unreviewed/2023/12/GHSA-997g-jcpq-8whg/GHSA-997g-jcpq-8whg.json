@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-997g-jcpq-8whg",
-  "modified": "2024-01-04T21:30:23Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-28T12:30:17Z",
   "aliases": [
     "CVE-2023-50874"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Darren Cooney WordPress Infinite Scroll – Ajax Load More allows Stored XSS.This issue affects WordPress Infinite Scroll – Ajax Load More: from n/a through 6.1.0.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Darren Cooney WordPress Infinite Scroll – Ajax Load More allows Stored XSS.This issue affects WordPress Infinite Scroll – Ajax Load More: from n/a through 6.1.0.1.",
   "severity": [
     {
       "type": "CVSS_V3",

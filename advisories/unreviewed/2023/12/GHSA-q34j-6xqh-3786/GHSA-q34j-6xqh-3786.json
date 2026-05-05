@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q34j-6xqh-3786",
-  "modified": "2023-12-29T12:30:41Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-32517"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in PluginOps MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder.This issue affects MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder: from n/a through 4.0.9.3.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in PluginOps MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder.This issue affects MailChimp Subscribe Form, Optin Builder, PopUp Builder, Form Builder: from n/a through 4.0.9.3.",
   "severity": [
     {
       "type": "CVSS_V3",

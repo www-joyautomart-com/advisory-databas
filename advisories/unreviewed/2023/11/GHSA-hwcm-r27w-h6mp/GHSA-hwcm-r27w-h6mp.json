@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hwcm-r27w-h6mp",
-  "modified": "2023-11-24T21:30:28Z",
+  "modified": "2026-04-28T21:33:10Z",
   "published": "2023-11-19T00:30:25Z",
   "aliases": [
     "CVE-2023-47243"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in CodeMShop 코드엠샵 마이사이트 – MSHOP MY SITE.This issue affects 코드엠샵 마이사이트 – MSHOP MY SITE: from n/a through 1.1.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in CodeMShop 코드엠샵 마이사이트 – MSHOP MY SITE.This issue affects 코드엠샵 마이사이트 – MSHOP MY SITE: from n/a through 1.1.6.",
   "severity": [
     {
       "type": "CVSS_V3",

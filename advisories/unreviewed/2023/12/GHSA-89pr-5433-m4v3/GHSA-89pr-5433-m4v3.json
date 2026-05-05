@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89pr-5433-m4v3",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51410"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WPVibes WP Mail Log.This issue affects WP Mail Log: from n/a through 1.1.2.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in WPVibes WP Mail Log.This issue affects WP Mail Log: from n/a through 1.1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

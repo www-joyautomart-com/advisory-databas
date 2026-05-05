@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6vjm-vjm7-c6gq",
-  "modified": "2023-12-06T03:30:26Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-48328"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Imagely WordPress Gallery Plugin – NextGEN Gallery allows Cross Site Request Forgery.This issue affects WordPress Gallery Plugin – NextGEN Gallery: from n/a through 3.37.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Imagely WordPress Gallery Plugin – NextGEN Gallery allows Cross Site Request Forgery.This issue affects WordPress Gallery Plugin – NextGEN Gallery: from n/a through 3.37.",
   "severity": [
     {
       "type": "CVSS_V3",

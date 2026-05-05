@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vh27-7qvw-fwfm",
-  "modified": "2023-11-09T21:30:37Z",
+  "modified": "2026-04-28T15:30:31Z",
   "published": "2023-11-03T15:33:55Z",
   "aliases": [
     "CVE-2022-45805"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Paytm Paytm Payment Gateway paytm-payments allows SQL Injection.This issue affects Paytm Payment Gateway: from n/a through 2.7.3.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Paytm Paytm Payment Gateway paytm-payments allows SQL Injection.This issue affects Paytm Payment Gateway: from n/a through 2.7.3.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-45805"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/paytm-payments/vulnerability/wordpress-paytm-payment-gateway-plugin-2-7-3-auth-sql-injection-sqli-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hjvf-2pm6-3jqv",
-  "modified": "2026-03-19T15:31:16Z",
+  "modified": "2026-04-28T15:30:46Z",
   "published": "2026-03-18T18:31:16Z",
   "aliases": [
     "CVE-2026-30345"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://blog.ctfd.io/ctfd-3-8-2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/syphonetic/2e16a6d1a44e7970c849a17efd0a2270"
     },
     {
       "type": "WEB",

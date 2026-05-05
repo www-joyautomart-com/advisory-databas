@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-55m9-c43h-qp6x",
-  "modified": "2023-12-29T12:30:41Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T12:30:41Z",
   "aliases": [
     "CVE-2023-31237"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Dylan James Zephyr Project Manager.This issue affects Zephyr Project Manager: from n/a through 3.3.9.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Dylan James Zephyr Project Manager.This issue affects Zephyr Project Manager: from n/a through 3.3.9.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rmv-77v4-hrpv",
-  "modified": "2023-12-15T18:30:28Z",
+  "modified": "2026-04-28T21:33:22Z",
   "published": "2023-12-15T18:30:28Z",
   "aliases": [
     "CVE-2023-49747"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WebFactory Ltd Guest Author allows Stored XSS.This issue affects Guest Author: from n/a through 2.3.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in WebFactory Ltd Guest Author allows Stored XSS.This issue affects Guest Author: from n/a through 2.3.",
   "severity": [
     {
       "type": "CVSS_V3",

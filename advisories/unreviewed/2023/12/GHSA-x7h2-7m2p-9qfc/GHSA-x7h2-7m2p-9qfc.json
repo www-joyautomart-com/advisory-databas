@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x7h2-7m2p-9qfc",
-  "modified": "2023-12-29T12:30:42Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T12:30:42Z",
   "aliases": [
     "CVE-2023-50892"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodexThemes TheGem - Creative Multi-Purpose & WooCommerce WordPress Theme allows Reflected XSS.This issue affects TheGem - Creative Multi-Purpose & WooCommerce WordPress Theme: from n/a through 5.9.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in CodexThemes TheGem - Creative Multi-Purpose & WooCommerce WordPress Theme allows Reflected XSS.This issue affects TheGem - Creative Multi-Purpose & WooCommerce WordPress Theme: from n/a through 5.9.1.",
   "severity": [
     {
       "type": "CVSS_V3",

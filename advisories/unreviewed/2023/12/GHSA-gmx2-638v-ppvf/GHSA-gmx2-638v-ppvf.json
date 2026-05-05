@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gmx2-638v-ppvf",
-  "modified": "2023-12-15T15:30:28Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-15T15:30:28Z",
   "aliases": [
     "CVE-2023-49165"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Real Big Plugins Client Dash allows Stored XSS.This issue affects Client Dash: from n/a through 2.2.1.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Real Big Plugins Client Dash allows Stored XSS.This issue affects Client Dash: from n/a through 2.2.1.",
   "severity": [
     {
       "type": "CVSS_V3",

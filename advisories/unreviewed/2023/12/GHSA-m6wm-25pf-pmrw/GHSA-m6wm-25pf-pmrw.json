@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m6wm-25pf-pmrw",
-  "modified": "2023-12-07T12:30:30Z",
+  "modified": "2026-04-28T21:33:17Z",
   "published": "2023-12-07T12:30:30Z",
   "aliases": [
     "CVE-2022-45362"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Paytm Paytm Payment Gateway.This issue affects Paytm Payment Gateway: from n/a through 2.7.0.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Paytm Paytm Payment Gateway.This issue affects Paytm Payment Gateway: from n/a through 2.7.0.",
   "severity": [
     {
       "type": "CVSS_V3",

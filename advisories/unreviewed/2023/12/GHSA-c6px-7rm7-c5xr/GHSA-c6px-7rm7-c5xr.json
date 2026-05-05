@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6px-7rm7-c5xr",
-  "modified": "2023-12-18T21:30:24Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T15:30:23Z",
   "aliases": [
     "CVE-2023-49833"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Brainstorm Force Spectra – WordPress Gutenberg Blocks allows Stored XSS.This issue affects Spectra – WordPress Gutenberg Blocks: from n/a through 2.7.9.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Brainstorm Force Spectra – WordPress Gutenberg Blocks allows Stored XSS.This issue affects Spectra – WordPress Gutenberg Blocks: from n/a through 2.7.9.",
   "severity": [
     {
       "type": "CVSS_V3",

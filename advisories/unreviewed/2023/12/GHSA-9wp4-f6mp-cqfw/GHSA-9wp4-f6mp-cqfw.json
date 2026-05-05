@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9wp4-f6mp-cqfw",
-  "modified": "2023-12-15T15:30:29Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-15T15:30:29Z",
   "aliases": [
     "CVE-2023-49179"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in N.O.U.S. Open Useful and Simple Event post allows Stored XSS.This issue affects Event post: from n/a through 5.8.6.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in N.O.U.S. Open Useful and Simple Event post allows Stored XSS.This issue affects Event post: from n/a through 5.8.6.",
   "severity": [
     {
       "type": "CVSS_V3",

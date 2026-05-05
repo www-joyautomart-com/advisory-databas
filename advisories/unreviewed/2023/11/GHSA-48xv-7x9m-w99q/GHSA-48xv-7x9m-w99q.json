@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-48xv-7x9m-w99q",
-  "modified": "2023-11-23T21:30:18Z",
+  "modified": "2026-04-28T21:33:11Z",
   "published": "2023-11-23T21:30:18Z",
   "aliases": [
     "CVE-2023-47244"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Omnisend Email Marketing for WooCommerce by Omnisend.This issue affects Email Marketing for WooCommerce by Omnisend: from n/a through 1.13.8.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Omnisend Email Marketing for WooCommerce by Omnisend.This issue affects Email Marketing for WooCommerce by Omnisend: from n/a through 1.13.8.",
   "severity": [
     {
       "type": "CVSS_V3",

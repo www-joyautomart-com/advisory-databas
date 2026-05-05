@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4696-w7m2-9g4h",
-  "modified": "2024-02-29T03:32:36Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-09T21:30:38Z",
   "aliases": [
     "CVE-2023-34169"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34169"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/ts-webfonts-for-sakura/vulnerability/wordpress-ts-webfonts-for-plugin-3-1-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-78q6-rmj2-p97w",
-  "modified": "2026-04-22T15:31:44Z",
+  "modified": "2026-04-28T18:30:30Z",
   "published": "2026-04-22T15:31:44Z",
   "aliases": [
     "CVE-2026-31524"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nHID: asus: avoid memory leak in asus_report_fixup()\n\nThe asus_report_fixup() function was returning a newly allocated\nkmemdup()-allocated buffer, but never freeing it.  Switch to\ndevm_kzalloc() to ensure the memory is managed and freed automatically\nwhen the device is removed.\n\nThe caller of report_fixup() does not take ownership of the returned\npointer, but it is permitted to return a pointer whose lifetime is at\nleast that of the input buffer.\n\nAlso fix a harmless out-of-bounds read by copying only the original\ndescriptor size.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:52Z"

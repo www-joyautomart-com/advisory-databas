@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf7m-8f85-9c35",
-  "modified": "2023-12-29T09:30:25Z",
+  "modified": "2026-04-28T21:33:37Z",
   "published": "2023-12-29T09:30:25Z",
   "aliases": [
     "CVE-2023-22676"
   ],
-  "details": "Missing Authorization vulnerability in Anders Thorborg.This issue affects Anders Thorborg: from n/a through 1.4.12.\n\n",
+  "details": "Missing Authorization vulnerability in Anders Thorborg.This issue affects Anders Thorborg: from n/a through 1.4.12.",
   "severity": [
     {
       "type": "CVSS_V3",

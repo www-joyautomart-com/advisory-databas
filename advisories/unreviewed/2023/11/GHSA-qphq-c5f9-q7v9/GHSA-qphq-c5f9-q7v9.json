@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qphq-c5f9-q7v9",
-  "modified": "2023-12-05T21:31:01Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T15:30:23Z",
   "aliases": [
     "CVE-2023-41128"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Iqonic Design WP Roadmap – Product Feedback Board allows Stored XSS.This issue affects WP Roadmap – Product Feedback Board: from n/a through 1.0.8.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Iqonic Design WP Roadmap – Product Feedback Board allows Stored XSS.This issue affects WP Roadmap – Product Feedback Board: from n/a through 1.0.8.",
   "severity": [
     {
       "type": "CVSS_V3",

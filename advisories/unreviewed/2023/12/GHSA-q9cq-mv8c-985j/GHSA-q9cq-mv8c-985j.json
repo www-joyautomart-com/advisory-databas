@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q9cq-mv8c-985j",
-  "modified": "2023-12-28T21:30:37Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-34382"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in weDevs Dokan – Best WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy.This issue affects Dokan – Best WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy: from n/a through 3.7.19.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in weDevs Dokan – Best WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy.This issue affects Dokan – Best WooCommerce Multivendor Marketplace Solution – Build Your Own Amazon, eBay, Etsy: from n/a through 3.7.19.",
   "severity": [
     {
       "type": "CVSS_V3",

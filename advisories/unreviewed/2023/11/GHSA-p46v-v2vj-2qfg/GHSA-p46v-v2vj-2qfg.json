@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p46v-v2vj-2qfg",
-  "modified": "2023-11-13T21:30:57Z",
+  "modified": "2026-04-28T15:30:32Z",
   "published": "2023-11-03T18:30:24Z",
   "aliases": [
     "CVE-2023-34179"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Groundhogg Inc. Groundhogg allows SQL Injection.This issue affects Groundhogg: from n/a through 2.7.11.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Groundhogg Inc. Groundhogg allows SQL Injection.This issue affects Groundhogg: from n/a through 2.7.11.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-34179"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/groundhogg/vulnerability/wordpress-groundhogg-plugin-2-7-10-3-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

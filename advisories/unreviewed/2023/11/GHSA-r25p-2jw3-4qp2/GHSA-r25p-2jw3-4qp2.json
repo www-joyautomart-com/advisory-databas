@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r25p-2jw3-4qp2",
-  "modified": "2023-11-15T21:35:06Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-09T21:30:39Z",
   "aliases": [
     "CVE-2023-32744"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32744"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/woocommerce-product-recommendations/vulnerability/wordpress-woocommerce-product-recommendations-plugin-2-3-0-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

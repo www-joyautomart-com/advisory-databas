@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7236-9j44-cf2f",
-  "modified": "2023-11-15T21:35:07Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-10T00:30:26Z",
   "aliases": [
     "CVE-2023-32512"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32512"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/shortpixel-adaptive-images/vulnerability/wordpress-shortpixel-adaptive-images-webp-avif-cdn-image-optimization-plugin-3-7-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

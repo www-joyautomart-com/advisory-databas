@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-62j9-6649-mj3h",
-  "modified": "2023-11-30T15:30:25Z",
+  "modified": "2026-04-28T21:33:13Z",
   "published": "2023-11-30T15:30:25Z",
   "aliases": [
     "CVE-2023-41735"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gopi Ramasamy Email posts to subscribers.This issue affects Email posts to subscribers: from n/a through 6.2.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gopi Ramasamy Email posts to subscribers.This issue affects Email posts to subscribers: from n/a through 6.2.",
   "severity": [
     {
       "type": "CVSS_V3",

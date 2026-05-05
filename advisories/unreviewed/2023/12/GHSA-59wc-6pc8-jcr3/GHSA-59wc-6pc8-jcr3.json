@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-59wc-6pc8-jcr3",
-  "modified": "2023-12-22T12:31:45Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:19Z",
   "aliases": [
     "CVE-2023-48769"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Blue Coral Chat Bubble – Floating Chat with Contact Chat Icons, Messages, Telegram, Email, SMS, Call me back.This issue affects Chat Bubble – Floating Chat with Contact Chat Icons, Messages, Telegram, Email, SMS, Call me back: from n/a through 2.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Blue Coral Chat Bubble – Floating Chat with Contact Chat Icons, Messages, Telegram, Email, SMS, Call me back.This issue affects Chat Bubble – Floating Chat with Contact Chat Icons, Messages, Telegram, Email, SMS, Call me back: from n/a through 2.3.",
   "severity": [
     {
       "type": "CVSS_V3",

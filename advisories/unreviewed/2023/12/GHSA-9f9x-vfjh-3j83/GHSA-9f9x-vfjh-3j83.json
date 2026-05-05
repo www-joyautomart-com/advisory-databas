@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9f9x-vfjh-3j83",
-  "modified": "2023-12-22T21:30:21Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:21Z",
   "aliases": [
     "CVE-2023-46154"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in E2Pdf.Com E2Pdf – Export To Pdf Tool for WordPress.This issue affects E2Pdf – Export To Pdf Tool for WordPress: from n/a through 1.20.18.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in E2Pdf.Com E2Pdf – Export To Pdf Tool for WordPress.This issue affects E2Pdf – Export To Pdf Tool for WordPress: from n/a through 1.20.18.",
   "severity": [
     {
       "type": "CVSS_V3",

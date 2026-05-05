@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6hxc-6hfm-wgvq",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:37Z",
   "aliases": [
     "CVE-2023-51468"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Jacques Malgrange Rencontre – Dating Site.This issue affects Rencontre – Dating Site: from n/a through 3.10.1.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Jacques Malgrange Rencontre – Dating Site.This issue affects Rencontre – Dating Site: from n/a through 3.10.1.",
   "severity": [
     {
       "type": "CVSS_V3",

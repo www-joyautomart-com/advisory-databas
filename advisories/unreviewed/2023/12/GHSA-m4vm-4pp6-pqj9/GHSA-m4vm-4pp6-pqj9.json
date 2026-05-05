@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4vm-4pp6-pqj9",
-  "modified": "2023-12-29T15:30:36Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51421"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Soft8Soft LLC Verge3D Publishing and E-Commerce.This issue affects Verge3D Publishing and E-Commerce: from n/a through 4.5.2.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in Soft8Soft LLC Verge3D Publishing and E-Commerce.This issue affects Verge3D Publishing and E-Commerce: from n/a through 4.5.2.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f4gp-5rmp-p2pw",
-  "modified": "2023-12-19T21:32:20Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T21:32:20Z",
   "aliases": [
     "CVE-2023-40602"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Doofinder Doofinder WP & WooCommerce Search.This issue affects Doofinder WP & WooCommerce Search: from n/a through 1.5.49.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Doofinder Doofinder WP & WooCommerce Search.This issue affects Doofinder WP & WooCommerce Search: from n/a through 1.5.49.",
   "severity": [
     {
       "type": "CVSS_V3",

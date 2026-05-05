@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrrr-2354-f3c4",
-  "modified": "2023-12-19T00:30:20Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:20Z",
   "aliases": [
     "CVE-2023-49163"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Michael Winkler teachPress.This issue affects teachPress: from n/a through 9.0.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Michael Winkler teachPress.This issue affects teachPress: from n/a through 9.0.5.",
   "severity": [
     {
       "type": "CVSS_V3",

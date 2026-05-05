@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-phf6-mw35-xhh9",
-  "modified": "2023-11-15T21:35:07Z",
+  "modified": "2026-04-28T21:33:06Z",
   "published": "2023-11-10T15:30:28Z",
   "aliases": [
     "CVE-2023-29426"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-29426"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/spreadshop/vulnerability/wordpress-spreadshop-plugin-plugin-1-6-5-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

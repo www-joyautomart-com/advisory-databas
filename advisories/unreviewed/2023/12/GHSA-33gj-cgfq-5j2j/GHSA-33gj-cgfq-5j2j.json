@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33gj-cgfq-5j2j",
-  "modified": "2023-12-30T03:30:18Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-21T21:30:30Z",
   "aliases": [
     "CVE-2023-49765"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Blaz K. Rate my Post – WP Rating System.This issue affects Rate my Post – WP Rating System: from n/a through 3.4.1.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in Blaz K. Rate my Post – WP Rating System.This issue affects Rate my Post – WP Rating System: from n/a through 3.4.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qw3x-hp2h-3hcq",
-  "modified": "2025-03-13T21:31:01Z",
+  "modified": "2026-04-28T15:30:41Z",
   "published": "2024-03-21T18:32:03Z",
   "aliases": [
     "CVE-2023-49837"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-49837"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/simple-embed-code/vulnerability/wordpress-embed-code-plugin-2-3-6-denial-of-service-attack-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

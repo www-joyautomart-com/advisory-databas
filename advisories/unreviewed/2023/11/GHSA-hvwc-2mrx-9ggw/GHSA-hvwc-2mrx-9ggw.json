@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hvwc-2mrx-9ggw",
-  "modified": "2023-11-30T18:31:18Z",
+  "modified": "2026-04-28T21:33:16Z",
   "published": "2023-11-30T18:31:18Z",
   "aliases": [
     "CVE-2023-47877"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Perfmatters allows Stored XSS.This issue affects Perfmatters: from n/a before 2.2.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Perfmatters allows Stored XSS.This issue affects Perfmatters: from n/a before 2.2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

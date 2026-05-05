@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2gcq-g27g-mx27",
-  "modified": "2023-12-20T15:30:19Z",
+  "modified": "2026-04-28T21:33:27Z",
   "published": "2023-12-20T15:30:19Z",
   "aliases": [
     "CVE-2023-41796"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WP Sunshine Sunshine Photo Cart: Free Client Galleries for Photographers.This issue affects Sunshine Photo Cart: Free Client Galleries for Photographers: from n/a before 3.0.0.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WP Sunshine Sunshine Photo Cart: Free Client Galleries for Photographers.This issue affects Sunshine Photo Cart: Free Client Galleries for Photographers: from n/a before 3.0.0.",
   "severity": [
     {
       "type": "CVSS_V3",

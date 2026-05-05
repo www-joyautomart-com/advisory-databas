@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-rxh8-v6x2-m5h4",
-  "modified": "2024-07-03T18:44:21Z",
+  "modified": "2026-04-28T15:30:41Z",
   "published": "2024-06-09T18:30:36Z",
   "aliases": [
     "CVE-2024-32715"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-32715"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/olive-one-click-demo-import/vulnerability/wordpress-olive-one-click-demo-import-plugin-1-1-1-arbitrary-file-download-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

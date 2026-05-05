@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8qfv-g522-p5wr",
-  "modified": "2026-04-24T15:32:37Z",
+  "modified": "2026-04-27T21:30:50Z",
   "published": "2026-04-24T15:32:37Z",
   "aliases": [
     "CVE-2026-31670"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: rfkill: prevent unlimited numbers of rfkill events from being created\n\nUserspace can create an unlimited number of rfkill events if the system\nis so configured, while not consuming them from the rfkill file\ndescriptor, causing a potential out of memory situation.  Prevent this\nfrom bounding the number of pending rfkill events at a \"large\" number\n(i.e. 1000) to prevent abuses like this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:46Z"

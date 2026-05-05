@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vvmr-c9c4-p325",
-  "modified": "2023-11-30T12:30:18Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T12:30:18Z",
   "aliases": [
     "CVE-2023-47505"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Elementor.Com Elementor allows Cross-Site Scripting (XSS).This issue affects Elementor: from n/a through 3.16.4.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Elementor.Com Elementor allows Cross-Site Scripting (XSS).This issue affects Elementor: from n/a through 3.16.4.",
   "severity": [
     {
       "type": "CVSS_V3",

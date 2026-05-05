@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q2xh-vwfq-mwpc",
-  "modified": "2026-04-24T15:32:36Z",
+  "modified": "2026-04-27T21:30:48Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31634"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nrxrpc: fix reference count leak in rxrpc_server_keyring()\n\nThis patch fixes a reference count leak in rxrpc_server_keyring()\nby checking if rx->securities is already set.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -45,7 +50,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:42Z"

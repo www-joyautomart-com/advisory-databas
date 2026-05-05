@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4qcv-5m27-xvj9",
-  "modified": "2023-12-28T21:30:38Z",
+  "modified": "2026-04-28T21:33:35Z",
   "published": "2023-12-28T21:30:38Z",
   "aliases": [
     "CVE-2023-50840"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in wpdevelop, oplugins Booking Manager.This issue affects Booking Manager: from n/a through 2.1.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in wpdevelop, oplugins Booking Manager.This issue affects Booking Manager: from n/a through 2.1.5.",
   "severity": [
     {
       "type": "CVSS_V3",

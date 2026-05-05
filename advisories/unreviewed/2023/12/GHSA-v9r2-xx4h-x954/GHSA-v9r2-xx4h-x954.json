@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v9r2-xx4h-x954",
-  "modified": "2023-12-14T15:30:23Z",
+  "modified": "2026-04-28T21:33:18Z",
   "published": "2023-12-14T15:30:23Z",
   "aliases": [
     "CVE-2023-49740"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Seraphinite Solutions Seraphinite Accelerator allows Reflected XSS.This issue affects Seraphinite Accelerator: from n/a through 2.20.28.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Seraphinite Solutions Seraphinite Accelerator allows Reflected XSS.This issue affects Seraphinite Accelerator: from n/a through 2.20.28.",
   "severity": [
     {
       "type": "CVSS_V3",

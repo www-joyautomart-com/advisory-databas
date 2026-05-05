@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhff-fj5f-qg48",
-  "modified": "2026-04-03T02:56:20Z",
+  "modified": "2026-04-28T18:14:05Z",
   "published": "2026-04-03T02:56:20Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41374"
+  ],
   "summary": "OpenClaw runs Discord audio preflight transcription before member authorization",
   "details": "## Summary\nDiscord audio preflight transcription before member authorization\n\n## Current Maintainer Triage\n- Status: narrow\n- Normalized severity: medium\n- Assessment: v2026.3.28 still runs Discord audio preflight before member allowlist rejection, but this is the same pre-auth resource-consumption class and not the high-severity auth-bypass framing in the draft.\n\n## Affected Packages / Versions\n- Package: `openclaw` (npm)\n- Latest published npm version: `2026.3.31`\n- Vulnerable version range: `<=2026.3.28`\n- Patched versions: `>= 2026.3.31`\n- First stable tag containing the fix: `v2026.3.31`\n\n## Fix Commit(s)\n- `ee52f64226a03efadfdf1e3b759e13424a3d4e41` — 2026-03-30T14:38:22+01:00\n\nOpenClaw thanks @AntAISecurityLab for reporting.",
   "severity": [

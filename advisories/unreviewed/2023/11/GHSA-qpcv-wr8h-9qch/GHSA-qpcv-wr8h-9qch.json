@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qpcv-wr8h-9qch",
-  "modified": "2023-11-15T21:35:03Z",
+  "modified": "2026-04-28T15:30:34Z",
   "published": "2023-11-15T21:35:03Z",
   "aliases": [
     "CVE-2023-22719"
   ],
-  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in GiveWP.This issue affects GiveWP: from n/a through 2.25.1.\n\n",
+  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in GiveWP.This issue affects GiveWP: from n/a through 2.25.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22719"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/give/vulnerability/wordpress-givewp-plugin-2-25-1-csv-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

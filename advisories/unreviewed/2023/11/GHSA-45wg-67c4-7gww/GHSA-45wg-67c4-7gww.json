@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-45wg-67c4-7gww",
-  "modified": "2023-11-18T21:30:25Z",
+  "modified": "2026-04-28T21:33:10Z",
   "published": "2023-11-18T21:30:25Z",
   "aliases": [
     "CVE-2023-47670"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Jongmyoung Kim Korea SNS.This issue affects Korea SNS: from n/a through 1.6.3.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Jongmyoung Kim Korea SNS.This issue affects Korea SNS: from n/a through 1.6.3.",
   "severity": [
     {
       "type": "CVSS_V3",

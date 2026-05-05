@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-ccvr-j87g-x67g",
-  "modified": "2024-01-05T00:30:27Z",
+  "modified": "2026-04-28T21:33:36Z",
   "published": "2023-12-28T21:30:38Z",
   "aliases": [
     "CVE-2023-50846"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in RegistrationMagic RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login.This issue affects RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login: from n/a through 5.2.4.5.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in RegistrationMagic RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login.This issue affects RegistrationMagic – Custom Registration Forms, User Registration, Payment, and User Login: from n/a through 5.2.4.5.",
   "severity": [
     {
       "type": "CVSS_V3",

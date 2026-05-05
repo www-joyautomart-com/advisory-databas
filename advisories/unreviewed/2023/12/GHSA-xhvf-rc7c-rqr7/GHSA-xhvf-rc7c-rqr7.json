@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xhvf-rc7c-rqr7",
-  "modified": "2023-12-19T00:30:18Z",
+  "modified": "2026-04-28T21:33:24Z",
   "published": "2023-12-19T00:30:18Z",
   "aliases": [
     "CVE-2023-48768"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in CodeAstrology Team Quantity Plus Minus Button for WooCommerce by CodeAstrology.This issue affects Quantity Plus Minus Button for WooCommerce by CodeAstrology: from n/a through 1.1.9.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in CodeAstrology Team Quantity Plus Minus Button for WooCommerce by CodeAstrology.This issue affects Quantity Plus Minus Button for WooCommerce by CodeAstrology: from n/a through 1.1.9.",
   "severity": [
     {
       "type": "CVSS_V3",

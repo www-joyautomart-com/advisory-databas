@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-25jp-v3h8-rhhg",
-  "modified": "2024-01-05T18:30:25Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:36Z",
   "aliases": [
     "CVE-2023-51378"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Rise Themes Rise Blocks – A Complete Gutenberg Page Builder.This issue affects Rise Blocks – A Complete Gutenberg Page Builder: from n/a through 3.1.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Rise Themes Rise Blocks – A Complete Gutenberg Page Builder.This issue affects Rise Blocks – A Complete Gutenberg Page Builder: from n/a through 3.1.",
   "severity": [
     {
       "type": "CVSS_V3",

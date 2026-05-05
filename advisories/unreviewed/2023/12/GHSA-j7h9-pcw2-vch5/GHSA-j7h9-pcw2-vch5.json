@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j7h9-pcw2-vch5",
-  "modified": "2023-12-19T03:30:17Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T03:30:17Z",
   "aliases": [
     "CVE-2023-44982"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Jordy Meow Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina).This issue affects Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina): from n/a through 6.4.5.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Jordy Meow Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina).This issue affects Perfect Images (Manage Image Sizes, Thumbnails, Replace, Retina): from n/a through 6.4.5.",
   "severity": [
     {
       "type": "CVSS_V3",

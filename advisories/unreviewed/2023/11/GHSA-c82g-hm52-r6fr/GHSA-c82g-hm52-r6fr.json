@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c82g-hm52-r6fr",
-  "modified": "2023-11-14T18:30:21Z",
+  "modified": "2026-04-28T15:30:33Z",
   "published": "2023-11-06T09:30:14Z",
   "aliases": [
     "CVE-2022-46860"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in KaizenCoders Short URL allows SQL Injection.This issue affects Short URL: from n/a through 1.6.4.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in KaizenCoders Short URL allows SQL Injection.This issue affects Short URL: from n/a through 1.6.4.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-46860"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/shorten-url/vulnerability/wordpress-short-url-plugin-1-6-4-sql-injection?_s_id=cve"
     },
     {
       "type": "WEB",

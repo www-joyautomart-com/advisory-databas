@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xjjg-5fvp-6fv2",
-  "modified": "2023-12-20T18:30:33Z",
+  "modified": "2026-04-28T21:33:30Z",
   "published": "2023-12-20T18:30:33Z",
   "aliases": [
     "CVE-2023-29432"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Favethemes Houzez - Real Estate WordPress Theme.This issue affects Houzez - Real Estate WordPress Theme: from n/a before 2.8.3.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Favethemes Houzez - Real Estate WordPress Theme.This issue affects Houzez - Real Estate WordPress Theme: from n/a before 2.8.3.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-69m4-r76x-j23h",
-  "modified": "2024-01-02T18:30:19Z",
+  "modified": "2026-04-28T21:33:26Z",
   "published": "2023-12-19T00:30:21Z",
   "aliases": [
     "CVE-2023-49819"
   ],
-  "details": "Deserialization of Untrusted Data vulnerability in Gordon Böhme, Antonio Leutsch Structured Content (JSON-LD) #wpsc.This issue affects Structured Content (JSON-LD) #wpsc: from n/a through 1.5.3.\n\n",
+  "details": "Deserialization of Untrusted Data vulnerability in Gordon Böhme, Antonio Leutsch Structured Content (JSON-LD) #wpsc.This issue affects Structured Content (JSON-LD) #wpsc: from n/a through 1.5.3.",
   "severity": [
     {
       "type": "CVSS_V3",

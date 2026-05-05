@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pq6w-72gr-399w",
-  "modified": "2023-11-15T06:30:29Z",
+  "modified": "2026-04-28T21:33:04Z",
   "published": "2023-11-08T18:30:31Z",
   "aliases": [
     "CVE-2023-46613"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-46613"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/add-to-calendar-button/vulnerability/wordpress-add-to-calendar-button-plugin-1-5-1-cross-site-scripting-xss-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

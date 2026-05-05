@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-36cp-3699-pj66",
-  "modified": "2023-12-20T18:30:32Z",
+  "modified": "2026-04-28T21:33:29Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-30872"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BannerSky BSK Forms Blacklist.This issue affects BSK Forms Blacklist: from n/a through 3.6.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in BannerSky BSK Forms Blacklist.This issue affects BSK Forms Blacklist: from n/a through 3.6.2.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vf9-2prf-pcq9",
-  "modified": "2023-11-15T18:30:22Z",
+  "modified": "2026-04-28T21:33:05Z",
   "published": "2023-11-10T00:30:27Z",
   "aliases": [
     "CVE-2023-31093"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-31093"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/chronosly-events-calendar/vulnerability/wordpress-chronosly-events-calendar-plugin-2-6-2-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

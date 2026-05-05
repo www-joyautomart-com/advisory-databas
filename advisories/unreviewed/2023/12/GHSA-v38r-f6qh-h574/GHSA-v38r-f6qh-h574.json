@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-v38r-f6qh-h574",
-  "modified": "2023-12-20T18:30:32Z",
+  "modified": "2026-04-28T21:33:29Z",
   "published": "2023-12-20T18:30:32Z",
   "aliases": [
     "CVE-2023-30750"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CreativeMindsSolutions CM Popup Plugin for WordPress.This issue affects CM Popup Plugin for WordPress: from n/a through 1.5.10.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in CreativeMindsSolutions CM Popup Plugin for WordPress.This issue affects CM Popup Plugin for WordPress: from n/a through 1.5.10.",
   "severity": [
     {
       "type": "CVSS_V3",

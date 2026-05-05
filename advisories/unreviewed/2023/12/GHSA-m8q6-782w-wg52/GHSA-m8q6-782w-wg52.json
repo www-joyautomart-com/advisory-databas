@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m8q6-782w-wg52",
-  "modified": "2023-12-14T18:30:21Z",
+  "modified": "2026-04-28T21:33:20Z",
   "published": "2023-12-14T18:30:21Z",
   "aliases": [
     "CVE-2023-49842"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in wpexpertsio Rocket Maintenance Mode & Coming Soon Page allows Stored XSS.This issue affects Rocket Maintenance Mode & Coming Soon Page: from n/a through 4.3.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in wpexpertsio Rocket Maintenance Mode & Coming Soon Page allows Stored XSS.This issue affects Rocket Maintenance Mode & Coming Soon Page: from n/a through 4.3.",
   "severity": [
     {
       "type": "CVSS_V3",

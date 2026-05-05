@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4xhm-q9h6-mq38",
-  "modified": "2023-11-13T03:30:37Z",
+  "modified": "2026-04-28T21:33:07Z",
   "published": "2023-11-13T03:30:37Z",
   "aliases": [
     "CVE-2023-37978"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Dimitar Ivanov HTTP Headers.This issue affects HTTP Headers: from n/a through 1.18.11.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Dimitar Ivanov HTTP Headers.This issue affects HTTP Headers: from n/a through 1.18.11.",
   "severity": [
     {
       "type": "CVSS_V3",

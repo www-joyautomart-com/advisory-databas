@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fgpw-h2j4-3v24",
-  "modified": "2023-11-15T00:31:06Z",
+  "modified": "2026-04-28T21:33:02Z",
   "published": "2023-11-07T21:30:24Z",
   "aliases": [
     "CVE-2022-45078"
   ],
-  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in Solwin Infotech User Blocker.This issue affects User Blocker: from n/a through 1.5.5.\n\n",
+  "details": "Improper Neutralization of Formula Elements in a CSV File vulnerability in Solwin Infotech User Blocker.This issue affects User Blocker: from n/a through 1.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

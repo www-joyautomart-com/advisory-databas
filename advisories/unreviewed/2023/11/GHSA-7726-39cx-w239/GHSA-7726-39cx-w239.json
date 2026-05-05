@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7726-39cx-w239",
-  "modified": "2023-11-30T18:31:17Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-48754"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Wap Nepal Delete Post Revisions In WordPress allows Cross Site Request Forgery.This issue affects Delete Post Revisions In WordPress: from n/a through 4.6.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Wap Nepal Delete Post Revisions In WordPress allows Cross Site Request Forgery.This issue affects Delete Post Revisions In WordPress: from n/a through 4.6.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jf57-3c97-v2x5",
-  "modified": "2024-01-04T21:30:24Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-28T12:30:18Z",
   "aliases": [
     "CVE-2023-27447"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in VeronaLabs WP SMS – Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc.This issue affects WP SMS – Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc: from n/a through 6.0.4.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in VeronaLabs WP SMS – Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc.This issue affects WP SMS – Messaging & SMS Notification for WordPress, WooCommerce, GravityForms, etc: from n/a through 6.0.4.",
   "severity": [
     {
       "type": "CVSS_V3",

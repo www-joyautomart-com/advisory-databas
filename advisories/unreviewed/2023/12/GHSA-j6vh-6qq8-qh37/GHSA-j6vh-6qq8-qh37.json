@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j6vh-6qq8-qh37",
-  "modified": "2023-12-18T21:30:24Z",
+  "modified": "2026-04-28T21:33:19Z",
   "published": "2023-12-14T18:30:21Z",
   "aliases": [
     "CVE-2023-49820"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Gordon Böhme, Antonio Leutsch Structured Content (JSON-LD) #wpsc allows Stored XSS.This issue affects Structured Content (JSON-LD) #wpsc: from n/a through 1.5.3.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Gordon Böhme, Antonio Leutsch Structured Content (JSON-LD) #wpsc allows Stored XSS.This issue affects Structured Content (JSON-LD) #wpsc: from n/a through 1.5.3.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-m4q3-p5v6-4g9f",
-  "modified": "2023-12-30T03:30:18Z",
+  "modified": "2026-04-28T21:33:33Z",
   "published": "2023-12-21T21:30:30Z",
   "aliases": [
     "CVE-2023-47191"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in KaineLabs Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress.This issue affects Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress: from n/a through 1.2.2.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in KaineLabs Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress.This issue affects Youzify – BuddyPress Community, User Profile, Social Network & Membership Plugin for WordPress: from n/a through 1.2.2.",
   "severity": [
     {
       "type": "CVSS_V3",

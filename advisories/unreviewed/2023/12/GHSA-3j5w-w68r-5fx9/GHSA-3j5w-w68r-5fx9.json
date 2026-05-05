@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3j5w-w68r-5fx9",
-  "modified": "2023-12-07T15:30:38Z",
+  "modified": "2026-04-28T21:33:18Z",
   "published": "2023-12-07T15:30:38Z",
   "aliases": [
     "CVE-2023-45762"
   ],
-  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Michael Uno (miunosoft) Responsive Column Widgets.This issue affects Responsive Column Widgets: from n/a through 1.2.7.\n\n",
+  "details": "URL Redirection to Untrusted Site ('Open Redirect') vulnerability in Michael Uno (miunosoft) Responsive Column Widgets.This issue affects Responsive Column Widgets: from n/a through 1.2.7.",
   "severity": [
     {
       "type": "CVSS_V3",

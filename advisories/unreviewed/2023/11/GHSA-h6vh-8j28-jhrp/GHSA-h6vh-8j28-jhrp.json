@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h6vh-8j28-jhrp",
-  "modified": "2023-11-30T18:31:18Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:18Z",
   "aliases": [
     "CVE-2023-34018"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SoundCloud Inc. SoundCloud Shortcode allows Stored XSS.This issue affects SoundCloud Shortcode: from n/a through 3.1.0.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in SoundCloud Inc. SoundCloud Shortcode allows Stored XSS.This issue affects SoundCloud Shortcode: from n/a through 3.1.0.",
   "severity": [
     {
       "type": "CVSS_V3",

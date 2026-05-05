@@ -1,9 +1,11 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6pfc-6m7w-m8fx",
-  "modified": "2026-03-31T23:59:53Z",
+  "modified": "2026-04-28T18:19:30Z",
   "published": "2026-03-31T23:59:53Z",
-  "aliases": [],
+  "aliases": [
+    "CVE-2026-41390"
+  ],
   "summary": "OpenClaw has a gateway exec allowlist allow-always bypass via unregistered /usr/bin/script wrapper",
   "details": "## Summary\n\nAllow-always persistence did not unwrap `/usr/bin/script` and similar wrappers to the actual executed target before storing trust decisions.\n\n## Impact\n\nA user approval for one wrapped command could persist trust for a wrapper binary that later executed a different underlying program.\n\n## Affected Component\n\n`src/infra/dispatch-wrapper-resolution.ts, src/infra/exec-wrapper-resolution.ts`\n\n## Fixed Versions\n\n- Affected: `<= 2026.3.24`\n- Patched: `>= 2026.3.28`\n- Latest stable `2026.3.28` contains the fix.\n\n## Fix\n\nFixed by commit `83da3cfe31` (`infra: unwrap script wrapper approval targets`).",
   "severity": [

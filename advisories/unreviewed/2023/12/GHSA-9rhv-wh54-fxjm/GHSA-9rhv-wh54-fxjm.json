@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rhv-wh54-fxjm",
-  "modified": "2023-12-29T09:30:26Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T09:30:26Z",
   "aliases": [
     "CVE-2023-46623"
   ],
-  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in TienCOP WP EXtra.This issue affects WP EXtra: from n/a through 6.2.\n\n",
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in TienCOP WP EXtra.This issue affects WP EXtra: from n/a through 6.2.",
   "severity": [
     {
       "type": "CVSS_V3",

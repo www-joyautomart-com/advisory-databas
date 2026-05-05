@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9rvm-xpxj-3chj",
-  "modified": "2023-12-20T15:30:20Z",
+  "modified": "2026-04-28T21:33:28Z",
   "published": "2023-12-20T15:30:20Z",
   "aliases": [
     "CVE-2023-36520"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in MarketingFire Editorial Calendar.This issue affects Editorial Calendar: from n/a through 3.7.12.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in MarketingFire Editorial Calendar.This issue affects Editorial Calendar: from n/a through 3.7.12.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-243r-xrw9-vfhw",
-  "modified": "2023-12-20T15:30:20Z",
+  "modified": "2026-04-28T21:33:28Z",
   "published": "2023-12-20T15:30:20Z",
   "aliases": [
     "CVE-2023-35876"
   ],
-  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce WooCommerce Square.This issue affects WooCommerce Square: from n/a through 3.8.1.\n\n",
+  "details": "Authorization Bypass Through User-Controlled Key vulnerability in WooCommerce WooCommerce Square.This issue affects WooCommerce Square: from n/a through 3.8.1.",
   "severity": [
     {
       "type": "CVSS_V3",

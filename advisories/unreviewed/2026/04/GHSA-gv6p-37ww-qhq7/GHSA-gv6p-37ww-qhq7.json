@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv6p-37ww-qhq7",
-  "modified": "2026-04-24T15:32:36Z",
+  "modified": "2026-04-27T21:30:49Z",
   "published": "2026-04-24T15:32:36Z",
   "aliases": [
     "CVE-2026-31651"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmmc: vub300: fix NULL-deref on disconnect\n\nMake sure to deregister the controller before dropping the reference to\nthe driver data on disconnect to avoid NULL-pointer dereferences or\nuse-after-free.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-24T15:16:44Z"

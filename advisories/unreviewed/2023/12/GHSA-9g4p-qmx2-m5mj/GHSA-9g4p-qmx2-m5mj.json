@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9g4p-qmx2-m5mj",
-  "modified": "2023-12-19T00:30:20Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:20Z",
   "aliases": [
     "CVE-2023-34168"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Alex Raven WP Report Post allows SQL Injection.This issue affects WP Report Post: from n/a through 2.1.2.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Alex Raven WP Report Post allows SQL Injection.This issue affects WP Report Post: from n/a through 2.1.2.",
   "severity": [
     {
       "type": "CVSS_V3",

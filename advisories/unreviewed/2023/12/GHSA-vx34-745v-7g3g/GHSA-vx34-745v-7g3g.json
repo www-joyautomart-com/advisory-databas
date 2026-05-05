@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vx34-745v-7g3g",
-  "modified": "2023-12-21T21:30:29Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-18T18:30:20Z",
   "aliases": [
     "CVE-2022-40312"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in GiveWP GiveWP – Donation Plugin and Fundraising Platform.This issue affects GiveWP – Donation Plugin and Fundraising Platform: from n/a through 2.25.1.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in GiveWP GiveWP – Donation Plugin and Fundraising Platform.This issue affects GiveWP – Donation Plugin and Fundraising Platform: from n/a through 2.25.1.",
   "severity": [
     {
       "type": "CVSS_V3",

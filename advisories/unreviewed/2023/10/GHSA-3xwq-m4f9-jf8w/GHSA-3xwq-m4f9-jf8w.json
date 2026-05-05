@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3xwq-m4f9-jf8w",
-  "modified": "2023-11-08T21:30:34Z",
+  "modified": "2026-04-28T21:32:56Z",
   "published": "2023-10-31T15:30:24Z",
   "aliases": [
     "CVE-2023-24410"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Contact Form - WPManageNinja LLC Contact Form Plugin – Fastest Contact Form Builder Plugin for WordPress by Fluent Forms fluentform allows SQL Injection.This issue affects Contact Form Plugin – Fastest Contact Form Builder Plugin for WordPress by Fluent Forms: from n/a through 4.3.25.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in Contact Form - WPManageNinja LLC Contact Form Plugin – Fastest Contact Form Builder Plugin for WordPress by Fluent Forms fluentform allows SQL Injection.This issue affects Contact Form Plugin – Fastest Contact Form Builder Plugin for WordPress by Fluent Forms: from n/a through 4.3.25.",
   "severity": [
     {
       "type": "CVSS_V3",

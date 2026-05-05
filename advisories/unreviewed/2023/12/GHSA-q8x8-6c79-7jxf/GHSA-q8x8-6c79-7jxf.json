@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-q8x8-6c79-7jxf",
-  "modified": "2023-12-15T18:30:28Z",
+  "modified": "2026-04-28T21:33:22Z",
   "published": "2023-12-15T18:30:28Z",
   "aliases": [
     "CVE-2023-49197"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Apasionados, Apasionados del Marketing, NetConsulting DoFollow Case by Case.This issue affects DoFollow Case by Case: from n/a through 3.4.2.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Apasionados, Apasionados del Marketing, NetConsulting DoFollow Case by Case.This issue affects DoFollow Case by Case: from n/a through 3.4.2.",
   "severity": [
     {
       "type": "CVSS_V3",

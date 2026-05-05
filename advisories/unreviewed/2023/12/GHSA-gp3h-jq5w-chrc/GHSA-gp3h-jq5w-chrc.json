@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gp3h-jq5w-chrc",
-  "modified": "2023-12-15T18:30:28Z",
+  "modified": "2026-04-28T21:33:21Z",
   "published": "2023-12-15T18:30:28Z",
   "aliases": [
     "CVE-2023-49159"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Elegant Digital Solutions CommentLuv.This issue affects CommentLuv: from n/a through 3.0.4.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Elegant Digital Solutions CommentLuv.This issue affects CommentLuv: from n/a through 3.0.4.",
   "severity": [
     {
       "type": "CVSS_V3",

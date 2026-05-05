@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-77gr-pj6j-w9f8",
-  "modified": "2023-11-13T03:30:37Z",
+  "modified": "2026-04-28T21:33:07Z",
   "published": "2023-11-13T03:30:37Z",
   "aliases": [
     "CVE-2023-38515"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in Andy Moyle Church Admin.This issue affects Church Admin: from n/a through 3.7.56.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in Andy Moyle Church Admin.This issue affects Church Admin: from n/a through 3.7.56.",
   "severity": [
     {
       "type": "CVSS_V3",

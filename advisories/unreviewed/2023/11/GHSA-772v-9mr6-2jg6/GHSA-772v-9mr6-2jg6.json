@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-772v-9mr6-2jg6",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2026-04-28T21:32:59Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-45055"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in InspireUI MStore API allows SQL Injection.This issue affects MStore API: from n/a through 4.0.6.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in InspireUI MStore API allows SQL Injection.This issue affects MStore API: from n/a through 4.0.6.",
   "severity": [
     {
       "type": "CVSS_V3",

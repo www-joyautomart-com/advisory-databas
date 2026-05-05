@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jxmw-w8rp-55qj",
-  "modified": "2023-12-29T15:30:37Z",
+  "modified": "2026-04-28T21:33:39Z",
   "published": "2023-12-29T15:30:37Z",
   "aliases": [
     "CVE-2023-51475"
   ],
-  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in IOSS WP MLM SOFTWARE PLUGIN.This issue affects WP MLM SOFTWARE PLUGIN: from n/a through 4.0.\n\n",
+  "details": "Unrestricted Upload of File with Dangerous Type vulnerability in IOSS WP MLM SOFTWARE PLUGIN.This issue affects WP MLM SOFTWARE PLUGIN: from n/a through 4.0.",
   "severity": [
     {
       "type": "CVSS_V3",

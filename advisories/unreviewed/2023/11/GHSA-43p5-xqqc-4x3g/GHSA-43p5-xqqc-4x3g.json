@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-43p5-xqqc-4x3g",
-  "modified": "2023-12-06T03:30:26Z",
+  "modified": "2026-04-28T21:33:15Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-39921"
   ],
-  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Molongui Author Box, Guest Author and Co-Authors for Your Posts – Molongui allows Stored XSS.This issue affects Author Box, Guest Author and Co-Authors for Your Posts – Molongui: from n/a through 4.6.19.\n\n",
+  "details": "Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting') vulnerability in Molongui Author Box, Guest Author and Co-Authors for Your Posts – Molongui allows Stored XSS.This issue affects Author Box, Guest Author and Co-Authors for Your Posts – Molongui: from n/a through 4.6.19.",
   "severity": [
     {
       "type": "CVSS_V3",

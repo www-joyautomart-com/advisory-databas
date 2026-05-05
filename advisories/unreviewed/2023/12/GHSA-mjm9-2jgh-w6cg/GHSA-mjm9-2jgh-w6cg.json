@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjm9-2jgh-w6cg",
-  "modified": "2023-12-19T00:30:18Z",
+  "modified": "2026-04-28T21:33:25Z",
   "published": "2023-12-19T00:30:18Z",
   "aliases": [
     "CVE-2023-48772"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Arul Prasad J Prevent Landscape Rotation.This issue affects Prevent Landscape Rotation: from n/a through 2.0.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Arul Prasad J Prevent Landscape Rotation.This issue affects Prevent Landscape Rotation: from n/a through 2.0.",
   "severity": [
     {
       "type": "CVSS_V3",

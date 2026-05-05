@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-4cfm-33p5-g53v",
-  "modified": "2023-12-29T09:30:26Z",
+  "modified": "2026-04-28T21:33:38Z",
   "published": "2023-12-29T09:30:26Z",
   "aliases": [
     "CVE-2023-47840"
   ],
-  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Qode Interactive Qode Essential Addons.This issue affects Qode Essential Addons: from n/a through 1.5.2.\n\n",
+  "details": "Improper Control of Generation of Code ('Code Injection') vulnerability in Qode Interactive Qode Essential Addons.This issue affects Qode Essential Addons: from n/a through 1.5.2.",
   "severity": [
     {
       "type": "CVSS_V3",

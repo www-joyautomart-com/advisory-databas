@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hcrv-8mmq-xp49",
-  "modified": "2023-11-10T06:30:18Z",
+  "modified": "2026-04-28T15:30:33Z",
   "published": "2023-11-06T09:30:15Z",
   "aliases": [
     "CVE-2023-41685"
   ],
-  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ilGhera Woocommerce Support System allows SQL Injection.This issue affects Woocommerce Support System: from n/a through 1.2.1.\n\n",
+  "details": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability in ilGhera Woocommerce Support System allows SQL Injection.This issue affects Woocommerce Support System: from n/a through 1.2.1.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-41685"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Plugin/wc-support-system/vulnerability/wordpress-woocommerce-support-system-plugin-1-2-0-sql-injection-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

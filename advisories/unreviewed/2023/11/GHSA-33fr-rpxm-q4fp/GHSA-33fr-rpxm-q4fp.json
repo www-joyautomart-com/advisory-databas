@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-33fr-rpxm-q4fp",
-  "modified": "2023-11-30T18:31:17Z",
+  "modified": "2026-04-28T21:33:14Z",
   "published": "2023-11-30T18:31:17Z",
   "aliases": [
     "CVE-2023-36523"
   ],
-  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gopi Ramasamy Email download link.This issue affects Email download link: from n/a through 3.7.\n\n",
+  "details": "Exposure of Sensitive Information to an Unauthorized Actor vulnerability in Gopi Ramasamy Email download link.This issue affects Email download link: from n/a through 3.7.",
   "severity": [
     {
       "type": "CVSS_V3",

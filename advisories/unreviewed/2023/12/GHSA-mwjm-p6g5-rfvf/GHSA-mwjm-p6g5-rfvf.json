@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mwjm-p6g5-rfvf",
-  "modified": "2023-12-18T18:30:21Z",
+  "modified": "2026-04-28T21:33:23Z",
   "published": "2023-12-18T18:30:21Z",
   "aliases": [
     "CVE-2023-49840"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Palscode Multi Currency For WooCommerce.This issue affects Multi Currency For WooCommerce: from n/a through 1.5.5.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Palscode Multi Currency For WooCommerce.This issue affects Multi Currency For WooCommerce: from n/a through 1.5.5.",
   "severity": [
     {
       "type": "CVSS_V3",

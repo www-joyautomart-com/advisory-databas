@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x64m-328j-2v43",
-  "modified": "2023-12-05T03:30:21Z",
+  "modified": "2026-04-28T21:33:12Z",
   "published": "2023-11-30T15:30:23Z",
   "aliases": [
     "CVE-2023-48284"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in WebToffee Decorator – WooCommerce Email Customizer allows Cross Site Request Forgery.This issue affects Decorator – WooCommerce Email Customizer: from n/a through 1.2.7.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in WebToffee Decorator – WooCommerce Email Customizer allows Cross Site Request Forgery.This issue affects Decorator – WooCommerce Email Customizer: from n/a through 1.2.7.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-vrx6-28g2-g5gm",
-  "modified": "2023-11-15T18:30:22Z",
+  "modified": "2026-04-28T21:33:06Z",
   "published": "2023-11-10T00:30:27Z",
   "aliases": [
     "CVE-2023-32500"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32500"
+    },
+    {
+      "type": "WEB",
+      "url": "https://patchstack.com/database/Wordpress/Theme/woodmart/vulnerability/wordpress-woodmart-theme-7-1-1-cross-site-request-forgery-csrf-vulnerability?_s_id=cve"
     },
     {
       "type": "WEB",

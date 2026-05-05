@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49fm-88jx-9fhr",
-  "modified": "2023-11-13T03:30:37Z",
+  "modified": "2026-04-28T21:33:07Z",
   "published": "2023-11-13T03:30:37Z",
   "aliases": [
     "CVE-2023-31219"
   ],
-  "details": "Server-Side Request Forgery (SSRF) vulnerability in WPChill Download Monitor.This issue affects Download Monitor: from n/a through 4.8.1.\n\n",
+  "details": "Server-Side Request Forgery (SSRF) vulnerability in WPChill Download Monitor.This issue affects Download Monitor: from n/a through 4.8.1.",
   "severity": [
     {
       "type": "CVSS_V3",

@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3gj6-gfv8-qhwj",
-  "modified": "2023-12-28T12:30:19Z",
+  "modified": "2026-04-28T21:33:34Z",
   "published": "2023-12-28T12:30:19Z",
   "aliases": [
     "CVE-2023-50858"
   ],
-  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Bill Minozzi Disable Json API, Login Lockdown, XMLRPC, Pingback, Stop User Enumeration Anti Hacker Scan.This issue affects Disable Json API, Login Lockdown, XMLRPC, Pingback, Stop User Enumeration Anti Hacker Scan: from n/a through 4.34.\n\n",
+  "details": "Cross-Site Request Forgery (CSRF) vulnerability in Bill Minozzi Disable Json API, Login Lockdown, XMLRPC, Pingback, Stop User Enumeration Anti Hacker Scan.This issue affects Disable Json API, Login Lockdown, XMLRPC, Pingback, Stop User Enumeration Anti Hacker Scan: from n/a through 4.34.",
   "severity": [
     {
       "type": "CVSS_V3",
