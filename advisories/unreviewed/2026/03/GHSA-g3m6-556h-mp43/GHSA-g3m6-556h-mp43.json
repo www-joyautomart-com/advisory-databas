@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-g3m6-556h-mp43",
-  "modified": "2026-03-10T21:32:13Z",
+  "modified": "2026-04-29T04:14:41Z",
   "published": "2026-03-09T06:31:13Z",
   "aliases": [
     "CVE-2026-3797"

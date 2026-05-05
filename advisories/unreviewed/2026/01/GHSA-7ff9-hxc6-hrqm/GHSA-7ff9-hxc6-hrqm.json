@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7ff9-hxc6-hrqm",
-  "modified": "2026-03-12T00:31:15Z",
+  "modified": "2026-04-29T18:31:30Z",
   "published": "2026-01-27T18:32:17Z",
   "aliases": [
     "CVE-2026-0919"
@@ -25,11 +25,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://www.tp-link.com/en/support/download/tapo-c210/v3"
+    },
+    {
+      "type": "WEB",
       "url": "https://www.tp-link.com/en/support/download/tapo-c220/v1"
     },
     {
       "type": "WEB",
       "url": "https://www.tp-link.com/en/support/download/tapo-c520ws/v2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.tp-link.com/us/support/download/tapo-c210/v3"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fq52-jg4q-73hp",
-  "modified": "2022-05-13T01:05:57Z",
+  "modified": "2026-04-29T18:31:30Z",
   "published": "2022-05-13T01:05:57Z",
   "aliases": [
     "CVE-2016-10708"
@@ -42,6 +42,10 @@
     {
       "type": "WEB",
       "url": "https://security.netapp.com/advisory/ntap-20180423-0003"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.f5.com/csp/article/K32485746?utm_source=f5support&amp%3Butm_medium=RSS"
     },
     {
       "type": "WEB",

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6r9f-mhjv-gfjc",
-  "modified": "2026-04-08T09:31:35Z",
+  "modified": "2026-04-29T12:33:04Z",
   "published": "2026-04-08T09:31:35Z",
   "aliases": [
     "CVE-2026-39689"
   ],
   "details": "Missing Authorization vulnerability in eshipper eShipper Commerce eshipper-commerce allows Exploiting Incorrectly Configured Access Control Security Levels.This issue affects eShipper Commerce: from n/a through <= 2.16.12.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -23,7 +28,7 @@
     "cwe_ids": [
       "CWE-862"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-08T09:16:40Z"

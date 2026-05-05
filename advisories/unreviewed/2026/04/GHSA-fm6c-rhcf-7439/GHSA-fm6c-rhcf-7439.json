@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-fm6c-rhcf-7439",
+  "modified": "2026-04-30T18:30:27Z",
+  "published": "2026-04-29T15:30:39Z",
+  "aliases": [
+    "CVE-2026-38992"
+  ],
+  "details": "Cockpit v2.13.5 and earlier is vulnerable to arbitrary code execution via the filter parameter within multiple endpoints. This vulnerability allows an attacker to run system commands on the underlying infrastructure via the MongoLite $func operator.",
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38992"
+    },
+    {
+      "type": "WEB",
+      "url": "https://felsec.com/posts/cockpit-cms-2.13.5-multi-vulns"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Cockpit-HQ/Cockpit/releases/tag/2.14.0"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "CRITICAL",
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-04-29T15:16:05Z"
+  }
+}

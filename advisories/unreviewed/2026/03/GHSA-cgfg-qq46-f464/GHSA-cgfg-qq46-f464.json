@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cgfg-qq46-f464",
-  "modified": "2026-03-22T06:30:14Z",
+  "modified": "2026-04-29T09:30:23Z",
   "published": "2026-03-22T06:30:14Z",
   "aliases": [
     "CVE-2026-4537"
@@ -38,6 +38,18 @@
     {
       "type": "WEB",
       "url": "https://vuldb.com/?submit.774447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/submit/774447"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/352325"
+    },
+    {
+      "type": "WEB",
+      "url": "https://vuldb.com/vuln/352325/cti"
     }
   ],
   "database_specific": {

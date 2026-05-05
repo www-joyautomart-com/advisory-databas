@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-37m4-hvw3-vwmc",
-  "modified": "2026-04-01T18:36:31Z",
+  "modified": "2026-04-29T12:32:52Z",
   "published": "2026-01-05T12:30:30Z",
   "aliases": [
     "CVE-2025-68029"
