@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mcrv-gh25-252c",
-  "modified": "2026-04-22T09:31:31Z",
+  "modified": "2026-05-05T21:31:16Z",
   "published": "2026-04-22T09:31:31Z",
   "aliases": [
     "CVE-2026-6023"

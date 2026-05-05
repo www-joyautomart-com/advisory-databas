@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-9jrq-5wf3-m9fp",
+  "modified": "2026-05-05T21:31:31Z",
+  "published": "2026-05-05T21:31:31Z",
+  "aliases": [
+    "CVE-2026-38428"
+  ],
+  "details": "Kestra v1.3.3 and before is vulnerable to SQL Injection. The vulnerability occurs because user-controlled input from a GET parameter is directly concatenated into an SQL query without proper sanitization or parameterization. As a result, attackers can inject arbitrary SQL expressions into the database query.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/kestra-io/kestra/security/advisories/GHSA-365w-2m69-mp9x"
+    },
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-38428"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.link.com"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-05T19:16:21Z"
+  }
+}

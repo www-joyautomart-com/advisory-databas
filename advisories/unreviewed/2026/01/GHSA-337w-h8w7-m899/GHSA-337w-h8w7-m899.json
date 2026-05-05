@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-337w-h8w7-m899",
-  "modified": "2026-04-22T03:31:35Z",
+  "modified": "2026-05-05T21:31:16Z",
   "published": "2026-01-26T21:30:36Z",
   "aliases": [
     "CVE-2025-9820"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-9820"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:13812"
     },
     {
       "type": "WEB",

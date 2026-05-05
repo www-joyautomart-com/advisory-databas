@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jmv5-rcpx-7f7r",
-  "modified": "2026-05-04T18:30:29Z",
+  "modified": "2026-05-05T21:31:26Z",
   "published": "2026-05-04T15:31:15Z",
   "aliases": [
     "CVE-2026-29169"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "http://www.openwall.com/lists/oss-security/2026/05/04/20"
+    },
+    {
+      "type": "WEB",
+      "url": "http://www.openwall.com/lists/oss-security/2026/05/05/12"
     }
   ],
   "database_specific": {
