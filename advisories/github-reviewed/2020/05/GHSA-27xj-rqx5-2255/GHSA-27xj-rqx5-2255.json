@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-27xj-rqx5-2255",
-  "modified": "2021-08-25T21:01:15Z",
+  "modified": "2026-05-06T18:37:13Z",
   "published": "2020-05-15T18:58:44Z",
   "aliases": [
     "CVE-2020-11619"
@@ -53,11 +53,19 @@
     },
     {
       "type": "WEB",
+      "url": "https://lists.apache.org/thread.html/rf1bbc0ea4a9f014cf94df9a12a6477d24a27f52741dbc87f2fd52ff2%40%3Cissues.geode.apache.org%3E"
+    },
+    {
+      "type": "WEB",
       "url": "https://lists.apache.org/thread.html/rf1bbc0ea4a9f014cf94df9a12a6477d24a27f52741dbc87f2fd52ff2@%3Cissues.geode.apache.org%3E"
     },
     {
       "type": "WEB",
       "url": "https://lists.debian.org/debian-lts-announce/2020/04/msg00012.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://medium.com/%40cowtowncoder/on-jackson-cves-dont-panic-here-is-what-you-need-to-know-54cd0d6e8062"
     },
     {
       "type": "WEB",
