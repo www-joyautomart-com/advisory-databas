@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f822-mpgr-7cqx",
-  "modified": "2026-04-27T15:30:52Z",
+  "modified": "2026-05-06T21:31:30Z",
   "published": "2026-04-25T09:30:28Z",
   "aliases": [
     "CVE-2026-31681"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnetfilter: xt_multiport: validate range encoding in checkentry\n\nports_match_v1() treats any non-zero pflags entry as the start of a\nport range and unconditionally consumes the next ports[] element as\nthe range end.\n\nThe checkentry path currently validates protocol, flags and count, but\nit does not validate the range encoding itself. As a result, malformed\nrules can mark the last slot as a range start or place two range starts\nback to back, leaving ports_match_v1() to step past the last valid\nports[] element while interpreting the rule.\n\nReject malformed multiport v1 rules in checkentry by validating that\neach range start has a following element and that the following element\nis not itself marked as another range start.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-25T09:16:01Z"

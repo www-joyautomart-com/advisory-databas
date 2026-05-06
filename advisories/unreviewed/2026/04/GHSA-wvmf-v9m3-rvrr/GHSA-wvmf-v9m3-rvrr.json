@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wvmf-v9m3-rvrr",
-  "modified": "2026-04-27T18:32:10Z",
+  "modified": "2026-05-06T21:31:30Z",
   "published": "2026-04-27T18:32:10Z",
   "aliases": [
     "CVE-2026-31687"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ngpio: omap: do not register driver in probe()\n\nCommit 11a78b794496 (\"ARM: OMAP: MPUIO wake updates\") registers the\nomap_mpuio_driver from omap_mpuio_init(), which is called from\nomap_gpio_probe().\n\nHowever, it neither makes sense to register drivers from probe()\ncallbacks of other drivers, nor does the driver core allow registering\ndrivers with a device lock already being held.\n\nThe latter was revealed by commit dc23806a7c47 (\"driver core: enforce\ndevice_lock for driver_match_device()\") leading to a potential deadlock\ncondition described in [1].\n\nAdditionally, the omap_mpuio_driver is never unregistered from the\ndriver core, even if the module is unloaded.\n\nHence, register the omap_mpuio_driver from the module initcall and\nunregister it in module_exit().",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -60,8 +65,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-667"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-27T18:16:54Z"

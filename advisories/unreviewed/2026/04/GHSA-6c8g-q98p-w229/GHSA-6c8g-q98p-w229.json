@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6c8g-q98p-w229",
-  "modified": "2026-04-22T15:31:41Z",
+  "modified": "2026-05-06T21:31:29Z",
   "published": "2026-04-22T15:31:41Z",
   "aliases": [
     "CVE-2026-31459"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmm/damon/sysfs: fix param_ctx leak on damon_sysfs_new_test_ctx() failure\n\nPatch series \"mm/damon/sysfs: fix memory leak and NULL dereference\nissues\", v4.\n\nDAMON_SYSFS can leak memory under allocation failure, and do NULL pointer\ndereference when a privileged user make wrong sequences of control.  Fix\nthose.\n\n\nThis patch (of 3):\n\nWhen damon_sysfs_new_test_ctx() fails in damon_sysfs_commit_input(),\nparam_ctx is leaked because the early return skips the cleanup at the out\nlabel.  Destroy param_ctx before returning.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-04-22T14:16:41Z"

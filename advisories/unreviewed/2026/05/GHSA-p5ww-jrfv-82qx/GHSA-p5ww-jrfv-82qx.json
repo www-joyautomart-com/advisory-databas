@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p5ww-jrfv-82qx",
-  "modified": "2026-05-01T15:30:33Z",
+  "modified": "2026-05-06T21:31:32Z",
   "published": "2026-05-01T15:30:33Z",
   "aliases": [
     "CVE-2026-31713"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfuse: abort on fatal signal during sync init\n\nWhen sync init is used and the server exits for some reason (error, crash)\nwhile processing FUSE_INIT, the filesystem creation will hang.  The reason\nis that while all other threads will exit, the mounting thread (or process)\nwill keep the device fd open, which will prevent an abort from happening.\n\nThis is a regression from the async mount case, where the mount was done\nfirst, and the FUSE_INIT processing afterwards, in which case there's no\nsuch recursive syscall keeping the fd open.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T14:16:21Z"

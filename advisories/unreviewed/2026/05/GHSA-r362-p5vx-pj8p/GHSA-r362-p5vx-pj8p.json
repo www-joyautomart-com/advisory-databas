@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r362-p5vx-pj8p",
-  "modified": "2026-05-05T18:33:27Z",
+  "modified": "2026-05-06T21:31:35Z",
   "published": "2026-05-05T18:33:27Z",
   "aliases": [
     "CVE-2026-38429"
   ],
   "details": "OpenCMS v20 and before is vulnerable to XML External Entity (XXE) in the Admin Import DB feature due to insecure XML parsing of user supplied .zip files containing a manifest.xml.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -20,8 +25,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-611"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-05T17:17:04Z"

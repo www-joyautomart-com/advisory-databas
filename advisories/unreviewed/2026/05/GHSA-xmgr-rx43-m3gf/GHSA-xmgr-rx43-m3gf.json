@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xmgr-rx43-m3gf",
-  "modified": "2026-05-01T15:30:33Z",
+  "modified": "2026-05-06T21:31:32Z",
   "published": "2026-05-01T15:30:33Z",
   "aliases": [
     "CVE-2026-31704"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nksmbd: use check_add_overflow() to prevent u16 DACL size overflow\n\nset_posix_acl_entries_dacl() and set_ntacl_dacl() accumulate ACE sizes\nin u16 variables. When a file has many POSIX ACL entries, the\naccumulated size can wrap past 65535, causing the pointer arithmetic\n(char *)pndace + *size to land within already-written ACEs. Subsequent\nwrites then overwrite earlier entries, and pndacl->size gets a\ntruncated value.\n\nUse check_add_overflow() at each accumulation point to detect the\nwrap before it corrupts the buffer, consistent with existing\ncheck_mul_overflow() usage elsewhere in smbacl.c.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -37,7 +42,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T14:16:20Z"
