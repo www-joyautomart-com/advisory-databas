@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7cj7-4x33-pjx2",
-  "modified": "2026-05-01T15:30:34Z",
+  "modified": "2026-05-07T21:30:23Z",
   "published": "2026-05-01T15:30:34Z",
   "aliases": [
     "CVE-2026-31738"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nvxlan: validate ND option lengths in vxlan_na_create\n\nvxlan_na_create() walks ND options according to option-provided\nlengths. A malformed option can make the parser advance beyond the\ncomputed option span or use a too-short source LLADDR option payload.\n\nValidate option lengths against the remaining NS option area before\nadvancing, and only read source LLADDR when the option is large enough\nfor an Ethernet address.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:36Z"

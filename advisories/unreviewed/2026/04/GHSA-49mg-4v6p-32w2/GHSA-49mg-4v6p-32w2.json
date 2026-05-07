@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-49mg-4v6p-32w2",
-  "modified": "2026-04-20T18:31:48Z",
+  "modified": "2026-05-07T21:30:22Z",
   "published": "2026-04-20T18:31:48Z",
   "aliases": [
     "CVE-2026-34429"
@@ -19,6 +19,10 @@
   ],
   "affected": [],
   "references": [
+    {
+      "type": "WEB",
+      "url": "https://github.com/givanz/Vvveb/security/advisories/GHSA-2vc4-49hq-g7f4"
+    },
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-34429"

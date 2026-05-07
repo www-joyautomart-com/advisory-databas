@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mmvq-wvqc-3q85",
-  "modified": "2026-05-01T15:30:34Z",
+  "modified": "2026-05-07T21:30:23Z",
   "published": "2026-05-01T15:30:34Z",
   "aliases": [
     "CVE-2026-31750"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: runflags cannot determine whether to reclaim chanlist\n\nsyzbot reported a memory leak [1], because commit 4e1da516debb (\"comedi:\nAdd reference counting for Comedi command handling\") did not consider\nthe exceptional exit case in do_cmd_ioctl() where runflags is not set.\nThis caused chanlist not to be properly freed by do_become_nonbusy(),\nas it only frees chanlist when runflags is correctly set.\n\nAdded a check in do_become_nonbusy() for the case where runflags is not\nset, to properly free the chanlist memory.\n\n[1]\nBUG: memory leak\n  backtrace (crc 844a0efa):\n    __comedi_get_user_chanlist drivers/comedi/comedi_fops.c:1815 [inline]\n    do_cmd_ioctl.part.0+0x112/0x350 drivers/comedi/comedi_fops.c:1890\n    do_cmd_ioctl drivers/comedi/comedi_fops.c:1858 [inline]",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:37Z"

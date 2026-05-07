@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jgc9-fr2g-9r52",
-  "modified": "2026-05-01T15:30:34Z",
+  "modified": "2026-05-07T21:30:23Z",
   "published": "2026-05-01T15:30:34Z",
   "aliases": [
     "CVE-2026-31749"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\ncomedi: ni_atmio16d: Fix invalid clean-up after failed attach\n\nIf the driver's COMEDI \"attach\" handler function (`atmio16d_attach()`)\nreturns an error, the COMEDI core will call the driver's \"detach\"\nhandler function (`atmio16d_detach()`) to clean up.  This calls\n`reset_atmio16d()` unconditionally, but depending on where the error\noccurred in the attach handler, the device may not have been\nsufficiently initialized to call `reset_atmio16d()`.  It uses\n`dev->iobase` as the I/O port base address and `dev->private` as the\npointer to the COMEDI device's private data structure.  `dev->iobase`\nmay still be set to its initial value of 0, which would result in\nundesired writes to low I/O port addresses.  `dev->private` may still be\n`NULL`, which would result in null pointer dereferences.\n\nFix `atmio16d_detach()` by checking that `dev->private` is valid\n(non-null) before calling `reset_atmio16d()`.  This implies that\n`dev->iobase` was set correctly since that is set up before\n`dev->private`.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:37Z"

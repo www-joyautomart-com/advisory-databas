@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cw7c-wp8j-jm6j",
-  "modified": "2026-05-01T15:30:36Z",
+  "modified": "2026-05-07T21:30:24Z",
   "published": "2026-05-01T15:30:36Z",
   "aliases": [
     "CVE-2026-43007"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\naccel/qaic: Handle DBC deactivation if the owner went away\n\nWhen a DBC is released, the device sends a QAIC_TRANS_DEACTIVATE_FROM_DEV\ntransaction to the host over the QAIC_CONTROL MHI channel. QAIC handles\nthis by calling decode_deactivate() to release the resources allocated for\nthat DBC. Since that handling is done in the qaic_manage_ioctl() context,\nif the user goes away before receiving and handling the deactivation, the\nhost will be out-of-sync with the DBCs available for use, and the DBC\nresources will not be freed unless the device is removed. If another user\nloads and requests to activate a network, then the device assigns the same\nDBC to that network, QAIC will \"indefinitely\" wait for dbc->in_use = false,\nleading the user process to hang.\n\nAs a solution to this, handle QAIC_TRANS_DEACTIVATE_FROM_DEV transactions\nthat are received after the user has gone away.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -36,8 +41,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-415"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:44Z"
