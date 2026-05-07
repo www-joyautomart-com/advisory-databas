@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9m39-3mf3-xwch",
-  "modified": "2025-10-06T15:02:51Z",
+  "modified": "2026-05-07T13:25:19Z",
   "published": "2025-08-08T00:30:26Z",
   "aliases": [
     "CVE-2025-54949"
@@ -56,7 +56,7 @@
     {
       "package": {
         "ecosystem": "SwiftURL",
-        "name": "executorch"
+        "name": "github.com/pytorch/executorch"
       },
       "ranges": [
         {
