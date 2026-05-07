@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gc2j-wpjv-jhrw",
-  "modified": "2026-05-02T18:30:27Z",
+  "modified": "2026-05-07T21:08:58Z",
   "published": "2026-05-02T18:30:27Z",
   "aliases": [
     "CVE-2026-7645"
   ],
+  "summary": "sublinear-time-solver has a Path Traversal Issue",
   "details": "A vulnerability was found in ruvnet sublinear-time-solver 1.5.0. Affected by this vulnerability is the function export_state of the file src/consciousness-explorer/mcp/server.js of the component MCP Interface. The manipulation results in path traversal. The attack can be executed remotely. The exploit has been made public and could be used. The project was informed of the problem early through an issue report but has not responded yet.",
   "severity": [
     {
@@ -14,10 +15,30 @@
     },
     {
       "type": "CVSS_V4",
-      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N/E:P/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X"
+      "score": "CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:L/VA:L/SC:N/SI:N/SA:N/E:P"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "npm",
+        "name": "sublinear-time-solver"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "last_affected": "1.5.0"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -28,7 +49,7 @@
       "url": "https://github.com/ruvnet/sublinear-time-solver/issues/19"
     },
     {
-      "type": "WEB",
+      "type": "PACKAGE",
       "url": "https://github.com/ruvnet/sublinear-time-solver"
     },
     {
@@ -49,8 +70,8 @@
       "CWE-22"
     ],
     "severity": "MODERATE",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-07T21:08:58Z",
     "nvd_published_at": "2026-05-02T16:16:15Z"
   }
 }
