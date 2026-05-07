@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x72j-hv9f-qqh4",
+  "modified": "2026-05-07T18:30:39Z",
+  "published": "2026-05-07T18:30:39Z",
+  "aliases": [
+    "CVE-2025-63703"
+  ],
+  "details": "npm package parse-ini v1.0.6 is vulnerable to Prototype Pollution in index.js().",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63703"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/6en6ar/bdc8e0d472406ab98431f10273cbdbf3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com/package/parse-ini?activeTab=code"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-07T16:16:17Z"
+  }
+}

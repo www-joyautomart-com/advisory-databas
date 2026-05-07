@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fhp6-cw2v-3rqj",
-  "modified": "2026-05-01T15:30:34Z",
+  "modified": "2026-05-07T18:30:34Z",
   "published": "2026-05-01T15:30:34Z",
   "aliases": [
     "CVE-2026-31728"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nusb: gadget: u_ether: Fix race between gether_disconnect and eth_stop\n\nA race condition between gether_disconnect() and eth_stop() leads to a\nNULL pointer dereference. Specifically, if eth_stop() is triggered\nconcurrently while gether_disconnect() is tearing down the endpoints,\neth_stop() attempts to access the cleared endpoint descriptor, causing\nthe following NPE:\n\n  Unable to handle kernel NULL pointer dereference\n  Call trace:\n   __dwc3_gadget_ep_enable+0x60/0x788\n   dwc3_gadget_ep_enable+0x70/0xe4\n   usb_ep_enable+0x60/0x15c\n   eth_stop+0xb8/0x108\n\nBecause eth_stop() crashes while holding the dev->lock, the thread\nrunning gether_disconnect() fails to acquire the same lock and spins\nforever, resulting in a hardlockup:\n\n  Core - Debugging Information for Hardlockup core(7)\n  Call trace:\n   queued_spin_lock_slowpath+0x94/0x488\n   _raw_spin_lock+0x64/0x6c\n   gether_disconnect+0x19c/0x1e8\n   ncm_set_alt+0x68/0x1a0\n   composite_setup+0x6a0/0xc50\n\nThe root cause is that the clearing of dev->port_usb in\ngether_disconnect() is delayed until the end of the function.\n\nMove the clearing of dev->port_usb to the very beginning of\ngether_disconnect() while holding dev->lock. This cuts off the link\nimmediately, ensuring eth_stop() will see dev->port_usb as NULL and\nsafely bail out.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:H/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -48,8 +53,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-362"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-01T15:16:35Z"

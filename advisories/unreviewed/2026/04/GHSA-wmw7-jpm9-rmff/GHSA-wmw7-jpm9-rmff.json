@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-wmw7-jpm9-rmff",
-  "modified": "2026-04-14T18:30:29Z",
+  "modified": "2026-05-07T18:30:33Z",
   "published": "2026-04-08T21:33:32Z",
   "aliases": [
     "CVE-2026-30817"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://talosintelligence.com/vulnerability_reports"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.talosintelligence.com/vulnerability_reports/TALOS-2025-2305"
     },
     {
       "type": "WEB",

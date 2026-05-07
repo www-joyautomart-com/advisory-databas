@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jx5x-3wf9-9rhg",
-  "modified": "2026-05-07T15:38:40Z",
+  "modified": "2026-05-07T18:30:38Z",
   "published": "2026-05-07T15:38:40Z",
   "aliases": [
     "CVE-2026-8091"
@@ -17,6 +17,22 @@
     {
       "type": "WEB",
       "url": "https://bugzilla.mozilla.org/show_bug.cgi?id=2029301"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-30"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-33"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-36"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.mozilla.org/security/advisories/mfsa2026-39"
     },
     {
       "type": "WEB",

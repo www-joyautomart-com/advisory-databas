@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-42p7-cwm7-4cjg",
-  "modified": "2026-05-06T18:30:31Z",
+  "modified": "2026-05-07T18:30:37Z",
   "published": "2026-05-06T18:30:31Z",
   "aliases": [
     "CVE-2026-7875"
@@ -30,6 +30,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/qwibitai/nanoclaw/commit/7814e45570edf0024a1a5c2ba9fbc9cb3a49f7f7"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/qwibitai/nanoclaw/releases/tag/v1.2.0"
     }
   ],
   "database_specific": {

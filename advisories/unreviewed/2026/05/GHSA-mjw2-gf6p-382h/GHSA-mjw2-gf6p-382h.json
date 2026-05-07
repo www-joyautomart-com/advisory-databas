@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mjw2-gf6p-382h",
-  "modified": "2026-05-06T18:30:30Z",
+  "modified": "2026-05-07T18:30:36Z",
   "published": "2026-05-06T15:32:40Z",
   "aliases": [
     "CVE-2026-40562"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/KAZEBURO/Gazelle-0.50/changes"
     },
     {
       "type": "WEB",

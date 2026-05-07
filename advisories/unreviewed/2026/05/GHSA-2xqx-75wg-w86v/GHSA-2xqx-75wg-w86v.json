@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2xqx-75wg-w86v",
-  "modified": "2026-05-04T15:31:11Z",
+  "modified": "2026-05-07T18:30:35Z",
   "published": "2026-05-03T03:30:28Z",
   "aliases": [
     "CVE-2026-40561"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://datatracker.ietf.org/doc/html/rfc7230#section-3.3.3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/KAZUHO/Starlet-0.32/changes"
     },
     {
       "type": "WEB",

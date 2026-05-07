@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-587p-w43q-4hjx",
+  "modified": "2026-05-07T18:30:40Z",
+  "published": "2026-05-07T18:30:40Z",
+  "aliases": [
+    "CVE-2025-63704"
+  ],
+  "details": "NPM package query-parser-string 1.0.0 is vulnerable to Prototype Pollution. The package does not properly sanitize user supplied query parameters and merges them to the newly created object.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-63704"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/victorteokw/query-string-parser/issues/3"
+    },
+    {
+      "type": "WEB",
+      "url": "https://gist.github.com/6en6ar/d62f614dbb2b1032b5e45a56fe26ec8b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.npmjs.com/package/query-string-parser?activeTab=readme"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-07T16:16:17Z"
+  }
+}

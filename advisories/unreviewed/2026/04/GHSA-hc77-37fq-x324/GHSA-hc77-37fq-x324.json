@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hc77-37fq-x324",
-  "modified": "2026-04-18T09:30:20Z",
+  "modified": "2026-05-07T18:30:33Z",
   "published": "2026-04-18T09:30:20Z",
   "aliases": [
     "CVE-2026-41254"
@@ -34,6 +34,10 @@
     {
       "type": "WEB",
       "url": "https://abhinavagarwal07.github.io/posts/lcms2-cubesize-overflow"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/05/msg00014.html"
     },
     {
       "type": "WEB",
