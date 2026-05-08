@@ -1,13 +1,13 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-94g3-g5v7-q4jg",
-  "modified": "2026-03-20T21:20:27Z",
+  "modified": "2026-05-08T15:18:13Z",
   "published": "2026-03-19T16:42:18Z",
   "aliases": [
     "CVE-2026-32935"
   ],
   "summary": "phpseclib's AES-CBC unpadding susceptible to padding oracle timing attack",
-  "details": "### Impact\nThose using AES in CBC mode may be susceptible to a padding oracle timing attack.\n\n### Patches\nhttps://github.com/phpseclib/phpseclib/commit/ccc21aef71eb170e9bf819b167e67d1fd9e6e788\n\n### Workarounds\nUse AES in CTR, CFB or OFB modes",
+  "details": "### Impact\nThose using AES in CBC mode may be susceptible to a padding oracle timing attack.\n\n### Patches\nhttps://github.com/phpseclib/phpseclib/commit/ccc21aef71eb170e9bf819b167e67d1fd9e6e788\n\n### Workarounds\nUse AES in CTR, CFB or OFB modes\n\n### References\nhttps://github.com/phpseclib/phpseclib/commit/ccc21aef71eb170e9bf819b167e67d1fd9e6e788",
   "severity": [
     {
       "type": "CVSS_V4",
@@ -69,7 +69,7 @@
           "type": "ECOSYSTEM",
           "events": [
             {
-              "introduced": "0"
+              "introduced": "0.1.1"
             },
             {
               "fixed": "1.0.27"
