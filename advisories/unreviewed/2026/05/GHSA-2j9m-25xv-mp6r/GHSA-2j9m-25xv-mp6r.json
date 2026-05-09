@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2j9m-25xv-mp6r",
-  "modified": "2026-05-08T21:31:24Z",
+  "modified": "2026-05-09T03:31:21Z",
   "published": "2026-05-08T15:31:21Z",
   "aliases": [
     "CVE-2026-39816"
@@ -26,6 +26,10 @@
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/gh9g7xwvv4l20gzff6q3367snf35ctcb"
+    },
+    {
+      "type": "WEB",
+      "url": "https://zeropath.com/blog/nifi-cve-2026-39816-privesc-rce"
     },
     {
       "type": "WEB",
