@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-5m3h-w8g2-q63h",
+  "modified": "2026-05-11T21:31:39Z",
+  "published": "2026-05-11T21:31:39Z",
+  "aliases": [
+    "CVE-2026-37630"
+  ],
+  "details": "An issue in QuickJS-NG v.0.12.1 allows an attacker to execute arbitrary code via the js_mapped_arguments_mark function",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-37630"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/quickjs-ng/quickjs/issues/1400"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-11T21:18:59Z"
+  }
+}

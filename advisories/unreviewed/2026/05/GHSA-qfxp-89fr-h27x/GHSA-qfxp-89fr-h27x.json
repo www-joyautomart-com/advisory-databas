@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-qfxp-89fr-h27x",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-11T21:31:30Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43182"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nmedia: ccs: Avoid possible division by zero\n\nCalculating maximum M for scaler configuration involves dividing by\nMIN_X_OUTPUT_SIZE limit register's value. Albeit the value is presumably\nnon-zero, the driver was missing the check it in fact was. Fix this.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-369"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:36Z"

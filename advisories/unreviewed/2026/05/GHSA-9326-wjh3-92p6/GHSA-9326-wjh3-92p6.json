@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9326-wjh3-92p6",
-  "modified": "2026-05-11T18:31:45Z",
+  "modified": "2026-05-11T21:31:32Z",
   "published": "2026-05-11T18:31:45Z",
   "aliases": [
     "CVE-2026-38569"
   ],
   "details": "HireFlow v1.2 is vulnerable to Cross Site Scripting (XSS) in candidate_detail.html via the Resume or Feedback Comment fields via POST /candidates/add or POST /feedback/add.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-11T18:16:33Z"

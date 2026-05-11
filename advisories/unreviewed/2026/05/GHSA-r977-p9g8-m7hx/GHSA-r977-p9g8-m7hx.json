@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r977-p9g8-m7hx",
-  "modified": "2026-05-06T12:30:33Z",
+  "modified": "2026-05-11T21:31:31Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43216"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnet: Drop the lock in skb_may_tx_timestamp()\n\nskb_may_tx_timestamp() may acquire sock::sk_callback_lock. The lock must\nnot be taken in IRQ context, only softirq is okay. A few drivers receive\nthe timestamp via a dedicated interrupt and complete the TX timestamp\nfrom that handler. This will lead to a deadlock if the lock is already\nwrite-locked on the same CPU.\n\nTaking the lock can be avoided. The socket (pointed by the skb) will\nremain valid until the skb is released. The ->sk_socket and ->file\nmember will be set to NULL once the user closes the socket which may\nhappen before the timestamp arrives.\nIf we happen to observe the pointer while the socket is closing but\nbefore the pointer is set to NULL then we may use it because both\npointer (and the file's cred member) are RCU freed.\n\nDrop the lock. Use READ_ONCE() to obtain the individual pointer. Add a\nmatching WRITE_ONCE() where the pointer are cleared.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:41Z"

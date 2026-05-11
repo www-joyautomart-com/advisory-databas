@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5gxm-mp3j-xhc7",
-  "modified": "2026-05-08T09:31:29Z",
+  "modified": "2026-05-11T21:31:31Z",
   "published": "2026-05-08T09:31:29Z",
   "aliases": [
     "CVE-2025-69599"
   ],
   "details": "RayVentory Scan Engine through 12.6 Update 8 allows attackers to gain privileges if they control the value of the PATH environment variable. NOTE: this is disputed because ability of an attacker to control the environment is a site-specific misconfiguration.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-427"
+    ],
+    "severity": "CRITICAL",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T07:16:28Z"

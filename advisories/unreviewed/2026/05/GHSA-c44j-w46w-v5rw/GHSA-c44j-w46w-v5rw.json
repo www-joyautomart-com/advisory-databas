@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-c44j-w46w-v5rw",
+  "modified": "2026-05-11T21:31:39Z",
+  "published": "2026-05-11T21:31:39Z",
+  "aliases": [
+    "CVE-2026-28954"
+  ],
+  "details": "A file quarantine bypass was addressed with additional checks. This issue is fixed in iOS 18.7.9 and iPadOS 18.7.9, macOS Sequoia 15.7.7, macOS Sonoma 14.8.7, macOS Tahoe 26.5. A maliciously crafted disk image may bypass Gatekeeper checks.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28954"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/127111"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/127115"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/127116"
+    },
+    {
+      "type": "WEB",
+      "url": "https://support.apple.com/en-us/127117"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-11T21:18:56Z"
+  }
+}

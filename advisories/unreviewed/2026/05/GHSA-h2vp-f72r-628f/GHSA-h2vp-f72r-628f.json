@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-h2vp-f72r-628f",
-  "modified": "2026-05-06T12:30:33Z",
+  "modified": "2026-05-11T21:31:30Z",
   "published": "2026-05-06T12:30:33Z",
   "aliases": [
     "CVE-2026-43209"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nminix: Add required sanity checking to minix_check_superblock()\n\nThe fs/minix implementation of the minix filesystem does not currently\nsupport any other value for s_log_zone_size than 0. This is also the\nonly value supported in util-linux; see mkfs.minix.c line 511. In\naddition, this patch adds some sanity checking for the other minix\nsuperblock fields, and moves the minix_blocks_needed() checks for the\nzmap and imap also to minix_check_super_block().\n\nThis also closes a related syzbot bug report.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:40Z"

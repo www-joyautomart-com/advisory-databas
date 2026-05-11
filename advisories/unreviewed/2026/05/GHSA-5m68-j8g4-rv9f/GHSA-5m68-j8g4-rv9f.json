@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5m68-j8g4-rv9f",
-  "modified": "2026-05-11T18:31:45Z",
+  "modified": "2026-05-11T21:31:32Z",
   "published": "2026-05-11T18:31:45Z",
   "aliases": [
     "CVE-2026-36906"
   ],
   "details": "Cross Site Scripting vulnerability in iotgateway v.3.0.1 allows a remote attacker to execute arbitrary code via the Log Record Function",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-79"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-11T17:16:32Z"

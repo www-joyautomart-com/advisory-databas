@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7gfx-7jvh-p5vw",
-  "modified": "2026-05-06T12:30:32Z",
+  "modified": "2026-05-11T21:31:30Z",
   "published": "2026-05-06T12:30:32Z",
   "aliases": [
     "CVE-2026-43193"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nnfsd: fix nfs4_file refcount leak in nfsd_get_dir_deleg()\n\nClaude pointed out that there is a nfs4_file refcount leak in\nnfsd_get_dir_deleg(). Ensure that the reference to \"fp\" is released\nbefore returning.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -25,7 +30,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:38Z"
