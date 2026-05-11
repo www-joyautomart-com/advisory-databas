@@ -1,13 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-2r8f-cf6w-x5vq",
-  "modified": "2026-02-04T19:22:50Z",
+  "modified": "2026-05-11T16:21:54Z",
   "published": "2026-02-03T18:30:47Z",
-  "aliases": [
-    "CVE-2025-69971"
-  ],
-  "summary": "FUXA contains a hard-coded credential vulnerability",
-  "details": "FUXA v1.2.7 contains a hard-coded credential vulnerability in server/api/jwt-helper.js. The application uses a hard-coded secret key to sign and verify JWT Tokens. This allows remote attackers to forge valid admin tokens and bypass authentication to gain full administrative access.",
+  "withdrawn": "2026-05-11T16:21:54Z",
+  "aliases": [],
+  "summary": "Duplicate Advisory: FUXA contains a hard-coded credential vulnerability",
+  "details": "### Duplicate Advisory\nThis advisory has been withdrawn because it is a duplicate of GHSA-c8m8-3jcr-6rj5. This link is maintained to preserve external references.\n\n### Original Description\nFUXA v1.2.7 contains a hard-coded credential vulnerability in server/api/jwt-helper.js. The application uses a hard-coded secret key to sign and verify JWT Tokens. This allows remote attackers to forge valid admin tokens and bypass authentication to gain full administrative access.",
   "severity": [
     {
       "type": "CVSS_V4",
