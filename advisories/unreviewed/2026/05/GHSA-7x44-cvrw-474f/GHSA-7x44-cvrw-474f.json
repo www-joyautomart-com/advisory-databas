@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7x44-cvrw-474f",
-  "modified": "2026-05-06T12:30:31Z",
+  "modified": "2026-05-12T21:31:26Z",
   "published": "2026-05-06T12:30:31Z",
   "aliases": [
     "CVE-2026-43175"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nclk: rs9: Reserve 8 struct clk_hw slots for for 9FGV0841\n\nThe 9FGV0841 has 8 outputs and registers 8 struct clk_hw, make sure\nthere are 8 slots for those newly registered clk_hw pointers, else\nthere is going to be out of bounds write when pointers 4..7 are set\ninto struct rs9_driver_data .clk_dif[4..7] field.\n\nSince there are other structure members past this struct clk_hw\npointer array, writing to .clk_dif[4..7] fields corrupts both\nthe struct rs9_driver_data content and data around it, sometimes\nwithout crashing the kernel. However, the kernel does surely\ncrash when the driver is unbound or during suspend.\n\nFix this, increase the struct clk_hw pointer array size to the\nmaximum output count of 9FGV0841, which is the biggest chip that\nis supported by this driver.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:35Z"

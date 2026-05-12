@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7853-m2m9-5q4x",
-  "modified": "2026-05-06T12:30:29Z",
+  "modified": "2026-05-12T21:31:26Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2026-43123"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nfbcon: check return value of con2fb_acquire_newinfo()\n\nIf fbcon_open() fails when called from con2fb_acquire_newinfo() then\ninfo->fbcon_par pointer remains NULL which is later dereferenced.\n\nAdd check for return value of the function con2fb_acquire_newinfo() to\navoid it.\n\nFound by Linux Verification Center (linuxtesting.org) with SVACE.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -44,8 +49,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-476"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:29Z"

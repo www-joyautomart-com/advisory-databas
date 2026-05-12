@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cr42-rg2m-mq4q",
-  "modified": "2026-05-11T18:31:43Z",
+  "modified": "2026-05-12T21:31:32Z",
   "published": "2026-05-11T18:31:43Z",
   "aliases": [
     "CVE-2026-31247"
   ],
   "details": "Docling's JATS XML backend is vulnerable to XML Entity Expansion (XXE) attacks thru 2.61.0. The backend uses etree.parse() to parse XML files without disabling entity resolution. An attacker can craft a malicious XML file containing a nested entity expansion payload (XML Bomb). When processed by Docling, the exponential expansion of entities leads to excessive resource consumption, resulting in a denial of service (DoS) condition on the system running the Docling parser.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-400"
+    ],
+    "severity": "HIGH",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-11T16:17:29Z"

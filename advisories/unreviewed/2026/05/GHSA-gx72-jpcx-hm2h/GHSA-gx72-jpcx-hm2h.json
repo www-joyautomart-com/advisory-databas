@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gx72-jpcx-hm2h",
-  "modified": "2026-05-06T12:30:29Z",
+  "modified": "2026-05-12T21:31:26Z",
   "published": "2026-05-06T12:30:29Z",
   "aliases": [
     "CVE-2025-71273"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: rtw88: Use devm_kmemdup() in rtw_set_supported_band()\n\nSimplify the code by using device managed memory allocations.\n\nThis also fixes a memory leak in rtw_register_hw(). The supported bands\nwere not freed in the error path.\n\nCopied from commit 145df52a8671 (\"wifi: rtw89: Convert\nrtw89_core_set_supported_band to use devm_*\").",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -32,8 +37,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-06T12:16:27Z"
