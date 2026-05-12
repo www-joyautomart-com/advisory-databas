@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-8x35-hph8-37hq",
-  "modified": "2026-05-08T02:02:22Z",
+  "modified": "2026-05-12T13:27:43Z",
   "published": "2026-04-24T20:45:13Z",
   "aliases": [
     "CVE-2026-41501"
@@ -41,12 +41,20 @@
       "url": "https://github.com/electerm/electerm/security/advisories/GHSA-8x35-hph8-37hq"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41501"
+    },
+    {
       "type": "WEB",
       "url": "https://github.com/electerm/electerm/commit/59708b38c8a52f5db59d7d4eff98e31d573128ee"
     },
     {
       "type": "PACKAGE",
       "url": "https://github.com/electerm/electerm"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/electerm/electerm/releases/tag/v3.3.8"
     }
   ],
   "database_specific": {
@@ -56,6 +64,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-04-24T20:45:13Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-08T04:16:17Z"
   }
 }
