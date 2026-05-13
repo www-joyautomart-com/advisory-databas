@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-jj37-3377-m6vv",
-  "modified": "2025-11-17T17:17:33Z",
+  "modified": "2026-05-13T13:45:17Z",
   "published": "2025-11-14T21:30:29Z",
   "withdrawn": "2025-11-17T17:17:33Z",
   "aliases": [],
@@ -49,6 +49,14 @@
     },
     {
       "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:15979"
+    },
+    {
+      "type": "WEB",
+      "url": "https://access.redhat.com/errata/RHSA-2026:3751"
+    },
+    {
+      "type": "WEB",
       "url": "https://access.redhat.com/security/cve/CVE-2025-13033"
     },
     {
@@ -62,6 +70,7 @@
   ],
   "database_specific": {
     "cwe_ids": [
+      "CWE-1286",
       "CWE-436"
     ],
     "severity": "HIGH",

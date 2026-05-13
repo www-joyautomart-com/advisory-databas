@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3q27-7qjq-p9c5",
-  "modified": "2026-04-02T20:43:50Z",
+  "modified": "2026-05-13T13:44:32Z",
   "published": "2026-03-27T15:30:25Z",
   "aliases": [
     "CVE-2026-27877"
@@ -146,7 +146,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-200"
+      "CWE-200",
+      "CWE-312"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
