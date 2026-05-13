@@ -1,11 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mm7j-mhhj-hj36",
-  "modified": "2026-05-08T18:31:28Z",
+  "modified": "2026-05-13T01:37:14Z",
   "published": "2026-05-08T00:31:33Z",
   "aliases": [
     "CVE-2026-40213"
   ],
+  "summary": "OpenStack Cyborg uses rule:allow (check_str='@') as the default policy for multiple API endpoints",
   "details": "OpenStack Cyborg before 16.0.1 uses rule:allow (check_str='@') as the default policy for multiple API endpoints. This unconditionally authorizes any request carrying a valid Keystone token regardless of roles, project membership, or scope. An authenticated user with zero role assignments can complete various actions such as reprogramming FPGA bitstreams on arbitrary compute nodes via agent RPC.",
   "severity": [
     {
@@ -13,7 +14,27 @@
       "score": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:L/I:L/A:L"
     }
   ],
-  "affected": [],
+  "affected": [
+    {
+      "package": {
+        "ecosystem": "PyPI",
+        "name": "openstack-cyborg"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "16.0.1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "references": [
     {
       "type": "ADVISORY",
@@ -22,6 +43,10 @@
     {
       "type": "WEB",
       "url": "https://bugs.launchpad.net/openstack-cyborg/+bug/2143263"
+    },
+    {
+      "type": "PACKAGE",
+      "url": "https://github.com/openstack/cyborg"
     },
     {
       "type": "WEB",
@@ -37,8 +62,8 @@
       "CWE-863"
     ],
     "severity": "HIGH",
-    "github_reviewed": false,
-    "github_reviewed_at": null,
+    "github_reviewed": true,
+    "github_reviewed_at": "2026-05-13T01:37:14Z",
     "nvd_published_at": "2026-05-07T22:16:34Z"
   }
 }
