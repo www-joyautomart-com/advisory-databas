@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-w37p-236h-pfx3",
-  "modified": "2026-05-13T16:31:25Z",
+  "modified": "2026-05-14T20:49:43Z",
   "published": "2026-05-07T00:52:55Z",
   "aliases": [
     "CVE-2026-44484"
@@ -40,6 +40,10 @@
       "url": "https://github.com/Lightning-AI/pytorch-lightning/security/advisories/GHSA-w37p-236h-pfx3"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44484"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/Lightning-AI/pytorch-lightning"
     }
@@ -51,6 +55,6 @@
     "severity": "CRITICAL",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T00:52:55Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-14T15:16:48Z"
   }
 }

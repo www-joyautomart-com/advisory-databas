@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-7f3r-gwc9-2995",
-  "modified": "2026-05-08T23:33:14Z",
+  "modified": "2026-05-14T20:48:35Z",
   "published": "2026-05-08T23:33:14Z",
   "aliases": [
     "CVE-2026-44836"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ViewComponent/view_component"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/view_component/CVE-2026-44836.yml"
     }
   ],
   "database_specific": {

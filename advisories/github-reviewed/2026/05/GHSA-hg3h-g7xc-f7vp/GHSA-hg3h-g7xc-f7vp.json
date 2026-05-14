@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hg3h-g7xc-f7vp",
-  "modified": "2026-05-08T23:33:58Z",
+  "modified": "2026-05-14T20:48:43Z",
   "published": "2026-05-08T23:33:58Z",
   "aliases": [
     "CVE-2026-44837"
@@ -43,6 +43,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/ViewComponent/view_component"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/rubysec/ruby-advisory-db/blob/master/gems/view_component/CVE-2026-44837.yml"
     }
   ],
   "database_specific": {
