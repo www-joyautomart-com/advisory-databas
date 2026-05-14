@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f29c-vwqv-27x7",
-  "modified": "2026-05-08T15:31:21Z",
+  "modified": "2026-05-14T21:30:37Z",
   "published": "2026-05-08T15:31:21Z",
   "aliases": [
     "CVE-2025-71300"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nRevert \"arm64: zynqmp: Add an OP-TEE node to the device tree\"\n\nThis reverts commit 06d22ed6b6635b17551f386b50bb5aaff9b75fbe.\n\nOP-TEE logic in U-Boot automatically injects a reserved-memory\nnode along with optee firmware node to kernel device tree.\nThe injection logic is dependent on that there is no manually\ndefined optee node. Having the node in zynqmp.dtsi effectively\nbreaks OP-TEE's insertion of the reserved-memory node, causing\nmemory access violations during runtime.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -33,7 +38,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T14:16:31Z"

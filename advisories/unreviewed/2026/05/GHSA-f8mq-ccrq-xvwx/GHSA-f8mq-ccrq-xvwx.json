@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-f8mq-ccrq-xvwx",
+  "modified": "2026-05-14T21:30:47Z",
+  "published": "2026-05-14T21:30:47Z",
+  "aliases": [
+    "CVE-2026-8584"
+  ],
+  "details": "Inappropriate implementation in Views in Google Chrome on iOS prior to 148.0.7778.168 allowed a remote attacker who had compromised the renderer process to perform UI spoofing via a crafted HTML page. (Chromium security severity: Medium)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8584"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_12.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/498892595"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-14T20:17:20Z"
+  }
+}

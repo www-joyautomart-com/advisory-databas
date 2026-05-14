@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xc8p-9vx8-gcj4",
-  "modified": "2022-05-13T01:53:06Z",
+  "modified": "2026-05-14T21:30:35Z",
   "published": "2022-05-13T01:53:06Z",
   "aliases": [
     "CVE-2018-6400"
@@ -18,6 +18,14 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-6400"
+    },
+    {
+      "type": "WEB",
+      "url": "https://jvn.jp/en/jp/JVN14434132"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.wps365.jp/notices/4"
     },
     {
       "type": "WEB",

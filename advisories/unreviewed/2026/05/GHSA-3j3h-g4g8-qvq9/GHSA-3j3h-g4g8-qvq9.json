@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-3j3h-g4g8-qvq9",
+  "modified": "2026-05-14T21:30:46Z",
+  "published": "2026-05-14T21:30:46Z",
+  "aliases": [
+    "CVE-2026-8568"
+  ],
+  "details": "Insufficient policy enforcement in AI in Google Chrome prior to 148.0.7778.168 allowed a remote attacker who had compromised the renderer process to bypass Site Isolation via a crafted HTML page. (Chromium security severity: Medium)",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8568"
+    },
+    {
+      "type": "WEB",
+      "url": "https://chromereleases.googleblog.com/2026/05/stable-channel-update-for-desktop_12.html"
+    },
+    {
+      "type": "WEB",
+      "url": "https://issues.chromium.org/issues/488728570"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-14T20:17:19Z"
+  }
+}
