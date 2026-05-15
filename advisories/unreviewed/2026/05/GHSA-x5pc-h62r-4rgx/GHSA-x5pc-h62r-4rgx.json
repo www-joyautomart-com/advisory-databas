@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.4.0",
+  "id": "GHSA-x5pc-h62r-4rgx",
+  "modified": "2026-05-15T18:30:35Z",
+  "published": "2026-05-15T18:30:35Z",
+  "aliases": [
+    "CVE-2026-46474"
+  ],
+  "details": "Trog::TOTP versions before 1.006 for Perl generate secrets using rand.\n\nSecrets were generated using Perl's built-in rand function, which is predictable and unsuitable for security usage.",
+  "severity": [],
+  "affected": [],
+  "references": [
+    {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46474"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/TEODESIAN/Trog-TOTP-1.006/changes"
+    },
+    {
+      "type": "WEB",
+      "url": "https://metacpan.org/release/TEODESIAN/Trog-TOTP-1.006/diff/TEODESIAN/Trog-TOTP-1.005#lib/Trog/TOTP.pm"
+    }
+  ],
+  "database_specific": {
+    "cwe_ids": [
+      "CWE-331"
+    ],
+    "severity": null,
+    "github_reviewed": false,
+    "github_reviewed_at": null,
+    "nvd_published_at": "2026-05-15T18:16:26Z"
+  }
+}

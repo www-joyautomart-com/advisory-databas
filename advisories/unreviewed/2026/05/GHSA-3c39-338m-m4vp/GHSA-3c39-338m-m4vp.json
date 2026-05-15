@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3c39-338m-m4vp",
-  "modified": "2026-05-14T18:32:57Z",
+  "modified": "2026-05-15T18:30:32Z",
   "published": "2026-05-14T18:32:57Z",
   "aliases": [
     "CVE-2026-42897"
@@ -22,6 +22,10 @@
     {
       "type": "WEB",
       "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2026-42897"
+    },
+    {
+      "type": "WEB",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog?field_cve=CVE-2026-42897"
     }
   ],
   "database_specific": {

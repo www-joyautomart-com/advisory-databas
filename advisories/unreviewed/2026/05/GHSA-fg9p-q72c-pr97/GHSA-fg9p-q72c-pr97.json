@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-fg9p-q72c-pr97",
-  "modified": "2026-05-08T15:31:25Z",
+  "modified": "2026-05-15T18:30:30Z",
   "published": "2026-05-08T15:31:25Z",
   "aliases": [
     "CVE-2026-43355"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: light: bh1780: fix PM runtime leak on error path\n\nMove pm_runtime_put_autosuspend() before the error check to ensure\nthe PM runtime reference count is always decremented after\npm_runtime_get_sync(), regardless of whether the read operation\nsucceeds or fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -40,8 +45,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-401"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:46Z"

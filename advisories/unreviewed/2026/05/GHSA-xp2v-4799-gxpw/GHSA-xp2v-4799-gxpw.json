@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-xp2v-4799-gxpw",
-  "modified": "2026-05-08T15:31:25Z",
+  "modified": "2026-05-15T18:30:30Z",
   "published": "2026-05-08T15:31:25Z",
   "aliases": [
     "CVE-2026-43357"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\niio: gyro: mpu3050-core: fix pm_runtime error handling\n\nThe return value of pm_runtime_get_sync() is not checked, allowing\nthe driver to access hardware that may fail to resume. The device\nusage count is also unconditionally incremented. Use\npm_runtime_resume_and_get() which propagates errors and avoids\nincrementing the usage count on failure.\n\nIn preenable, add pm_runtime_put_autosuspend() on set_8khz_samplerate()\nfailure since postdisable does not run when preenable fails.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -49,7 +54,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T15:16:46Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-64vw-hq5r-5qmj",
-  "modified": "2026-05-15T15:30:45Z",
+  "modified": "2026-05-15T18:30:33Z",
   "published": "2026-05-15T15:30:45Z",
   "aliases": [
     "CVE-2026-39052"
   ],
   "details": "Oinone Pamirs 7.0.0 contains a code execution vulnerability via ScriptRunner. The method ScriptRunner.run(String expression, String type, Map<String, Object> context) evaluates attacker-controlled script expressions through the underlying script engine without sandboxing or allowlist restrictions.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -28,8 +33,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-94"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-15T15:16:51Z"

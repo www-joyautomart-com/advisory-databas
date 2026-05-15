@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-6275-mpwc-pq3g",
-  "modified": "2026-05-15T15:30:45Z",
+  "modified": "2026-05-15T18:30:33Z",
   "published": "2026-05-15T15:30:45Z",
   "aliases": [
     "CVE-2026-8669"
   ],
   "details": "Imager versions through 1.030 for Perl allow a heap out of bounds (OOB) write on crafted multi-frame GIF files.\n\nImager::File::GIF's i_readgif_multi_low allocates a single per-row buffer GifRow sized for the GIF's global screen width 'SWidth' and reuses it across every image in the file.\n\nThe page-match branch validates Image.Width + Image.Left > SWidth before each DGifGetLine write, but the parallel skip-image branch at imgif.c:790-805 calls DGifGetLine(GifFile, GifRow, Width) with no such check.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -27,7 +32,7 @@
     "cwe_ids": [
       "CWE-787"
     ],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-15T15:16:57Z"

@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-hhhc-p289-ww9x",
-  "modified": "2026-05-08T15:31:23Z",
+  "modified": "2026-05-15T18:30:30Z",
   "published": "2026-05-08T15:31:23Z",
   "aliases": [
     "CVE-2026-43325"
   ],
   "details": "In the Linux kernel, the following vulnerability has been resolved:\n\nwifi: iwlwifi: mvm: don't send a 6E related command when not supported\n\nMCC_ALLOWED_AP_TYPE_CMD is related to 6E support. Do not send it if the\ndevice doesn't support 6E.\nApparently, the firmware is mistakenly advertising support for this\ncommand even on AX201 which does not support 6E and then the firmware\ncrashes.",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -29,7 +34,7 @@
   ],
   "database_specific": {
     "cwe_ids": [],
-    "severity": null,
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-08T14:16:41Z"

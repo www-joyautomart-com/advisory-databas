@@ -1,13 +1,18 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r6x2-rrqv-8cp8",
-  "modified": "2026-05-14T21:30:46Z",
+  "modified": "2026-05-15T18:30:33Z",
   "published": "2026-05-14T21:30:46Z",
   "aliases": [
     "CVE-2026-8566"
   ],
   "details": "Insufficient policy enforcement in Payments in Google Chrome on Android prior to 148.0.7778.168 allowed a remote attacker to bypass discretionary access control via a crafted HTML page. (Chromium security severity: Medium)",
-  "severity": [],
+  "severity": [
+    {
+      "type": "CVSS_V3",
+      "score": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:U/C:N/I:L/A:N"
+    }
+  ],
   "affected": [],
   "references": [
     {
@@ -24,8 +29,10 @@
     }
   ],
   "database_specific": {
-    "cwe_ids": [],
-    "severity": null,
+    "cwe_ids": [
+      "CWE-284"
+    ],
+    "severity": "MODERATE",
     "github_reviewed": false,
     "github_reviewed_at": null,
     "nvd_published_at": "2026-05-14T20:17:18Z"
