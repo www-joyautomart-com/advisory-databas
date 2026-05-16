@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-j8pf-3vjv-773q",
-  "modified": "2025-08-29T00:31:13Z",
+  "modified": "2026-05-16T15:31:12Z",
   "published": "2022-05-24T17:35:52Z",
   "aliases": [
     "CVE-2020-17103"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-17103"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/Nightmare-Eclipse/MiniPlasma"
     },
     {
       "type": "WEB",

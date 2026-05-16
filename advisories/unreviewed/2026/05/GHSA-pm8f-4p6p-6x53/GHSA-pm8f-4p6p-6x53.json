@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-pm8f-4p6p-6x53",
-  "modified": "2026-05-15T21:31:31Z",
+  "modified": "2026-05-16T15:31:12Z",
   "published": "2026-05-15T15:30:44Z",
   "aliases": [
     "CVE-2026-46333"
@@ -41,6 +41,10 @@
     {
       "type": "WEB",
       "url": "https://git.kernel.org/stable/c/93d4ba49d18e3d7fb41a9927c2d0cca5e9dfefd6"
+    },
+    {
+      "type": "WEB",
+      "url": "https://lists.debian.org/debian-lts-announce/2026/05/msg00032.html"
     },
     {
       "type": "WEB",
