@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-89vp-x53w-74fx",
-  "modified": "2026-05-14T20:49:23Z",
+  "modified": "2026-05-19T20:17:47Z",
   "published": "2026-05-06T21:55:56Z",
   "aliases": [
     "CVE-2026-42559"
@@ -41,6 +41,10 @@
       "url": "https://github.com/modelcontextprotocol/rust-sdk/security/advisories/GHSA-89vp-x53w-74fx"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/nubo-db/dynoxide/security/advisories/GHSA-fvh2-gm75-j4j7"
+    },
+    {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42559"
     },
@@ -67,6 +71,10 @@
     {
       "type": "WEB",
       "url": "https://modelcontextprotocol.io/specification/2025-06-18/basic/transports#security-warning"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0140.html"
     }
   ],
   "database_specific": {

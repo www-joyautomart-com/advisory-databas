@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-429q-fhh4-r6hj",
-  "modified": "2026-05-13T15:33:46Z",
+  "modified": "2026-05-19T20:18:35Z",
   "published": "2026-05-13T15:33:46Z",
   "aliases": [],
   "summary": "Anchor: `InterfaceAccount` allows account substitution between unexpected types",
@@ -39,6 +39,10 @@
   "references": [
     {
       "type": "WEB",
+      "url": "https://github.com/otter-sec/anchor/security/advisories/GHSA-429q-fhh4-r6hj"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/solana-foundation/anchor/security/advisories/GHSA-429q-fhh4-r6hj"
     },
     {
@@ -56,6 +60,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/solana-foundation/anchor"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0146.html"
     }
   ],
   "database_specific": {
