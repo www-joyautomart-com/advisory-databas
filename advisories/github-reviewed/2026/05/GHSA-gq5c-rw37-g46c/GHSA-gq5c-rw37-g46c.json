@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gq5c-rw37-g46c",
-  "modified": "2026-05-07T19:34:28Z",
+  "modified": "2026-05-19T16:09:41Z",
   "published": "2026-05-07T19:34:28Z",
   "aliases": [
     "CVE-2026-27964"
@@ -41,6 +41,14 @@
       "url": "https://github.com/NeoRazorX/facturascripts/security/advisories/GHSA-gq5c-rw37-g46c"
     },
     {
+      "type": "ADVISORY",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-27964"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/NeoRazorX/facturascripts/commit/9066e10326029adf012114e27eb5f3f33f78ecfd"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/NeoRazorX/facturascripts"
     }
@@ -52,6 +60,6 @@
     "severity": "LOW",
     "github_reviewed": true,
     "github_reviewed_at": "2026-05-07T19:34:28Z",
-    "nvd_published_at": null
+    "nvd_published_at": "2026-05-18T22:16:38Z"
   }
 }

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-mx76-r943-rf8g",
-  "modified": "2026-05-14T13:06:27Z",
+  "modified": "2026-05-19T16:09:20Z",
   "published": "2026-05-08T09:31:30Z",
   "aliases": [
     "CVE-2026-8149"
@@ -39,6 +39,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-8149"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/bcgit/bc-java/wiki/CVE%E2%80%902026%E2%80%908149"
     }
   ],
   "database_specific": {

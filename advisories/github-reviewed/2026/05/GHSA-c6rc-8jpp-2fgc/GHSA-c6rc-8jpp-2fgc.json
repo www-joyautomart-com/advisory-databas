@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-c6rc-8jpp-2fgc",
-  "modified": "2026-05-13T15:31:49Z",
+  "modified": "2026-05-19T16:08:41Z",
   "published": "2026-05-13T15:31:49Z",
   "aliases": [
     "CVE-2026-45137"
@@ -38,6 +38,10 @@
   "references": [
     {
       "type": "WEB",
+      "url": "https://github.com/otter-sec/anchor/security/advisories/GHSA-c6rc-8jpp-2fgc"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/solana-foundation/anchor/security/advisories/GHSA-c6rc-8jpp-2fgc"
     },
     {
@@ -47,6 +51,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/solana-foundation/anchor/releases/tag/v1.0.2"
+    },
+    {
+      "type": "WEB",
+      "url": "https://rustsec.org/advisories/RUSTSEC-2026-0144.html"
     }
   ],
   "database_specific": {
