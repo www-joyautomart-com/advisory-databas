@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-x4p7-7chp-64hq",
-  "modified": "2026-04-16T19:56:23Z",
+  "modified": "2026-05-20T01:09:01Z",
   "published": "2026-03-18T03:32:09Z",
   "aliases": [
     "CVE-2026-2603"
@@ -28,14 +28,11 @@
               "introduced": "0"
             },
             {
-              "fixed": "26.6.0"
+              "fixed": "26.5.5"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 26.5.5"
-      }
+      ]
     },
     {
       "package": {
@@ -50,14 +47,11 @@
               "introduced": "0"
             },
             {
-              "fixed": "26.6.0"
+              "fixed": "26.5.5"
             }
           ]
         }
-      ],
-      "database_specific": {
-        "last_known_affected_version_range": "<= 26.5.5"
-      }
+      ]
     }
   ],
   "references": [
@@ -72,6 +66,10 @@
     {
       "type": "WEB",
       "url": "https://github.com/keycloak/keycloak/pull/46932"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commit/4fd5367e6cc28cfa68fb2240fc459c12b1fdbf2a"
     },
     {
       "type": "WEB",
@@ -104,6 +102,10 @@
     {
       "type": "PACKAGE",
       "url": "https://github.com/keycloak/keycloak"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/keycloak/keycloak/commits/26.5.5"
     }
   ],
   "database_specific": {
