@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-457x-pfmm-7g5g",
-  "modified": "2022-06-03T00:00:26Z",
+  "modified": "2026-05-20T09:30:31Z",
   "published": "2022-05-24T00:01:35Z",
   "aliases": [
     "CVE-2022-0900"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-0900"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-22-0375"
     },
     {
       "type": "WEB",

@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-3fq5-2xw2-2v7v",
-  "modified": "2022-09-23T00:00:30Z",
+  "modified": "2026-05-20T09:30:32Z",
   "published": "2022-09-23T00:00:30Z",
   "aliases": [
     "CVE-2022-2266"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-2266"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-22-0637"
     },
     {
       "type": "WEB",

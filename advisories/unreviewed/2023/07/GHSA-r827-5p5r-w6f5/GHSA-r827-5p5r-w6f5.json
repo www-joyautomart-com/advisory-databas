@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-r827-5p5r-w6f5",
-  "modified": "2024-09-16T21:30:35Z",
+  "modified": "2026-05-20T09:30:32Z",
   "published": "2023-07-06T19:24:05Z",
   "aliases": [
     "CVE-2022-2808"
   ],
-  "details": "Algan YazÄ±lÄ±m Prens Student Information System product has an authenticated Insecure Direct Object Reference (IDOR) vulnerability. ",
+  "details": "Algan YazÄ±lÄ±m Prens Student Information System product has an authenticated Insecure Direct Object Reference (IDOR) vulnerability.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-2808"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-22-0708"
     },
     {
       "type": "WEB",
