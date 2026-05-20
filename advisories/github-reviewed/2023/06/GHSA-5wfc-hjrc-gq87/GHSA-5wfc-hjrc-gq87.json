@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-5wfc-hjrc-gq87",
-  "modified": "2023-06-27T20:20:39Z",
+  "modified": "2026-05-20T22:35:10Z",
   "published": "2023-06-14T15:30:38Z",
   "aliases": [
     "CVE-2023-34620"
@@ -28,7 +28,48 @@
               "introduced": "0"
             },
             {
-              "last_affected": "3.0.0"
+              "fixed": "3.0.1"
+            }
+          ]
+        }
+      ],
+      "database_specific": {
+        "last_known_affected_version_range": "<= 3.0.0"
+      }
+    },
+    {
+      "package": {
+        "ecosystem": "Packagist",
+        "name": "laktak/hjson"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "2.3.0"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "package": {
+        "ecosystem": "Go",
+        "name": "github.com/hjson/hjson-go/v4"
+      },
+      "ranges": [
+        {
+          "type": "ECOSYSTEM",
+          "events": [
+            {
+              "introduced": "0"
+            },
+            {
+              "fixed": "4.5.0"
             }
           ]
         }
@@ -43,13 +84,33 @@
     {
       "type": "WEB",
       "url": "https://github.com/hjson/hjson-java/issues/24"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hjson/hjson-cpp/pull/54"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hjson/hjson-go/pull/67"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hjson/hjson-php/pull/45"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hjson/hjson-go/commit/326599cebc6ef759892f473bf1439b98466a99fa"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/hjson/hjson-php/commit/2d1b8b4b158a8d841f3a228f267c7cd84fe5a4fa"
     }
   ],
   "database_specific": {
     "cwe_ids": [
       "CWE-400",
-      "CWE-674",
-      "CWE-787"
+      "CWE-787",
+      "CWE-674"
     ],
     "severity": "HIGH",
     "github_reviewed": true,
