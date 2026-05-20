@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-f24p-xrcj-vxhh",
-  "modified": "2024-03-27T15:30:36Z",
+  "modified": "2026-05-20T12:30:35Z",
   "published": "2024-03-27T15:30:36Z",
   "aliases": [
     "CVE-2023-6153"
   ],
-  "details": "Authentication Bypass by Primary Weakness vulnerability in TeoSOFT Software TeoBASE allows Authentication Bypass.This issue affects TeoBASE: through 20240327. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.\n\n",
+  "details": "Authentication Bypass by Primary Weakness vulnerability in TeoSOFT Software TeoBASE allows Authentication Bypass.This issue affects TeoBASE: through 20240327. NOTE: The vendor was contacted early about this disclosure but did not respond in any way.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6153"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0238"
     },
     {
       "type": "WEB",

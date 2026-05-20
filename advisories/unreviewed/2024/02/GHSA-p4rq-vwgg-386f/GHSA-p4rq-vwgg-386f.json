@@ -1,12 +1,12 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-p4rq-vwgg-386f",
-  "modified": "2024-03-18T21:31:18Z",
+  "modified": "2026-05-20T12:30:35Z",
   "published": "2024-02-08T12:30:48Z",
   "aliases": [
     "CVE-2023-6519"
   ],
-  "details": "Exposure of Data Element to Wrong Session vulnerability in Mia Technology Inc. MİA-MED allows Read Sensitive Strings Within an Executable.This issue affects MİA-MED: before 1.0.7.\n\n",
+  "details": "Exposure of Data Element to Wrong Session vulnerability in Mia Technology Inc. MİA-MED allows Read Sensitive Strings Within an Executable.This issue affects MİA-MED: before 1.0.7.",
   "severity": [
     {
       "type": "CVSS_V3",
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6519"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0087"
     },
     {
       "type": "WEB",

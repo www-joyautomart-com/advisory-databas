@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-gv9f-prh6-r6hh",
-  "modified": "2026-04-05T18:30:16Z",
+  "modified": "2026-05-20T12:30:36Z",
   "published": "2026-04-05T18:30:16Z",
   "aliases": [
     "CVE-2026-5586"
@@ -25,7 +25,15 @@
     },
     {
       "type": "WEB",
+      "url": "https://github.com/zhongyu09/openchatbi/issues/11"
+    },
+    {
+      "type": "WEB",
       "url": "https://github.com/Ka7arotto/cve/blob/main/openchatbi-SQL/issue.md"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/zhongyu09/openchatbi"
     },
     {
       "type": "WEB",

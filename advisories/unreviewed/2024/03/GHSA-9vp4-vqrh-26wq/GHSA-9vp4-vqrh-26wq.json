@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-9vp4-vqrh-26wq",
-  "modified": "2025-04-10T21:30:45Z",
+  "modified": "2026-05-20T12:30:35Z",
   "published": "2024-03-29T12:30:42Z",
   "aliases": [
     "CVE-2023-6191"
@@ -18,6 +18,10 @@
     {
       "type": "ADVISORY",
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-6191"
+    },
+    {
+      "type": "WEB",
+      "url": "https://siberguvenlik.gov.tr/guvenlik-bildirimleri/detay/tr-24-0253"
     },
     {
       "type": "WEB",
