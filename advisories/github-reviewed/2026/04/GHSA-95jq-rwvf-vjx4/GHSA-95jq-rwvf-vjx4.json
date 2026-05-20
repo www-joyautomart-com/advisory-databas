@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-95jq-rwvf-vjx4",
-  "modified": "2026-04-10T22:07:25Z",
+  "modified": "2026-05-20T22:09:00Z",
   "published": "2026-04-09T21:31:29Z",
   "aliases": [
     "CVE-2026-29145"
@@ -18,7 +18,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -37,7 +37,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -56,7 +56,7 @@
     {
       "package": {
         "ecosystem": "Maven",
-        "name": "org.apache.tomcat:tomcat-catalina"
+        "name": "org.apache.tomcat:tomcat-coyote-ffm"
       },
       "ranges": [
         {
@@ -114,63 +114,6 @@
       "package": {
         "ecosystem": "Maven",
         "name": "org.apache.tomcat:tomcat"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "11.0.0-M1"
-            },
-            {
-              "fixed": "11.0.20"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "9.0.83"
-            },
-            {
-              "fixed": "9.0.116"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
-      },
-      "ranges": [
-        {
-          "type": "ECOSYSTEM",
-          "events": [
-            {
-              "introduced": "10.1.0-M7"
-            },
-            {
-              "fixed": "10.1.53"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "package": {
-        "ecosystem": "Maven",
-        "name": "org.apache.tomcat.embed:tomcat-embed-core"
       },
       "ranges": [
         {
@@ -193,12 +136,36 @@
       "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-29145"
     },
     {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/721591f7bff424c693f26adc18ae9b9abac3655b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/d1406df5ae0326f39f54c3f64ac30d8fca55cd5b"
+    },
+    {
+      "type": "WEB",
+      "url": "https://github.com/apache/tomcat/commit/fe26667cd2385045ac73f4dea086cc9971209b90"
+    },
+    {
       "type": "PACKAGE",
       "url": "https://github.com/apache/tomcat"
     },
     {
       "type": "WEB",
       "url": "https://lists.apache.org/thread/yz5fxmhd2j43wgqykssdo7kltws57jfz"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-10.html#Fixed_in_Apache_Tomcat_10.1.53"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-11.html#Fixed_in_Apache_Tomcat_11.0.20"
+    },
+    {
+      "type": "WEB",
+      "url": "https://tomcat.apache.org/security-9.html#Fixed_in_Apache_Tomcat_9.0.116"
     },
     {
       "type": "WEB",
