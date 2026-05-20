@@ -108,8 +108,8 @@
   ],
   "database_specific": {
     "cwe_ids": [
-      "CWE-190",
-      "CWE-125"
+      "CWE-125",
+      "CWE-190"
     ],
     "severity": "MODERATE",
     "github_reviewed": true,
