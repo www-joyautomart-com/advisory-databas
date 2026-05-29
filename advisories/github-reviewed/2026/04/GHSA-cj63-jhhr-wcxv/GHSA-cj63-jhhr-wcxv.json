@@ -1,7 +1,7 @@
 {
   "schema_version": "1.4.0",
   "id": "GHSA-cj63-jhhr-wcxv",
-  "modified": "2026-04-03T03:45:08Z",
+  "modified": "2026-05-29T21:46:57Z",
   "published": "2026-04-03T03:45:08Z",
   "aliases": [],
   "summary": "DOMPurify USE_PROFILES prototype pollution allows event handlers",
